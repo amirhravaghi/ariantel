@@ -29,13 +29,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = env('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
-    "127.0.0.1",
-    "192.168.21.3",
-    "ariantel.ir",
-    "www.ariantel.ir"
+    "*"
 ]
 # Application definition
 
@@ -90,12 +87,14 @@ WSGI_APPLICATION = 'main_website.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
+"""
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+"""
 
 
 # Password validation
@@ -143,12 +142,12 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # MongoDB Config
 SESSION_ENGINE = 'mongo_sessions.session'
-MONGO_PORT = env('MONGO_PORT')
-MONGO_HOST = env('MONGO_HOST')
-MONGO_DB_NAME = env('MONGO_DB_NAME')
-MONGO_DB_USER = env('MONGO_DB_USER')
-MONGO_DB_PASSWORD = env('MONGO_DB_PASSWORD')
-MONGO_SESSIONS_COLLECTION = env('MONGO_SESSIONS_COLLECTION')
+MONGO_PORT = '27017'
+MONGO_HOST = '127.0.0.1'
+MONGO_DB_NAME = 'ariantel'
+MONGO_DB_USER = 'ariantel_user'
+MONGO_DB_PASSWORD = 'Fne+jeA_8pP2Stb+U8c5AdpA#$U'
+MONGO_SESSIONS_COLLECTION = 'mongo_sessions'
 
 # JWT
 JWT_PRIVATE_KEY = env('JWT_PRIVATE_KEY')

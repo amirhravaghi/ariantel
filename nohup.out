@@ -1,0 +1,1599 @@
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W002) Your URL pattern '/addAdmin' [name='add_admin'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addCard' [name='add_card'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addFaq' [name='add_faq'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addMenuItem' [name='add_menu_item'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addNews' [name='add_news'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addPackage' [name='add_package'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addPage' [name='add_page'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addSlide' [name='add_slide'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addSubMenu' [name='add_sub_item'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/admins' [name='admins'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/api/mediaUpload' [name='media_upload'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/cards' [name='cards'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editAdmin/<str:aid>' [name='edit_admin'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editCards/<str:pid>' [name='edit_card'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editFaq/<str:qid>' [name='edit_faq'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editMenuItem/<str:mid>' [name='edit_menu_item'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editNews/<str:aid>' [name='edit_news'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editPackage/<str:pid>' [name='edit_package'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editPage/<str:pid>' [name='edit_page'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editSlide/<str:sid>' [name='edit_slide'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editSubMenu/<str:mid>' [name='edit_sub_item'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/faqs' [name='faqs'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/login' [name='login'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/logout' [name='logout'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/mainMenu' [name='main_menu'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/news' [name='news'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/packages' [name='packages'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/pages' [name='pages'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/slides' [name='slides'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/subMenu' [name='sub_menu'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+
+System check identified 30 issues (0 silenced).
+[12/Jun/2021 12:01:54] "GET /statements HTTP/1.1" 200 44365
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:01:54] "GET /favicon.ico HTTP/1.1" 500 63405
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:01:57] "GET /favicon.ico HTTP/1.1" 500 63395
+[12/Jun/2021 12:02:00] "GET /legal_representatives HTTP/1.1" 200 44869
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:02:01] "GET /favicon.ico HTTP/1.1" 500 63416
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:02:07] "GET /favicon.ico HTTP/1.1" 500 63395
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W002) Your URL pattern '/addAdmin' [name='add_admin'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addCard' [name='add_card'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addFaq' [name='add_faq'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addMenuItem' [name='add_menu_item'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addNews' [name='add_news'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addPackage' [name='add_package'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addPage' [name='add_page'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addSlide' [name='add_slide'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addSubMenu' [name='add_sub_item'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/admins' [name='admins'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/api/mediaUpload' [name='media_upload'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/cards' [name='cards'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editAdmin/<str:aid>' [name='edit_admin'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editCards/<str:pid>' [name='edit_card'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editFaq/<str:qid>' [name='edit_faq'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editMenuItem/<str:mid>' [name='edit_menu_item'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editNews/<str:aid>' [name='edit_news'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editPackage/<str:pid>' [name='edit_package'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editPage/<str:pid>' [name='edit_page'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editSlide/<str:sid>' [name='edit_slide'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editSubMenu/<str:mid>' [name='edit_sub_item'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/faqs' [name='faqs'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/login' [name='login'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/logout' [name='logout'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/mainMenu' [name='main_menu'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/news' [name='news'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/packages' [name='packages'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/pages' [name='pages'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/slides' [name='slides'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/subMenu' [name='sub_menu'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+
+System check identified 30 issues (0 silenced).
+[12/Jun/2021 12:02:33] "GET /voice_sms HTTP/1.1" 200 46303
+[12/Jun/2021 12:02:33] "GET /static/main/Content/site/bootstrap.min.css HTTP/1.1" 304 0
+[12/Jun/2021 12:02:34] "GET /static/main/Content/site/style2.css HTTP/1.1" 304 0
+[12/Jun/2021 12:02:34] "GET /static/main/Content/site/skin0.css HTTP/1.1" 304 0
+[12/Jun/2021 12:02:34] "GET /static/main/css/ltr.css HTTP/1.1" 304 0
+[12/Jun/2021 12:02:34] "GET /static/main/Content/site/fonts.css HTTP/1.1" 304 0
+[12/Jun/2021 12:02:34] "GET /static/main/Content/site/fa.css HTTP/1.1" 304 0
+[12/Jun/2021 12:02:34] "GET /static/main/Scripts/site/core.js HTTP/1.1" 304 0
+[12/Jun/2021 12:02:34] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 304 0
+[12/Jun/2021 12:02:34] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 304 0
+[12/Jun/2021 12:02:34] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 304 0
+[12/Jun/2021 12:02:34] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 304 0
+[12/Jun/2021 12:02:34] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 304 0
+[12/Jun/2021 12:02:34] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 304 0
+[12/Jun/2021 12:02:34] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 304 0
+[12/Jun/2021 12:02:34] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 304 0
+[12/Jun/2021 12:02:34] "GET /static/main/Scripts/site/util.js HTTP/1.1" 304 0
+[12/Jun/2021 12:02:34] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 304 0
+[12/Jun/2021 12:02:34] "GET /static/main/images/logo.png HTTP/1.1" 304 0
+[12/Jun/2021 12:02:34] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 304 0
+[12/Jun/2021 12:02:34] "GET /static/main/images/footer-img.png HTTP/1.1" 304 0
+[12/Jun/2021 12:02:34] "GET /static/main/Upload/enamd.png HTTP/1.1" 304 0
+[12/Jun/2021 12:02:34] "GET /static/main/images/logo-footer.png HTTP/1.1" 304 0
+[12/Jun/2021 12:02:34] "GET /static/main/Upload/Images/195.png HTTP/1.1" 304 0
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:02:35] "GET /favicon.ico HTTP/1.1" 500 63384
+[12/Jun/2021 12:02:38] "GET /voice_sms HTTP/1.1" 200 46303
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:02:39] "GET /favicon.ico HTTP/1.1" 500 63649
+[12/Jun/2021 12:02:44] "GET /voice_sms HTTP/1.1" 200 46303
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:02:45] "GET /favicon.ico HTTP/1.1" 500 63649
+[12/Jun/2021 12:02:48] "GET /statements HTTP/1.1" 200 44365
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:02:48] "GET /favicon.ico HTTP/1.1" 500 63385
+[12/Jun/2021 12:03:40] "GET /areas HTTP/1.1" 200 154132
+[12/Jun/2021 12:03:40] "GET /static/main/Content/site/bootstrap.min.css HTTP/1.1" 200 121159
+[12/Jun/2021 12:03:40] "GET /static/main/Content/site/style2.css HTTP/1.1" 200 88557
+[12/Jun/2021 12:03:40] "GET /static/main/css/ltr.css HTTP/1.1" 200 1782
+[12/Jun/2021 12:03:40] "GET /static/main/Content/site/fonts.css HTTP/1.1" 200 1478
+[12/Jun/2021 12:03:40] "GET /static/main/Content/site/skin0.css HTTP/1.1" 200 47926
+[12/Jun/2021 12:03:40] "GET /static/main/Scripts/site/core.js HTTP/1.1" 200 33680
+[12/Jun/2021 12:03:40] "GET /static/main/Content/site/fa.css HTTP/1.1" 200 37
+[12/Jun/2021 12:03:40] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 200 4599
+[12/Jun/2021 12:03:40] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 200 3163
+[12/Jun/2021 12:03:41] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 200 7103
+[12/Jun/2021 12:03:41] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 200 6288
+[12/Jun/2021 12:03:41] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 200 21587
+[12/Jun/2021 12:03:41] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 200 3745
+[12/Jun/2021 12:03:41] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 200 102631
+[12/Jun/2021 12:03:41] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 200 5002
+[12/Jun/2021 12:03:41] "GET /static/main/Scripts/site/util.js HTTP/1.1" 200 4108
+[12/Jun/2021 12:03:41] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 200 4122
+[12/Jun/2021 12:03:41] "GET /static/main/Scripts/site/map.js HTTP/1.1" 200 588
+[12/Jun/2021 12:03:41] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 200 6156
+[12/Jun/2021 12:03:41] "GET /static/main/images/logo.png HTTP/1.1" 200 26115
+[12/Jun/2021 12:03:41] "GET /static/main/images/logo-footer.png HTTP/1.1" 200 6733
+[12/Jun/2021 12:03:41] "GET /static/main/images/footer-img.png HTTP/1.1" 200 6831
+[12/Jun/2021 12:03:41] "GET /static/main/Upload/enamd.png HTTP/1.1" 200 32013
+[12/Jun/2021 12:03:42] "GET /static/main/Upload/Images/195.png HTTP/1.1" 200 76955
+[12/Jun/2021 12:03:45] "GET /static/main/Content/site/img/logo.png HTTP/1.1" 200 26144
+[12/Jun/2021 12:03:45] "GET /static/main/Content/site/img/icon.png HTTP/1.1" 200 2756
+[12/Jun/2021 12:03:45] "GET /static/main/Content/site/fa_fonts/IranYekan/woff/iranyekanwebregular.woff HTTP/1.1" 200 20925
+[12/Jun/2021 12:03:54] "GET /static/main/Content/site/img/logo1.png HTTP/1.1" 200 22636
+[12/Jun/2021 12:03:54] "GET / HTTP/1.1" 200 64082
+[12/Jun/2021 12:03:54] "GET /static/main/hamrah.kml HTTP/1.1" 200 3473408
+[12/Jun/2021 12:03:55] "GET /static/main/media/78649018-0a86-4069-bff5-adb1f2c12363sim-daeemi.png HTTP/1.1" 200 150547
+[12/Jun/2021 12:03:55] "GET /static/main/media/8eab75e1-a18f-4e46-accb-23cb0ea3aa73slider.jpg HTTP/1.1" 200 315727
+[12/Jun/2021 12:03:55] "GET /static/main/Upload/Images/link/6-1.gif HTTP/1.1" 200 3778
+[12/Jun/2021 12:03:55] "GET /static/main/Upload/Images/link/2-1.gif HTTP/1.1" 200 3689
+[12/Jun/2021 12:03:56] "GET /static/main/Upload/Images/link/8-1.gif HTTP/1.1" 200 3302
+[12/Jun/2021 12:03:56] "GET /static/main/Upload/Images/link/4-1.gif HTTP/1.1" 200 2615
+[12/Jun/2021 12:03:56] "GET /static/main/Upload/Images/link/5-1.gif HTTP/1.1" 200 3933
+[12/Jun/2021 12:03:56] "GET /static/main/Upload/Images/link/3-1.gif HTTP/1.1" 200 3137
+[12/Jun/2021 12:03:56] "GET /static/main/Upload/Images/link/7-1.gif HTTP/1.1" 200 3686
+[12/Jun/2021 12:03:56] "GET /static/main/Upload/Images/link/1-1.gif HTTP/1.1" 200 3721
+[12/Jun/2021 12:03:56] "GET /static/main/media/9fade12e-0f72-47a6-ba89-93381a119d97sim-etebari.png HTTP/1.1" 200 151806
+[12/Jun/2021 12:03:56] "GET /static/main/media/0fa6334f-6e75-41c8-bb6c-c928669a1270sim%20toorism.png HTTP/1.1" 200 96626
+[12/Jun/2021 12:03:57] "GET /static/main/media/2d1504bf-ec3c-4492-9593-b837898d675csim-rond.png HTTP/1.1" 200 77729
+[12/Jun/2021 12:03:57] "GET /static/main/media/0c6d5171-a6d2-44bc-bc3b-6c2e4817cd74simdata.png HTTP/1.1" 200 109004
+[12/Jun/2021 12:03:58] "GET /static/main/media/internet.png HTTP/1.1" 200 130525
+[12/Jun/2021 12:03:58] "GET /static/main/media/call.png HTTP/1.1" 200 106599
+[12/Jun/2021 12:03:58] "GET /static/main/media/sms.png HTTP/1.1" 200 102057
+[12/Jun/2021 12:03:58] "GET /static/main/media/72f3178d-d687-4519-9c6e-c82c51021d6eweb23.png HTTP/1.1" 200 1006298
+[12/Jun/2021 12:03:59] "GET /static/main/media/tarkibi.png HTTP/1.1" 200 107803
+[12/Jun/2021 12:03:59] "GET /static/main/Upload/Images/link/1.gif HTTP/1.1" 200 6229
+[12/Jun/2021 12:03:59] "GET /static/main/Upload/Images/link/2.gif HTTP/1.1" 200 8254
+[12/Jun/2021 12:03:59] "GET /static/main/Upload/Images/link/3.gif HTTP/1.1" 200 12144
+[12/Jun/2021 12:04:00] "GET /static/main/Upload/Images/link/4.gif HTTP/1.1" 200 3525
+[12/Jun/2021 12:04:00] "GET /static/main/Upload/Images/link/5.gif HTTP/1.1" 200 5849
+[12/Jun/2021 12:04:00] "GET /static/main/Upload/Images/link/6.gif HTTP/1.1" 200 6212
+[12/Jun/2021 12:04:00] "GET /static/main/Upload/Images/link/7.gif HTTP/1.1" 200 6028
+[12/Jun/2021 12:04:00] "GET /static/main/Upload/Images/link/8.gif HTTP/1.1" 200 6047
+[12/Jun/2021 12:04:00] "GET /static/main/media/e79a965c-28ed-4888-af8e-10949dab88fae-mway-ok.png HTTP/1.1" 200 1200498
+[12/Jun/2021 12:04:00] "GET /static/main/media/01a32133-4186-4eeb-8e8a-8c73aa8eef9cSupport.jpg HTTP/1.1" 200 1485352
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:04:02] "GET /favicon.ico HTTP/1.1" 500 62906
+[12/Jun/2021 12:04:06] "GET /statements HTTP/1.1" 200 44365
+[12/Jun/2021 12:04:15] "GET / HTTP/1.1" 200 64082
+[12/Jun/2021 12:04:15] "GET /static/main/Content/site/bootstrap.min.css HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/Content/site/fa.css HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/Content/site/skin0.css HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/Content/site/fonts.css HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/Content/site/style2.css HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/css/ltr.css HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/Scripts/site/core.js HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/Scripts/site/util.js HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/media/e79a965c-28ed-4888-af8e-10949dab88fae-mway-ok.png HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/media/8eab75e1-a18f-4e46-accb-23cb0ea3aa73slider.jpg HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/images/logo.png HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/media/01a32133-4186-4eeb-8e8a-8c73aa8eef9cSupport.jpg HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/Content/site/img/logo.png HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/Content/site/fa_fonts/IranYekan/woff/iranyekanwebregular.woff HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/Upload/Images/link/2-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/Upload/Images/link/1-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/Upload/Images/link/8-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/Upload/Images/link/4-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/Content/site/img/icon.png HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/Upload/Images/link/5-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/media/72f3178d-d687-4519-9c6e-c82c51021d6eweb23.png HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/Upload/Images/link/6-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/Upload/Images/link/3-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/Upload/Images/link/7-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /enterprise HTTP/1.1" 200 40229
+[12/Jun/2021 12:04:15] "GET /static/main/media/78649018-0a86-4069-bff5-adb1f2c12363sim-daeemi.png HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/media/9fade12e-0f72-47a6-ba89-93381a119d97sim-etebari.png HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/media/0c6d5171-a6d2-44bc-bc3b-6c2e4817cd74simdata.png HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/media/internet.png HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/media/2d1504bf-ec3c-4492-9593-b837898d675csim-rond.png HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/media/0fa6334f-6e75-41c8-bb6c-c928669a1270sim%20toorism.png HTTP/1.1" 304 0
+[12/Jun/2021 12:04:15] "GET /static/main/media/call.png HTTP/1.1" 304 0
+[12/Jun/2021 12:04:16] "GET /static/main/media/sms.png HTTP/1.1" 304 0
+[12/Jun/2021 12:04:16] "GET /static/main/Upload/Images/link/2.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:04:16] "GET /static/main/Upload/Images/link/1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:04:16] "GET /static/main/media/tarkibi.png HTTP/1.1" 304 0
+[12/Jun/2021 12:04:16] "GET /static/main/Upload/Images/link/4.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:04:16] "GET /static/main/Upload/Images/link/3.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:04:16] "GET /static/main/Upload/Images/link/5.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:04:16] "GET /static/main/Upload/Images/link/6.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:04:16] "GET /static/main/Upload/Images/link/7.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:04:16] "GET /static/main/images/logo-footer.png HTTP/1.1" 304 0
+[12/Jun/2021 12:04:16] "GET /static/main/images/footer-img.png HTTP/1.1" 304 0
+[12/Jun/2021 12:04:16] "GET /static/main/Upload/Images/link/8.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:04:16] "GET /static/main/Upload/Images/link/4-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:04:16] "GET /static/main/Upload/enamd.png HTTP/1.1" 304 0
+[12/Jun/2021 12:04:16] "GET /static/main/Upload/Images/link/5-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:04:16] "GET /static/main/Upload/Images/link/3-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:04:16] "GET /static/main/Upload/Images/link/7-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:04:16] "GET /static/main/Upload/Images/link/8-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:04:16] "GET /static/main/Upload/Images/195.png HTTP/1.1" 304 0
+[12/Jun/2021 12:04:16] "GET /static/main/Upload/Images/link/1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:04:16] "GET /static/main/Upload/Images/link/1-1.gif HTTP/1.1" 304 0
+Not Found: /main/media/554ecc4a-1ae2-4085-881e-388b41c7f260slider3.jpg
+Not Found: /main/media/424edf5c-36b3-4fd5-98b1-dac12e11534aslider3.jpg
+[12/Jun/2021 12:04:16] "GET /main/media/554ecc4a-1ae2-4085-881e-388b41c7f260slider3.jpg HTTP/1.1" 404 4340
+[12/Jun/2021 12:04:16] "GET /main/media/424edf5c-36b3-4fd5-98b1-dac12e11534aslider3.jpg HTTP/1.1" 404 4340
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:04:16] "GET /favicon.ico HTTP/1.1" 500 63395
+[12/Jun/2021 12:04:16] "GET /static/main/Upload/Images/link/2.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:04:16] "GET /static/main/Upload/Images/link/2-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:04:16] "GET /static/main/Upload/Images/link/3.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:04:16] "GET /static/main/Upload/Images/link/4.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:04:16] "GET /static/main/Upload/Images/link/7.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:04:16] "GET /static/main/Upload/Images/link/5.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:04:16] "GET /static/main/Upload/Images/link/6.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:04:16] "GET /static/main/Upload/Images/link/8.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:04:16] "GET /static/main/Upload/Images/link/6-1.gif HTTP/1.1" 304 0
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:04:17] "GET /favicon.ico HTTP/1.1" 500 63385
+Not Found: /پیش-شماره-ایرانی/default.htm
+[12/Jun/2021 12:04:19] "GET /%D9%BE%DB%8C%D8%B4-%D8%B4%D9%85%D8%A7%D8%B1%D9%87-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86%DB%8C/default.htm HTTP/1.1" 404 4348
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:04:20] "GET /favicon.ico HTTP/1.1" 500 63473
+Internal Server Error: /simcards/60bb566652022657011f7cf5
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 264, in simcard
+    "card": simcard[lang]
+KeyError: None
+[12/Jun/2021 12:04:20] "GET /simcards/60bb566652022657011f7cf5 HTTP/1.1" 500 70102
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:04:29] "GET /favicon.ico HTTP/1.1" 500 63395
+[12/Jun/2021 12:04:29] "GET /static/main/Content/site/img/logo1.png HTTP/1.1" 304 0
+[12/Jun/2021 12:04:42] "GET / HTTP/1.1" 200 64082
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:04:44] "GET /favicon.ico HTTP/1.1" 500 63395
+Internal Server Error: /simcards/60bb566652022657011f7cf5
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 264, in simcard
+    "card": simcard[lang]
+KeyError: None
+[12/Jun/2021 12:04:56] "GET /simcards/60bb566652022657011f7cf5 HTTP/1.1" 500 70102
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:04:56] "GET /favicon.ico HTTP/1.1" 500 62939
+[12/Jun/2021 12:05:14] "GET / HTTP/1.1" 200 64082
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:05:16] "GET /favicon.ico HTTP/1.1" 500 62906
+Internal Server Error: /simcards/60bb566652022657011f7cf5
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 264, in simcard
+    "card": simcard[lang]
+KeyError: None
+[12/Jun/2021 12:05:31] "GET /simcards/60bb566652022657011f7cf5 HTTP/1.1" 500 70102
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:05:32] "GET /favicon.ico HTTP/1.1" 500 62939
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:05:36] "GET /favicon.ico HTTP/1.1" 500 63395
+[12/Jun/2021 12:05:39] "GET /data HTTP/1.1" 200 55075
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:05:41] "GET /favicon.ico HTTP/1.1" 500 63395
+Internal Server Error: /packages/60b795e4941c3d6e1fe66214
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 203, in packages
+    "name": item[lang]['name'],
+KeyError: None
+[12/Jun/2021 12:05:43] "GET /packages/60b795e4941c3d6e1fe66214 HTTP/1.1" 500 65563
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:05:43] "GET /favicon.ico HTTP/1.1" 500 62939
+[12/Jun/2021 12:05:44] "GET /please_call_me HTTP/1.1" 200 45731
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:05:44] "GET /favicon.ico HTTP/1.1" 500 63409
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:05:46] "GET /favicon.ico HTTP/1.1" 500 63395
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:05:49] "GET /favicon.ico HTTP/1.1" 500 62906
+[12/Jun/2021 12:05:49] "GET /areas HTTP/1.1" 200 154132
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:05:51] "GET /favicon.ico HTTP/1.1" 500 62911
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:05:56] "GET /favicon.ico HTTP/1.1" 500 63395
+[12/Jun/2021 12:06:10] "GET /static/main/hamrah.kml HTTP/1.1" 200 8354959
+[12/Jun/2021 12:08:40] "GET /news HTTP/1.1" 200 45865
+[12/Jun/2021 12:08:40] "GET /static/main/media/aa63e023-d485-4f41-9c45-dd7e9be83217pic1.jpg HTTP/1.1" 200 545004
+[12/Jun/2021 12:08:40] "GET /static/main/media/c9ea983f-d9e5-41dc-834e-1fe86141985apic1.jpg HTTP/1.1" 200 545004
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:08:42] "GET /favicon.ico HTTP/1.1" 500 62920
+[12/Jun/2021 12:08:43] "GET /news/60b66fe1059e26b98b943da5 HTTP/1.1" 200 56859
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[12/Jun/2021 12:08:43] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4260
+Internal Server Error: /news/favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 120, in article
+    col.update({"_id": db.object_id(nid)},{"$inc":{ "views": 1 }})
+  File "/home/django/ariantel/main/database.py", line 24, in object_id
+    return ObjectId(string_id)
+  File "/home/django/ariantel/.env/lib64/python3.6/site-packages/bson/objectid.py", line 110, in __init__
+    self.__validate(oid)
+  File "/home/django/ariantel/.env/lib64/python3.6/site-packages/bson/objectid.py", line 213, in __validate
+    _raise_invalid_id(oid)
+  File "/home/django/ariantel/.env/lib64/python3.6/site-packages/bson/objectid.py", line 40, in _raise_invalid_id
+    " or a 24-character hex string" % oid)
+bson.errors.InvalidId: 'favicon.ico' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string
+[12/Jun/2021 12:08:43] "GET /news/favicon.ico HTTP/1.1" 500 77123
+[12/Jun/2021 12:08:44] "GET /app HTTP/1.1" 200 43802
+[12/Jun/2021 12:08:44] "GET /static/main/Content/site/bootstrap.min.css HTTP/1.1" 304 0
+[12/Jun/2021 12:08:44] "GET /static/main/Content/site/style2.css HTTP/1.1" 304 0
+[12/Jun/2021 12:08:44] "GET /static/main/Content/site/skin0.css HTTP/1.1" 304 0
+[12/Jun/2021 12:08:44] "GET /static/main/Content/site/fonts.css HTTP/1.1" 304 0
+[12/Jun/2021 12:08:44] "GET /static/main/Content/site/fa.css HTTP/1.1" 304 0
+[12/Jun/2021 12:08:44] "GET /static/main/css/ltr.css HTTP/1.1" 304 0
+[12/Jun/2021 12:08:44] "GET /static/main/Scripts/site/core.js HTTP/1.1" 304 0
+[12/Jun/2021 12:08:44] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 304 0
+[12/Jun/2021 12:08:44] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 304 0
+[12/Jun/2021 12:08:44] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 304 0
+[12/Jun/2021 12:08:44] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 304 0
+[12/Jun/2021 12:08:44] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 304 0
+[12/Jun/2021 12:08:44] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 304 0
+[12/Jun/2021 12:08:44] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 304 0
+[12/Jun/2021 12:08:44] "GET /static/main/Scripts/site/util.js HTTP/1.1" 304 0
+[12/Jun/2021 12:08:44] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 304 0
+[12/Jun/2021 12:08:44] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 304 0
+[12/Jun/2021 12:08:44] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 304 0
+[12/Jun/2021 12:08:44] "GET /static/main/Upload/enamd.png HTTP/1.1" 304 0
+[12/Jun/2021 12:08:44] "GET /static/main/images/logo-footer.png HTTP/1.1" 304 0
+[12/Jun/2021 12:08:44] "GET /static/main/images/logo.png HTTP/1.1" 304 0
+[12/Jun/2021 12:08:44] "GET /static/main/images/footer-img.png HTTP/1.1" 304 0
+[12/Jun/2021 12:08:45] "GET /static/main/Content/site/img/logo.png HTTP/1.1" 304 0
+[12/Jun/2021 12:08:45] "GET /static/main/Upload/Images/195.png HTTP/1.1" 304 0
+[12/Jun/2021 12:08:45] "GET /static/main/Content/site/fa_fonts/IranYekan/woff/iranyekanwebregular.woff HTTP/1.1" 304 0
+[12/Jun/2021 12:08:45] "GET /static/main/Content/site/img/icon.png HTTP/1.1" 304 0
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:08:45] "GET /favicon.ico HTTP/1.1" 500 63398
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:08:47] "GET /favicon.ico HTTP/1.1" 500 63395
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:08:47] "GET /favicon.ico HTTP/1.1" 500 62920
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:08:48] "GET /favicon.ico HTTP/1.1" 500 62921
+[12/Jun/2021 12:08:52] "GET /sla HTTP/1.1" 200 43540
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:08:52] "GET /favicon.ico HTTP/1.1" 500 62919
+[12/Jun/2021 12:09:11] "GET /enterprise HTTP/1.1" 200 40229
+Not Found: /main/media/554ecc4a-1ae2-4085-881e-388b41c7f260slider3.jpg
+[12/Jun/2021 12:09:12] "GET /main/media/554ecc4a-1ae2-4085-881e-388b41c7f260slider3.jpg HTTP/1.1" 404 4340
+Not Found: /main/media/424edf5c-36b3-4fd5-98b1-dac12e11534aslider3.jpg
+[12/Jun/2021 12:09:13] "GET /static/main/Upload/Images/link/1-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:09:13] "GET /main/media/424edf5c-36b3-4fd5-98b1-dac12e11534aslider3.jpg HTTP/1.1" 404 4340
+[12/Jun/2021 12:09:13] "GET /static/main/Upload/Images/link/2-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:09:13] "GET /static/main/Upload/Images/link/6-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:09:13] "GET /static/main/Upload/Images/link/5-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:09:13] "GET /static/main/Upload/Images/link/7-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:09:13] "GET /static/main/Upload/Images/link/4-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:09:13] "GET /static/main/Upload/Images/link/1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:09:13] "GET /static/main/Upload/Images/link/2.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:09:13] "GET /static/main/Upload/Images/link/8-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:09:13] "GET /static/main/Upload/Images/link/3-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:09:13] "GET /static/main/Upload/Images/link/3.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:09:13] "GET /static/main/Upload/Images/link/4.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:09:13] "GET /static/main/Upload/Images/link/5.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:09:13] "GET /static/main/Upload/Images/link/6.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:09:13] "GET /static/main/Upload/Images/link/7.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:09:13] "GET /static/main/Upload/Images/link/8.gif HTTP/1.1" 304 0
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:09:13] "GET /favicon.ico HTTP/1.1" 500 62926
+[12/Jun/2021 12:09:15] "GET /static/main/Content/site/bootstrap.min.css HTTP/1.1" 304 0
+[12/Jun/2021 12:09:15] "GET /static/main/Content/site/style2.css HTTP/1.1" 304 0
+[12/Jun/2021 12:09:15] "GET /static/main/Content/site/skin0.css HTTP/1.1" 304 0
+[12/Jun/2021 12:09:15] "GET /static/main/Content/site/fonts.css HTTP/1.1" 304 0
+[12/Jun/2021 12:09:15] "GET /static/main/css/ltr.css HTTP/1.1" 304 0
+[12/Jun/2021 12:09:15] "GET /static/main/Content/site/fa.css HTTP/1.1" 304 0
+[12/Jun/2021 12:09:15] "GET /static/main/Scripts/site/util.js.map HTTP/1.1" 404 1950
+[12/Jun/2021 12:09:15] "GET /static/main/Content/site/bootstrap.min.css.map HTTP/1.1" 404 1980
+[12/Jun/2021 12:09:20] "GET /static/main/Content/site/img/logo1.png HTTP/1.1" 304 0
+[12/Jun/2021 12:11:35] "GET /how_to_connect HTTP/1.1" 200 44757
+[12/Jun/2021 12:11:35] "GET /static/main/Content/site/bootstrap.min.css HTTP/1.1" 304 0
+[12/Jun/2021 12:11:35] "GET /static/main/Content/site/skin0.css HTTP/1.1" 304 0
+[12/Jun/2021 12:11:35] "GET /static/main/Scripts/site/core.js HTTP/1.1" 304 0
+[12/Jun/2021 12:11:35] "GET /static/main/Content/site/fonts.css HTTP/1.1" 304 0
+[12/Jun/2021 12:11:35] "GET /static/main/css/ltr.css HTTP/1.1" 304 0
+[12/Jun/2021 12:11:35] "GET /static/main/Content/site/style2.css HTTP/1.1" 304 0
+[12/Jun/2021 12:11:36] "GET /static/main/Content/site/fa.css HTTP/1.1" 304 0
+[12/Jun/2021 12:11:36] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 304 0
+[12/Jun/2021 12:11:36] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 304 0
+[12/Jun/2021 12:11:36] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 304 0
+[12/Jun/2021 12:11:36] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 304 0
+[12/Jun/2021 12:11:36] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 304 0
+[12/Jun/2021 12:11:36] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 304 0
+[12/Jun/2021 12:11:36] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 304 0
+[12/Jun/2021 12:11:36] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 304 0
+[12/Jun/2021 12:11:36] "GET /static/main/Scripts/site/util.js HTTP/1.1" 304 0
+[12/Jun/2021 12:11:36] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 304 0
+[12/Jun/2021 12:11:36] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 304 0
+[12/Jun/2021 12:11:36] "GET /static/main/images/logo.png HTTP/1.1" 304 0
+[12/Jun/2021 12:11:36] "GET /static/main/images/logo-footer.png HTTP/1.1" 304 0
+[12/Jun/2021 12:11:36] "GET /static/main/images/footer-img.png HTTP/1.1" 304 0
+[12/Jun/2021 12:11:36] "GET /static/main/Upload/enamd.png HTTP/1.1" 304 0
+[12/Jun/2021 12:11:36] "GET /static/main/Content/site/img/logo.png HTTP/1.1" 304 0
+[12/Jun/2021 12:11:36] "GET /static/main/Content/site/img/icon.png HTTP/1.1" 304 0
+[12/Jun/2021 12:11:36] "GET /static/main/Content/site/fa_fonts/IranYekan/woff/iranyekanwebregular.woff HTTP/1.1" 304 0
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:11:36] "GET /favicon.ico HTTP/1.1" 500 63409
+[12/Jun/2021 12:12:11] "GET /prepaid_charge HTTP/1.1" 200 46329
+[12/Jun/2021 12:12:11] "GET /static/main/Upload/Images/195.png HTTP/1.1" 304 0
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:12:12] "GET /favicon.ico HTTP/1.1" 500 63409
+[12/Jun/2021 12:12:19] "GET /regulatory HTTP/1.1" 200 52740
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:12:19] "GET /favicon.ico HTTP/1.1" 500 63405
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:12:28] "GET /favicon.ico HTTP/1.1" 500 63405
+[12/Jun/2021 12:12:30] "GET /sale_representatives HTTP/1.1" 200 45811
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:12:30] "GET /favicon.ico HTTP/1.1" 500 63415
+[12/Jun/2021 12:13:28] "POST /admin/login HTTP/1.1" 302 0
+[12/Jun/2021 12:13:28] "GET /admin HTTP/1.1" 200 18799
+[12/Jun/2021 12:13:29] "GET /static/assets/css/app.min.css HTTP/1.1" 304 0
+[12/Jun/2021 12:13:29] "GET /static/assets/css/text_editor.css HTTP/1.1" 200 93
+[12/Jun/2021 12:13:29] "GET /static/assets/css/style.css HTTP/1.1" 304 0
+[12/Jun/2021 12:13:29] "GET /static/assets/js/bundles/materialize-rtl/materialize-rtl.min.css HTTP/1.1" 304 0
+[12/Jun/2021 12:13:29] "GET /static/assets/css/styles/all-themes.css HTTP/1.1" 200 28620
+[12/Jun/2021 12:13:29] "GET /static/assets/js/app.min.js HTTP/1.1" 304 0
+Not Found: /assets/js/chart.min.js
+[12/Jun/2021 12:13:29] "GET /assets/js/chart.min.js HTTP/1.1" 404 4232
+[12/Jun/2021 12:13:29] "GET /static/assets/js/admin.js HTTP/1.1" 200 19024
+[12/Jun/2021 12:13:29] "GET /static/assets/js/pages/index.js HTTP/1.1" 200 13885
+[12/Jun/2021 12:13:29] "GET /static/assets/fonts/themify-icons/themify-icons.css HTTP/1.1" 304 0
+[12/Jun/2021 12:13:29] "GET /static/assets/js/editorMediaHandler.js HTTP/1.1" 200 1764
+[12/Jun/2021 12:13:29] "GET /static/assets/fonts/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 304 0
+[12/Jun/2021 12:13:29] "GET /static/assets/js/bundles/apexcharts/apexcharts.min.js HTTP/1.1" 200 547087
+[12/Jun/2021 12:13:29] "GET /static/assets/js/text_editor.js HTTP/1.1" 200 1322
+[12/Jun/2021 12:13:29] "GET /static/assets/images/load-343-460469.png HTTP/1.1" 200 3297
+[12/Jun/2021 12:13:29] "GET /static/assets/images/logo-footer.png HTTP/1.1" 304 0
+[12/Jun/2021 12:13:29] "GET /static/assets/images/person.png HTTP/1.1" 200 8853
+Not Found: /assets/images/person.png
+[12/Jun/2021 12:13:29] "GET /assets/images/person.png HTTP/1.1" 404 4238
+[12/Jun/2021 12:13:29] "GET /static/assets/images/avatar.jpg HTTP/1.1" 200 25433
+Not Found: /assets/js/chart.min.js
+[12/Jun/2021 12:13:30] "GET /assets/js/chart.min.js HTTP/1.1" 404 4232
+[12/Jun/2021 12:13:30] "GET /static/assets/fonts/fontawesome/fa-regular-400.woff2 HTTP/1.1" 200 14872
+[12/Jun/2021 12:13:30] "GET /static/assets/fonts/Shabnam.woff HTTP/1.1" 304 0
+[12/Jun/2021 12:13:30] "GET /static/assets/fonts/themify-icons/fonts/themify.woff HTTP/1.1" 200 56108
+[12/Jun/2021 12:13:30] "GET /static/assets/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1" 200 71952
+[12/Jun/2021 12:13:30] "GET /static/assets/fonts/poppins/poppins-v5-latin-regular.woff2 HTTP/1.1" 304 0
+[12/Jun/2021 12:13:38] "GET /admin/news HTTP/1.1" 200 22816
+Not Found: /admin/assets/js/chart.min.js
+Not Found: /admin/assets/images/person.png
+[12/Jun/2021 12:13:38] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[12/Jun/2021 12:13:38] "GET /admin/assets/images/person.png HTTP/1.1" 404 9995
+[12/Jun/2021 12:13:38] "GET /static/assets/fonts/iconfont/MaterialIcons-Regular.woff2 HTTP/1.1" 200 44300
+Not Found: /rtldark/send-tickets.html
+[12/Jun/2021 12:13:48] "GET /rtldark/send-tickets.html HTTP/1.1" 404 4241
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:13:48] "GET /favicon.ico HTTP/1.1" 500 63420
+Not Found: /admin/assets/js/chart.min.js
+[12/Jun/2021 12:13:50] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[12/Jun/2021 12:13:52] "GET /admin/admins HTTP/1.1" 200 21962
+Not Found: /admin/assets/js/chart.min.js
+Not Found: /admin/assets/images/person.png
+[12/Jun/2021 12:13:52] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[12/Jun/2021 12:13:52] "GET /admin/assets/images/person.png HTTP/1.1" 404 9995
+[12/Jun/2021 12:14:01] "GET /admin/mainMenu HTTP/1.1" 200 25445
+Not Found: /admin/assets/images/person.png
+[12/Jun/2021 12:14:01] "GET /admin/assets/images/person.png HTTP/1.1" 404 9995
+Not Found: /admin/assets/js/chart.min.js
+[12/Jun/2021 12:14:01] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[12/Jun/2021 12:14:07] "GET /admin/editMenuItem/60afdcbd9cf3b7ad08a3d150 HTTP/1.1" 200 22177
+Not Found: /admin/editMenuItem/assets/js/chart.min.js
+[12/Jun/2021 12:14:07] "GET /admin/editMenuItem/assets/js/chart.min.js HTTP/1.1" 404 10028
+Not Found: /admin/editMenuItem/assets/images/person.png
+[12/Jun/2021 12:14:07] "GET /admin/editMenuItem/assets/images/person.png HTTP/1.1" 404 10034
+Not Found: /admin/assets/js/chart.min.js
+Not Found: /admin/assets/images/person.png
+[12/Jun/2021 12:14:11] "GET /admin/assets/images/person.png HTTP/1.1" 404 9995
+[12/Jun/2021 12:14:11] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+Not Found: /admin/assets/js/chart.min.js
+[12/Jun/2021 12:14:13] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[12/Jun/2021 12:14:18] "GET /admin/subMenu HTTP/1.1" 200 56209
+Not Found: /admin/assets/images/person.png
+Not Found: /admin/assets/js/chart.min.js
+[12/Jun/2021 12:14:18] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[12/Jun/2021 12:14:18] "GET /admin/assets/images/person.png HTTP/1.1" 404 9995
+[12/Jun/2021 12:15:14] "GET /admin/faqs HTTP/1.1" 200 22362
+Not Found: /admin/assets/js/chart.min.js
+[12/Jun/2021 12:15:14] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+Not Found: /admin/assets/images/person.png
+[12/Jun/2021 12:15:14] "GET /admin/assets/images/person.png HTTP/1.1" 404 9995
+[12/Jun/2021 12:15:18] "GET /admin/news HTTP/1.1" 200 22816
+Not Found: /admin/assets/js/chart.min.js
+Not Found: /admin/assets/images/person.png
+[12/Jun/2021 12:15:18] "GET /admin/assets/images/person.png HTTP/1.1" 404 9995
+[12/Jun/2021 12:15:18] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[12/Jun/2021 12:15:28] "GET /admin/packages HTTP/1.1" 200 23954
+Not Found: /admin/assets/js/chart.min.js
+[12/Jun/2021 12:15:29] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+Not Found: /admin/assets/images/person.png
+[12/Jun/2021 12:15:29] "GET /admin/assets/images/person.png HTTP/1.1" 404 9995
+Not Found: /admin/assets/js/chart.min.js
+[12/Jun/2021 12:15:29] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[12/Jun/2021 12:15:31] "GET /admin/packages HTTP/1.1" 200 23954
+Not Found: /admin/assets/images/person.png
+Not Found: /admin/assets/js/chart.min.js
+[12/Jun/2021 12:15:32] "GET /admin/assets/images/person.png HTTP/1.1" 404 9995
+[12/Jun/2021 12:15:32] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[12/Jun/2021 12:15:38] "GET /admin/news HTTP/1.1" 200 22816
+Not Found: /admin/assets/js/chart.min.js
+Not Found: /admin/assets/images/person.png
+[12/Jun/2021 12:15:38] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[12/Jun/2021 12:15:38] "GET /admin/assets/images/person.png HTTP/1.1" 404 9995
+[12/Jun/2021 12:17:32] "GET /static/main/Content/site/bootstrap.min.css HTTP/1.1" 304 0
+[12/Jun/2021 12:17:32] "GET /static/main/Content/site/skin0.css HTTP/1.1" 304 0
+[12/Jun/2021 12:17:32] "GET /static/main/Content/site/style2.css HTTP/1.1" 304 0
+[12/Jun/2021 12:17:32] "GET /static/main/css/ltr.css HTTP/1.1" 304 0
+[12/Jun/2021 12:17:32] "GET /static/main/Content/site/fonts.css HTTP/1.1" 304 0
+[12/Jun/2021 12:17:32] "GET /static/main/Content/site/fa.css HTTP/1.1" 304 0
+[12/Jun/2021 12:17:32] "GET /static/main/Scripts/site/util.js.map HTTP/1.1" 404 1950
+[12/Jun/2021 12:17:32] "GET /static/main/Content/site/bootstrap.min.css.map HTTP/1.1" 404 1980
+[12/Jun/2021 12:17:35] "GET /lang/EN HTTP/1.1" 302 0
+[12/Jun/2021 12:17:35] "GET / HTTP/1.1" 200 62051
+[12/Jun/2021 12:17:35] "GET /static/main/Scripts/site/core.js HTTP/1.1" 304 0
+[12/Jun/2021 12:17:35] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 304 0
+[12/Jun/2021 12:17:35] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 304 0
+[12/Jun/2021 12:17:35] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 304 0
+[12/Jun/2021 12:17:35] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 304 0
+[12/Jun/2021 12:17:35] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 304 0
+[12/Jun/2021 12:17:35] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 304 0
+[12/Jun/2021 12:17:35] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 304 0
+[12/Jun/2021 12:17:35] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 304 0
+[12/Jun/2021 12:17:35] "GET /static/main/Scripts/site/util.js HTTP/1.1" 304 0
+[12/Jun/2021 12:17:35] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 304 0
+[12/Jun/2021 12:17:35] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 304 0
+[12/Jun/2021 12:17:35] "GET /static/main/media/8eab75e1-a18f-4e46-accb-23cb0ea3aa73slider.jpg HTTP/1.1" 304 0
+[12/Jun/2021 12:17:35] "GET /static/main/media/01a32133-4186-4eeb-8e8a-8c73aa8eef9cSupport.jpg HTTP/1.1" 304 0
+[12/Jun/2021 12:17:35] "GET /static/main/images/logo.png HTTP/1.1" 304 0
+[12/Jun/2021 12:17:35] "GET /static/main/media/e79a965c-28ed-4888-af8e-10949dab88fae-mway-ok.png HTTP/1.1" 304 0
+[12/Jun/2021 12:17:35] "GET /static/main/Content/site/fa_fonts/IranYekan/woff/iranyekanwebregular.woff HTTP/1.1" 304 0
+[12/Jun/2021 12:17:35] "GET /static/main/Scripts/site/util.js.map HTTP/1.1" 404 1950
+[12/Jun/2021 12:17:35] "GET /static/main/Upload/Images/link/8-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:17:35] "GET /static/main/Upload/Images/link/2-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:17:35] "GET /static/main/Upload/Images/link/6-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:17:35] "GET /static/main/Upload/Images/link/5-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:17:35] "GET /static/main/Upload/Images/link/1-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:17:35] "GET /static/main/Upload/Images/link/7-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:17:35] "GET /static/main/Upload/Images/link/4-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:17:35] "GET /static/main/Upload/Images/link/3-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:17:35] "GET /static/main/media/72f3178d-d687-4519-9c6e-c82c51021d6eweb23.png HTTP/1.1" 304 0
+[12/Jun/2021 12:17:35] "GET /static/main/Content/site/bootstrap.min.css.map HTTP/1.1" 404 1980
+[12/Jun/2021 12:17:35] "GET /static/main/media/78649018-0a86-4069-bff5-adb1f2c12363sim-daeemi.png HTTP/1.1" 304 0
+[12/Jun/2021 12:17:35] "GET /static/main/media/9fade12e-0f72-47a6-ba89-93381a119d97sim-etebari.png HTTP/1.1" 304 0
+[12/Jun/2021 12:17:35] "GET /static/main/media/0fa6334f-6e75-41c8-bb6c-c928669a1270sim%20toorism.png HTTP/1.1" 304 0
+[12/Jun/2021 12:17:35] "GET /static/main/media/0c6d5171-a6d2-44bc-bc3b-6c2e4817cd74simdata.png HTTP/1.1" 304 0
+[12/Jun/2021 12:17:35] "GET /static/main/media/2d1504bf-ec3c-4492-9593-b837898d675csim-rond.png HTTP/1.1" 304 0
+[12/Jun/2021 12:17:35] "GET /static/main/media/tarkibi.png HTTP/1.1" 304 0
+[12/Jun/2021 12:17:35] "GET /static/main/media/call.png HTTP/1.1" 304 0
+[12/Jun/2021 12:17:35] "GET /static/main/media/internet.png HTTP/1.1" 304 0
+[12/Jun/2021 12:17:36] "GET /static/main/media/sms.png HTTP/1.1" 304 0
+[12/Jun/2021 12:17:36] "GET /static/main/Upload/Images/link/2.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:17:36] "GET /static/main/Upload/Images/link/1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:17:36] "GET /static/main/Upload/Images/link/3.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:17:36] "GET /static/main/Upload/Images/link/5.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:17:36] "GET /static/main/Upload/Images/link/4.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:17:36] "GET /static/main/Upload/Images/link/7.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:17:36] "GET /static/main/Upload/enamd.png HTTP/1.1" 304 0
+[12/Jun/2021 12:17:36] "GET /static/main/images/footer-img.png HTTP/1.1" 304 0
+[12/Jun/2021 12:17:36] "GET /static/main/Upload/Images/link/6.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:17:36] "GET /static/main/Upload/Images/link/8.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:17:36] "GET /static/main/images/logo-footer.png HTTP/1.1" 304 0
+[12/Jun/2021 12:17:36] "GET /static/main/Upload/Images/195.png HTTP/1.1" 304 0
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:17:36] "GET /favicon.ico HTTP/1.1" 500 63416
+[12/Jun/2021 12:17:37] "GET /static/main/Content/site/img/icon.png HTTP/1.1" 304 0
+[12/Jun/2021 12:18:53] "GET / HTTP/1.1" 200 62051
+[12/Jun/2021 12:18:53] "GET /static/main/Scripts/site/util.js.map HTTP/1.1" 404 1950
+[12/Jun/2021 12:18:53] "GET /static/main/Content/site/bootstrap.min.css.map HTTP/1.1" 404 1980
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:18:53] "GET /favicon.ico HTTP/1.1" 500 63416
+[12/Jun/2021 12:20:09] "GET /static/main/Content/site/img/logo.png HTTP/1.1" 304 0
+[12/Jun/2021 12:20:14] "GET /static/main/Content/site/img/logo1.png HTTP/1.1" 304 0
+[12/Jun/2021 12:20:14] "GET / HTTP/1.1" 200 62051
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:20:15] "GET /favicon.ico HTTP/1.1" 500 63395
+[12/Jun/2021 12:20:33] "GET / HTTP/1.1" 200 62051
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:20:34] "GET /favicon.ico HTTP/1.1" 500 63660
+[12/Jun/2021 12:20:37] "GET /lang/FA HTTP/1.1" 302 0
+[12/Jun/2021 12:20:37] "GET / HTTP/1.1" 200 64082
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:20:38] "GET /favicon.ico HTTP/1.1" 500 63395
+[12/Jun/2021 12:21:15] "GET /static/main/Content/site/bootstrap.min.css HTTP/1.1" 304 0
+[12/Jun/2021 12:21:15] "GET /static/main/Content/site/fonts.css HTTP/1.1" 304 0
+[12/Jun/2021 12:21:15] "GET /static/main/Content/site/style2.css HTTP/1.1" 304 0
+[12/Jun/2021 12:21:15] "GET /static/main/Content/site/skin0.css HTTP/1.1" 304 0
+[12/Jun/2021 12:21:15] "GET /static/main/css/ltr.css HTTP/1.1" 304 0
+[12/Jun/2021 12:21:15] "GET /static/main/Content/site/fa.css HTTP/1.1" 304 0
+[12/Jun/2021 12:21:15] "GET /static/main/Scripts/site/util.js.map HTTP/1.1" 404 1950
+[12/Jun/2021 12:21:16] "GET /static/main/Content/site/bootstrap.min.css.map HTTP/1.1" 404 1980
+[12/Jun/2021 12:21:21] "GET / HTTP/1.1" 200 64082
+[12/Jun/2021 12:21:21] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 304 0
+[12/Jun/2021 12:21:21] "GET /static/main/Scripts/site/core.js HTTP/1.1" 304 0
+[12/Jun/2021 12:21:21] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 304 0
+[12/Jun/2021 12:21:21] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 304 0
+[12/Jun/2021 12:21:21] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 304 0
+[12/Jun/2021 12:21:21] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 304 0
+[12/Jun/2021 12:21:21] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 304 0
+[12/Jun/2021 12:21:21] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 304 0
+[12/Jun/2021 12:21:21] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 304 0
+[12/Jun/2021 12:21:21] "GET /static/main/Scripts/site/util.js HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/images/logo.png HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/media/01a32133-4186-4eeb-8e8a-8c73aa8eef9cSupport.jpg HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/media/8eab75e1-a18f-4e46-accb-23cb0ea3aa73slider.jpg HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/media/e79a965c-28ed-4888-af8e-10949dab88fae-mway-ok.png HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/Content/site/bootstrap.min.css.map HTTP/1.1" 404 1980
+[12/Jun/2021 12:21:22] "GET /static/main/Content/site/fa_fonts/IranYekan/woff/iranyekanwebregular.woff HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/Scripts/site/util.js.map HTTP/1.1" 404 1950
+[12/Jun/2021 12:21:22] "GET /static/main/Upload/Images/link/2-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/Upload/Images/link/3-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/Upload/Images/link/1-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/Upload/Images/link/4-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/Content/site/img/icon.png HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/media/72f3178d-d687-4519-9c6e-c82c51021d6eweb23.png HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/media/78649018-0a86-4069-bff5-adb1f2c12363sim-daeemi.png HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/media/0fa6334f-6e75-41c8-bb6c-c928669a1270sim%20toorism.png HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/media/9fade12e-0f72-47a6-ba89-93381a119d97sim-etebari.png HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/media/2d1504bf-ec3c-4492-9593-b837898d675csim-rond.png HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/media/0c6d5171-a6d2-44bc-bc3b-6c2e4817cd74simdata.png HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/media/internet.png HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/media/call.png HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/media/sms.png HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/media/tarkibi.png HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/Upload/Images/link/1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/Upload/Images/link/2.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/Upload/Images/link/3.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/Upload/Images/link/4.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/Upload/Images/link/5.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/Upload/Images/link/5-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/Upload/Images/link/6.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/Upload/Images/link/6-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/Upload/Images/link/7.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/Upload/Images/link/7-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/Upload/Images/link/8.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/Upload/Images/link/8-1.gif HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/images/logo-footer.png HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/images/footer-img.png HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/Upload/enamd.png HTTP/1.1" 304 0
+[12/Jun/2021 12:21:22] "GET /static/main/Upload/Images/195.png HTTP/1.1" 304 0
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 74, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:21:22] "GET /favicon.ico HTTP/1.1" 500 63660
+[12/Jun/2021 12:21:34] "GET /static/main/media/72f3178d-d687-4519-9c6e-c82c51021d6eweb23.png HTTP/1.1" 200 1006298
+[12/Jun/2021 12:21:36] "GET /static/main/media/e79a965c-28ed-4888-af8e-10949dab88fae-mway-ok.png HTTP/1.1" 200 1200498
+[12/Jun/2021 12:21:36] "GET /static/main/media/01a32133-4186-4eeb-8e8a-8c73aa8eef9cSupport.jpg HTTP/1.1" 200 1485352
+[12/Jun/2021 12:26:10] "GET /admin/packages HTTP/1.1" 200 23954
+[12/Jun/2021 12:26:10] "GET /static/assets/js/bundles/materialize-rtl/materialize-rtl.min.css HTTP/1.1" 304 0
+[12/Jun/2021 12:26:10] "GET /static/assets/css/app.min.css HTTP/1.1" 304 0
+[12/Jun/2021 12:26:11] "GET /static/assets/css/style.css HTTP/1.1" 304 0
+[12/Jun/2021 12:26:11] "GET /static/assets/css/text_editor.css HTTP/1.1" 304 0
+[12/Jun/2021 12:26:11] "GET /static/assets/css/styles/all-themes.css HTTP/1.1" 304 0
+[12/Jun/2021 12:26:11] "GET /static/assets/js/app.min.js HTTP/1.1" 304 0
+[12/Jun/2021 12:26:11] "GET /static/assets/js/admin.js HTTP/1.1" 304 0
+[12/Jun/2021 12:26:11] "GET /static/assets/js/bundles/apexcharts/apexcharts.min.js HTTP/1.1" 304 0
+[12/Jun/2021 12:26:11] "GET /static/assets/js/editorMediaHandler.js HTTP/1.1" 304 0
+[12/Jun/2021 12:26:11] "GET /static/assets/js/pages/index.js HTTP/1.1" 304 0
+[12/Jun/2021 12:26:11] "GET /static/assets/fonts/themify-icons/themify-icons.css HTTP/1.1" 304 0
+Not Found: /admin/assets/js/chart.min.js
+[12/Jun/2021 12:26:11] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[12/Jun/2021 12:26:11] "GET /static/assets/fonts/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 304 0
+[12/Jun/2021 12:26:11] "GET /static/assets/js/text_editor.js HTTP/1.1" 304 0
+[12/Jun/2021 12:26:11] "GET /static/assets/images/person.png HTTP/1.1" 304 0
+[12/Jun/2021 12:26:11] "GET /static/assets/images/load-343-460469.png HTTP/1.1" 304 0
+[12/Jun/2021 12:26:11] "GET /static/assets/images/logo-footer.png HTTP/1.1" 304 0
+Not Found: /admin/assets/images/person.png
+[12/Jun/2021 12:26:11] "GET /admin/assets/images/person.png HTTP/1.1" 404 9995
+[12/Jun/2021 12:26:11] "GET /static/assets/images/avatar.jpg HTTP/1.1" 304 0
+[12/Jun/2021 12:26:11] "GET /static/assets/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1" 304 0
+Not Found: /admin/assets/js/chart.min.js
+[12/Jun/2021 12:26:11] "GET /static/assets/fonts/Shabnam.woff HTTP/1.1" 304 0
+[12/Jun/2021 12:26:11] "GET /static/assets/fonts/iconfont/MaterialIcons-Regular.woff2 HTTP/1.1" 304 0
+[12/Jun/2021 12:26:11] "GET /static/assets/fonts/fontawesome/fa-regular-400.woff2 HTTP/1.1" 304 0
+[12/Jun/2021 12:26:11] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[12/Jun/2021 12:26:11] "GET /static/assets/fonts/themify-icons/fonts/themify.woff HTTP/1.1" 304 0
+[12/Jun/2021 12:26:12] "GET /static/assets/fonts/poppins/poppins-v5-latin-regular.woff2 HTTP/1.1" 304 0
+/home/django/ariantel/main/views.py changed, reloading.
+Performing system checks...
+
+June 12, 2021 - 12:02:33
+Django version 3.2.3, using settings 'main_website.settings'
+Starting development server at http://0.0.0.0:7070/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/lib64/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/management/commands/runserver.py", line 118, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/management/base.py", line 423, in check
+    databases=databases,
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/checks/registry.py", line 76, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/checks/urls.py", line 40, in check_url_namespaces_unique
+    all_namespaces = _load_all_namespaces(resolver)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/checks/urls.py", line 57, in _load_all_namespaces
+    url_patterns = getattr(resolver, 'url_patterns', [])
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/urls/resolvers.py", line 598, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/urls/resolvers.py", line 591, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib64/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/django/ariantel/main_website/urls.py", line 22, in <module>
+    path('',include('main.urls')),
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib64/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/django/ariantel/main/urls.py", line 3, in <module>
+    from . import views
+  File "/home/django/ariantel/main/views.py", line 261
+    lang = "fa"
+                  ^
+TabError: inconsistent use of tabs and spaces in indentation
+
+/home/django/ariantel/main/views.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/lib64/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/management/commands/runserver.py", line 118, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/management/base.py", line 423, in check
+    databases=databases,
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/checks/registry.py", line 76, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/checks/urls.py", line 40, in check_url_namespaces_unique
+    all_namespaces = _load_all_namespaces(resolver)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/checks/urls.py", line 57, in _load_all_namespaces
+    url_patterns = getattr(resolver, 'url_patterns', [])
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/urls/resolvers.py", line 598, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/urls/resolvers.py", line 591, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib64/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/django/ariantel/main_website/urls.py", line 22, in <module>
+    path('',include('main.urls')),
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib64/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/django/ariantel/main/urls.py", line 3, in <module>
+    from . import views
+  File "/home/django/ariantel/main/views.py", line 260
+    if lang is None:
+                   ^
+TabError: inconsistent use of tabs and spaces in indentation
+
+/home/django/ariantel/main/views.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/lib64/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/management/commands/runserver.py", line 118, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/management/base.py", line 423, in check
+    databases=databases,
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/checks/registry.py", line 76, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/checks/urls.py", line 40, in check_url_namespaces_unique
+    all_namespaces = _load_all_namespaces(resolver)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/checks/urls.py", line 57, in _load_all_namespaces
+    url_patterns = getattr(resolver, 'url_patterns', [])
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/urls/resolvers.py", line 598, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/urls/resolvers.py", line 591, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib64/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/django/ariantel/main_website/urls.py", line 22, in <module>
+    path('',include('main.urls')),
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib64/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/django/ariantel/main/urls.py", line 3, in <module>
+    from . import views
+  File "/home/django/ariantel/main/views.py", line 260
+    if lang is None:
+                   ^
+TabError: inconsistent use of tabs and spaces in indentation
+
+/home/django/ariantel/main/views.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/lib64/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/management/commands/runserver.py", line 118, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/management/base.py", line 423, in check
+    databases=databases,
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/checks/registry.py", line 76, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/checks/urls.py", line 40, in check_url_namespaces_unique
+    all_namespaces = _load_all_namespaces(resolver)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/checks/urls.py", line 57, in _load_all_namespaces
+    url_patterns = getattr(resolver, 'url_patterns', [])
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/urls/resolvers.py", line 598, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/urls/resolvers.py", line 591, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib64/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/django/ariantel/main_website/urls.py", line 22, in <module>
+    path('',include('main.urls')),
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib64/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/django/ariantel/main/urls.py", line 3, in <module>
+    from . import views
+  File "/home/django/ariantel/main/views.py", line 261
+    lang = "fa"
+              ^
+TabError: inconsistent use of tabs and spaces in indentation
+
+/home/django/ariantel/main/views.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W002) Your URL pattern '/addAdmin' [name='add_admin'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addCard' [name='add_card'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addFaq' [name='add_faq'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addMenuItem' [name='add_menu_item'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addNews' [name='add_news'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addPackage' [name='add_package'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addPage' [name='add_page'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addSlide' [name='add_slide'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addSubMenu' [name='add_sub_item'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/admins' [name='admins'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/api/mediaUpload' [name='media_upload'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/cards' [name='cards'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editAdmin/<str:aid>' [name='edit_admin'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editCards/<str:pid>' [name='edit_card'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editFaq/<str:qid>' [name='edit_faq'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editMenuItem/<str:mid>' [name='edit_menu_item'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editNews/<str:aid>' [name='edit_news'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editPackage/<str:pid>' [name='edit_package'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editPage/<str:pid>' [name='edit_page'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editSlide/<str:sid>' [name='edit_slide'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editSubMenu/<str:mid>' [name='edit_sub_item'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/faqs' [name='faqs'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/login' [name='login'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/logout' [name='logout'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/mainMenu' [name='main_menu'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/news' [name='news'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/packages' [name='packages'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/pages' [name='pages'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/slides' [name='slides'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/subMenu' [name='sub_menu'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+
+System check identified 30 issues (0 silenced).
+[12/Jun/2021 12:45:32] "GET /admin/pages HTTP/1.1" 200 45283
+[12/Jun/2021 12:45:32] "GET /static/assets/css/app.min.css HTTP/1.1" 304 0
+[12/Jun/2021 12:45:32] "GET /static/assets/js/bundles/materialize-rtl/materialize-rtl.min.css HTTP/1.1" 304 0
+[12/Jun/2021 12:45:32] "GET /static/assets/css/text_editor.css HTTP/1.1" 304 0
+[12/Jun/2021 12:45:32] "GET /static/assets/css/style.css HTTP/1.1" 304 0
+[12/Jun/2021 12:45:32] "GET /static/assets/css/styles/all-themes.css HTTP/1.1" 304 0
+[12/Jun/2021 12:45:32] "GET /static/assets/js/app.min.js HTTP/1.1" 304 0
+[12/Jun/2021 12:45:33] "GET /static/assets/js/admin.js HTTP/1.1" 304 0
+[12/Jun/2021 12:45:33] "GET /static/assets/js/bundles/apexcharts/apexcharts.min.js HTTP/1.1" 304 0
+[12/Jun/2021 12:45:33] "GET /static/assets/js/editorMediaHandler.js HTTP/1.1" 304 0
+[12/Jun/2021 12:45:33] "GET /static/assets/fonts/themify-icons/themify-icons.css HTTP/1.1" 304 0
+Not Found: /admin/assets/js/chart.min.js
+[12/Jun/2021 12:45:33] "GET /static/assets/js/pages/index.js HTTP/1.1" 304 0
+[12/Jun/2021 12:45:33] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[12/Jun/2021 12:45:33] "GET /static/assets/fonts/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 304 0
+[12/Jun/2021 12:45:33] "GET /static/assets/js/text_editor.js HTTP/1.1" 304 0
+[12/Jun/2021 12:45:33] "GET /static/assets/images/load-343-460469.png HTTP/1.1" 304 0
+[12/Jun/2021 12:45:33] "GET /static/assets/images/person.png HTTP/1.1" 304 0
+Not Found: /admin/assets/images/person.png
+[12/Jun/2021 12:45:33] "GET /static/assets/images/logo-footer.png HTTP/1.1" 304 0
+[12/Jun/2021 12:45:33] "GET /admin/assets/images/person.png HTTP/1.1" 404 9995
+[12/Jun/2021 12:45:33] "GET /static/assets/images/avatar.jpg HTTP/1.1" 304 0
+[12/Jun/2021 12:45:33] "GET /static/assets/fonts/fontawesome/fa-regular-400.woff2 HTTP/1.1" 304 0
+[12/Jun/2021 12:45:33] "GET /static/assets/fonts/Shabnam.woff HTTP/1.1" 304 0
+[12/Jun/2021 12:45:33] "GET /static/assets/fonts/themify-icons/fonts/themify.woff HTTP/1.1" 304 0
+[12/Jun/2021 12:45:33] "GET /static/assets/fonts/iconfont/MaterialIcons-Regular.woff2 HTTP/1.1" 304 0
+[12/Jun/2021 12:45:33] "GET /static/assets/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1" 304 0
+Not Found: /admin/assets/js/chart.min.js
+[12/Jun/2021 12:45:33] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[12/Jun/2021 12:45:33] "GET /static/assets/fonts/poppins/poppins-v5-latin-regular.woff2 HTTP/1.1" 304 0
+[12/Jun/2021 12:45:38] "GET /admin/faqs HTTP/1.1" 200 22362
+Not Found: /admin/assets/js/chart.min.js
+[12/Jun/2021 12:45:38] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+Not Found: /admin/assets/images/person.png
+[12/Jun/2021 12:45:38] "GET /admin/assets/images/person.png HTTP/1.1" 404 9995
+[12/Jun/2021 12:45:41] "GET /admin/news HTTP/1.1" 200 22816
+Not Found: /admin/assets/images/person.png
+Not Found: /admin/assets/js/chart.min.js
+[12/Jun/2021 12:45:41] "GET /admin/assets/images/person.png HTTP/1.1" 404 9995
+[12/Jun/2021 12:45:41] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[12/Jun/2021 12:45:47] "GET /admin/news HTTP/1.1" 200 22816
+Not Found: /admin/assets/js/chart.min.js
+Not Found: /admin/assets/images/person.png
+[12/Jun/2021 12:45:47] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[12/Jun/2021 12:45:47] "GET /admin/assets/images/person.png HTTP/1.1" 404 9995
+[12/Jun/2021 12:45:49] "GET /admin/news HTTP/1.1" 200 22816
+Not Found: /admin/assets/images/person.png
+Not Found: /admin/assets/js/chart.min.js
+[12/Jun/2021 12:45:49] "GET /admin/assets/images/person.png HTTP/1.1" 404 9995
+[12/Jun/2021 12:45:49] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+/home/django/ariantel/main/views.py changed, reloading.
+Performing system checks...
+
+June 12, 2021 - 12:42:41
+Django version 3.2.3, using settings 'main_website.settings'
+Starting development server at http://0.0.0.0:7070/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W002) Your URL pattern '/addAdmin' [name='add_admin'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addCard' [name='add_card'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addFaq' [name='add_faq'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addMenuItem' [name='add_menu_item'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addNews' [name='add_news'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addPackage' [name='add_package'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addPage' [name='add_page'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addSlide' [name='add_slide'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addSubMenu' [name='add_sub_item'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/admins' [name='admins'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/api/mediaUpload' [name='media_upload'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/cards' [name='cards'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editAdmin/<str:aid>' [name='edit_admin'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editCards/<str:pid>' [name='edit_card'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editFaq/<str:qid>' [name='edit_faq'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editMenuItem/<str:mid>' [name='edit_menu_item'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editNews/<str:aid>' [name='edit_news'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editPackage/<str:pid>' [name='edit_package'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editPage/<str:pid>' [name='edit_page'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editSlide/<str:sid>' [name='edit_slide'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editSubMenu/<str:mid>' [name='edit_sub_item'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/faqs' [name='faqs'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/login' [name='login'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/logout' [name='logout'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/mainMenu' [name='main_menu'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/news' [name='news'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/packages' [name='packages'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/pages' [name='pages'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/slides' [name='slides'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/subMenu' [name='sub_menu'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+
+System check identified 30 issues (0 silenced).
+[12/Jun/2021 12:50:32] "GET / HTTP/1.1" 200 64082
+[12/Jun/2021 12:50:32] "GET /static/main/Content/site/bootstrap.min.css HTTP/1.1" 200 121159
+[12/Jun/2021 12:50:32] "GET /static/main/Content/site/style2.css HTTP/1.1" 200 88557
+[12/Jun/2021 12:50:32] "GET /static/main/Content/site/skin0.css HTTP/1.1" 200 47926
+[12/Jun/2021 12:50:32] "GET /static/main/Content/site/fa.css HTTP/1.1" 200 37
+[12/Jun/2021 12:50:32] "GET /static/main/css/ltr.css HTTP/1.1" 200 1782
+[12/Jun/2021 12:50:32] "GET /static/main/Content/site/fonts.css HTTP/1.1" 200 1478
+[12/Jun/2021 12:50:32] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 200 4599
+[12/Jun/2021 12:50:32] "GET /static/main/Scripts/site/core.js HTTP/1.1" 200 33680
+[12/Jun/2021 12:50:32] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 200 3163
+[12/Jun/2021 12:50:32] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 200 7103
+[12/Jun/2021 12:50:32] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 200 6288
+[12/Jun/2021 12:50:32] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 200 21587
+[12/Jun/2021 12:50:32] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 200 3745
+[12/Jun/2021 12:50:32] "GET /static/main/Scripts/site/util.js HTTP/1.1" 200 4108
+[12/Jun/2021 12:50:32] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 200 5002
+[12/Jun/2021 12:50:32] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 200 102631
+[12/Jun/2021 12:50:33] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 200 4122
+[12/Jun/2021 12:50:33] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 200 6156
+[12/Jun/2021 12:50:33] "GET /static/main/Scripts/site/util.js.map HTTP/1.1" 404 1950
+[12/Jun/2021 12:50:33] "GET /static/main/images/logo.png HTTP/1.1" 200 26115
+[12/Jun/2021 12:50:33] "GET /static/main/media/78649018-0a86-4069-bff5-adb1f2c12363sim-daeemi.png HTTP/1.1" 200 150547
+[12/Jun/2021 12:50:33] "GET /static/main/Content/site/fa_fonts/IranYekan/woff/iranyekanwebregular.woff HTTP/1.1" 200 20925
+[12/Jun/2021 12:50:33] "GET /static/main/media/8eab75e1-a18f-4e46-accb-23cb0ea3aa73slider.jpg HTTP/1.1" 200 315727
+[12/Jun/2021 12:50:33] "GET /static/main/Content/site/img/icon.png HTTP/1.1" 200 2756
+[12/Jun/2021 12:50:34] "GET /static/main/Content/site/img/logo.png HTTP/1.1" 200 26144
+[12/Jun/2021 12:50:34] "GET /static/main/media/9fade12e-0f72-47a6-ba89-93381a119d97sim-etebari.png HTTP/1.1" 200 151806
+[12/Jun/2021 12:50:34] "GET /static/main/Content/site/bootstrap.min.css.map HTTP/1.1" 404 1980
+[12/Jun/2021 12:50:34] "GET /static/main/media/0fa6334f-6e75-41c8-bb6c-c928669a1270sim%20toorism.png HTTP/1.1" 200 96626
+[12/Jun/2021 12:50:35] "GET /static/main/media/2d1504bf-ec3c-4492-9593-b837898d675csim-rond.png HTTP/1.1" 200 77729
+[12/Jun/2021 12:50:35] "GET /static/main/media/0c6d5171-a6d2-44bc-bc3b-6c2e4817cd74simdata.png HTTP/1.1" 200 109004
+[12/Jun/2021 12:50:35] "GET /static/main/media/internet.png HTTP/1.1" 200 130525
+[12/Jun/2021 12:50:35] "GET /static/main/media/72f3178d-d687-4519-9c6e-c82c51021d6eweb23.png HTTP/1.1" 200 1006298
+[12/Jun/2021 12:50:35] "GET /static/main/media/e79a965c-28ed-4888-af8e-10949dab88fae-mway-ok.png HTTP/1.1" 200 1200498
+[12/Jun/2021 12:50:35] "GET /static/main/media/call.png HTTP/1.1" 200 106599
+[12/Jun/2021 12:50:35] "GET /static/main/media/sms.png HTTP/1.1" 200 102057
+[12/Jun/2021 12:50:36] "GET /static/main/media/tarkibi.png HTTP/1.1" 200 107803
+[12/Jun/2021 12:50:36] "GET /static/main/Upload/Images/link/1.gif HTTP/1.1" 200 6229
+[12/Jun/2021 12:50:36] "GET /static/main/media/01a32133-4186-4eeb-8e8a-8c73aa8eef9cSupport.jpg HTTP/1.1" 200 1485352
+[12/Jun/2021 12:50:36] "GET /static/main/Upload/Images/link/1-1.gif HTTP/1.1" 200 3721
+[12/Jun/2021 12:50:36] "GET /static/main/Upload/Images/link/2.gif HTTP/1.1" 200 8254
+[12/Jun/2021 12:50:36] "GET /static/main/Upload/Images/link/2-1.gif HTTP/1.1" 200 3689
+[12/Jun/2021 12:50:36] "GET /static/main/Upload/Images/link/3.gif HTTP/1.1" 200 12144
+[12/Jun/2021 12:50:36] "GET /static/main/Upload/Images/link/3-1.gif HTTP/1.1" 200 3137
+[12/Jun/2021 12:50:36] "GET /static/main/Upload/Images/link/4.gif HTTP/1.1" 200 3525
+[12/Jun/2021 12:50:36] "GET /static/main/Upload/Images/link/5.gif HTTP/1.1" 200 5849
+[12/Jun/2021 12:50:36] "GET /static/main/Upload/Images/link/4-1.gif HTTP/1.1" 200 2615
+[12/Jun/2021 12:50:36] "GET /static/main/Upload/Images/link/5-1.gif HTTP/1.1" 200 3933
+[12/Jun/2021 12:50:36] "GET /static/main/Upload/Images/link/6-1.gif HTTP/1.1" 200 3778
+[12/Jun/2021 12:50:36] "GET /static/main/Upload/Images/link/6.gif HTTP/1.1" 200 6212
+[12/Jun/2021 12:50:36] "GET /static/main/Upload/Images/link/7.gif HTTP/1.1" 200 6028
+[12/Jun/2021 12:50:36] "GET /static/main/Upload/Images/link/7-1.gif HTTP/1.1" 200 3686
+[12/Jun/2021 12:50:36] "GET /static/main/Upload/Images/link/8.gif HTTP/1.1" 200 6047
+[12/Jun/2021 12:50:36] "GET /static/main/Upload/Images/link/8-1.gif HTTP/1.1" 200 3302
+[12/Jun/2021 12:50:36] "GET /static/main/images/footer-img.png HTTP/1.1" 200 6831
+[12/Jun/2021 12:50:36] "GET /static/main/images/logo-footer.png HTTP/1.1" 200 6733
+[12/Jun/2021 12:50:36] "GET /static/main/Upload/enamd.png HTTP/1.1" 200 32013
+[12/Jun/2021 12:50:36] "GET /static/main/Upload/Images/195.png HTTP/1.1" 200 76955
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 76, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[12/Jun/2021 12:50:37] "GET /favicon.ico HTTP/1.1" 500 63665
+[12/Jun/2021 12:52:36] "GET /admin/news HTTP/1.1" 200 22816
+[12/Jun/2021 12:52:36] "GET /static/assets/css/styles/all-themes.css HTTP/1.1" 304 0
+[12/Jun/2021 12:52:36] "GET /static/assets/css/text_editor.css HTTP/1.1" 304 0
+[12/Jun/2021 12:52:36] "GET /static/assets/css/app.min.css HTTP/1.1" 304 0
+[12/Jun/2021 12:52:36] "GET /static/assets/js/bundles/materialize-rtl/materialize-rtl.min.css HTTP/1.1" 304 0
+[12/Jun/2021 12:52:36] "GET /static/assets/css/style.css HTTP/1.1" 304 0
+[12/Jun/2021 12:52:36] "GET /static/assets/js/app.min.js HTTP/1.1" 304 0
+[12/Jun/2021 12:52:36] "GET /static/assets/js/admin.js HTTP/1.1" 304 0
+[12/Jun/2021 12:52:36] "GET /static/assets/js/bundles/apexcharts/apexcharts.min.js HTTP/1.1" 304 0
+[12/Jun/2021 12:52:36] "GET /static/assets/fonts/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 304 0
+[12/Jun/2021 12:52:36] "GET /static/assets/js/pages/index.js HTTP/1.1" 304 0
+Not Found: /admin/assets/js/chart.min.js
+[12/Jun/2021 12:52:36] "GET /static/assets/fonts/themify-icons/themify-icons.css HTTP/1.1" 304 0
+[12/Jun/2021 12:52:36] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[12/Jun/2021 12:52:36] "GET /static/assets/js/editorMediaHandler.js HTTP/1.1" 304 0
+[12/Jun/2021 12:52:36] "GET /static/assets/js/text_editor.js HTTP/1.1" 304 0
+[12/Jun/2021 12:52:36] "GET /static/assets/images/person.png HTTP/1.1" 304 0
+[12/Jun/2021 12:52:36] "GET /static/assets/images/logo-footer.png HTTP/1.1" 304 0
+[12/Jun/2021 12:52:36] "GET /static/assets/images/load-343-460469.png HTTP/1.1" 304 0
+Not Found: /admin/assets/images/person.png
+[12/Jun/2021 12:52:36] "GET /admin/assets/images/person.png HTTP/1.1" 404 9995
+[12/Jun/2021 12:52:36] "GET /static/assets/images/avatar.jpg HTTP/1.1" 304 0
+[12/Jun/2021 12:52:36] "GET /static/assets/fonts/fontawesome/fa-regular-400.woff2 HTTP/1.1" 304 0
+[12/Jun/2021 12:52:36] "GET /static/assets/fonts/Shabnam.woff HTTP/1.1" 304 0
+[12/Jun/2021 12:52:36] "GET /static/assets/fonts/iconfont/MaterialIcons-Regular.woff2 HTTP/1.1" 304 0
+[12/Jun/2021 12:52:36] "GET /static/assets/fonts/themify-icons/fonts/themify.woff HTTP/1.1" 304 0
+[12/Jun/2021 12:52:36] "GET /static/assets/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1" 304 0
+Not Found: /admin/assets/js/chart.min.js
+[12/Jun/2021 12:52:36] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[12/Jun/2021 12:52:36] "GET /static/assets/fonts/poppins/poppins-v5-latin-regular.woff2 HTTP/1.1" 304 0
+[12/Jun/2021 12:52:51] "GET /admin HTTP/1.1" 200 18799
+Not Found: /assets/js/chart.min.js
+Not Found: /assets/images/person.png
+[12/Jun/2021 12:52:52] "GET /assets/js/chart.min.js HTTP/1.1" 404 4232
+[12/Jun/2021 12:52:52] "GET /assets/images/person.png HTTP/1.1" 404 4238
+[12/Jun/2021 12:53:03] "GET /admin/logout HTTP/1.1" 302 0
+[12/Jun/2021 12:53:03] "GET /admin/login HTTP/1.1" 200 3663
+[12/Jun/2021 12:53:04] "GET /static/assets/css/custom_login.css HTTP/1.1" 304 0
+[12/Jun/2021 12:53:04] "GET /static/assets/css/pages/extra_pages.css HTTP/1.1" 304 0
+[12/Jun/2021 12:53:04] "GET /static/assets/js/pages/examples/pages.js HTTP/1.1" 304 0
+[12/Jun/2021 12:53:34] "POST /admin/login HTTP/1.1" 302 0
+[12/Jun/2021 12:53:34] "GET /admin HTTP/1.1" 200 18802
+Not Found: /assets/js/chart.min.js
+[12/Jun/2021 12:53:34] "GET /assets/js/chart.min.js HTTP/1.1" 404 4232
+Not Found: /assets/images/person.png
+[12/Jun/2021 12:53:34] "GET /assets/images/person.png HTTP/1.1" 404 4238
+Not Found: /assets/js/chart.min.js
+[12/Jun/2021 12:53:35] "GET /assets/js/chart.min.js HTTP/1.1" 404 4232
+[12/Jun/2021 12:53:39] "GET /admin/news HTTP/1.1" 200 22819
+Not Found: /admin/assets/images/person.png
+[12/Jun/2021 12:53:40] "GET /admin/assets/images/person.png HTTP/1.1" 404 9995
+Not Found: /admin/assets/js/chart.min.js
+[12/Jun/2021 12:53:40] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[12/Jun/2021 12:53:45] "GET /admin/subMenu HTTP/1.1" 200 56212
+Not Found: /admin/assets/images/person.png
+[12/Jun/2021 12:53:45] "GET /admin/assets/images/person.png HTTP/1.1" 404 9995
+Not Found: /admin/assets/js/chart.min.js
+[12/Jun/2021 12:53:45] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[12/Jun/2021 12:54:25] "GET /admin/editSubMenu/60afe2cb1f575526f2ad5d6d HTTP/1.1" 200 26570
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[12/Jun/2021 12:54:25] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10025
+Not Found: /admin/editSubMenu/assets/images/person.png
+[12/Jun/2021 12:54:25] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10031
+[12/Jun/2021 12:56:04] "GET /admin/editSubMenu/60afe2cb1f575526f2ad5d6d HTTP/1.1" 200 26570
+Not Found: /admin/editSubMenu/assets/images/person.png
+[12/Jun/2021 12:56:04] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10031
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[12/Jun/2021 12:56:04] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10025
+[12/Jun/2021 12:57:31] "POST /admin/editSubMenu/60afe2cb1f575526f2ad5d6d HTTP/1.1" 200 26785
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[12/Jun/2021 12:57:31] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10025
+Not Found: /admin/editSubMenu/assets/images/person.png
+[12/Jun/2021 12:57:31] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10031

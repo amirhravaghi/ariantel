@@ -70,6 +70,8 @@ def page(request,aid):
     col = con['pages']
     page = col.find_one({'access_id':aid})
     lang = request.session.get("lang")
+    if lang is None:
+        lang = "fa"
 
     return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
 
@@ -79,7 +81,8 @@ def faq(request):
     con = db.connect()
     col = con['faq']
     faqs = list(col.find())
-
+    if lang is None:
+        lang = "fa"
     faq_result = []
     for item in faqs:
         faq_result.append({
@@ -99,12 +102,15 @@ def news(request):
     con = db.connect()
     col = con['news']
     news = list(col.find())
+    lang = request.session.get('lang')
+    if lang is None:
+        lang = "fa"
     result = []
     for item in news:
         result.append({
-            "title": item[request.session.get('lang')]['title'],
-            "content": item[request.session.get('lang')]['content'],
-            "date": item[request.session.get('lang')]['date'],
+            "title": item[lang]['title'],
+            "content": item[lang]['content'],
+            "date": item[lang]['date'],
             "image": item['image'],
             "id": str(item['_id'])
         })
@@ -118,11 +124,14 @@ def article(request,nid):
     con = db.connect()
     col = con['news']
     col.update({"_id": db.object_id(nid)},{"$inc":{ "views": 1 }})
+    lang = request.session.get('lang')
+    if lang is None:
+        lang = "fa"
     article = col.find_one({"_id": db.object_id(nid)})
     context = {
-        "title": article[request.session.get('lang')]['title'],
-        "content": article[request.session.get('lang')]['content'],
-        "date": article[request.session.get('lang')]['date'],
+        "title": article[lang]['title'],
+        "content": article[lang]['content'],
+        "date": article[lang]['date'],
         "views": article['views'],
         "image": article['image'],
     }
@@ -192,6 +201,8 @@ def packages(request,cid):
 
     con = db.connect()
     lang = request.session.get('lang')
+    if lang is None:
+        lang = "fa"
     col = con['packages']
 
     packages = col.find({"category_id": db.object_id(cid)})
@@ -257,6 +268,8 @@ def simcard(request,sid):
     con = db.connect()
     col = con['simcards']
     lang = request.session.get('lang')
+    if lang is None:
+        lang = "fa"
 
     simcard = col.find_one({"_id":db.object_id(sid)})
 
@@ -276,6 +289,8 @@ def enterprise(request):
     con = db.connect()
     col = con['slides']
     lang = request.session.get('lang')
+    if lang is None:
+        lang = "fa"
 
     # Slides
     col = con['slides']
