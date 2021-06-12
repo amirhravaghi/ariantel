@@ -29,9 +29,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = env('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "127.0.0.1",
+    "192.168.21.3",
+    "ariantel.ir",
+    "www.ariantel.ir"
+]
 # Application definition
 
 INSTALLED_APPS = [
@@ -141,12 +146,12 @@ SESSION_ENGINE = 'mongo_sessions.session'
 MONGO_PORT = env('MONGO_PORT')
 MONGO_HOST = env('MONGO_HOST')
 MONGO_DB_NAME = env('MONGO_DB_NAME')
-MONGO_DB_USER = False
-MONGO_DB_PASSWORD = False
+MONGO_DB_USER = env('MONGO_DB_USER')
+MONGO_DB_PASSWORD = env('MONGO_DB_PASSWORD')
 MONGO_SESSIONS_COLLECTION = env('MONGO_SESSIONS_COLLECTION')
 
 # JWT
 JWT_PRIVATE_KEY = env('JWT_PRIVATE_KEY')
 
 # Main URL
-MAIN_URL = "https://localhost:8000"
+MAIN_URL = "https://ariantel.ir"
