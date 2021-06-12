@@ -1,0 +1,79 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="fa">
+    <head>
+        <meta charset="UTF-8" />
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <title>فرم ورود</title>
+        <!-- Favicon-->
+        <link rel="icon" href="{% static 'assets/images/favicon.ico' %}" type="image/x-icon" />
+        <!-- Plugins Core Css -->
+        <link href="{% static 'assets/css/app.min.css' %}" rel="stylesheet" />
+        <link href="{% static 'assets/js/bundles/materialize-rtl/materialize-rtl.min.css' %}" rel="stylesheet" />
+        <!-- Custom Css -->
+        <link href="{% static 'assets/css/style.css' %}" rel="stylesheet" />
+        <link href="{% static 'assets/css/pages/extra_pages.css' %}" rel="stylesheet" />
+        <link href="{% static 'assets/css/custom_login.css' %}" rel="stylesheet" />
+    </head>
+
+    <body>
+        <div class="limiter">
+            <div class="container-login100">
+                <div class="wrap-login130">
+                    {% if error %}
+                      <div class="alert alert-danger">
+                          نام کاربری و یا کلمه عبور صحیح نمی باشد
+                      </div>
+                    {% endif %}
+                    <form class="login100-form validate-form" method="post" action="{% url 'admin:login' %}">
+                      {% csrf_token %}
+                        <span class="login100-form-title p-b-45"> <img src="{% static 'assets/images/logo-footer.png' %}" alt="logo" /><br /> </span>
+
+                        <div class="wrap-input100 validate-input" data-validate="Valid username is required: ex@abc.xyz">
+                            <input class="input100" type="text" name="username" />
+                            <span class="focus-input100"></span>
+                            <span class="label-input100">کلمه کاربری</span>
+                        </div>
+
+                        <div class="wrap-input100 validate-input" data-validate="رمز عبور مورد نیاز است">
+                            <input class="input100" type="password" name="password" />
+                            <span class="focus-input100"></span>
+                            <span class="label-input100">رمزعبور</span>
+                        </div>
+
+                        <!-- <div class="flex-sb-m w-full p-t-15 p-b-20">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" name="remember" type="checkbox" value="1" /> مرا به خاطر بسپار
+                                    <span class="form-check-sign">
+                                        <span class="check"></span>
+                                    </span>
+                                </label>
+                            </div>
+
+                            <div>
+                                <a href="#" class="txt1">
+                                    رمز عبور را فراموش کردید؟
+                                </a>
+                            </div>
+                        </div> -->
+
+                        <div class="container-login100-form-btn">
+                            <button type="submit" class="login100-form-btn">
+                                ورود
+                            </button>
+                        </div>
+                    </form>
+
+                    <!-- <div class="login100-more" style="background-image: url('../../assets/images/pages/bg-01.png');"> -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Plugins Js -->
+        <script src="{% static 'assets/js/app.min.js' %}"></script>
+        <!-- Extra page Js -->
+        <script src="{% static 'assets/js/pages/examples/pages.js' %}"></script>
+    </body>
+</html>

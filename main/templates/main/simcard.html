@@ -1,0 +1,458 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<main class="container" id="cnt-inner">
+    <input
+        type="hidden"
+        id="hfCMSGarantyLinkIsRelatedToCMSOptionLink"
+        name="hfCMSGarantyLinkIsRelatedToCMSOptionLink"
+        value="false"
+    />
+    <input type="hidden" id="hdfOptionId" />
+    <!-- Add to card modal
+================================================== -->
+    <div id="detail-product" class="clearfix">
+        <div class="tab-det">
+            <ul>
+                <li class="active"><a href="">معرفی محصول</a></li>
+                <li><a href="">روشهای خرید و استفاده</a></li>
+                <li><a href="">تعرفه ها</a></li>
+            </ul>
+            <div class="bg">
+                <h2>سیم کارت {{ card.title }}</h2>
+                <div class="item-tab">
+                    <img
+                        src="{% static card.image %}"
+                        title=""
+                    />
+                    <div class="owl-carousel">
+                        <div class="item">
+                            {{ card.introduction | safe }}
+                        </div>
+                        <div class="item">
+                            {{ card.manual | safe }}
+                        </div>
+                        <div class="item">
+                            {{ card.fees | safe }}
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="" class="buy">ثبت نام و خرید</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script
+================================================== -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".product-txt").on(
+                "keyup paste",
+                "#txtQty.optiontree",
+                function () {
+                    var txtQty = "";
+                    setTimeout(function () {
+                        txtQty = $("#txtQty.optiontree").val();
+                        RefreshOptionTree(function () {
+                            $("#txtQty.optiontree").val(txtQty);
+                        });
+                    }, 100);
+                }
+            );
+
+            function RefreshOptionTree(callback) {
+                var contentId = Number(72583);
+                var txtQty = $("#txtQty.optiontree").val();
+                $.ajax({
+                    url: "/do/Ajax/CMSOptionsTree",
+                    type: "POST",
+                    data:
+                        "{id:" +
+                        contentId +
+                        ",productCount:" +
+                        txtQty +
+                        "}",
+                    contentType: "application/json;charset=utf-8",
+                    success: function (data) {
+                        $(".optiontree").html("");
+                        $(".optiontree").html(data);
+                        if (callback !== undefined) callback();
+                    },
+                });
+            }
+
+            $(".content-text").on(
+                "click",
+                ".gal-options .item",
+                function () {
+                    //$(".gal-options .item").click(function () {
+                    setOption($(this));
+                    setBonInfo($(this));
+                    $(".gal-options .item").removeClass("activesize");
+                    console.log("activesize removed");
+                    $(this).addClass("activesize");
+                    manageCMSGarantyLinkIsRelatedToCMSOptionLink();
+                }
+            );
+
+            setOption($(".gal-options .item[data-default=True]"));
+            //setBonInfo($(".gal-options .item ").first());
+
+            $(".CustomerPriceSurveyLink").click(function (e) {
+                e.preventDefault();
+
+                $(
+                    ":hidden[name='hfCustomerPriceSurveyOptionValue']"
+                ).val($(this).attr("data-value"));
+                var value = $(
+                    ":hidden[name='hfCustomerPriceSurveyOptionValue']"
+                ).val();
+
+                if (value != "yes") {
+                    $("#customerPriceSurveyNoModal").modal("show");
+                    return false;
+                }
+
+                var contentId = $(
+                    ":hidden[name='hfCustomerPriceSurveyContentId']"
+                ).val();
+                var optionId = $(
+                    ":hidden[name='hfCustomerPriceSurveyOptionId']"
+                ).val();
+                var price = 0;
+                var storeName = "";
+                var isOnlineStore = false;
+
+                addCustomerPriceSurvey(
+                    contentId,
+                    optionId,
+                    value,
+                    price,
+                    storeName,
+                    isOnlineStore
+                );
+            });
+
+            $(".btnAddCustomerPriceSurveyNo").click(function (e) {
+                e.preventDefault();
+
+                var value = $(
+                    ":hidden[name='hfCustomerPriceSurveyOptionValue']"
+                ).val();
+                var contentId = $(
+                    ":hidden[name='hfCustomerPriceSurveyContentId']"
+                ).val();
+                var optionId = $(
+                    ":hidden[name='hfCustomerPriceSurveyOptionId']"
+                ).val();
+                var price = $("#txtCustomerPriceSurveyPrice").val();
+                var storeName = $(
+                    "#txtCustomerPriceSurveyStoreName"
+                ).val();
+                var isOnlineStore = $(
+                    "input[name=rbIsOnlineStore]:checked"
+                ).val();
+
+                $("#customerPriceSurveyNoModal").modal("hide");
+
+                addCustomerPriceSurvey(
+                    contentId,
+                    optionId,
+                    value,
+                    price,
+                    storeName,
+                    isOnlineStore
+                );
+            });
+
+            manageCMSGarantyLinkIsRelatedToCMSOptionLink();
+        });
+
+        function manageCMSGarantyLinkIsRelatedToCMSOptionLink() {
+            var CMSGarantyLinkIsRelatedToCMSOptionLinkValue = $(
+                ":hidden[name='hfCMSGarantyLinkIsRelatedToCMSOptionLink']"
+            ).val();
+            if (
+                CMSGarantyLinkIsRelatedToCMSOptionLinkValue === "true"
+            ) {
+                var selectedOptionId = $(
+                    ".gal-options .item.activesize"
+                ).attr("id");
+                $("#garanty-product .text-wrapper")
+                    .hide()
+                    .find(":radio[name='GarrantyId']")
+                    .removeAttr("checked");
+                $(
+                    "#garanty-product .text-wrapper[data-optionid='" +
+                        selectedOptionId +
+                        "']"
+                )
+                    .show()
+                    .find(":radio[name='GarrantyId']")
+                    .first()
+                    .attr("checked", "checked");
+            }
+        }
+
+        function addCustomerPriceSurvey(
+            contentId,
+            optionId,
+            value,
+            price,
+            storeName,
+            isOnlineStore
+        ) {
+            $("#divCustomerPriceSurveyContainer").hide();
+
+            $.ajax({
+                url: "/do/CMS/AddCustomerPriceSurvey",
+                type: "POST",
+                data:
+                    "{contentId:" +
+                    contentId +
+                    ",optionId:" +
+                    optionId +
+                    ",value:'" +
+                    value +
+                    "',price:'" +
+                    price +
+                    "',storeName:'" +
+                    storeName +
+                    "',isOnlineStore:" +
+                    isOnlineStore +
+                    "}",
+                contentType: "application/json;charset=utf-8",
+                success: function (data) {
+                    if (data && data === true) {
+                        $("#divCustomerPriceSurveyContainer").hide();
+                    } else {
+                        $("#divCustomerPriceSurveyContainer").show();
+                    }
+                },
+            });
+        }
+
+        function SendSuggestFreind(ContentId) {
+            $.ajax({
+                url: "/OnlineOrder/CancelAddOrder",
+                type: "POST",
+                data: "{ContentID:'" + ContentId + "'}",
+                contentType: "application/json;charset=utf-8",
+                success: function (data) {
+                    $("#divOkCart").html(data);
+                },
+            });
+        }
+
+        function SuggestFreind() {
+            $.ajax({
+                url: "/do/CMS/ShowSuggest",
+                type: "POST",
+                data: "",
+                contentType: "application/json;charset=utf-8",
+                success: function (data) {
+                    $("#DivSuggest").html(data);
+                },
+            });
+        }
+
+        function setOption(o, callback) {
+            o.addClass("active activesize");
+            var optionId = Number(o.attr("id"));
+            var contentId = Number(o.attr("pid"));
+            var qty = Number($("#txtQty").val());
+            if (o.attr("id") != undefined) {
+                if (o.attr("pid") !== undefined) {
+                    $.ajax({
+                        url: "/do/CMS/GetOptions",
+                        type: "POST",
+                        data:
+                            "{contentId:" +
+                            contentId +
+                            ",optionId:" +
+                            optionId +
+                            ",qty:" +
+                            qty +
+                            "}",
+                        contentType: "application/json;charset=utf-8",
+                        success: function (data) {
+                            $("#productOptions").html(data);
+                            setCustomerPriceSurveyOptionId(optionId);
+                            manageCustomerPriceSurvey();
+                            if (callback != null) callback();
+                        },
+                    });
+                }
+            } else {
+                manageCustomerPriceSurvey();
+            }
+        }
+
+        function setCustomerPriceSurveyOptionId(optionId) {
+            $(":hidden[name='hfCustomerPriceSurveyOptionId']").val(
+                optionId
+            );
+        }
+
+        function manageCustomerPriceSurvey() {
+            var contentId = $(
+                ":hidden[name='hfCustomerPriceSurveyContentId']"
+            ).val();
+            var optionId = $(
+                ":hidden[name='hfCustomerPriceSurveyOptionId']"
+            ).val();
+
+            $.ajax({
+                url: "/do/CMS/CustomerPriceSurveyExist",
+                type: "POST",
+                data:
+                    "{contentId:" +
+                    contentId +
+                    ",optionId:" +
+                    optionId +
+                    "}",
+                contentType: "application/json;charset=utf-8",
+                success: function (data) {
+                    if (data && data === true) {
+                        $("#divCustomerPriceSurveyContainer").hide();
+                    } else {
+                        $("#divCustomerPriceSurveyContainer").show();
+                    }
+                },
+            });
+        }
+
+        function setBonInfo(o) {
+            o.addClass("active");
+            var optionId = Number(o.attr("id"));
+            var contentId = Number(o.attr("pid"));
+
+            var qty = 1;
+
+            if ($("#txtQty").length > 0 && $("#txtQty").val() != "") {
+                qty = Number($("#txtQty").val());
+            }
+
+            $.ajax({
+                url: "/do/CMS/GetBonInfo",
+                type: "POST",
+                data:
+                    "{contentId:" +
+                    contentId +
+                    ",optionId:" +
+                    optionId +
+                    ",qty:" +
+                    qty +
+                    "}",
+                contentType: "application/json;charset=utf-8",
+                success: function (data) {
+                    $("#DivBonInfo").html(data);
+                },
+            });
+        }
+
+        function ValidateNumber(e) {
+            var evt = e ? e : window.event;
+            var charCode = evt.keyCode ? evt.keyCode : evt.which;
+            if (charCode > 95 && charCode < 106) {
+                return true;
+            }
+            if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+                return false;
+            }
+
+            return true;
+        }
+
+        $(function () {
+            //$(".ADDTOCARD").on("click", function (e) {
+            $(document).on(
+                "click",
+                ".ADDTOCARD.adtocartlink",
+                function (e) {
+                    var cardType = "";
+                    if ($("#addtocard-light").length > 0) {
+                        cardType = "-light";
+                    }
+
+                    var qtyAdd = 1;
+                    if (
+                        $("#txtQty").length > 0 &&
+                        $("#txtQty").val() != ""
+                    ) {
+                        qtyAdd = $("#txtQty").val();
+                    }
+
+                    var selectedOptionIdQueryString = "";
+                    var selectedOptionId = null;
+                    var CMSGarantyLinkIsRelatedToCMSOptionLinkValue = $(
+                        ":hidden[name='hfCMSGarantyLinkIsRelatedToCMSOptionLink']"
+                    ).val();
+                    if (
+                        CMSGarantyLinkIsRelatedToCMSOptionLinkValue ===
+                        "true"
+                    ) {
+                        selectedOptionId = $(
+                            ".gal-options .item.activesize"
+                        ).attr("id");
+                        selectedOptionIdQueryString =
+                            "?SelectedOptionId=" + selectedOptionId;
+                    }
+
+                    // var o = $(".ADDTOCARD");
+                    var giftOptRadio = $(
+                        "input[name='giftOptRadio']:checked"
+                    ).val();
+                    var o = $(this);
+
+                    $.ajax({
+                        type: "POST",
+                        url:
+                            "/cmd/addtocard" +
+                            cardType +
+                            "default.htm" +
+                            o.attr("data-id") +
+                            selectedOptionIdQueryString,
+                        data: {
+                            UseBin: $("#UseBin").is(":checked"),
+                            cmsid: o.attr("data-cmsid"),
+                            qty: qtyAdd.toString(),
+                            garranty: false,
+                            GiftProductID: giftOptRadio,
+                        },
+
+                        success: function (data) {
+                            if ($("#addtocard-light").length > 0) {
+                                $("#addtocard-light").html(data.view);
+                            } else if ($("#addtocard").length > 0) {
+                                $("#addtocard").html(data.view);
+                            }
+                            $("#addtobascket").modal("show");
+                            $("#addtobascket .modal-body").html(
+                                '<div id="addbascket">' +
+                                    data.message.MessageText +
+                                    "</div>"
+                            );
+                        },
+                    });
+                }
+            );
+
+            $("#btnSuggestFreind").click(function () {
+                //var url=window.location.pathname;
+                SuggestFreind();
+                // $("#DivSuggest").css({ display: 'block' });
+            });
+
+            $("#btnSuggestFreind").click(function () {
+                SuggestFreind();
+            });
+        });
+    </script>
+</main>
+
+{% endblock %}

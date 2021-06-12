@@ -1,0 +1,108 @@
+{% extends 'admin_base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="block-header">
+   <div class="row">
+   </div>
+</div>
+<div class="col-lg-12 col-md-12">
+   <div class="card">
+      <div class="profile-tab-box">
+         <div class="p-l-20">
+            <ul class="nav ">
+               <li class="nav-item tab-all">
+                  <a class="nav-link active show" href="#project" data-toggle="tab">زبان فارسی</a>
+               </li>
+               <li class="nav-item tab-all p-l-20">
+                  <a class="nav-link" href="#usersettings" data-toggle="tab">زبان انگلیسی</a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </div>
+   <form action="{% url 'admin:news' %}" method="post" id="add_news_form" enctype="multipart/form-data">
+     {% csrf_token %}
+   <div class="tab-content">
+      <div role="tabpanel" class="tab-pane active" id="project" aria-expanded="true">
+         <div class="row clearfix">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12">
+               <div class="card project_widget">
+                  <div class="header">
+                     <h4>مدیریت اخبار</h4>
+                     <br /><br />
+                     <div class="form-group">
+                        <label for="exampleFormControlInput1">عنوان خبر</label>
+                        <input type="text" class="form-control" name="fa_news_title"
+                           id="exampleFormControlInput1"
+                           placeholder="عنوان خبر خود را بنویسید">
+                     </div>
+                     <div class="form-group">
+                        <label for="exampleFormControlInput1">تاریخ خبر</label>
+                        <input type="text" class="form-control" name="fa_date"
+                           id="exampleFormControlInput1"
+                           placeholder="تاریخ خبر خود را بنویسید">
+                     </div>
+                     <div class="form-group">
+                        <label for="exampleFormControlInput1">محتوای صفحه</label>
+                        <div class="text-editor"></div>
+                        <input type="hidden" id="fa-content" name="fa_content" value="">
+                     </div>
+                     <label>آپلود عکس  </label><br/>
+                     <div class="input-group mb-3">
+                        <div class="custom-file">
+                           <input type="file" name="media" class="custom-file-input" id="inputGroupFile02">
+                           <label class="custom-file-label" for="inputGroupFile02" style="text-align:center"></label>
+                        </div>
+                     </div>
+                     <br>
+                     <button type="submit" class="btn btn-info btn-round">ذخیره تغییرات</button>
+                  </div>
+               </div>
+            </div>
+            <!--
+               *******div زیر یک باکس خالی و ثابت می باشد*******      -->
+            <div class="col-lg-12 col-md-12 col-sm-12">
+            </div>
+         </div>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="timeline" aria-expanded="false">
+      </div>
+      <div role="tabpanel" class="tab-pane" id="usersettings" aria-expanded="false">
+         <div class="card">
+            <div class="header">
+               <h2><b>Manage News</b></h2>
+            </div>
+            <div class="body">
+               <div class="form-group">
+                  <input type="text" class="form-control" name="en_news_title" placeholder="Title of Page">
+               </div>
+               <div class="form-group">
+                  <input type="text" class="form-control" name="en_date" placeholder="Date">
+               </div>
+               <div class="form-group">
+                  <div class="en-text-editor"></div>
+                  <input type="hidden" name="en_content" id="en-content" value="">
+               </div>
+               <br>
+               <button class="btn btn-info btn-round" type="submit">save</button>
+            </div>
+         </div>
+      </div>
+   </div>
+   </form>
+</div>
+
+{% endblock %}
+
+{% block script %}
+<script type="text/javascript">
+  $("#add_news_form").submit(()=>{
+    $("#fa-content").val($(".text-editor .ql-editor").html());
+    $("#en-content").val($(".en-text-editor .ql-editor").html());
+  });
+</script>
+{% endblock %}

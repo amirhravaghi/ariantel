@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<main class="container" id="cnt-inner">
+    <h1 class="title-page">اخبار</h1>
+
+    <div class="bg clearfix">
+        <div class="cms">
+          {% for item in news %}
+            <div class="item-news clearfix">
+                <a href="/news/{{ item.id }}" class="img">
+                    <img src="{% static item.image %}" alt="{{ item.title }}" class="img-responsive trans" />
+                </a>
+                <div class="txt clearfix">
+                    <h3 class="f_bold"><a href="news/{{ item.id }}">{{ item.title }}</a></h3>
+                    <p></p>
+                    <span class="dateadd">{{ item.date }}</span>
+                    <a href="news/{{ item.id }}" class="more trans"><i class="fa fa-angle-left"></i> ادامه</a>
+                </div>
+            </div>
+          {% endfor %}
+        </div>
+        <div class="pager-div bottom-pager clearfix">
+
+        </div>
+
+        <script>
+            $(document).ready(function () {
+                $(".currency-wrapper.False").each(function (index) {
+                    $(this).html('<p class="nameT NotExsit" data-unit="ریال">ناموجود</p>');
+                });
+            });
+        </script>
+    </div>
+</main>
+
+{% endblock %}

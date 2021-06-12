@@ -1,0 +1,103 @@
+{% extends 'admin_base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="block-header">
+   <div class="row">
+   </div>
+</div>
+<div class="col-lg-12 col-md-12">
+   <div class="card">
+      <div class="profile-tab-box">
+         <div class="p-l-20">
+            <ul class="nav ">
+               <li class="nav-item tab-all">
+                  <a class="nav-link active show" href="#project" data-toggle="tab">زبان فارسی</a>
+               </li>
+               <li class="nav-item tab-all p-l-20">
+                  <a class="nav-link" href="#usersettings" data-toggle="tab">زبان انگلیسی</a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </div>
+   <form action="{% url 'admin:edit_faq' question.id %}" method="post" id="add_news_form" enctype="multipart/form-data">
+     {% csrf_token %}
+     <div class="tab-content">
+       <div role="tabpanel" class="tab-pane active" id="project" aria-expanded="true">
+          <div class="row clearfix">
+             <div class="col-lg-12 col-md-12 col-sm-12">
+             </div>
+             <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="card project_widget">
+                   <div class="header">
+                      <h4>مدیریت محصولات</h4>
+                      <br />
+                      {% if not edit_status is None %}
+                        {% if edit_status %}
+                          <div class="alert alert-success">
+                            سوال با موفقیت ویرایش شد
+                          </div>
+                        {% else %}
+                          <div class="alert alert-danger">
+                            متاسفانه خطایی رخ داد
+                          </div>
+                        {% endif %}
+                      {% endif %}
+                      <br />
+                      <div class="form-group">
+                         <label for="exampleFormControlInput1"> سوال</label>
+                         <input type="text" class="form-control" name="fa_title"
+                            id="exampleFormControlInput1" value="{{ question.fa.question }}"
+                            placeholder=" سوال خود را وارد کنید" />
+                      </div>
+                      <div class="form-group">
+                         <label for="exampleFormControlInput1">پاسخ سوال</label>
+                         <div class="text-editor">{{ question.fa.answer | safe }}</div>
+                         <input type="hidden" id="fa-content" name="fa_content" value="">
+                      </div>
+                      <button class="btn btn-info btn-round">ذخیره تغییرات</button>
+                   </div>
+                </div>
+             </div>
+             <!--
+                *******div زیر یک باکس خالی و ثابت می باشد*******      -->
+             <div class="col-lg-12 col-md-12 col-sm-12">
+             </div>
+          </div>
+       </div>
+       <div role="tabpanel" class="tab-pane" id="timeline" aria-expanded="false">
+       </div>
+       <div role="tabpanel" class="tab-pane" id="usersettings" aria-expanded="false">
+          <div class="card">
+             <div class="header">
+                <h2><b>Manage question</b></h2>
+             </div>
+             <div class="body">
+                 <div class="form-group">
+                    <input value="{{ question.en.question }}" type="text" class="form-control" placeholder="question title" name="en_title" value="{{ question.en.title }}">
+                 </div>
+                 <div class="form-group">
+                    <label for="exampleFormControlInput1">question's answer</label>
+                    <div class="en-text-editor">{{ question.en.answer | safe }}</div>
+                    <input type="hidden" id="en-content" name="en_content" value="">
+                 </div>
+                <button class="btn btn-info btn-round">save</button>
+             </div>
+          </div>
+       </div>
+    </div>
+   </form>
+</div>
+
+{% endblock %}
+
+{% block script %}
+<script type="text/javascript">
+  $("#add_news_form").submit(()=>{
+    $("#fa-content").val($(".text-editor .ql-editor").html());
+    $("#en-content").val($(".en-text-editor .ql-editor").html());
+  });
+</script>
+{% endblock %}

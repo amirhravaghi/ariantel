@@ -1,0 +1,263 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} آرین تل {% endblock %}
+{% block styles %}
+<style>
+    #pageslide #top-nav > li:last-child {display:none}
+    #pageslide #top-nav > li:first-child > ul {display:block}
+    @media only screen and (min-width: 900px){
+        .body-home #top-header{position:absolute;}
+    }
+</style>
+{% endblock %}
+{% block content %}
+
+<!-- Slider -->
+<span class="top-content">
+   <div class="owl-carousel" id="top-slider">
+     {% for slide in slides %}
+      <div class="item">
+         <img src="{% static slide.image %}" alt="{{ slide.title }}" />
+         <video class="player1" controls preload="none" poster="{% static slide.image %}"  style="display:none;width:100%">
+            <source src="{% static slide.image %}" type="video/mp4">
+         </video>
+         <div class="container">
+            <div class="det">
+               <h2 class="trans">{{ slide.title }}</h2>
+               <a href="" class="more trans">
+                  اطلاعات بیشتر <svg class="trans version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+                  <g>
+                     <path d="M10,469.8c0-7.5,6-13.5,13.5-13.5h886.6c7.5,0,13.5,6,13.5,13.5v58.5c0,7.5-6,13.5-13.5,13.5H23.5c-7.5,0-13.5-6-13.5-13.5L10,469.8L10,469.8z"></path>
+                     <path d="M624.1,759.2c-5.3-5.3-5.3-13.8,0-19.1l301.5-290.3c5.3-5.3,13.8-5.3,19.1,0l41.4,41.4c5.3,5.3,5.3,13.8,0,19.1L684.5,800.6c-5.3,5.3-13.8,5.3-19.1,0L624.1,759.2z"></path>
+                     <path d="M986,508.8c5.3-5.3,5.3-13.8,0-19.1L684.5,199.4c-5.3-5.3-13.8-5.3-19.1,0l-41.4,41.4c-5.3,5.3-5.3,13.8,0,19.1l301.5,290.3c5.3,5.3,13.8,5.3,19.1,0L986,508.8L986,508.8z"></path>
+                  </g>
+                  </svg>
+               </a>
+            </div>
+         </div>
+      </div>
+      {% endfor %}
+      <!-- <div class="item">
+         <img src="{% static 'main/Upload/Images/slider/slider.jpg' %}" alt="A Solution For Smart Planet" style="display:none" />
+         <video class="player1" controls preload="none" poster="{% static 'main/Upload/Images/slider/slider.jpg' %}"  style="display:none;width:100%">
+            <source src="{% static 'main/Upload/Images/slider/slider.jpg' %}" type="video/mp4">
+         </video>
+         <div class="container">
+            <div class="det">
+               <h2 class="trans">A Solution For Smart Planet</h2>
+               <a href="" class="more trans">
+                  اطلاعات بیشتر <svg class="trans version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+                  <g>
+                     <path d="M10,469.8c0-7.5,6-13.5,13.5-13.5h886.6c7.5,0,13.5,6,13.5,13.5v58.5c0,7.5-6,13.5-13.5,13.5H23.5c-7.5,0-13.5-6-13.5-13.5L10,469.8L10,469.8z"></path>
+                     <path d="M624.1,759.2c-5.3-5.3-5.3-13.8,0-19.1l301.5-290.3c5.3-5.3,13.8-5.3,19.1,0l41.4,41.4c5.3,5.3,5.3,13.8,0,19.1L684.5,800.6c-5.3,5.3-13.8,5.3-19.1,0L624.1,759.2z"></path>
+                     <path d="M986,508.8c5.3-5.3,5.3-13.8,0-19.1L684.5,199.4c-5.3-5.3-13.8-5.3-19.1,0l-41.4,41.4c-5.3,5.3-5.3,13.8,0,19.1l301.5,290.3c5.3,5.3,13.8,5.3,19.1,0L986,508.8L986,508.8z"></path>
+                  </g>
+                  </svg>
+               </a>
+            </div>
+         </div>
+      </div> -->
+   </div>
+</span>
+<!-- End of slider -->
+<!-- Tabs -->
+<div class="tab-cnt">
+   <div id="home-tab">
+      <div class="container">
+         <div id="tab-list">
+           <div id="tab-list">
+                <a href="" id="selectbox">سیم کارت <i class="fa fa-angle-down"></i></a>
+                <ul class="animatedParent">
+                    <li class="active"><a href="#tab3" class="trans animated fadeInRight">سیم کارت </a></li>
+                    <li><a href="#tab1" class="trans">بسته ها</a></li>
+                    <li><a href="#tab2" class="trans">پیشنهادات</a></li>
+                </ul>
+            </div>
+            <!-- <ul>
+               <li class="active"><a href="#tab3" class="trans">سیم کارت </a></li>
+               <li><a href="#tab1" class="trans">بسته ها</a></li>
+               <li><a href="#tab2" class="trans">پیشنهادات</a></li>
+            </ul> -->
+         </div>
+         <span class="top-content">
+            <div class="item-tab active" id="tab3">
+               <div class="owl-carousel">
+                 {% for item in cards %}
+                  <div class="item">
+                     <a href="simcards/{{ item.id }}" class="trans">
+                     <img src="{% static item.image %}" alt="{{ item.name }}" class="img-responsive trans img2" />
+                     <span>{{ item.name }}</span>
+                     </a>
+                  </div>
+                  {% endfor %}
+               </div>
+            </div>
+         </span>
+         <span class="top-content">
+            <!-- <div class="item-tab" id="tab2">
+               <div class="owl-carousel">
+                  <div class="item">
+                     <a href="product/72579/_/default.htm" class="trans">
+                     <img src="{% static 'main/Upload/Images/product/img1.png' %}" alt="بسته پیشنهادی ویژه دانشجویان" class="img-responsive trans img2" />
+                     <span>بسته پیشنهادی ویژه دانشجویان</span>
+                     </a>
+                  </div>
+                  <div class="item">
+                     <a href="product/72580/_/default.htm" class="trans">
+                     <img src="{% static 'main/Upload/Images/product/img2.png' %}" alt="بسته پیشنهادی 1" class="img-responsive trans img2" />
+                     <span>بسته پیشنهادی 1</span>
+                     </a>
+                  </div>
+                  <div class="item">
+                     <a href="product/72581/_/default.htm" class="trans">
+                     <img src="{% static 'main/Upload/Images/product/img3.png' %}" alt="بسته پیشنهادی 2" class="img-responsive trans img2" />
+                     <span>بسته پیشنهادی 2</span>
+                     </a>
+                  </div>
+                  <div class="item">
+                     <a href="product/72582/_/default.htm" class="trans">
+                     <img src="{% static 'main/Upload/Images/product/img4.png' %}" alt="بسته پیشنهادی 3" class="img-responsive trans img2" />
+                     <span>بسته پیشنهادی 3</span>
+                     </a>
+                  </div>
+               </div>
+            </div> -->
+         </span>
+         <span class="top-content">
+            <div class="item-tab" id="tab1">
+               <div class="owl-carousel">
+                 {% for item in packages %}
+                  <div class="item">
+                     <a href="packages/{{ item.id }}" class="trans">
+                     <img src="{% static item.image %}" alt="{{ item.name }}" class="img-responsive trans img2" />
+                     <span>{{ item.name }}</span>
+                     </a>
+                  </div>
+                  {% endfor %}
+               </div>
+            </div>
+         </span>
+      </div>
+   </div>
+</div>
+<!-- End of tabs -->
+<!-- Services -->
+<span class="top-content">
+   <div id="home-item">
+      <div class="circle-animation bg1">
+         <div class="circle-animation-l1 ca">
+            <span class="circle-animation-l1-d1 ca-dot ca-color-1"></span>
+            <span class="circle-animation-l1-d2 ca-dot ca-color-2"></span>
+            <span class="circle-animation-l1-d3 ca-dot ca-color-3"></span>
+         </div>
+         <div class="circle-animation-l2 ca">
+            <span class="circle-animation-l2-d1 ca-dot ca-color-1"></span>
+            <span class="circle-animation-l2-d2 ca-dot ca-color-3"></span>
+            <span class="circle-animation-l2-d3 ca-dot ca-color-2"></span>
+         </div>
+         <div class="circle-animation-l3 ca">
+            <span class="circle-animation-l3-d1 ca-dot ca-color-1"></span>
+            <span class="circle-animation-l3-d2 ca-dot ca-color-3"></span>
+            <span class="circle-animation-l3-d3 ca-dot ca-color-2"></span>
+         </div>
+      </div>
+      <div class="circle-animation bg2">
+         <div class="circle-animation-l1 ca">
+            <span class="circle-animation-l1-d1 ca-dot ca-color-1"></span>
+            <span class="circle-animation-l1-d2 ca-dot ca-color-2"></span>
+            <span class="circle-animation-l1-d3 ca-dot ca-color-3"></span>
+         </div>
+         <div class="circle-animation-l2 ca">
+            <span class="circle-animation-l2-d1 ca-dot ca-color-1"></span>
+            <span class="circle-animation-l2-d2 ca-dot ca-color-3"></span>
+            <span class="circle-animation-l2-d3 ca-dot ca-color-2"></span>
+         </div>
+         <div class="circle-animation-l3 ca">
+            <span class="circle-animation-l3-d1 ca-dot ca-color-1"></span>
+            <span class="circle-animation-l3-d2 ca-dot ca-color-3"></span>
+            <span class="circle-animation-l3-d3 ca-dot ca-color-2"></span>
+         </div>
+      </div>
+      <div class="container">
+         <h3 class="title">خدمات آرین تل</h3>
+         <div class="row">
+            <div class="col-md-3 col-sm-4 col-xs-6 item">
+               <a href="{% url 'main:faq' %}">
+                  <figure>
+                     <img src="{% static 'main/Upload/Images/link/1.gif' %}" alt="مناطق تحت پوشش" class="img1"/>
+                     <img src="{% static 'main/Upload/Images/link/1-1.gif' %}" alt="مناطق تحت پوشش" class="img2" />
+                  </figure>
+                  <h3>مناطق تحت پوشش</h3>
+               </a>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 item">
+               <a href="prices">
+                  <figure>
+                     <img src="{% static 'main/Upload/Images/link/2.gif' %}" alt="تعرفه مصرف آزاد دیتا و اینترنت" class="img1"/>
+                     <img src="{% static 'main/Upload/Images/link/2-1.gif' %}" alt="تعرفه مصرف آزاد دیتا و اینترنت" class="img2" />
+                  </figure>
+                  <h3>تعرفه مصرف آزاد دیتا و اینترنت</h3>
+               </a>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 item">
+               <a href="payment_ways">
+                  <figure>
+                     <img src="{% static 'main/Upload/Images/link/3.gif' %}" alt="روشهای شارژ و پرداخت" class="img1"/>
+                     <img src="{% static 'main/Upload/Images/link/3-1.gif' %}" alt="روشهای شارژ و پرداخت" class="img2" />
+                  </figure>
+                  <h3>روشهای شارژ و پرداخت</h3>
+               </a>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 item">
+               <a href="simple_ussd">
+                  <figure>
+                     <img src="{% static 'main/Upload/Images/link/4.gif' %}" alt="کدهای دستوری آسان" class="img1"/>
+                     <img src="{% static 'main/Upload/Images/link/4-1.gif' %}" alt="کدهای دستوری آسان" class="img2" />
+                  </figure>
+                  <h3>کدهای دستوری آسان</h3>
+               </a>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 item">
+               <a href="#">
+                  <figure>
+                     <img src="{% static 'main/Upload/Images/link/5.gif' %}" alt="همکاری با ما" class="img1"/>
+                     <img src="{% static 'main/Upload/Images/link/5-1.gif' %}" alt="همکاری با ما" class="img2" />
+                  </figure>
+                  <h3>همکاری با ما</h3>
+               </a>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 item">
+               <a href="sale_and_support">
+                  <figure>
+                     <img src="{% static 'main/Upload/Images/link/6.gif' %}" alt="فروش و پشتیبانی 24-7" class="img1"/>
+                     <img src="{% static 'main/Upload/Images/link/6-1.gif' %}" alt="فروش و پشتیبانی 24-7" class="img2" />
+                  </figure>
+                  <h3>فروش و پشتیبانی 24-7</h3>
+               </a>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 item">
+               <a href="solutions">
+                  <figure>
+                     <img src="{% static 'main/Upload/Images/link/7.gif' %}" alt="راهکارهای سازمانی" class="img1"/>
+                     <img src="{% static 'main/Upload/Images/link/7-1.gif' %}" alt="راهکارهای سازمانی" class="img2" />
+                  </figure>
+                  <h3>راهکارهای سازمانی</h3>
+               </a>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 item">
+               <a href="branch">
+                  <figure>
+                     <img src="{% static 'main/Upload/Images/link/8.gif' %}" alt="نمایندگی" class="img1"/>
+                     <img src="{% static 'main/Upload/Images/link/8-1.gif' %}" alt="نمایندگی" class="img2" />
+                  </figure>
+                  <h3>نمایندگی</h3>
+               </a>
+            </div>
+         </div>
+      </div>
+   </div>
+</span>
+<!-- End of services -->
+<div id="modal-product"></div>
+
+{% endblock %}

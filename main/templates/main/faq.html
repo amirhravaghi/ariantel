@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<main class="container" id="cnt-inner">
+    <h1 class="title-page">سوالات مشترکین شخصی</h1>
+    <div class="row" id="faq-page">
+        <div class="col-md-12">
+            <div class="bg clearfix">
+                <div class="cms">
+                    <div id="f-q" class="list-faq">
+                      {% for item in faqs %}
+                        <div class="item">
+                            <a href="">{{ item.question }} <i>+</i></a>
+                            <div class="reply">
+                                {{ item.answer | safe }}
+                            </div>
+                        </div>
+                      {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+{% endblock %}

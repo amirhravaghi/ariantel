@@ -1,0 +1,38 @@
+header {
+    width: 100%;
+    padding: 15px 13%;
+    display: flex;
+    direction: rtl;
+    justify-content: flex-start;
+}
+
+header .menu {
+    width: calc(100% - 178px);
+}
+
+header .header-top-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+}
+
+header .header-right-box {
+    width: 50%;
+    direction: rtl;
+    display: flex;
+    justify-content: flex-start;
+}
+
+header .header-left-box {
+    width: 50%;
+    direction: rtl;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .header-bottom-box {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}

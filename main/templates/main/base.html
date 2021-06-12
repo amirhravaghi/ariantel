@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+    {% load static %}
+   <head>
+      <title>{% block title %} {% endblock %}</title>
+      <meta name="keywords" content="" />
+      <meta name="description" content="" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <link rel="stylesheet" type="text/css" href="{% static 'main/Content/site/bootstrap.min.css' %}" />
+      <link rel="stylesheet" type="text/css" href="{% static 'main/Content/site/style2.css' %}" />
+      <link rel="stylesheet" type="text/css" href="{% static 'main/Content/site/skin0.css' %}" />
+      <link rel="stylesheet" href="{% static 'main/Content/site/fonts.css' %}">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin=""/>
+      <link rel="stylesheet" href="{% static 'main/css/ltr.css' %}">
+      <!-- <script src="Scripts/site/jquery-1.11.1.min.js" type="text/javascript"></script> -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="{% static 'main/Scripts/site/core.js' %}" type="text/javascript"></script>
+      <script src="{% static 'main/Scripts/site/jquery.easing.1.3.min.js' %}" type="text/javascript"></script>
+      <script src="{% static 'main/Scripts/site/jquery.browser.js' %}" type="text/javascript"></script>
+      <script src="{% static 'main/Scripts/site/modernizr.js' %}" type="text/javascript"></script>
+      <script src="{% static 'main/Scripts/site/jquery.unobtrusive-ajax.js' %}" type="text/javascript"></script>
+      <script src="{% static 'main/Scripts/site/jquery.validate.min.js' %}" type="text/javascript"></script>
+      <script src="{% static 'main/Scripts/site/jquery.validate.unobtrusive.min.js' %}" type="text/javascript"></script>
+      <script src="{% static 'main/Scripts/site/owl.carousel.min.js' %}" type="text/javascript"></script>
+      <script src="{% static 'main/Scripts/site/booNavigation.js' %}" type="text/javascript"></script>
+      <script src="{% static 'main/Scripts/site/util.js' %}" type="text/javascript"></script>
+      <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+      <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
+      <!-- <script src="{% static 'main/Scripts/site/L.KML.js' %}"></script> -->
+      <link rel="stylesheet" type="text/css" href="{% static 'main/Content/site/fa.css' %}" />
+      <!-- <script src="{% static 'main/Scripts/site/jquery.wow.min.js' %}" type="text/javascript"></script> -->
+      <link href='favicon.ico' type="images/x-icon" rel="icon" />
+      <!--[if lt IE 9]>
+      <script src="/Scripts/site/html5shiv.min.js"></script>
+      <script src="/Scripts/site/respond.min.js"></script>
+      <![endif]-->
+      <style>
+        @media only screen and (max-width:900px){
+          #top-link #top-nav > li > ul > li:first-child > a{
+            padding-right: 14px;
+          }
+        }
+      </style>
+      {% block styles %}
+
+      {% endblock %}
+   </head>
+   <body id="body" class="body-home {% if ltr %}ltr-body{% endif %}">
+      <input type="hidden" id="lang" value="fa" />
+      <!-- Header -->
+      <div id="top-header">
+         <div class="container">
+            <a href="{% url 'main:index' %}" id="logo" class="hidden-xs hidden-sm">
+            <span class="img"></span>
+            <i class="t1"></i><i class="t2"></i><i class="t3"></i><i class="t4"></i><i class="t5"></i><i class="t6"></i><i class="t7"></i><i class="t8"></i>
+            <span class="txt"></span>
+            </a>
+            <a href="{% url 'main:index' %}" id="logo-mob" class="hidden-md hidden-lg">
+            <img src="{% static 'main/images/logo.png' %}" alt="" class="img-responsive" />
+            </a>
+            <div id="left-mob">
+               <a href="{% url 'main:lang' lang.header.lang %}" class="lng lng-en visible-xs-block visible-sm-block">{{ lang.header.lang }}</a>
+               <a href="#menu" id="open-menu" class="open visible-xs-block visible-sm-block">
+               <span class="icon-bar"></span>
+               </a>
+               <script src="{% static 'main/Scripts/site/jquery.pageslide.min.js' %}" type="text/javascript"></script>
+               <script>
+                  if ($('#lang').val() == 'en') {
+                      $(".open").pageslide({ direction: 'right' });
+                  }
+                  else {
+                      $(".open").pageslide({ direction: 'left' });
+                  }
+               </script>
+            </div>
+            <div id="menu">
+               <div id="top-link">
+                  <a href="{% url 'main:index' %}" class="link1 hidden-sm hidden-xs">{{ lang.header.regular_users }}</a>
+                  <span class="line hidden-sm hidden-xs"></span>
+                  <a href="{% url 'main:enterprise' %}" class="link2 hidden-sm hidden-xs">{{ lang.header.enterprise_users }}</a>
+                  <ul id="top-nav">
+                     <li>
+                        <a href="{% url 'main:index' %}">{{ lang.header.regular_users }}</a>
+                        <ul>
+                          {% for item in menu %}
+                          {% if not item.name == "" %}
+                           <li class="navItem">
+                              <a href="javascript:void(0)">{{ item.name }}</a>
+                              <div class="navContent">
+                                 <ul class="container">
+                                   {% for cat in item.sub_items %}
+                                    <li class="title">
+                                       <a href="javascript:void(0)">{{ cat.name }}</a>
+                                       <ul>
+                                         {% for sub_item in cat.sub_items %}
+                                          <li><a class="trans" href="{{ sub_item.link }}">{{ sub_item.name }}</a></li>
+                                          {% endfor %}
+                                       </ul>
+                                    </li>
+                                    {% endfor %}
+                                 </ul>
+                              </div>
+                           </li>
+                           {% endif %}
+                           {% endfor %}
+                           <!-- <li class="navItem">
+                              <a href="javascript:void(0)">{{ lang.header.services }}</a>
+                              <div class="navContent">
+                                 <ul class="container">
+                                    <li class="title">
+                                       <a href="اینترنت-/default.htm">اینترنت</a>
+                                       <ul>
+                                          <li><a class="trans" href="اینترنت-همراه-پرسرعت-/default.htm">اینترنت همراه پرسرعت</a> </li>
+                                       </ul>
+                                    </li>
+                                    <li class="title">
+                                       <a href="مکالمه/default.htm">مکالمه</a>
+                                       <ul>
+                                          <li><a class="trans" href="اعلام-بازگشت-به-شبکه/default.htm">اعلام بازگشت به شبکه</a> </li>
+                                          <li><a class="trans" href="اعلام-تماس‌های-ناموفق/default.htm">اعلام تماس‌های ناموفق</a> </li>
+                                          <li><a class="trans" href="پیام‌گیر-صوتی/default.htm">پیام‌گیر صوتی</a> </li>
+                                          <li><a class="trans" href="تماس-از-طریق-VoLTE/default.htm">تماس از طریق VoLTE</a> </li>
+                                          <li><a class="trans" href="رومینگ-و-تماس-بین‌المللی/default.htm">رومینگ و تماس بین‌المللی</a> </li>
+                                          <li><a class="trans" href="لطفا-با-من-تماس-بگیرید/default.htm">لطفا با من تماس بگیرید</a> </li>
+                                          <li><a class="trans" href="میزبان-تماس؛-هزینه-مرا-بپرداز/default.htm">میزبان تماس؛ هزینه مرا بپرداز</a> </li>
+                                       </ul>
+                                    </li>
+                                    <li class="title">
+                                       <a href="javascript:void(0)">پیام رسانی</a>
+                                       <ul>
+                                          <li><a class="trans" href="آوای-ناشنوا/default.htm">آوای ناشنوا</a> </li>
+                                          <li><a class="trans" href="پیام-پیشواز/default.htm">پیام پیشواز</a> </li>
+                                          <li><a class="trans" href="پیام-چندرسانه‌ای/default.htm">پیام چندرسانه‌ای</a> </li>
+                                          <li><a class="trans" href="پیامک-صوتی/default.htm">پیامک صوتی</a> </li>
+                                          <li><a class="trans" href="پیامک-هدیه/default.htm">پیامک هدیه</a> </li>
+                                          <li><a class="trans" href="میزبان-پیامک؛-هزینه-مرا-بپرداز/default.htm">میزبان پیامک؛ هزینه مرا بپرداز</a> </li>
+                                          <li><a class="trans" href="کارت-ویزیت/default.htm">کارت ویزیت</a> </li>
+                                       </ul>
+                                    </li>
+                                    <li class="title">
+                                       <a href="javascript:void(0)">خدمات همگرایی ثابت و سیار FMC</a>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </li>
+                           <li class="navItem">
+                              <a href="javascript:void(0)">{{ lang.header.support }}</a>
+                              <div class="navContent">
+                                 <ul class="container">
+                                    <li class="title">
+                                       <a href="javascript:void(0)">تماس با ما</a>
+                                       <ul>
+                                          <li><a class="trans" href="پشتیبانی-آنلاین-/default.htm">پشتیبانی آنلاین</a> </li>
+                                          <li><a class="trans" href="تماس-با-واحدپشتیبانی/default.htm">تماس با واحدپشتیبانی</a> </li>
+                                          <li><a class="trans" href="شماره-های-تماس-دفترمرکزی/default.htm">شماره های تماس دفترمرکزی</a> </li>
+                                       </ul>
+                                    </li>
+                                    <li class="title">
+                                       <a href="javascript:void(0)">نمایندگی های آرین تل</a>
+                                       <ul>
+                                          <li><a class="trans" href="نمایندگان-حقوقی/default.htm">نمایندگان حقوقی</a> </li>
+                                          <li><a class="trans" href="نمایندگان-فروش/default.htm">نمایندگان فروش</a> </li>
+                                       </ul>
+                                    </li>
+                                    <li class="title">
+                                       <a href="javascript:void(0)">رسانه های اجتماعی</a>
+                                       <ul>
+                                          <li><a class="trans">آپارات</a> </li>
+                                          <li><a class="trans">اینستاگرام</a> </li>
+                                          <li><a class="trans">توییتر</a> </li>
+                                          <li><a class="trans">لینکداین</a> </li>
+                                       </ul>
+                                    </li>
+                                    <li class="title">
+                                       <a href="javascript:void(0)">مطالب آموزشی</a>
+                                    </li>
+                                    <li class="title">
+                                       <a href="javascript:void(0)">سوالات متداول</a>
+                                    </li>
+                                    <li class="title">
+                                       <a href="javascript:void(0)">SLA</a>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </li>
+                           <li class="navItem">
+                              <a href="javascript:void(0)">{{ lang.header.my }}</a>
+                              <div class="navContent">
+                                 <ul class="container">
+                                    <li class="title">
+                                       <a href="javascript:void(0)">آرین تل من</a>
+                                       <ul>
+                                          <li><a class="trans" href="اپلیکشین-آرین-تل-من/default.htm">اپلیکشین آرین تل من</a> </li>
+                                          <li><a class="trans" href="مدیریت-حساب/default.htm">مدیریت حساب</a> </li>
+                                          <li><a class="trans" href="ورود-به-حساب-کاربری-آرین-تل-من/default.htm">ورود به حساب کاربری آرین تل من</a> </li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </li>
+                           <li class="navItem">
+                              <a href="javascript:void(0)">{{ lang.header.about }}</a>
+                              <div class="navContent">
+                                 <ul class="container">
+                                    <li class="title">
+                                       <a href="javascript:void(0)">درباره آرین تل</a>
+                                       <ul>
+                                          <li><a class="trans" href="ارین-تل-در-یک-نگاه/default.htm">آرین تل در یک نگاه</a> </li>
+                                          <li><a class="trans" href="اشنایی-با-رگولاتوری/default.htm">اشنایی با رگولاتوری</a> </li>
+                                          <li><a class="trans" href="بیانیه-و-ماموریت/default.htm">بیانیه و ماموریت</a> </li>
+                                          <li><a class="trans" href="پیام-مدیرعامل/default.htm">پیام مدیرعامل</a> </li>
+                                          <li><a class="trans" href="مجوزها-و-افتخارات/default.htm">مجوزها و افتخارات</a> </li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </li> -->
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="business-subscribers/default.htm">{{ lang.header.enterprise_users }}</a>
+                        <ul>
+                           <li class="navItem">
+                              <a href="javascript:void(0)">محصولات و راهکارها</a>
+                              <div class="navContent">
+                                 <ul class="container">
+                                    <li class="title">
+                                       <a href="javascript:void(0)">ارتباطات سازمانی</a>
+                                       <ul>
+                                          <li><a class="trans" href="خدمات-کد-کوتاه-دستوری/default.htm">خدمات کد کوتاه دستوری</a> </li>
+                                          <li><a class="trans" href="سیم-کارت-سازمانی/default.htm">سیم کارت سازمانی</a> </li>
+                                          <li><a class="trans" href="شبکه-امن-همراه-(APN)/default.htm">شبکه امن همراه (APN)</a> </li>
+                                          <li><a class="trans" href="موبایل-سازمانی-(MVPN)/default.htm">موبایل سازمانی (MVPN)</a> </li>
+                                       </ul>
+                                    </li>
+                                    <li class="title">
+                                       <a href="javascript:void(0)">اینترنت پر سرعت سازمانی</a>
+                                       <ul>
+                                          <li><a class="trans" href="اینترنت-ثابت-TD-LTE/default.htm">اینترنت ثابت TD-LTE</a> </li>
+                                          <li><a class="trans" href="بسته-های-اینترنت-4G/default.htm">بسته های اینترنت 4G</a> </li>
+                                          <li><a class="trans" href="سرویس-همگرای-اینترنت-ثابت-و-همراه-(FMC)/default.htm">سرویس همگرای اینترنت ثابت و همراه (FMC)</a> </li>
+                                       </ul>
+                                    </li>
+                                    <li class="title">
+                                       <a href="javascript:void(0)">فرصت مشارکت و همکاری</a>
+                                       <ul>
+                                          <li><a class="trans" href="پلتفرم-ابری/default.htm">پلتفرم ابری</a> </li>
+                                          <li><a class="trans" href="ثبت-ایده-طرح/default.htm">ثبت ایده طرح</a> </li>
+                                          <li><a class="trans" href="طرح-های-پیشنهادی/default.htm">طرح های پیشنهادی</a> </li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </li>
+                           <li class="navItem">
+                              <a href="javascript:void(0)">ارتباط با واحد سازمانی آرین تل</a>
+                              <div class="navContent">
+                                 <ul class="container">
+                                    <li class="title">
+                                       <a href="javascript:void(0)">ارتباط با واحد سازمانی</a>
+                                       <ul>
+                                          <li><a class="trans" href="ارتباط-با-واحد-کسب‌وکار-سازمانی-آرین-تل/default.htm">ارتباط با واحد کسب‌وکار سازمانی آرین تل</a> </li>
+                                          <li><a class="trans" href="درخواست-سرویس-سازمانی/default.htm">درخواست سرویس سازمانی</a> </li>
+                                          <li><a class="trans" href="درخواست-عاملین-فروش/default.htm">درخواست عاملین فروش</a> </li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </li>
+                           <li class="navItem">
+                              <a href="javascript:void(0)">درباره ما</a>
+                              <div class="navContent">
+                                 <ul class="container">
+                                    <li class="title">
+                                       <a href="javascript:void(0)">درباره آرین تل</a>
+                                       <ul>
+                                          <li><a class="trans" href="آرین-تل-در-یک-نگاه/default.htm">آرین تل در یک نگاه</a> </li>
+                                          <li><a class="trans" href="اشنایی-با-رگولاتوری/default.htm">اشنایی با رگولاتوری</a> </li>
+                                          <li><a class="trans" href="بیانیه-و-ماموریت/default.htm">بیانیه و ماموریت</a> </li>
+                                          <li><a class="trans" href="پیام-مدیرعامل/default.htm">پیام مدیرعامل</a> </li>
+                                          <li><a class="trans" href="مجوزها-و-افتخارات/default.htm">مجوزها و افتخارات</a> </li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </li>
+                        </ul>
+                     </li>
+                  </ul>
+                  <a href"{% url 'main:areas' %}" id="region" class="hidden-md hidden-lg"><i class="trans"></i>{{ lang.header.areas }}</a>
+               </div>
+               <div class="sec-left">
+                  <a href="{% url 'main:lang' lang.header.lang %}" class="lng lng-en hidden-sm hidden-xs">{{ lang.header.lang }}</a>
+                  <!-- <a href="fa/home/default.htm" class="lng lng-fa hidden-sm hidden-xs">فا</a> -->
+                  <div class="userStatus-container login">
+                     <a class="login trans" href=""><i class="trans"></i>{{ lang.header.login }}</a>
+                     <span class="line"></span>
+                     <a class="register trans" href=""><i class="trans"></i>{{ lang.header.register }}</a>
+                     <span class="line"></span>
+                  </div>
+                  <a href="{% url 'main:areas' %}" id="region" class="hidden-xs hidden-sm"><i class="trans"></i>{{ lang.header.areas }}</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- End of header -->
+      {% block content %}
+
+      {% endblock %}
+      <!-- Footer -->
+      <footer id="footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-9 col-sm-12 col-xs-12">
+                  <div class="bg clearfix">
+                     <img src="{% static 'main/images/logo-footer.png' %}" alt="شرکت ارتباطات آرین تل" class="logo-footer" />
+                     <div class="txt">
+                        <span style="color: #4bf01b;">شرکت ارتباطات آرین تل</span> به عنوان یکی از شرکت های زیرمجموعه گروه بزرگ آرین با سهامداران ایرانی و خارجی است. این شرکت به&zwnj;عنوان دارنده مجوز اپراتور نوین (Full MVNO) تلفن همراه از سازمان تنظیم مقررات و ارتباطات رادیویی، قصد دارد تا در راستای ارزش آفرینی برای مشتریان خود با بکارگیری بهترین فناوریهای ارتباطی و اطلاعاتی و ابداع خلاقانه ترین راهکارهای جامع، محصولات و خدمات خود را با استفاده از پویایی ونوآوری و توجه به اصل مشتری مداری ارایه نماید .
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3 hidden-xs hidden-sm">
+                  <img src="{% static 'main/images/footer-img.png' %}" alt="" class="img-footer" />
+               </div>
+            </div>
+            <div class="row btm">
+               <div class="col-md-4 col-sm-6 col-xs-12" id="cnt-footer">
+                  <p><i class="fa fa-phone"></i> 982188207337 + </p>
+                  <p><i class="fa fa-fax"></i> 982188207270 +  </p>
+                  <p><i class="fa fa-globe"></i> info@ariantel.ir</p>
+                  <p><i class="fa fa-map-marker"></i>{{ lang.footer.address }}</p>
+               </div>
+               <div class="col-md-4 col-sm-6 col-xs-12">
+                  <div id="footer-link" class="nav" dir="rtl" mode="horizontal">
+                     <ul class="">
+                        <li class="o-0 first" title=""><a href="http://www.cra.ir" ><span>{{ lang.footer.cra }}</span></a></li>
+                        <li class="o-0" title=""><a href="https://ito.gov.ir" ><span>{{ lang.footer.ito }}</span></a></li>
+                        <li class="o-0" title=""><a href="https://www.tic.ir" ><span>{{ lang.footer.tic }}</span></a></li>
+                        <li class="o-0 last" title=""><a href="https://www.ict.gov.ir" ><span>{{ lang.footer.ict }}</span></a></li>
+                     </ul>
+                  </div>
+                  <span class="top-content">
+                     <!-- <div class="" id="social-network">
+                        <a href="" target="_blank"><img src="{% static 'main/Upload/Images/link/1.png' %}" alt="تلگرام" class="img-responsive trans" /></a> <a href="" target="_blank"><img src="Upload/Images/link/2.png" alt="گوگل پلاس" class="img-responsive trans" /></a> <a href="" target="_blank"><img src="Upload/Images/link/3.png" alt="اینستاگرام" class="img-responsive trans" /></a> <a href="" target="_blank"><img src="Upload/Images/link/4.png" alt="لینکدین" class="img-responsive trans" /></a> <a href="" target="_blank"><img src="{% static 'main/Upload/Images/link/5.png' %}" alt="توییتر" class="img-responsive trans" /></a>
+                     </div> -->
+                  </span>
+               </div>
+               <div class="col-md-4 col-sm-12 col-xs-12" id="enamd">
+                  <img src="{% static 'main/Upload/enamd.png' %}" alt="" class="img-responsive trans" style="float:left" />
+                  <a href="https://195.cra.ir/" id="s195"><img src="{% static 'main/Upload/Images/195.png' %}" alt="سامانه 195"/></a>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <script type="text/javascript">
+        localStorage.setItem('rayToken','5e47bef4d9f510a53f62c2f9');
+      </script>
+      <script type="text/javascript">!function(){function t(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,localStorage.getItem("rayToken")?t.src="https://app.raychat.io/scripts/js/"+o+"?rid="+localStorage.getItem("rayToken")+"&href="+window.location.href:t.src="https://app.raychat.io/scripts/js/"+o;var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e)}var e=document,a=window,o="4c18019b-5d63-4fc4-811e-719be110233f";"complete"==e.readyState?t():a.attachEvent?a.attachEvent("onload",t):a.addEventListener("load",t,!1)}();</script>
+      <!-- End of footer -->
+      <script src="{% static 'main/Scripts/site/MyScript.js' %}" type="text/javascript"></script>
+      </body>
+</html>

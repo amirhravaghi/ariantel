@@ -1,0 +1,339 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fa">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <title>پنل ادمین آرین تل</title>
+        <!-- Favicon-->
+        <link rel="icon" href="{% static 'assets/images/favicon.ico' %}" type="image/x-icon" />
+        <!-- Plugins Core Css -->
+        <link rel="stylesheet" href="https://cdn.quilljs.com/2.0.0-dev.2/quill.bubble.css">
+        <link href="https://cdn.quilljs.com/2.0.0-dev.2/quill.snow.css" rel="stylesheet">
+        <link href="{% static 'assets/css/app.min.css' %}" rel="stylesheet" />
+        <link href="{% static 'assets/js/bundles/materialize-rtl/materialize-rtl.min.css' %}" rel="stylesheet" />
+        <!-- Custom Css -->
+        <link href="{% static 'assets/css/style.css' %}" rel="stylesheet" />
+        <!-- Theme style. You can choose a theme from css/themes instead of get all themes -->
+        <link href="{% static 'assets/css/styles/all-themes.css' %}" rel="stylesheet" />
+        <link rel="stylesheet" href="{% static 'assets/css/text_editor.css' %}">
+        <style>
+            a{
+              color: inherit;
+            }
+            a:hover{
+              color: inherit;
+            }
+            .navbar-nav.navbar-right{
+              display: none !important;
+            }
+        </style>
+    </head>
+
+    <body class="light rtl">
+        <!-- Page Loader -->
+        <div class="page-loader-wrapper">
+            <div class="loader">
+                <div class="m-t-30">
+                    <img class="loading-img-spin" src="{% static 'assets/images/load-343-460469.png' %}" alt="admin" />
+                </div>
+                <p>لطفا صبر کنید...</p>
+            </div>
+        </div>
+        <!-- #END# Page Loader -->
+        <!-- Overlay For Sidebars -->
+        <div class="overlay"></div>
+        <!-- #END# Overlay For Sidebars -->
+        <!-- Top Bar -->
+        <nav class="navbar">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="#" onClick="return false;" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"></a>
+                    <a href="#" onClick="return false;" class="bars"></a>
+                    <div class="navbar-brand">
+                      <img src="{% static 'assets/images/logo-footer.png' %} " alt="profile" style="width: 100px;" />
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li>
+                            <a href="#" onClick="return false;" class="sidemenu-collapse">
+                                <i class="nav-hdr-btn ti-align-left"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <!-- #START# Notifications-->
+                        <li class="dropdown">
+                            <a href="#" onClick="return false;" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                                <i class="nav-hdr-btn ti-bell"></i>
+                                <span class="notify"></span>
+                                <span class="heartbeat"></span>
+                            </a>
+                            <ul class="dropdown-menu pullDown">
+                                <li class="header">اطلاعیه ها</li>
+                                <li class="body">
+                                    <ul class="menu">
+                                        <li>
+                                            <a href="#" onClick="return false;">
+                                                <span class="table-img msg-user">
+                                                    <img src="{% static 'assets/images/person.png' %}" alt="" />
+                                                </span>
+                                                <span class="menu-info">
+                                                    <span class="menu-title"> </span>
+                                                    <span class="menu-desc"> <i class="material-icons">access_time</i> 14 دقیقه پیش </span>
+                                                    <span class="menu-desc">لطفا ایمیل خود را چک کنید.</span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" onClick="return false;">
+                                                <span class="table-img msg-user">
+                                                    <img src="assets/images/person.png" alt="" />
+                                                </span>
+                                                <span class="menu-info">
+                                                    <span class="menu-title"> </span>
+                                                    <span class="menu-desc"> <i class="material-icons">access_time</i> 22 دقیقه پیش </span>
+                                                    <span class="menu-desc">لطفا ایمیل خود را چک کنید.</span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" onClick="return false;">
+                                                <span class="table-img msg-user">
+                                                    <img src="assets/images/person.png" alt="" />
+                                                </span>
+                                                <span class="menu-info">
+                                                    <span class="menu-title">آرش خادملو</span>
+                                                    <span class="menu-desc"> <i class="material-icons">access_time</i> 3 ساعت پیش </span>
+                                                    <span class="menu-desc">لطفا ایمیل خود را چک کنید.</span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" onClick="return false;">
+                                                <span class="table-img msg-user">
+                                                    <img src="assets/images/person.png" alt="" />
+                                                </span>
+                                                <span class="menu-info">
+                                                    <span class="menu-title">آرش خادملو</span>
+                                                    <span class="menu-desc"> <i class="material-icons">access_time</i> 3 ساعت پیش </span>
+                                                    <span class="menu-desc">لطفا ایمیل خود را چک کنید.</span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" onClick="return false;">
+                                                <span class="table-img msg-user">
+                                                    <img src="assets/images/person.png" alt="" />
+                                                </span>
+                                                <span class="menu-info">
+                                                    <span class="menu-title">آرش خادملو</span>
+                                                    <span class="menu-desc"> <i class="material-icons">access_time</i> 3 ساعت پیش </span>
+                                                    <span class="menu-desc">لطفا ایمیل خود را چک کنید.</span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" onClick="return false;">
+                                                <span class="table-img msg-user">
+                                                    <img src="assets/images/person.png" alt="" />
+                                                </span>
+                                                <span class="menu-info">
+                                                    <span class="menu-title">آرش خادملو</span>
+                                                    <span class="menu-desc"> <i class="material-icons">access_time</i> 3 ساعت پیش </span>
+                                                    <span class="menu-desc">لطفا ایمیل خود را چک کنید.</span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" onClick="return false;">
+                                                <span class="table-img msg-user">
+                                                    <img src="assets/images/person.png" alt="" />
+                                                </span>
+                                                <span class="menu-info">
+                                                    <span class="menu-title">آرش خادملو</span>
+                                                    <span class="menu-desc"> <i class="material-icons">access_time</i> دیروز </span>
+                                                    <span class="menu-desc">لطفا ایمیل خود را چک کنید.</span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="footer">
+                                    <a href="#" onClick="return false;">مشاهده تمام اطلاعیه ها</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- #END# Notifications-->
+                        <li class="dropdown user_profile">
+                            <div class="dropdown-toggle" data-toggle="dropdown">
+                                <img src="{% static 'assets/images/person.png' %}" alt="user" style="width: 25px; margin-top: 10px;" />
+                            </div>
+                            <ul class="dropdown-menu pullDown">
+                                <li class="body">
+                                    <ul class="user_dw_menu">
+                                        <li>
+                                            <a href="#" onClick="return false;"> <i class="material-icons">person</i>پروفایل </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" onClick="return false;"> <i class="material-icons">power_settings_new</i>خروج </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- #END# Tasks -->
+                        <li class="pull-right">
+                            <a href="#" onClick="return false;" class="js-right-sidebar" data-close="true">
+                                <!-- <i class="nav-hdr-btn ti-layout-grid2"></i> -->
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- #Top Bar -->
+        <div>
+            <!-- Left Sidebar -->
+            <aside id="leftsidebar" class="sidebar">
+                <!-- Menu -->
+                <div class="menu">
+                    <ul class="list">
+                        <li>
+                          <div class="sidebar-profile clearfix">
+                              <div class="profile-img">
+                                  <img src="{% static 'assets/images/avatar.jpg' %}" alt="profile">
+                              </div>
+                              <div class="profile-info">
+                                  <h3>{{ admin_full_name }}</h3>
+                                  <p>خوش آمدید !</p>
+                              </div>
+                          </div>
+                        </li>
+
+                        <li class="">
+                            <a href="#" onClick="" class="">
+                                <i class="fas fa-home"></i>
+                                <span>خانه</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="{% url 'admin:news' %}" onClick="" class="">
+                                <i class="far fa-newspaper"></i>
+                                <span>مدیریت اخبار</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" onClick="return false;" class="menu-toggle">
+                                <i class="menu-icon ti-shopping-cart-full"></i>
+                                <span>مدیریت محصولات</span>
+                            </a>
+                            <ul class="ml-menu">
+                                <li>
+                                    <a href="{% url 'admin:packages' %}">بسته ها</a>
+                                </li>
+                                <li>
+                                    <a href="{% url 'admin:cards' %}">سیم کارت ها</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="{% url 'admin:slides' %}" onClick="" class="">
+                                <i class="fas fa-image"></i>
+                                <span>مدیریت اسلاید ها</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="{% url 'admin:admins' %}" onClick="" class="">
+                                <i class="fas fa-user"></i>
+                                <span>مدیریت ادمین ها</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" onClick="return false;" class="menu-toggle">
+                                <i class="fas fa-envelope"></i>
+                                <span>تیکت پشتیبانی</span>
+                            </a>
+                            <ul class="ml-menu">
+                                <li>
+                                    <a href="../rtldark/send-tickets.html">ارسال تیکت جدید</a>
+                                </li>
+                                <li>
+                                    <a href="Ticket-details.html">مشاهده تیکت ها</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="{% url 'admin:pages' %}" onClick="" class="">
+                                <i class="fas fa-file"></i>
+                                <span>مدیریت صفحات</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" onClick="return false;" class="menu-toggle">
+                                <i class="fas fa-envelope"></i>
+                                <span>منو ها و زیر منو ها</span>
+                            </a>
+                            <ul class="ml-menu">
+                                <li>
+                                    <a href="{% url 'admin:main_menu' %}">منوی اصلی</a>
+                                </li>
+                                <li>
+                                    <a href="{% url 'admin:sub_menu' %}">دسته ها و زیر منو ها</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="{% url 'admin:faqs' %}" onClick="" class="">
+                                <i class="far fa-comments"></i>
+                                <span>پرسش های متداول</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="{% url 'admin:logout' %}" onClick="" class="">
+                                <i class="menu-icon ti-user"></i>
+                                <span>خروج از حساب</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+        <section class="content">
+            <div class="container-fluid">
+              {% block content %}
+
+              {% endblock %}
+            </div>
+        </section>
+        <!-- Plugins Js -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="{% static 'assets/js/app.min.js' %}"></script>
+        <script src="assets/js/chart.min.js"></script>
+        <!-- Custom Js -->
+        <script src="{% static 'assets/js/admin.js' %}"></script>
+        <script src="{% static 'assets/js/bundles/apexcharts/apexcharts.min.js' %}"></script>
+        <script src="{% static 'assets/js/pages/index.js' %}"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <!-- <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script> -->
+        <script src="https://cdn.quilljs.com/2.0.0-dev.2/quill.js"></script>
+        <script src="{% static 'assets/js/editorMediaHandler.js' %}"></script>
+        <script src="{% static 'assets/js/text_editor.js' %}"></script>
+        {% block script %}
+
+        {% endblock %}
+    </body>
+</html>

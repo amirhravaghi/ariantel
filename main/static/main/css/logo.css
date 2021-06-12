@@ -1,0 +1,140 @@
+/*******/
+#logo {
+    float: right;
+    width: 178px;
+    height: 70px;
+}
+#logo .img {
+    display: block;
+    float: left;
+    width: 58px;
+    height: 70px;
+    background: url(../img/logo.png) no-repeat;
+    margin-right: 5px;
+}
+#logo i {
+    display: block;
+    float: left;
+    margin-right: 2px;
+    height: 26px;
+    background: url(../img/logo.png) no-repeat;
+    margin-top: 16px;
+}
+#logo .t1 {
+    width: 16px;
+    background-position: -62px -16px;
+    margin-right: 0;
+}
+#logo .t2 {
+    width: 12px;
+    background-position: -78px -16px;
+    margin-right: 0px;
+}
+#logo .t3 {
+    width: 6px;
+    background-position: -91px -13px;
+    height: 26px;
+    margin-top: 14px;
+}
+#logo .t4 {
+    width: 16px;
+    background-position: -98px -16px;
+    margin-right: 0;
+}
+#logo .t5 {
+    width: 16px;
+    background-position: -114px -16px;
+}
+#logo .t6 {
+    width: 9px;
+    background-position: -132px -13px;
+    margin-right: 0px;
+    height: 27px;
+    margin-top: 13px;
+}
+#logo .t7 {
+    width: 15px;
+    background-position: -141px -16px;
+}
+#logo .t8 {
+    width: 12px;
+    background-position: -157px -13px;
+    margin-right: 0;
+    height: 28px;
+    margin-top: 14px;
+}
+#logo .txt {
+    width: 100px;
+    height: 11px;
+    background: url(../img/logo.png) no-repeat -64px -42px;
+    display: block;
+    float: right;
+    margin: 2px 12px 0 0;
+}
+#logo span,
+#logo i {
+    -webkit-transition: all 0.5s ease 0s, all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s, all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s, all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s, all 0.5s ease 0s;
+    transition: all 0.5s ease 0s, all 0.5s ease 0s;
+    -webkit-transform: perspective(1000px) rotate3d(0, 1, 0, 0deg);
+    -moz-transform: perspective(1000px) rotate3d(0, 1, 0, 0deg);
+    -ms-transform: perspective(1000px) rotate3d(0, 1, 0, 0deg);
+    -o-transform: perspective(1000px) rotate3d(0, 1, 0, 0deg);
+    transform: perspective(1000px) rotate3d(0, 1, 0, 0deg);
+}
+#logo:hover span,
+#logo:hover i {
+    -webkit-transform: perspective(1000px) rotate3d(0, 1, 0, 360deg);
+    -moz-transform: perspective(1000px) rotate3d(0, 1, 0, 360deg);
+    -ms-transform: perspective(1000px) rotate3d(0, 1, 0, 360deg);
+    -o-transform: perspective(1000px) rotate3d(0, 1, 0, 360deg);
+    transform: perspective(1000px) rotate3d(0, 1, 0, 360deg);
+}
+#logo:hover .t1 {
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+    background-image: url(../img/logo1.png);
+}
+#logo:hover .t2 {
+    -webkit-transition-delay: 0.4s;
+    transition-delay: 0.4s;
+    background-image: url(../img/logo1.png);
+}
+#logo:hover .t3 {
+    -webkit-transition-delay: 0.6s;
+    transition-delay: 0.6s;
+    background-image: url(../img/logo1.png);
+}
+#logo:hover .t4 {
+    -webkit-transition-delay: 0.8s;
+    transition-delay: 0.8s;
+    background-image: url(../img/logo1.png);
+}
+#logo:hover .t5 {
+    -webkit-transition-delay: 1s;
+    transition-delay: 1s;
+    background-image: url(../img/logo1.png);
+}
+#logo:hover .t6 {
+    -webkit-transition-delay: 1.2s;
+    transition-delay: 1.2s;
+    background-image: url(../img/logo1.png);
+}
+#logo:hover .t7 {
+    -webkit-transition-delay: 1.4s;
+    transition-delay: 1.4s;
+    background-image: url(../img/logo1.png);
+}
+#logo:hover .t8 {
+    -webkit-transition-delay: 1.6s;
+    transition-delay: 1.6s;
+    background-image: url(../img/logo1.png);
+}
+#logo:hover .txt {
+    -webkit-transition-delay: 1.8s;
+    transition-delay: 1.8s;
+    background-image: url(../img/logo1.png);
+}
+/******/

@@ -1,0 +1,68 @@
+{% extends 'admin_base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="block-header">
+   <div class="row">
+   </div>
+</div>
+<div class="col-lg-12 col-md-12">
+   <form action="{% url 'admin:admins' %}" method="post" id="add_news_form" enctype="multipart/form-data">
+     {% csrf_token %}
+     <div class="row clearfix">
+       <div class="col-lg-12 col-md-12 col-sm-12">
+       </div>
+       <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="card project_widget">
+             <div class="header">
+                <h4>مدیریت ادمین ها</h4>
+                <br /><br />
+                <div class="form-group">
+                   <label for="exampleFormControlInput1">نام ونام خانوادگی</label>
+                   <input type="text" class="form-control" name="full_name"
+                      id="exampleFormControlInput1"
+                      placeholder="نام کامل خود را وارد کنید">
+                </div>
+                <div class="form-group">
+                   <label for="exampleFormControlInput1">نام کاربری</label>
+                   <input type="text" class="form-control" name="username"
+                      id="exampleFormControlInput1"
+                      placeholder="نام کاربری خود را وارد کنید" />
+                </div>
+                <div class="form-group">
+                   <label for="exampleFormControlInput1">رمز عبور</label>
+                   <input type="password" class="form-control" name="password"
+                      id="exampleFormControlInput1"
+                      placeholder="رمز عبور خود را وارد کنید" />
+                </div>
+                <div class="form-group">
+                   <label for="exampleFormControlSelect1">سطح دسترسی ها</label>
+                   <select class="form-control" name="access_level" id="exampleFormControlSelect1">
+                      <option value="F">کامل</option>
+                      <option value="H">بالا</option>
+                      <option value="L">پایین</option>
+                   </select>
+                </div>
+                <button type="submit" class="btn btn-info btn-round">ذخیره تغییرات</button>
+             </div>
+          </div>
+       </div>
+       <!--
+          *******div زیر یک باکس خالی و ثابت می باشد*******      -->
+       <div class="col-lg-12 col-md-12 col-sm-12">
+       </div>
+    </div>
+   </form>
+</div>
+
+{% endblock %}
+
+{% block script %}/
+<script type="text/javascript">
+  // $("#add_news_form").submit(()=>{
+  //   $("#fa-content").val($(".text-editor .ql-editor").html());
+  //   $("#en-content").val($(".en-text-editor .ql-editor").html());
+  // });
+</script>
+{% endblock %}

@@ -11,6 +11,12 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
+import os
+import environ
+
+# Initialise environment variables
+env = environ.Env()
+environ.Env.read_env()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -20,17 +26,17 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-#_=*^#@f0!brsda)z9&)=xwn^sej$%d@!_!o+y(o-i^bux+r_a'
+SECRET_KEY = env('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
-
 # Application definition
 
 INSTALLED_APPS = [
+    'admin.apps.AdminConfig',
+    'main.apps.MainConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -54,10 +60,16 @@ ROOT_URLCONF = 'main_website.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            os.path.join(BASE_DIR, 'templates'),
+            os.path.join(BASE_DIR, 'main', 'templates', 'main'),
+            os.path.join(BASE_DIR, 'admin', 'templates', 'admin'),
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
+                'admin.context_processors.data',
+                'main.context_processors.data',
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
@@ -123,3 +135,18 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# MongoDB Config
+SESSION_ENGINE = 'mongo_sessions.session'
+MONGO_PORT = env('MONGO_PORT')
+MONGO_HOST = env('MONGO_HOST')
+MONGO_DB_NAME = env('MONGO_DB_NAME')
+MONGO_DB_USER = False
+MONGO_DB_PASSWORD = False
+MONGO_SESSIONS_COLLECTION = env('MONGO_SESSIONS_COLLECTION')
+
+# JWT
+JWT_PRIVATE_KEY = env('JWT_PRIVATE_KEY')
+
+# Main URL
+MAIN_URL = "https://localhost:8000"

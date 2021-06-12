@@ -1,0 +1,11 @@
+﻿@font-face {
+    font-family: "Yekan";
+    src: url('/fonts/management/byekan.ttf') format('truetype');
+}
+
+.login-app-name {
+    margin-right:50px;
+    font-family: 'Yekan';
+}
+
+

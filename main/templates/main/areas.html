@@ -1,0 +1,1300 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<main class="container" id="cnt-inner">
+   <h1 class="title-page">مناطق تحت پوشش</h1>
+   <div class="bg">
+      <select id="allCity" class="form-control">
+         <option>شهر مورد نظر را انتخاب کنید</option>
+         <option class="strong">اردبیل</option>
+         <option data-lat="38.243021" data-lng="48.295756">اردبیل</option>
+         <option data-lat="38.146221" data-lng="48.075849" "=" ">سرعین</option>
+         <option data-lat="38.422417" data-lng="48.475373" "=" ">نمین</option>
+         <option data-lat="38.033965" data-lng="48.003931" "=" ">نیر</option>
+         <option data-lat="37.700284" data-lng="48.331129" "=" ">گیوی</option>
+         <option data-lat="37.621985" data-lng="48.532346" "=" ">خلخال</option>
+         <option data-lat="38.397799" data-lng="47.673655" "=" ">مشگین شهر</option>
+         <option data-lat="39.378298" data-lng="48.343209" "=" ">بیله سوار</option>
+         <option data-lat="39.64933" data-lng="47.913971" "=" ">پارس آباد</option>
+         <option data-lat="39.032937" data-lng="48.082425" "=" ">گرمی</option>
+         <option data-lat="39.571952" data-lng="48.023025" "=" ">تازه کند</option>
+         <option data-lat="37.370678" data-lng="48.323751" "=" ">هشتجین</option>
+         <option data-lat="37.389878" data-lng="48.724128" "=" ">کلور</option>
+         <option data-lat="39.442158" data-lng="47.412963" "=" ">اصلاندوز</option>
+         <option data-lat="39.43368" data-lng="48.093797" "=" ">جعفرآباد</option>
+         <option data-lat="38.07807" data-lng="48.503154" "=" ">هیر</option>
+         <option data-lat="38.628676" data-lng="48.093593" "=" ">رضی</option>
+         <option data-lat="38.504326" data-lng="47.830641" "=" ">لاهرود</option>
+         <option data-lat="39.043813" data-lng="47.743463" "=" ">تازه کندانگوت</option>
+         <option data-lat="38.286694" data-lng="48.554441" "=" ">آبی بیگلو</option>
+         <option data-lat="38.489895" data-lng="48.43598" "=" ">عنبران</option>
+         <option data-lat="37.955682" data-lng="48.235375" "=" ">کوراییم</option>
+         <option data-lat="38.520866" data-lng="47.862341" "=" ">فخراباد</option>
+         <option data-lat="38.748333" data-lng="47.745256" "=" ">مرادلو</option>
+         <option data-lat="38.387863" data-lng="47.546699" "=" ">قصابه</option>
+         <option class="strong">اصفهان</option>
+         <option data-lat="39.583854" data-lng="47.713654" "=" ">اسلام آباد</option>
+         <option data-lat="33.374988" data-lng="52.378738" "=" ">اردستان</option>
+         <option data-lat="33.438864" data-lng="52.47301" "=" ">زواره</option>
+         <option data-lat="32.82754" data-lng="51.774743" "=" ">حبیب آباد</option>
+         <option data-lat="32.77899" data-lng="51.644801" "=" ">خورزوق</option>
+         <option data-lat="32.802371" data-lng="51.664268" "=" ">دستگرد</option>
+         <option data-lat="32.807053" data-lng="51.698208" "=" ">دولت آباد</option>
+         <option data-lat="32.86738" data-lng="51.552066" "=" ">شاهین شهر</option>
+         <option data-lat="32.809152" data-lng="51.618216" "=" ">گزبرخوار</option>
+         <option data-lat="32.713963" data-lng="52.433966" "=" ">کوهپایه</option>
+         <option data-lat="32.425971" data-lng="52.649469" "=" ">ورزنه</option>
+         <option data-lat="32.569383" data-lng="52.437655" "=" ">هرند</option>
+         <option data-lat="32.65794" data-lng="51.717428" "=" ">اصفهان</option>
+         <option data-lat="33.444203" data-lng="51.175452" "=" ">میمه</option>
+         <option data-lat="33.41689" data-lng="51.183489" "=" ">وزوان</option>
+         <option data-lat="32.680947" data-lng="51.530323" "=" ">خمینی شهر</option>
+         <option data-lat="32.611168" data-lng="51.55111" "=" ">درچه پیاز</option>
+         <option data-lat="33.245848" data-lng="50.314229" "=" ">خوانسار</option>
+         <option data-lat="31.405897" data-lng="51.575948" "=" ">سمیرم</option>
+         <option data-lat="32.777752" data-lng="50.624448" "=" ">چادگان</option>
+         <option data-lat="33.076879" data-lng="50.164784" "=" ">بویین ومیاندشت</option>
+         <option data-lat="32.983565" data-lng="50.403239" "=" ">داران</option>
+         <option data-lat="32.939401" data-lng="50.124216" "=" ">فریدونشهر</option>
+         <option data-lat="32.548908" data-lng="51.510103" "=" ">فلاورجان</option>
+         <option data-lat="32.549565" data-lng="51.531232" "=" ">کلیشادوسودرجان</option>
+         <option data-lat="31.939012" data-lng="51.650774" "=" ">دهاقان</option>
+         <option data-lat="32.005296" data-lng="51.860074" "=" ">شهرضا</option>
+         <option data-lat="34.046385" data-lng="51.48069" "=" ">آران وبیدگل</option>
+         <option data-lat="33.75397" data-lng="51.436435" "=" ">قمصر</option>
+         <option data-lat="33.981549" data-lng="51.415413" "=" ">کاشان</option>
+         <option data-lat="33.445725" data-lng="50.282636" "=" ">گلپایگان</option>
+         <option data-lat="33.471311" data-lng="50.343939" "=" ">گوگد</option>
+         <option data-lat="32.348971" data-lng="51.502429" "=" ">مبارکه</option>
+         <option data-lat="32.376486" data-lng="51.186811" "=" ">باغ بهادران</option>
+         <option data-lat="32.392511" data-lng="51.33731" "=" ">چمگردان</option>
+         <option data-lat="32.38759" data-lng="51.386172" "=" ">زرین شهر</option>
+         <option data-lat="32.376536" data-lng="51.323385" "=" ">سده لنجان</option>
+         <option data-lat="33.308788" data-lng="53.696242" "=" ">انارک</option>
+         <option data-lat="33.773743" data-lng="55.0902" "=" ">خور</option>
+         <option data-lat="32.862444" data-lng="53.090199" "=" ">نایین</option>
+         <option data-lat="32.704249" data-lng="51.155577" "=" ">تیران</option>
+         <option data-lat="33.100129" data-lng="50.969468" "=" ">دهق</option>
+         <option data-lat="33.051162" data-lng="51.081159" "=" ">علویجه</option>
+         <option data-lat="32.579313" data-lng="51.452785" "=" ">قهدریجان</option>
+         <option data-lat="32.646997" data-lng="51.357776" "=" ">نجف آباد</option>
+         <option data-lat="33.689445" data-lng="52.000368" "=" ">بادرود</option>
+         <option data-lat="33.50776" data-lng="51.91904" "=" ">نطنز</option>
+         <option data-lat="32.866032" data-lng="51.599063" "=" ">گرگاب</option>
+         <option data-lat="33.457651" data-lng="50.693942" "=" ">لای بید</option>
+         <option data-lat="32.199149" data-lng="51.501017" "=" ">مجلسی</option>
+         <option data-lat="32.703218" data-lng="51.837434" "=" ">قهجاورستان</option>
+         <option data-lat="32.556278" data-lng="51.372142" "=" ">جوزدان</option>
+         <option data-lat="33.843311" data-lng="54.943749" "=" ">فرخی</option>
+         <option data-lat="32.838914" data-lng="53.140468" "=" ">بافران</option>
+         <option data-lat="31.936001" data-lng="51.756365" "=" ">گلشن</option>
+         <option data-lat="32.843381" data-lng="51.74449" "=" ">شاپورآباد</option>
+         <option data-lat="32.357753" data-lng="51.374166" "=" ">ورنامخواست</option>
+         <option data-lat="32.335448" data-lng="51.192886" "=" ">چرمهین</option>
+         <option data-lat="32.632529" data-lng="51.445652" "=" ">گلدشت</option>
+         <option data-lat="32.489305" data-lng="51.401739" "=" ">فولادشهر</option>
+         <option data-lat="32.303794" data-lng="52.198416" "=" ">نیک آباد</option>
+         <option data-lat="32.144416" data-lng="52.624377" "=" ">حسن اباد</option>
+         <option data-lat="32.640861" data-lng="51.501129" "=" ">کوشک</option>
+         <option data-lat="32.409812" data-lng="51.525161" "=" ">دیزیچه</option>
+         <option data-lat="34.035173" data-lng="54.415836" "=" ">جندق</option>
+         <option data-lat="32.265063" data-lng="51.564697" "=" ">طالخونچه</option>
+         <option data-lat="33.527809" data-lng="52.214411" "=" ">مهاباد</option>
+         <option data-lat="32.471168" data-lng="51.553611" "=" ">پیربکران</option>
+         <option data-lat="32.324452" data-lng="52.106132" "=" ">محمدآباد</option>
+         <option data-lat="32.442304" data-lng="52.379861" "=" ">اژیه</option>
+         <option data-lat="31.195588" data-lng="51.723065" "=" ">حنا</option>
+         <option data-lat="33.024563" data-lng="50.092653" "=" ">افوس</option>
+         <option data-lat="33.017787" data-lng="50.487752" "=" ">دامنه</option>
+         <option data-lat="32.572947" data-lng="51.56897" "=" ">ابریشم</option>
+         <option data-lat="33.901854" data-lng="51.767487" "=" ">ابوزیدآباد</option>
+         <option data-lat="33.973274" data-lng="51.153351" "=" ">نیاسر</option>
+         <option data-lat="32.678947" data-lng="52.12513" "=" ">سگزی</option>
+         <option data-lat="31.527689" data-lng="51.327087" "=" ">ونک</option>
+         <option data-lat="32.83607" data-lng="50.570267" "=" ">رزوه</option>
+         <option data-lat="31.063344" data-lng="51.593142" "=" ">کمه</option>
+         <option data-lat="32.519355" data-lng="51.541509" "=" ">بهاران شهر</option>
+         <option data-lat="32.475674" data-lng="51.459757" "=" ">ایمانشهر</option>
+         <option data-lat="31.94507" data-lng="51.875992" "=" ">منظریه</option>
+         <option data-lat="33.574492" data-lng="51.200462" "=" ">جوشقان قالی</option>
+         <option data-lat="32.347399" data-lng="51.429949" "=" ">کرکوند</option>
+         <option data-lat="32.867349" data-lng="50.855378" "=" ">عسگران</option>
+         <option data-lat="32.394917" data-lng="51.289858" "=" ">زاینده رود</option>
+         <option data-lat="34.077098" data-lng="51.438508" "=" ">نوش آباد</option>
+         <option data-lat="33.505041" data-lng="50.463102" "=" ">گلشهر</option>
+         <option data-lat="32.27897" data-lng="52.062388" "=" ">نصرآباد</option>
+         <option data-lat="32.719077" data-lng="52.660319" "=" ">تودشک</option>
+         <option data-lat="33.781314" data-lng="51.228492" "=" ">برزک</option>
+         <option data-lat="34.127452" data-lng="51.347337" "=" ">سفیدشهر</option>
+         <option data-lat="33.003115" data-lng="50.194702" "=" ">برف انبار</option>
+         <option data-lat="32.625725" data-lng="51.474748" "=" ">کهریزسنگ</option>
+         <option data-lat="32.905558" data-lng="51.809493" "=" ">کمشجه</option>
+         <option data-lat="32.383777" data-lng="51.564881" "=" ">زیباشهر</option>
+         <option data-lat="32.700259" data-lng="51.111375" "=" ">رضوانشهر</option>
+         <option data-lat="32.488021" data-lng="51.775965" "=" ">بهارستان</option>
+         <option data-lat="33.705194" data-lng="51.981421" "=" ">خالدآباد</option>
+         <option data-lat="34.175899" data-lng="51.268021" "=" ">مشکات</option>
+         <option data-lat="33.349396" data-lng="51.786284" "=" ">طرق رود</option>
+         <option data-lat="32.652173" data-lng="51.481132" "=" ">اصغرآباد</option>
+         <option data-lat="32.850545" data-lng="51.658674" "=" ">سین</option>
+         <option data-lat="32.378518" data-lng="51.232408" "=" ">باغشاد</option>
+         <option data-lat="32.601394" data-lng="51.49842" "=" ">زازران</option>
+         <option data-lat="32.509079" data-lng="51.936522" "=" ">زیار</option>
+         <option class="strong">البرز</option>
+         <option data-lat="33.621379" data-lng="51.264562" "=" ">کامو و چوگان</option>
+         <option data-lat="35.727396" data-lng="50.367398" "=" ">اشتهارد</option>
+         <option data-lat="35.97192" data-lng="50.601479" "=" ">نظرآباد</option>
+         <option data-lat="35.961365" data-lng="50.680191" "=" ">هشتگرد</option>
+         <option data-lat="35.826845" data-lng="50.947759" "=" ">کرج</option>
+         <option data-lat="35.8934" data-lng="50.617487" "=" ">تنکمان</option>
+         <option data-lat="35.90842" data-lng="50.777498" "=" ">گلسار (سیف آباد)</option>
+         <option data-lat="36.038158" data-lng="51.191832" "=" ">اسارا</option>
+         <option data-lat="35.724145" data-lng="50.809439" "=" ">ماهدشت</option>
+         <option data-lat="36.173318" data-lng="50.766436" "=" ">طالقان</option>
+         <option data-lat="35.736594" data-lng="50.941244" "=" ">مشکین دشت</option>
+         <option data-lat="35.867585" data-lng="50.878219" "=" ">کمال شهر</option>
+         <option data-lat="35.749646" data-lng="50.910674" "=" ">محمدشهر</option>
+         <option data-lat="35.951108" data-lng="50.789281" "=" ">کوهسار</option>
+         <option data-lat="35.84271" data-lng="50.846708" "=" ">چهارباغ</option>
+         <option data-lat="35.747539" data-lng="51.066726" "=" ">گرمدره</option>
+         <option data-lat="35.984479" data-lng="50.725691" "=" ">شهرجدیدهشتگرد</option>
+         <option class="strong">ایلام</option>
+         <option data-lat="35.734257" data-lng="50.990025" "=" ">فردیس</option>
+         <option data-lat="33.819211" data-lng="46.314162" "=" ">ایوان</option>
+         <option data-lat="33.703824" data-lng="46.297254" "=" ">چوار</option>
+         <option data-lat="33.633281" data-lng="46.399667" "=" ">ایلام</option>
+         <option data-lat="32.994499" data-lng="47.421651" "=" ">آبدانان</option>
+         <option data-lat="33.306917" data-lng="47.039337" "=" ">بدره</option>
+         <option data-lat="33.144583" data-lng="47.384417" "=" ">دره شهر</option>
+         <option data-lat="33.226761" data-lng="46.918572" "=" ">میمه</option>
+         <option data-lat="32.682112" data-lng="47.277642" "=" ">دهلران</option>
+         <option data-lat="32.520635" data-lng="47.377522" "=" ">موسیان</option>
+         <option data-lat="33.76774" data-lng="46.562147" "=" ">سرابله</option>
+         <option data-lat="33.387492" data-lng="46.592633" "=" ">ارکواز</option>
+         <option data-lat="33.4693" data-lng="46.192432" "=" ">صالح آباد</option>
+         <option data-lat="33.122615" data-lng="46.173229" "=" ">مهران</option>
+         <option data-lat="33.405726" data-lng="46.594402" "=" ">دلگشا</option>
+         <option data-lat="32.898336" data-lng="47.574625" "=" ">سراب باغ</option>
+         <option data-lat="33.010374" data-lng="46.883417" "=" ">پهله</option>
+         <option data-lat="33.568235" data-lng="46.809714" "=" ">لومار</option>
+         <option data-lat="33.928909" data-lng="46.183643" "=" ">زرنه</option>
+         <option data-lat="33.728636" data-lng="47.066735" "=" ">توحید</option>
+         <option data-lat="32.725384" data-lng="47.67594" "=" ">مورموری</option>
+         <option data-lat="33.854635" data-lng="46.45994" "=" ">آسمان آباد</option>
+         <option data-lat="33.436414" data-lng="46.460724" "=" ">مهر (ایلام)</option>
+         <option data-lat="32.95355" data-lng="47.789962" "=" ">ماژین</option>
+         <option data-lat="33.750289" data-lng="46.637482" "=" ">شباب</option>
+         <option class="strong">آذربایجان شرقی</option>
+         <option data-lat="33.66461" data-lng="46.829383" "=" ">بلاوه</option>
+         <option data-lat="38.865787" data-lng="47.043267" "=" ">کلیبر</option>
+         <option data-lat="38.48533" data-lng="47.071238" "=" ">اهر</option>
+         <option data-lat="37.767345" data-lng="45.980536" "=" ">آذرشهر</option>
+         <option data-lat="37.783598" data-lng="45.907827" "=" ">گوگان</option>
+         <option data-lat="37.8452" data-lng="45.966769" "=" ">ممقان</option>
+         <option data-lat="37.921178" data-lng="46.119445" "=" ">اسکو</option>
+         <option data-lat="37.935789" data-lng="45.982699" "=" ">ایلخچی</option>
+         <option data-lat="37.946434" data-lng="46.049851" "=" ">خسروشاه (خسروشهر)</option>
+         <option data-lat="37.840353" data-lng="46.822122" "=" ">بستان آباد</option>
+         <option data-lat="38.31289" data-lng="45.362338" "=" ">تسوج</option>
+         <option data-lat="38.194104" data-lng="45.631172" "=" ">خامنه</option>
+         <option data-lat="38.179179" data-lng="45.710048" "=" ">شبستر</option>
+         <option data-lat="38.175463" data-lng="45.490334" "=" ">شرفخانه</option>
+         <option data-lat="38.277622" data-lng="45.984891" "=" ">صوفیان</option>
+         <option data-lat="37.994969" data-lng="46.47235" "=" ">باسمنج</option>
+         <option data-lat="38.085102" data-lng="46.287185" "=" ">تبریز</option>
+         <option data-lat="38.024278" data-lng="46.138835" "=" ">سردرود</option>
+         <option data-lat="38.081024" data-lng="47.133875" "=" ">مهربان</option>
+         <option data-lat="38.249024" data-lng="47.117771" "=" ">هریس</option>
+         <option data-lat="37.93889" data-lng="47.530646" "=" ">سراب</option>
+         <option data-lat="37.336631" data-lng="46.067992" "=" ">بناب</option>
+         <option data-lat="37.479759" data-lng="45.894518" "=" ">عجب شیر</option>
+         <option data-lat="37.401153" data-lng="46.257536" "=" ">مراغه</option>
+         <option data-lat="37.142763" data-lng="46.104301" "=" ">ملکان</option>
+         <option data-lat="38.927776" data-lng="45.636866" "=" ">جلفا</option>
+         <option data-lat="38.83468" data-lng="45.660709" "=" ">هادیشهر</option>
+         <option data-lat="38.587881" data-lng="45.840431" "=" ">زنوز</option>
+         <option data-lat="38.430139" data-lng="45.766093" "=" ">مرند</option>
+         <option data-lat="37.428785" data-lng="47.721961" "=" ">میانه</option>
+         <option data-lat="37.476976" data-lng="47.048871" "=" ">هشترود</option>
+         <option data-lat="37.943378" data-lng="46.128827" "=" ">سهند</option>
+         <option data-lat="38.143766" data-lng="45.623014" "=" ">شندآباد</option>
+         <option data-lat="38.507256" data-lng="46.6531" "=" ">ورزقان</option>
+         <option data-lat="38.459501" data-lng="45.568676" "=" ">کشکسرای</option>
+         <option data-lat="37.581722" data-lng="47.390979" "=" ">ترکمانچای</option>
+         <option data-lat="37.129944" data-lng="46.976543" "=" ">قره آغاج</option>
+         <option data-lat="38.154149" data-lng="46.587624" "=" ">خواجه</option>
+         <option data-lat="38.092505" data-lng="47.081452" "=" ">زرنق</option>
+         <option data-lat="38.199372" data-lng="45.812779" "=" ">سیس</option>
+         <option data-lat="38.128497" data-lng="45.713005" "=" ">وایقان</option>
+         <option data-lat="38.131256" data-lng="46.947661" "=" ">بخشایش</option>
+         <option data-lat="38.860976" data-lng="47.366894" "=" ">هوراند</option>
+         <option data-lat="37.730188" data-lng="46.94862" "=" ">تیکمه داش</option>
+         <option data-lat="37.012942" data-lng="46.204984" "=" ">لیلان</option>
+         <option data-lat="37.883354" data-lng="47.100047" "=" ">شربیان</option>
+         <option data-lat="37.310273" data-lng="46.531047" "=" ">خداجو(خراجو)</option>
+         <option data-lat="39.15755" data-lng="47.034446" "=" ">خمارلو</option>
+         <option data-lat="38.103699" data-lng="46.993582" "=" ">کلوانق</option>
+         <option data-lat="38.686398" data-lng="46.169329" "=" ">خاروانا</option>
+         <option data-lat="37.949425" data-lng="47.118051" "=" ">دوزدوزان</option>
+         <option data-lat="38.524514" data-lng="45.643031" "=" ">یامچی</option>
+         <option data-lat="37.256975" data-lng="48.065492" "=" ">آقکند</option>
+         <option data-lat="37.617345" data-lng="47.766614" "=" ">ترک</option>
+         <option data-lat="38.870667" data-lng="46.000274" "=" ">سیه رود</option>
+         <option data-lat="38.189125" data-lng="45.576795" "=" ">کوزه کنان</option>
+         <option data-lat="39.050032" data-lng="47.316576" "=" ">آبش احمد</option>
+         <option data-lat="38.426365" data-lng="45.906732" "=" ">بناب جدید</option>
+         <option data-lat="37.3472" data-lng="46.764719" "=" ">نظرکهریزی</option>
+         <option data-lat="37.806755" data-lng="45.900172" "=" ">تیمورلو (آذرشهر)</option>
+         <option data-lat="37.395" data-lng="47.791659" "=" ">آچاچی</option>
+         <option data-lat="37.496893" data-lng="45.974024" "=" ">جوان قلعه</option>
+         <option class="strong">آذربایجان غربی</option>
+         <option data-lat="37.180184" data-lng="46.061697" "=" ">مبارک شهر</option>
+         <option data-lat="38.811248" data-lng="44.531619" "=" ">زیوه</option>
+         <option data-lat="37.556713" data-lng="45.064846" "=" ">ارومیه</option>
+         <option data-lat="36.696684" data-lng="45.146256" "=" ">پیرانشهر</option>
+         <option data-lat="38.887711" data-lng="45.024623" "=" ">قره ضیاڈالدین</option>
+         <option data-lat="38.551207" data-lng="44.945635" "=" ">خوی</option>
+         <option data-lat="38.579259" data-lng="44.834592" "=" ">فیرورق</option>
+         <option data-lat="36.16091" data-lng="45.476888" "=" ">سردشت</option>
+         <option data-lat="38.174933" data-lng="44.69228" "=" ">تازه شهر</option>
+         <option data-lat="38.200377" data-lng="44.765244" "=" ">سلماس</option>
+         <option data-lat="39.347695" data-lng="45.067114" "=" ">پلدشت</option>
+         <option data-lat="39.220737" data-lng="44.773066" "=" ">شوط</option>
+         <option data-lat="39.063893" data-lng="44.388448" "=" ">سیه چشمه</option>
+         <option data-lat="39.295447" data-lng="44.496363" "=" ">ماکو</option>
+         <option data-lat="36.517306" data-lng="46.201191" "=" ">بوکان</option>
+         <option data-lat="36.764537" data-lng="45.728908" "=" ">مهاباد</option>
+         <option data-lat="36.397729" data-lng="47.113969" "=" ">تکاب</option>
+         <option data-lat="36.679042" data-lng="46.565838" "=" ">شاهین دژ</option>
+         <option data-lat="36.967421" data-lng="46.112452" "=" ">میاندوآب</option>
+         <option data-lat="37.036001" data-lng="45.10023" "=" ">اشنویه</option>
+         <option data-lat="36.981039" data-lng="45.516171" "=" ">محمدیار</option>
+         <option data-lat="36.954813" data-lng="45.390364" "=" ">نقده</option>
+         <option data-lat="38.460596" data-lng="45.024898" "=" ">دیزج دیز</option>
+         <option data-lat="38.470347" data-lng="44.406319" "=" ">قطور</option>
+         <option data-lat="37.993685" data-lng="45.037237" "=" ">قوشچی</option>
+         <option data-lat="37.739192" data-lng="45.050928" "=" ">نوشین</option>
+         <option data-lat="39.40103" data-lng="44.39443" "=" ">بازرگان</option>
+         <option data-lat="37.126401" data-lng="45.983323" "=" ">چهاربرج</option>
+         <option data-lat="37.420389" data-lng="44.855806" "=" ">سیلوانه</option>
+         <option data-lat="37.721653" data-lng="44.638167" "=" ">سرو</option>
+         <option data-lat="38.720886" data-lng="45.218453" "=" ">ایواوغلی</option>
+         <option data-lat="36.405788" data-lng="45.374196" "=" ">میرآباد</option>
+         <option data-lat="36.835036" data-lng="46.359375" "=" ">کشاورز</option>
+         <option data-lat="36.982839" data-lng="45.143781" "=" ">نالوس</option>
+         <option data-lat="36.819252" data-lng="45.238462" "=" ">گردکشانه</option>
+         <option data-lat="36.209876" data-lng="45.552093" "=" ">ربط</option>
+         <option data-lat="36.728648" data-lng="46.154898" "=" ">سیمینه</option>
+         <option data-lat="39.336024" data-lng="44.153357" "=" ">آواجیق</option>
+         <option data-lat="36.719192" data-lng="46.516883" "=" ">محمودآباد</option>
+         <option data-lat="36.953457" data-lng="46.322688" "=" ">باروق</option>
+         <option data-lat="39.009933" data-lng="45.060445" "=" ">نازک علیا</option>
+         <option data-lat="36.50675" data-lng="45.794835" "=" ">خلیفان</option>
+         <option data-lat="38.801931" data-lng="44.585659" "=" ">زرآباد</option>
+         <option class="strong">بوشهر</option>
+         <option data-lat="39.149269" data-lng="44.951992" "=" ">مرگنلر</option>
+         <option data-lat="29.238033" data-lng="50.320573" "=" ">خارک</option>
+         <option data-lat="28.924325" data-lng="50.85397" "=" ">بوشهر</option>
+         <option data-lat="28.884876" data-lng="51.273991" "=" ">اهرم</option>
+         <option data-lat="29.389874" data-lng="51.119647" "=" ">سعد آباد</option>
+         <option data-lat="29.270798" data-lng="51.211496" "=" ">برازجان</option>
+         <option data-lat="28.646239" data-lng="51.381888" "=" ">خورموج</option>
+         <option data-lat="27.838142" data-lng="51.934951" "=" ">بندردیر</option>
+         <option data-lat="27.838571" data-lng="52.063231" "=" ">بندرکنگان</option>
+         <option data-lat="30.053624" data-lng="50.165178" "=" ">بندردیلم</option>
+         <option data-lat="29.484728" data-lng="50.627928" "=" ">بندرریگ</option>
+         <option data-lat="29.576921" data-lng="50.517163" "=" ">بندرگناوه</option>
+         <option data-lat="28.395622" data-lng="51.763027" "=" ">شنبه</option>
+         <option data-lat="28.032624" data-lng="52.066363" "=" ">انارستان</option>
+         <option data-lat="28.341229" data-lng="51.524734" "=" ">کاکی</option>
+         <option data-lat="29.469618" data-lng="50.989267" "=" ">شبانکاره</option>
+         <option data-lat="28.763227" data-lng="51.070511" "=" ">دلوار</option>
+         <option data-lat="27.820126" data-lng="52.351402" "=" ">جم</option>
+         <option data-lat="29.362766" data-lng="51.064532" "=" ">آب پخش</option>
+         <option data-lat="29.430208" data-lng="51.291741" "=" ">دالکی</option>
+         <option data-lat="29.827456" data-lng="50.271719" "=" ">امام حسن</option>
+         <option data-lat="28.982297" data-lng="51.026701" "=" ">چغادک</option>
+         <option data-lat="29.486511" data-lng="51.23566" "=" ">وحدتیه</option>
+         <option data-lat="28.066857" data-lng="51.477312" "=" ">بردخون</option>
+         <option data-lat="28.07944" data-lng="51.771026" "=" ">آبدان</option>
+         <option data-lat="29.153399" data-lng="51.527914" "=" ">تنگ ارم</option>
+         <option data-lat="28.942925" data-lng="51.459328" "=" ">کلمه</option>
+         <option data-lat="27.8724" data-lng="52.027272" "=" ">بنک</option>
+         <option data-lat="27.519416" data-lng="52.578989" "=" ">عسلویه</option>
+         <option data-lat="27.500499" data-lng="52.588266" "=" ">نخل تقی</option>
+         <option data-lat="27.670066" data-lng="52.32854" "=" ">سیراف</option>
+         <option data-lat="28.054208" data-lng="52.079046" "=" ">ریز</option>
+         <option data-lat="27.870157" data-lng="51.9598" "=" ">بردستان</option>
+         <option data-lat="29.023931" data-lng="51.252776" "=" ">آباد</option>
+         <option data-lat="28.830669" data-lng="51.699624" "=" ">بوشکان</option>
+         <option data-lat="28.393595" data-lng="51.500267" "=" ">بادوله</option>
+         <option class="strong">تهران</option>
+         <option data-lat="27.947721" data-lng="51.961716" "=" ">دوراهک</option>
+         <option data-lat="35.680104" data-lng="51.360607" "=" ">تهران</option>
+         <option data-lat="35.754648" data-lng="52.774732" "=" ">فیروزکوه</option>
+         <option data-lat="35.684595" data-lng="52.032259" "=" ">دماوند</option>
+         <option data-lat="35.734797" data-lng="51.918171" "=" ">رودهن</option>
+         <option data-lat="35.555122" data-lng="52.160751" "=" ">کیلان</option>
+         <option data-lat="35.533655" data-lng="51.230438" "=" ">اسلامشهر</option>
+         <option data-lat="35.961776" data-lng="51.489944" "=" ">فشم</option>
+         <option data-lat="35.819595" data-lng="51.638296" "=" ">لواسان</option>
+         <option data-lat="35.476494" data-lng="51.078654" "=" ">رباطکریم</option>
+         <option data-lat="35.657632" data-lng="51.061892" "=" ">شهریار</option>
+         <option data-lat="35.307254" data-lng="51.725536" "=" ">پیشوا</option>
+         <option data-lat="35.422032" data-lng="51.585361" "=" ">قرچک</option>
+         <option data-lat="35.376607" data-lng="51.601571" "=" ">ورامین</option>
+         <option data-lat="35.711051" data-lng="51.119289" "=" ">قدس</option>
+         <option data-lat="35.487662" data-lng="51.677009" "=" ">پاکدشت</option>
+         <option data-lat="35.371412" data-lng="51.238423" "=" ">حسن آباد</option>
+         <option data-lat="35.209143" data-lng="51.672811" "=" ">جوادآباد</option>
+         <option data-lat="35.556236" data-lng="51.169243" "=" ">نسیم شهر</option>
+         <option data-lat="35.634635" data-lng="50.958821" "=" ">ملارد</option>
+         <option data-lat="35.730697" data-lng="51.867018" "=" ">بومهن</option>
+         <option data-lat="35.617859" data-lng="52.151229" "=" ">آبسرد</option>
+         <option data-lat="35.532884" data-lng="51.410487" "=" ">باقرشهر</option>
+         <option data-lat="35.57927" data-lng="51.113883" "=" ">صباشهر</option>
+         <option data-lat="35.511343" data-lng="51.160161" "=" ">گلستان</option>
+         <option data-lat="35.607223" data-lng="51.029355" "=" ">وحیدیه</option>
+         <option data-lat="35.573502" data-lng="51.086835" "=" ">شاهدشهر</option>
+         <option data-lat="35.690935" data-lng="50.845866" "=" ">صفادشت</option>
+         <option data-lat="35.516668" data-lng="51.3569" "=" ">کهریزک</option>
+         <option data-lat="35.602553" data-lng="51.313896" "=" ">چهاردانگه</option>
+         <option data-lat="35.427933" data-lng="51.78178" "=" ">شریف آباد</option>
+         <option data-lat="35.606113" data-lng="51.065142" "=" ">فردوسیه</option>
+         <option data-lat="35.755486" data-lng="51.802822" "=" ">پردیس</option>
+         <option data-lat="35.779546" data-lng="51.95776" "=" ">آبعلی</option>
+         <option data-lat="35.634985" data-lng="51.1417" "=" ">باغستان</option>
+         <option data-lat="35.696669" data-lng="51.021557" "=" ">اندیشه</option>
+         <option data-lat="35.81314" data-lng="52.514592" "=" ">ارجمند</option>
+         <option data-lat="35.504123" data-lng="51.189909" "=" ">صالحیه (صالح آباد)</option>
+         <option data-lat="35.480759" data-lng="51.140584" "=" ">نصیرشهر (نصیرآباد)</option>
+         <option data-lat="35.52" data-lng="51.624309" "=" ">فرون اباد</option>
+         <option data-lat="36.011403" data-lng="51.492809" "=" ">شمشک</option>
+         <option data-lat="35.473829" data-lng="50.958538" "=" ">شهر جدید پرند</option>
+         <option class="strong">چهارمحال وبختیاری</option>
+         <option data-lat="35.63251" data-lng="51.215044" "=" ">احمد آباد مستوفی</option>
+         <option data-lat="32.39151" data-lng="50.570015" "=" ">هارونی</option>
+         <option data-lat="31.386941" data-lng="50.84437" "=" ">سردشت</option>
+         <option data-lat="31.99852" data-lng="50.662229" "=" ">اردل</option>
+         <option data-lat="31.937296" data-lng="51.051832" "=" ">بلداجی</option>
+         <option data-lat="31.972059" data-lng="51.289599" "=" ">بروجن</option>
+         <option data-lat="32.008797" data-lng="51.221408" "=" ">فرادبنه</option>
+         <option data-lat="32.540895" data-lng="50.743834" "=" ">بن</option>
+         <option data-lat="32.449619" data-lng="50.91145" "=" ">سامان</option>
+         <option data-lat="32.330646" data-lng="50.863131" "=" ">شهرکرد</option>
+         <option data-lat="32.273415" data-lng="50.972864" "=" ">فرخ شهر</option>
+         <option data-lat="32.226755" data-lng="50.794682" "=" ">هفشجان</option>
+         <option data-lat="32.158009" data-lng="50.679942" "=" ">جونقان</option>
+         <option data-lat="32.257416" data-lng="50.564168" "=" ">فارسان</option>
+         <option data-lat="31.516572" data-lng="50.806095" "=" ">لردگان</option>
+         <option data-lat="32.317186" data-lng="50.681271" "=" ">سورشجان</option>
+         <option data-lat="32.284139" data-lng="50.89135" "=" ">کیان</option>
+         <option data-lat="32.330687" data-lng="50.468591" "=" ">باباحیدر</option>
+         <option data-lat="31.860594" data-lng="51.154678" "=" ">گندمان</option>
+         <option data-lat="32.047298" data-lng="50.816228" "=" ">شلمزار</option>
+         <option data-lat="31.935338" data-lng="50.728955" "=" ">ناغان</option>
+         <option data-lat="32.131654" data-lng="51.182595" "=" ">سفیددشت</option>
+         <option data-lat="32.008258" data-lng="50.887119" "=" ">گهرو</option>
+         <option data-lat="32.226523" data-lng="50.837414" "=" ">طاقانک</option>
+         <option data-lat="32.46019" data-lng="50.13335" "=" ">چلگرد</option>
+         <option data-lat="32.427257" data-lng="50.788233" "=" ">نافچ</option>
+         <option data-lat="31.28842" data-lng="51.271898" "=" ">مال خلیفه</option>
+         <option data-lat="31.554337" data-lng="51.05962" "=" ">آلونی</option>
+         <option data-lat="32.521531" data-lng="50.400834" "=" ">سودجان</option>
+         <option data-lat="31.934473" data-lng="51.332203" "=" ">نقنه</option>
+         <option data-lat="32.057496" data-lng="50.770952" "=" ">دستنا</option>
+         <option data-lat="32.252421" data-lng="50.5957" "=" ">پردنجان</option>
+         <option data-lat="31.532088" data-lng="50.633868" "=" ">منج</option>
+         <option data-lat="32.476743" data-lng="50.767059" "=" ">وردنجان</option>
+         <option data-lat="32.244941" data-lng="50.545003" "=" ">گوجان</option>
+         <option data-lat="32.230927" data-lng="50.629316" "=" ">چلیچه</option>
+         <option data-lat="32.058449" data-lng="50.582833" "=" ">کاج</option>
+         <option data-lat="32.162738" data-lng="50.455705" "=" ">دشتک</option>
+         <option data-lat="31.748691" data-lng="50.550038" "=" ">سرخون</option>
+         <option data-lat="32.167903" data-lng="50.274515" "=" ">صمصامی</option>
+         <option class="strong">خراسان جنوبی</option>
+         <option data-lat="32.204401" data-lng="50.046265" "=" ">بازفت</option>
+         <option data-lat="32.575755" data-lng="59.799252" "=" ">سربیشه</option>
+         <option data-lat="32.870666" data-lng="59.218396" "=" ">بیرجند</option>
+         <option data-lat="31.539313" data-lng="60.038558" "=" ">نهبندان</option>
+         <option data-lat="33.594555" data-lng="56.935371" "=" ">طبس</option>
+         <option data-lat="33.863381" data-lng="57.423668" "=" ">بشرویه</option>
+         <option data-lat="33.862286" data-lng="58.515147" "=" ">سرایان</option>
+         <option data-lat="34.048048" data-lng="58.219889" "=" ">اسلامیه</option>
+         <option data-lat="34.021705" data-lng="58.171538" "=" ">فردوس</option>
+         <option data-lat="34.025221" data-lng="58.815108" "=" ">خضری دشت بیاض</option>
+         <option data-lat="33.732899" data-lng="59.179401" "=" ">قاین</option>
+         <option data-lat="32.876931" data-lng="59.017139" "=" ">محمدشهر</option>
+         <option data-lat="33.155091" data-lng="59.715681" "=" ">قهستان</option>
+         <option data-lat="32.807188" data-lng="60.223368" "=" ">طبس مسینا</option>
+         <option data-lat="32.778672" data-lng="58.889684" "=" ">خوسف</option>
+         <option data-lat="32.913784" data-lng="60.023691" "=" ">اسدیه</option>
+         <option data-lat="34.366069" data-lng="56.931471" "=" ">عشق آباد</option>
+         <option data-lat="33.8864" data-lng="58.382083" "=" ">آیسک</option>
+         <option data-lat="33.603192" data-lng="59.997813" "=" ">حاجی آباد</option>
+         <option data-lat="31.805769" data-lng="60.009186" "=" ">شوسف</option>
+         <option data-lat="33.668218" data-lng="58.398912" "=" ">سه قلعه</option>
+         <option data-lat="33.286112" data-lng="57.516928" "=" ">دیهوک</option>
+         <option data-lat="32.706407" data-lng="59.524197" "=" ">مود</option>
+         <option data-lat="33.645895" data-lng="59.778907" "=" ">اسفدن</option>
+         <option data-lat="33.424822" data-lng="59.812476" "=" ">زهان</option>
+         <option data-lat="33.332295" data-lng="59.231504" "=" ">آرین شهر</option>
+         <option data-lat="33.910873" data-lng="58.931362" "=" ">نیمبلوک</option>
+         <option data-lat="32.997506" data-lng="60.229264" "=" ">گزیک</option>
+         <option class="strong">خراسان رضوی</option>
+         <option data-lat="33.702465" data-lng="57.371152" "=" ">ارسک</option>
+         <option data-lat="36.567177" data-lng="59.187763" "=" ">شهر جدید گلبهار</option>
+         <option data-lat="34.741864" data-lng="60.781258" "=" ">تایباد</option>
+         <option data-lat="34.57172" data-lng="60.135442" "=" ">خواف</option>
+         <option data-lat="34.974318" data-lng="59.625258" "=" ">رشتخوار</option>
+         <option data-lat="35.018551" data-lng="58.776433" "=" ">فیض آباد</option>
+         <option data-lat="35.280244" data-lng="59.217712" "=" ">تربت حیدریه</option>
+         <option data-lat="35.690133" data-lng="61.09404" "=" ">صالح آباد</option>
+         <option data-lat="35.236345" data-lng="60.621972" "=" ">تربت جام</option>
+         <option data-lat="37.514632" data-lng="59.333423" "=" ">لطف آباد</option>
+         <option data-lat="37.444406" data-lng="59.1087" "=" ">درگز</option>
+         <option data-lat="37.51653" data-lng="58.987761" "=" ">نوخندان</option>
+         <option data-lat="36.216909" data-lng="57.681191" "=" ">سبزوار</option>
+         <option data-lat="37.620727" data-lng="58.420976" "=" ">باجگیران</option>
+         <option data-lat="37.096688" data-lng="58.509018" "=" ">قوچان</option>
+         <option data-lat="35.260453" data-lng="57.967847" "=" ">بردسکن</option>
+         <option data-lat="35.256329" data-lng="58.285382" "=" ">خلیل آباد</option>
+         <option data-lat="35.254407" data-lng="58.4621" "=" ">کاشمر</option>
+         <option data-lat="34.51573" data-lng="58.180291" "=" ">بجستان</option>
+         <option data-lat="34.347326" data-lng="58.754454" "=" ">بیدخت</option>
+         <option data-lat="34.144836" data-lng="58.650622" "=" ">کاخک</option>
+         <option data-lat="34.36075" data-lng="58.706312" "=" ">گناباد</option>
+         <option data-lat="36.643007" data-lng="59.114239" "=" ">چناران</option>
+         <option data-lat="36.546895" data-lng="61.149847" "=" ">سرخس</option>
+         <option data-lat="36.399406" data-lng="59.317444" "=" ">شاندیز</option>
+         <option data-lat="36.317747" data-lng="59.382722" "=" ">طرقبه</option>
+         <option data-lat="35.701071" data-lng="59.842429" "=" ">فریمان</option>
+         <option data-lat="36.996494" data-lng="59.75375" "=" ">کلات</option>
+         <option data-lat="36.299693" data-lng="59.587208" "=" ">مشهد</option>
+         <option data-lat="36.133258" data-lng="59.104027" "=" ">درود</option>
+         <option data-lat="36.214238" data-lng="58.796948" "=" ">نیشابور</option>
+         <option data-lat="36.632932" data-lng="57.067792" "=" ">جغتای</option>
+         <option data-lat="36.491502" data-lng="58.715899" "=" ">بار</option>
+         <option data-lat="36.297771" data-lng="58.461498" "=" ">همت آباد</option>
+         <option data-lat="35.115678" data-lng="60.6891" "=" ">احمدابادصولت</option>
+         <option data-lat="36.484159" data-lng="59.164582" "=" ">گلمکان</option>
+         <option data-lat="35.173182" data-lng="59.037768" "=" ">شادمهر</option>
+         <option data-lat="35.148285" data-lng="57.936126" "=" ">شهراباد</option>
+         <option data-lat="34.99123" data-lng="60.318325" "=" ">باخرز</option>
+         <option data-lat="35.284623" data-lng="59.522231" "=" ">دولت آباد</option>
+         <option data-lat="36.709134" data-lng="57.408207" "=" ">نقاب</option>
+         <option data-lat="37.350421" data-lng="59.078708" "=" ">چاپشلو</option>
+         <option data-lat="34.399821" data-lng="60.254033" "=" ">سنگان</option>
+         <option data-lat="36.287074" data-lng="58.588829" "=" ">فیروزه</option>
+         <option data-lat="35.592844" data-lng="58.877044" "=" ">کدکن</option>
+         <option data-lat="36.354121" data-lng="56.878189" "=" ">داورزن</option>
+         <option data-lat="36.022356" data-lng="57.312469" "=" ">روداب</option>
+         <option data-lat="36.110319" data-lng="59.057877" "=" ">قدمگاه</option>
+         <option data-lat="35.37424" data-lng="59.039829" "=" ">بایک</option>
+         <option data-lat="35.417775" data-lng="60.315569" "=" ">نصرآباد</option>
+         <option data-lat="36.404284" data-lng="58.035862" "=" ">سلطان آباد</option>
+         <option data-lat="35.962287" data-lng="57.768897" "=" ">ششتمد</option>
+         <option data-lat="35.478798" data-lng="58.458985" "=" ">ریوش</option>
+         <option data-lat="36.153847" data-lng="59.025045" "=" ">خرو</option>
+         <option data-lat="35.545597" data-lng="59.195794" "=" ">رباطسنگ</option>
+         <option data-lat="36.208367" data-lng="59.771204" "=" ">رضویه</option>
+         <option data-lat="35.991077" data-lng="59.591513" "=" ">ملک آباد</option>
+         <option data-lat="36.038283" data-lng="58.67869" "=" ">عشق آباد</option>
+         <option data-lat="34.360229" data-lng="59.866337" "=" ">قاسم آباد</option>
+         <option data-lat="35.250645" data-lng="57.811284" "=" ">انابد</option>
+         <option data-lat="35.601247" data-lng="59.951582" "=" ">قلندرآباد</option>
+         <option data-lat="34.815281" data-lng="60.823954" "=" ">کاریز</option>
+         <option data-lat="36.817131" data-lng="58.503347" "=" ">چکنه</option>
+         <option data-lat="34.435135" data-lng="60.176129" "=" ">نشتیفان</option>
+         <option data-lat="35.764821" data-lng="59.740696" "=" ">فرهادگرد</option>
+         <option data-lat="34.744184" data-lng="59.976617" "=" ">سلامی</option>
+         <option data-lat="34.702026" data-lng="59.223054" "=" ">جنگل</option>
+         <option data-lat="36.156441" data-lng="60.53101" "=" ">مزدآوند</option>
+         <option data-lat="35.659698" data-lng="60.093528" "=" ">سفیدسنگ</option>
+         <option data-lat="36.749612" data-lng="59.93913" "=" ">شهرزو</option>
+         <option data-lat="34.805794" data-lng="58.43663" "=" ">یونسی</option>
+         <option data-lat="34.793886" data-lng="60.515259" "=" ">مشهدریزه</option>
+         <option data-lat="35.126086" data-lng="60.774218" "=" ">نیل شهر</option>
+         <option class="strong">خراسان شمالی</option>
+         <option data-lat="35.212836" data-lng="58.151594" "=" ">کندر</option>
+         <option data-lat="37.065287" data-lng="57.510304" "=" ">اسفراین</option>
+         <option data-lat="36.951959" data-lng="56.363555" "=" ">جاجرم</option>
+         <option data-lat="37.557028" data-lng="56.923166" "=" ">آشخانه</option>
+         <option data-lat="37.475647" data-lng="57.325597" "=" ">بجنورد</option>
+         <option data-lat="37.408638" data-lng="57.926554" "=" ">شیروان</option>
+         <option data-lat="37.228492" data-lng="58.218988" "=" ">فاروج</option>
+         <option data-lat="36.970167" data-lng="56.261947" "=" ">ایور</option>
+         <option data-lat="37.280615" data-lng="58.289942" "=" ">تیتکانلو</option>
+         <option data-lat="37.934899" data-lng="57.108016" "=" ">راز</option>
+         <option data-lat="36.69536" data-lng="57.925741" "=" ">صفی آباد</option>
+         <option data-lat="37.516902" data-lng="57.484926" "=" ">حصارگرمخان</option>
+         <option data-lat="37.103646" data-lng="56.852127" "=" ">سنخواست</option>
+         <option data-lat="37.342164" data-lng="56.886959" "=" ">شوقان</option>
+         <option data-lat="37.606746" data-lng="57.85821" "=" ">لوجلی</option>
+         <option data-lat="37.495842" data-lng="56.748244" "=" ">قاضی</option>
+         <option data-lat="37.651487" data-lng="57.000561" "=" ">پیش قلعه</option>
+         <option data-lat="36.972157" data-lng="56.212508" "=" ">درق</option>
+         <option data-lat="37.444329" data-lng="57.884551" "=" ">زیارت</option>
+         <option data-lat="36.997819" data-lng="58.219419" "=" ">قوشخانه</option>
+         <option data-lat="37.399996" data-lng="57.537893" "=" ">چناران شهر</option>
+         <option data-lat="36.986033" data-lng="56.28612" "=" ">گرمه</option>
+         <option class="strong">خوزستان</option>
+         <option data-lat="37.483695" data-lng="56.727015" "=" ">آوا</option>
+         <option data-lat="29.979802" data-lng="48.517089" "=" ">اروندکنار</option>
+         <option data-lat="30.341218" data-lng="48.279426" "=" ">آبادان</option>
+         <option data-lat="32.466196" data-lng="48.347892" "=" ">اندیمشک</option>
+         <option data-lat="31.318645" data-lng="48.673373" "=" ">اهواز</option>
+         <option data-lat="31.52668" data-lng="49.885915" "=" ">باغ ملک</option>
+         <option data-lat="31.828416" data-lng="49.868837" "=" ">ایذه</option>
+         <option data-lat="30.510197" data-lng="49.072385" "=" ">بندرامام خمینی</option>
+         <option data-lat="30.559798" data-lng="49.182141" "=" ">بندرماهشهر</option>
+         <option data-lat="30.235982" data-lng="49.711038" "=" ">هندیجان</option>
+         <option data-lat="30.696824" data-lng="49.826133" "=" ">آغاجاری</option>
+         <option data-lat="30.595522" data-lng="50.238485" "=" ">بهبهان</option>
+         <option data-lat="30.402548" data-lng="48.201545" "=" ">خرمشهر</option>
+         <option data-lat="32.198317" data-lng="48.257469" "=" ">شوش</option>
+         <option data-lat="32.396902" data-lng="48.395937" "=" ">دزفول</option>
+         <option data-lat="31.718009" data-lng="47.993094" "=" ">بستان</option>
+         <option data-lat="31.555411" data-lng="48.188727" "=" ">سوسنگرد</option>
+         <option data-lat="31.464478" data-lng="48.080744" "=" ">هویزه</option>
+         <option data-lat="30.892175" data-lng="49.409086" "=" ">رامشیر</option>
+         <option data-lat="31.271383" data-lng="49.612962" "=" ">رامهرمز</option>
+         <option data-lat="30.650403" data-lng="48.655574" "=" ">شادگان</option>
+         <option data-lat="32.245071" data-lng="48.816197" "=" ">گتوند</option>
+         <option data-lat="32.063236" data-lng="48.829531" "=" ">شوشتر</option>
+         <option data-lat="31.945391" data-lng="49.287552" "=" ">مسجدسلیمان</option>
+         <option data-lat="31.445037" data-lng="49.528106" "=" ">هفتگل</option>
+         <option data-lat="32.242363" data-lng="48.847084" "=" ">ترکالکی</option>
+         <option data-lat="30.753964" data-lng="48.429839" "=" ">دارخوین</option>
+         <option data-lat="32.214012" data-lng="48.672572" "=" ">صالح شهر</option>
+         <option data-lat="30.194366" data-lng="48.539562" "=" ">چویبده</option>
+         <option data-lat="32.395662" data-lng="48.579197" "=" ">حمزه</option>
+         <option data-lat="32.085065" data-lng="48.770571" "=" ">شرافت</option>
+         <option data-lat="32.056168" data-lng="48.303725" "=" ">شاوور</option>
+         <option data-lat="32.296211" data-lng="48.427554" "=" ">شمس آباد</option>
+         <option data-lat="32.329791" data-lng="49.092943" "=" ">لالی</option>
+         <option data-lat="31.482312" data-lng="48.431185" "=" ">حمیدیه</option>
+         <option data-lat="31.580469" data-lng="48.887833" "=" ">ملاثانی</option>
+         <option data-lat="30.755655" data-lng="49.700154" "=" ">امیدیه</option>
+         <option data-lat="31.480874" data-lng="48.876992" "=" ">ویس</option>
+         <option data-lat="31.398372" data-lng="48.791234" "=" ">شیبان</option>
+         <option data-lat="30.707126" data-lng="49.162846" "=" ">چمران</option>
+         <option data-lat="30.339076" data-lng="48.211729" "=" ">مینوشهر</option>
+         <option data-lat="31.598403" data-lng="47.895036" "=" ">رفیع</option>
+         <option data-lat="31.877012" data-lng="48.342612" "=" ">الوان</option>
+         <option data-lat="30.454611" data-lng="48.174598" "=" ">مقاومت</option>
+         <option data-lat="31.705017" data-lng="50.291405" "=" ">دهدز</option>
+         <option data-lat="32.49915" data-lng="48.834129" "=" ">سالند</option>
+         <option data-lat="32.227571" data-lng="48.425263" "=" ">شهر امام (دزآب)</option>
+         <option data-lat="32.257723" data-lng="48.420269" "=" ">صفی آباد</option>
+         <option data-lat="32.153295" data-lng="48.439505" "=" ">میانرود</option>
+         <option data-lat="30.870046" data-lng="49.855852" "=" ">جایزان</option>
+         <option data-lat="30.326335" data-lng="50.22075" "=" ">سردشت</option>
+         <option data-lat="32.206071" data-lng="49.454036" "=" ">قلعه خواجه</option>
+         <option data-lat="31.630477" data-lng="49.890607" "=" ">قلعه تل</option>
+         <option data-lat="32.673388" data-lng="48.244941" "=" ">حسینیه</option>
+         <option data-lat="31.365058" data-lng="50.081756" "=" ">صیدون</option>
+         <option data-lat="32.145534" data-lng="48.389702" "=" ">حر</option>
+         <option data-lat="30.468092" data-lng="49.68343" "=" ">زهره</option>
+         <option data-lat="31.85847" data-lng="48.756481" "=" ">گوریه</option>
+         <option data-lat="32.202124" data-lng="48.8598" "=" ">سماله</option>
+         <option data-lat="32.184758" data-lng="48.814322" "=" ">جنت مکان</option>
+         <option data-lat="32.209351" data-lng="48.545461" "=" ">چغامیش</option>
+         <option data-lat="32.313456" data-lng="48.149087" "=" ">فتح المبین (صالح مشطت)</option>
+         <option data-lat="31.010336" data-lng="49.434914" "=" ">مشراگه</option>
+         <option data-lat="31.372288" data-lng="49.815" "=" ">میداود</option>
+         <option data-lat="31.241662" data-lng="48.656311" "=" ">کوت عبدالله</option>
+         <option data-lat="32.01955" data-lng="48.788063" "=" ">سرداران</option>
+         <option data-lat="31.764402" data-lng="49.496905" "=" ">گلگیر</option>
+         <option data-lat="31.528377" data-lng="48.219129" "=" ">ابوحمیظه</option>
+         <option data-lat="30.628323" data-lng="50.302914" "=" ">منصوریه</option>
+         <option data-lat="28.040192" data-lng="52.119318" "=" ">تشان</option>
+         <option data-lat="32.334233" data-lng="48.4874" "=" ">سیاه منصور</option>
+         <option data-lat="32.445906" data-lng="48.443087" "=" ">چم گلک</option>
+         <option data-lat="32.760017" data-lng="48.236146" "=" ">بیدروبه</option>
+         <option data-lat="30.621196" data-lng="48.614532" "=" ">خنافره</option>
+         <option data-lat="31.457497" data-lng="48.381447" "=" ">کوت سیدنعیم</option>
+         <option data-lat="31.653909" data-lng="48.594334" "=" ">الهایی</option>
+         <option data-lat="32.403572" data-lng="48.254287" "=" ">آزادی</option>
+         <option class="strong">زنجان</option>
+         <option data-lat="32.067493" data-lng="49.460645" "=" ">آبژدان</option>
+         <option data-lat="36.435036" data-lng="48.794068" "=" ">سلطانیه</option>
+         <option data-lat="36.15272" data-lng="49.222728" "=" ">ابهر</option>
+         <option data-lat="36.210217" data-lng="49.20098" "=" ">خرمدره</option>
+         <option data-lat="36.308368" data-lng="49.067042" "=" ">صایین قلعه</option>
+         <option data-lat="36.261671" data-lng="49.135033" "=" ">هیدج</option>
+         <option data-lat="36.128699" data-lng="48.594168" "=" ">قیدار</option>
+         <option data-lat="36.677373" data-lng="48.506262" "=" ">زنجان</option>
+         <option data-lat="36.975659" data-lng="48.370659" "=" ">ارمغانخانه (ارمخانخانه)</option>
+         <option data-lat="36.072312" data-lng="48.439178" "=" ">سهرورد</option>
+         <option data-lat="36.742784" data-lng="47.673624" "=" ">ماه نشان</option>
+         <option data-lat="35.847358" data-lng="48.199838" "=" ">گرماب</option>
+         <option data-lat="36.552674" data-lng="47.621677" "=" ">دندی</option>
+         <option data-lat="36.926575" data-lng="48.953761" "=" ">آب بر</option>
+         <option data-lat="36.428704" data-lng="48.278424" "=" ">زرین آباد</option>
+         <option data-lat="36.239798" data-lng="48.554062" "=" ">سجاس</option>
+         <option data-lat="35.758997" data-lng="48.480802" "=" ">زرین رود</option>
+         <option data-lat="36.296301" data-lng="48.063104" "=" ">حلب</option>
+         <option data-lat="36.997338" data-lng="48.777325" "=" ">چورزق</option>
+         <option data-lat="36.850202" data-lng="48.181092" "=" ">نیک پی</option>
+         <option data-lat="35.937357" data-lng="48.792987" "=" ">نوربهار</option>
+         <option class="strong">سمنان</option>
+         <option data-lat="36.045665" data-lng="48.506938" "=" ">کرسف</option>
+         <option data-lat="36.16586" data-lng="54.341441" "=" ">دامغان</option>
+         <option data-lat="35.464111" data-lng="53.209037" "=" ">سرخه</option>
+         <option data-lat="35.57941" data-lng="53.386077" "=" ">سمنان</option>
+         <option data-lat="35.772687" data-lng="53.337962" "=" ">شهمیرزاد</option>
+         <option data-lat="35.694019" data-lng="53.332868" "=" ">مهدی شهر</option>
+         <option data-lat="36.479027" data-lng="55.00235" "=" ">بسطام</option>
+         <option data-lat="36.47951" data-lng="54.649707" "=" ">مجن</option>
+         <option data-lat="36.412654" data-lng="54.949484" "=" ">شاهرود</option>
+         <option data-lat="35.342797" data-lng="52.069869" "=" ">ایوانکی</option>
+         <option data-lat="35.255788" data-lng="52.496731" "=" ">آرادان</option>
+         <option data-lat="35.215151" data-lng="52.337284" "=" ">گرمسار</option>
+         <option data-lat="35.651287" data-lng="53.333892" "=" ">درجزین</option>
+         <option data-lat="36.673328" data-lng="55.298414" "=" ">کلاته خیج</option>
+         <option data-lat="36.081564" data-lng="55.806823" "=" ">بیارجمند</option>
+         <option data-lat="36.408421" data-lng="55.651774" "=" ">میامی</option>
+         <option data-lat="36.029276" data-lng="54.140072" "=" ">امیریه</option>
+         <option data-lat="36.429572" data-lng="54.227881" "=" ">دیباج</option>
+         <option data-lat="36.353091" data-lng="54.144114" "=" ">کلاته</option>
+         <option data-lat="35.218608" data-lng="52.544842" "=" ">کهن آباد</option>
+         <option class="strong">سیستان وبلوچستان</option>
+         <option data-lat="36.350702" data-lng="55.003225" "=" ">رودیان</option>
+         <option data-lat="27.21131" data-lng="60.684909" "=" ">ایرانشهر</option>
+         <option data-lat="25.391801" data-lng="61.138242" "=" ">نگور</option>
+         <option data-lat="26.237983" data-lng="60.747335" "=" ">قصرقند</option>
+         <option data-lat="25.288583" data-lng="60.649022" "=" ">چابهار (چاه بهار)</option>
+         <option data-lat="25.371234" data-lng="60.400485" "=" ">کنارک</option>
+         <option data-lat="26.231433" data-lng="60.230349" "=" ">نیک شهر</option>
+         <option data-lat="28.227393" data-lng="61.215197" "=" ">خاش</option>
+         <option data-lat="31.029294" data-lng="61.499406" "=" ">زابل</option>
+         <option data-lat="29.487407" data-lng="60.858411" "=" ">زاهدان</option>
+         <option data-lat="29.019615" data-lng="61.445809" "=" ">میرجاوه</option>
+         <option data-lat="27.367171" data-lng="62.328609" "=" ">سراوان</option>
+         <option data-lat="30.940405" data-lng="61.327203" "=" ">علی اکبر</option>
+         <option data-lat="27.33432" data-lng="62.382031" "=" ">محمدی</option>
+         <option data-lat="27.787439" data-lng="61.951331" "=" ">گشت</option>
+         <option data-lat="27.200961" data-lng="60.569149" "=" ">محمدان</option>
+         <option data-lat="27.192741" data-lng="60.455859" "=" ">بمپور</option>
+         <option data-lat="30.898671" data-lng="61.680004" "=" ">زهک</option>
+         <option data-lat="27.288267" data-lng="62.000585" "=" ">سوران</option>
+         <option data-lat="26.574189" data-lng="59.645425" "=" ">فنوج</option>
+         <option data-lat="27.602331" data-lng="62.703382" "=" ">جالق</option>
+         <option data-lat="31.110662" data-lng="61.409469" "=" ">ادیمی</option>
+         <option data-lat="30.882469" data-lng="61.466751" "=" ">محمدآباد</option>
+         <option data-lat="27.126495" data-lng="61.681015" "=" ">مهرستان (زابلی)</option>
+         <option data-lat="27.853054" data-lng="60.177877" "=" ">بزمان</option>
+         <option data-lat="27.478497" data-lng="59.464721" "=" ">گلمورتی</option>
+         <option data-lat="28.540841" data-lng="60.761938" "=" ">نوک آباد</option>
+         <option data-lat="31.042013" data-lng="61.567294" "=" ">بنجار</option>
+         <option data-lat="29.857542" data-lng="59.972955" "=" ">نصرت آباد</option>
+         <option data-lat="26.82694" data-lng="62.639638" "=" ">سیرکان</option>
+         <option data-lat="26.295122" data-lng="59.522902" "=" ">بنت</option>
+         <option data-lat="26.241797" data-lng="61.40215" "=" ">راسک</option>
+         <option data-lat="26.630426" data-lng="61.258615" "=" ">سرباز</option>
+         <option data-lat="26.083951" data-lng="61.745235" "=" ">پیشین</option>
+         <option data-lat="26.839206" data-lng="60.171993" "=" ">اسپکه</option>
+         <option data-lat="31.147186" data-lng="61.790543" "=" ">دوست محمد</option>
+         <option data-lat="27.002236" data-lng="62.117361" "=" ">هیدوچ</option>
+         <option class="strong">فارس</option>
+         <option data-lat="25.596157" data-lng="59.402737" "=" ">زرآباد</option>
+         <option data-lat="30.580521" data-lng="53.124553" "=" ">صفاشهر</option>
+         <option data-lat="30.47089" data-lng="53.621434" "=" ">بوانات</option>
+         <option data-lat="31.162799" data-lng="52.658904" "=" ">آباده</option>
+         <option data-lat="31.191876" data-lng="52.518435" "=" ">صغاد</option>
+         <option data-lat="29.124422" data-lng="54.047879" "=" ">استهبان</option>
+         <option data-lat="30.897132" data-lng="52.698134" "=" ">اقلید</option>
+         <option data-lat="28.921533" data-lng="53.345166" "=" ">خاوران</option>
+         <option data-lat="28.499466" data-lng="53.566985" "=" ">جهرم</option>
+         <option data-lat="28.357567" data-lng="54.424011" "=" ">حاجی آباد</option>
+         <option data-lat="28.750675" data-lng="54.541709" "=" ">داراب</option>
+         <option data-lat="30.257022" data-lng="51.986903" "=" ">اردکان</option>
+         <option data-lat="29.759471" data-lng="52.689026" "=" ">زرقان</option>
+         <option data-lat="29.271078" data-lng="53.225746" "=" ">سروستان</option>
+         <option data-lat="29.210124" data-lng="52.68607" "=" ">کوار</option>
+         <option data-lat="29.515992" data-lng="53.309494" "=" ">خرامه</option>
+         <option data-lat="29.644731" data-lng="52.529038" "=" ">شیراز</option>
+         <option data-lat="28.952241" data-lng="53.628696" "=" ">فسا</option>
+         <option data-lat="28.862174" data-lng="52.094458" "=" ">فراشبند</option>
+         <option data-lat="28.481428" data-lng="53.043871" "=" ">قیر</option>
+         <option data-lat="28.847148" data-lng="52.572188" "=" ">فیروزآباد</option>
+         <option data-lat="28.865435" data-lng="52.754325" "=" ">میمند</option>
+         <option data-lat="29.623795" data-lng="51.644566" "=" ">کازرون</option>
+         <option data-lat="27.760461" data-lng="54.00463" "=" ">اوز</option>
+         <option data-lat="27.890924" data-lng="53.43162" "=" ">خنج</option>
+         <option data-lat="27.346322" data-lng="53.185084" "=" ">لامرد</option>
+         <option data-lat="27.667851" data-lng="54.15702" "=" ">گراش</option>
+         <option data-lat="27.661317" data-lng="54.320605" "=" ">لار</option>
+         <option data-lat="29.910709" data-lng="53.306842" "=" ">ارسنجان</option>
+         <option data-lat="30.080193" data-lng="53.122363" "=" ">سعادت شهر</option>
+         <option data-lat="30.279448" data-lng="53.264387" "=" ">قادراباد</option>
+         <option data-lat="29.874565" data-lng="52.812262" "=" ">مرودشت</option>
+         <option data-lat="30.11059" data-lng="51.539361" "=" ">نورآباد</option>
+         <option data-lat="29.198478" data-lng="54.315525" "=" ">نی ریز</option>
+         <option data-lat="28.447745" data-lng="53.150364" "=" ">امام شهر</option>
+         <option data-lat="28.35908" data-lng="53.33016" "=" ">مبارک آباد</option>
+         <option data-lat="27.690357" data-lng="54.386205" "=" ">لطیفی</option>
+         <option data-lat="30.717672" data-lng="51.958284" "=" ">دژکرد</option>
+         <option data-lat="29.812009" data-lng="52.481033" "=" ">شهرصدرا</option>
+         <option data-lat="28.215064" data-lng="55.134911" "=" ">فدامی</option>
+         <option data-lat="29.67259" data-lng="52.14945" "=" ">خانه زنیان</option>
+         <option data-lat="29.146808" data-lng="54.702642" "=" ">قطرویه</option>
+         <option data-lat="28.490545" data-lng="52.303494" "=" ">دهرم</option>
+         <option data-lat="29.123404" data-lng="52.013654" "=" ">نوجین</option>
+         <option data-lat="30.1339" data-lng="52.610263" "=" ">رامجرد</option>
+         <option data-lat="28.307765" data-lng="55.191428" "=" ">دوبرجی</option>
+         <option data-lat="29.496564" data-lng="52.496259" "=" ">حسن آباد (فارس)</option>
+         <option data-lat="29.968075" data-lng="53.872061" "=" ">حسامی</option>
+         <option data-lat="28.749125" data-lng="53.805759" "=" ">زاهدشهر</option>
+         <option data-lat="29.851542" data-lng="51.589516" "=" ">قایمیه</option>
+         <option data-lat="29.565439" data-lng="51.336225" "=" ">خشت</option>
+         <option data-lat="29.191336" data-lng="53.768701" "=" ">رونیز</option>
+         <option data-lat="28.640708" data-lng="53.638851" "=" ">قطب آباد</option>
+         <option data-lat="28.654745" data-lng="54.687255" "=" ">جنت شهر</option>
+         <option data-lat="28.950805" data-lng="53.996627" "=" ">ششده</option>
+         <option data-lat="29.535432" data-lng="51.395249" "=" ">کنارتخته</option>
+         <option data-lat="28.087623" data-lng="54.048785" "=" ">بنارویه</option>
+         <option data-lat="28.259225" data-lng="53.978143" "=" ">جویم</option>
+         <option data-lat="31.200494" data-lng="52.490578" "=" ">بهمن</option>
+         <option data-lat="29.808264" data-lng="53.728161" "=" ">آباده طشک</option>
+         <option data-lat="27.553532" data-lng="52.879392" "=" ">مهر</option>
+         <option data-lat="27.229642" data-lng="53.605603" "=" ">اشکنان</option>
+         <option data-lat="27.431399" data-lng="53.513205" "=" ">بیرم</option>
+         <option data-lat="28.974326" data-lng="53.199008" "=" ">باب انار</option>
+         <option data-lat="27.210237" data-lng="53.660852" "=" ">اهل</option>
+         <option data-lat="27.624293" data-lng="53.000479" "=" ">علامرودشت</option>
+         <option data-lat="30.71178" data-lng="52.178573" "=" ">سده</option>
+         <option data-lat="29.563927" data-lng="52.927508" "=" ">داریان</option>
+         <option data-lat="31.521719" data-lng="52.12534" "=" ">ایزدخواست</option>
+         <option data-lat="30.000462" data-lng="53.005834" "=" ">سیدان</option>
+         <option data-lat="30.2454" data-lng="51.527059" "=" ">مصیری</option>
+         <option data-lat="29.799576" data-lng="52.650705" "=" ">لپویی</option>
+         <option data-lat="28.409219" data-lng="53.108694" "=" ">کارزین (فتح آباد)</option>
+         <option data-lat="29.282382" data-lng="51.935218" "=" ">بالاده</option>
+         <option data-lat="29.800907" data-lng="51.692188" "=" ">نودان</option>
+         <option data-lat="27.655089" data-lng="52.659646" "=" ">گله دار</option>
+         <option data-lat="30.009964" data-lng="52.358715" "=" ">بیضا</option>
+         <option data-lat="29.023033" data-lng="54.24529" "=" ">ایج</option>
+         <option data-lat="27.64149" data-lng="54.343086" "=" ">خور</option>
+         <option data-lat="30.3283" data-lng="52.187426" "=" ">کامفیروز</option>
+         <option data-lat="29.47658" data-lng="54.335955" "=" ">مشکان</option>
+         <option data-lat="30.031282" data-lng="53.716836" "=" ">کره ای</option>
+         <option data-lat="28.307689" data-lng="54.339148" "=" ">شهرپیر</option>
+         <option data-lat="27.46479" data-lng="53.05275" "=" ">وراوی</option>
+         <option data-lat="31.016678" data-lng="52.854676" "=" ">سورمق</option>
+         <option data-lat="28.405178" data-lng="54.186864" "=" ">دبیران</option>
+         <option data-lat="28.855506" data-lng="53.823958" "=" ">نوبندگان</option>
+         <option data-lat="28.347586" data-lng="52.965426" "=" ">افزر</option>
+         <option data-lat="28.700738" data-lng="52.957153" "=" ">دوزه</option>
+         <option data-lat="27.724351" data-lng="52.663412" "=" ">اسیر</option>
+         <option data-lat="27.44598" data-lng="53.8632" "=" ">عمادده</option>
+         <option data-lat="29.233697" data-lng="52.956611" "=" ">کوهنجان</option>
+         <option data-lat="30.116807" data-lng="52.085828" "=" ">هماشهر</option>
+         <option data-lat="30.009648" data-lng="51.575115" "=" ">خومه زار</option>
+         <option data-lat="28.902736" data-lng="54.133315" "=" ">قره بلاغ</option>
+         <option data-lat="30.349261" data-lng="52.244683" "=" ">خانیمن</option>
+         <option data-lat="30.336481" data-lng="51.290414" "=" ">کوپن</option>
+         <option data-lat="30.288612" data-lng="53.809466" "=" ">مزایجان</option>
+         <option data-lat="30.071834" data-lng="51.204336" "=" ">بابامنیر</option>
+         <option data-lat="29.628602" data-lng="53.236609" "=" ">سلطان شهر</option>
+         <option data-lat="30.189802" data-lng="53.178055" "=" ">مادرسلیمان</option>
+         <option data-lat="27.445343" data-lng="52.97333" "=" ">خوزی</option>
+         <option class="strong">قزوین</option>
+         <option data-lat="28.716613" data-lng="53.858549" "=" ">میانشهر</option>
+         <option data-lat="36.068667" data-lng="49.685243" "=" ">تاکستان</option>
+         <option data-lat="36.038689" data-lng="50.530217" "=" ">آبیک</option>
+         <option data-lat="35.581479" data-lng="49.221454" "=" ">آوج</option>
+         <option data-lat="35.767748" data-lng="50.069328" "=" ">بویین زهرا</option>
+         <option data-lat="35.895603" data-lng="49.769561" "=" ">شال</option>
+         <option data-lat="36.194149" data-lng="50.077497" "=" ">الوند</option>
+         <option data-lat="36.281647" data-lng="50.018024" "=" ">قزوین</option>
+         <option data-lat="36.212518" data-lng="50.14906" "=" ">شریفیه</option>
+         <option data-lat="35.936755" data-lng="49.749262" "=" ">اسفرورین</option>
+         <option data-lat="36.231339" data-lng="49.932099" "=" ">اقبالیه</option>
+         <option data-lat="36.017353" data-lng="49.505984" "=" ">ضیاڈآباد</option>
+         <option data-lat="35.815946" data-lng="49.743204" "=" ">دانسفهان</option>
+         <option data-lat="36.238272" data-lng="50.181955" "=" ">محمدیه</option>
+         <option data-lat="35.928275" data-lng="49.511973" "=" ">خرمدشت</option>
+         <option data-lat="36.291422" data-lng="49.900714" "=" ">محمودآبادنمونه</option>
+         <option data-lat="36.450192" data-lng="50.475088" "=" ">معلم کلایه</option>
+         <option data-lat="36.541538" data-lng="50.212513" "=" ">رازمیان</option>
+         <option data-lat="35.752583" data-lng="49.284184" "=" ">آبگرم</option>
+         <option data-lat="36.045503" data-lng="49.823535" "=" ">ارداق</option>
+         <option data-lat="36.227656" data-lng="50.117435" "=" ">بیدستان</option>
+         <option data-lat="36.372563" data-lng="49.657574" "=" ">کوهین</option>
+         <option data-lat="36.129999" data-lng="50.177021" "=" ">خاکعلی</option>
+         <option data-lat="35.773208" data-lng="49.939057" "=" ">سگزآباد</option>
+         <option data-lat="36.000736" data-lng="49.614193" "=" ">نرجه</option>
+         <option class="strong">قم</option>
+         <option data-lat="36.648405" data-lng="49.190296" "=" ">سیردان</option>
+         <option data-lat="34.651287" data-lng="50.854226" "=" ">قم</option>
+         <option data-lat="34.478055" data-lng="50.456928" "=" ">سلفچگان</option>
+         <option data-lat="34.77475" data-lng="50.516862" "=" ">جعفریه</option>
+         <option data-lat="34.39212" data-lng="50.863206" "=" ">کهک</option>
+         <option data-lat="34.549254" data-lng="50.246149" "=" ">دستجرد</option>
+         <option class="strong">کردستان</option>
+         <option data-lat="34.609773" data-lng="51.024766" "=" ">قنوات</option>
+         <option data-lat="35.993734" data-lng="45.877611" "=" ">بانه</option>
+         <option data-lat="35.882195" data-lng="47.621156" "=" ">بیجار</option>
+         <option data-lat="36.242599" data-lng="46.277989" "=" ">سقز</option>
+         <option data-lat="34.797964" data-lng="46.937492" "=" ">کامیاران</option>
+         <option data-lat="35.290633" data-lng="47.019137" "=" ">سنندج</option>
+         <option data-lat="35.916049" data-lng="47.023628" "=" ">دیواندره</option>
+         <option data-lat="35.276161" data-lng="47.420009" "=" ">دهگلان</option>
+         <option data-lat="35.247521" data-lng="47.776332" "=" ">سریش آباد</option>
+         <option data-lat="35.156808" data-lng="47.814328" "=" ">قروه</option>
+         <option data-lat="35.518834" data-lng="46.181443" "=" ">مریوان</option>
+         <option data-lat="35.139817" data-lng="47.320808" "=" ">بلبان آباد</option>
+         <option data-lat="35.463299" data-lng="46.211776" "=" ">کانی دینار</option>
+         <option data-lat="36.283579" data-lng="47.746743" "=" ">یاسوکند</option>
+         <option data-lat="35.311328" data-lng="46.368252" "=" ">سروآباد</option>
+         <option data-lat="35.243212" data-lng="47.987634" "=" ">دلبران</option>
+         <option data-lat="35.932042" data-lng="45.796118" "=" ">آرمرده</option>
+         <option data-lat="36.059489" data-lng="45.748058" "=" ">کانی سور</option>
+         <option data-lat="35.939012" data-lng="45.937952" "=" ">بویین سفلی</option>
+         <option data-lat="35.678207" data-lng="47.797979" "=" ">بابارشانی</option>
+         <option data-lat="35.355676" data-lng="46.678657" "=" ">شویشه</option>
+         <option data-lat="35.064226" data-lng="47.963244" "=" ">دزج</option>
+         <option data-lat="35.630196" data-lng="46.308348" "=" ">چناره</option>
+         <option data-lat="36.062087" data-lng="46.91711" "=" ">زرینه</option>
+         <option data-lat="35.057934" data-lng="47.15516" "=" ">موچش</option>
+         <option data-lat="36.203176" data-lng="46.460311" "=" ">صاحب</option>
+         <option data-lat="35.253003" data-lng="46.261417" "=" ">اورامان تخت</option>
+         <option data-lat="35.60932" data-lng="46.1094" "=" ">برده رشه</option>
+         <option data-lat="35.76987" data-lng="48.119501" "=" ">پیرتاج</option>
+         <option class="strong">کرمان</option>
+         <option data-lat="36.048597" data-lng="47.825616" "=" ">توپ آغاج</option>
+         <option data-lat="29.285679" data-lng="56.914081" "=" ">رابر</option>
+         <option data-lat="29.227816" data-lng="56.595747" "=" ">بافت</option>
+         <option data-lat="29.597508" data-lng="57.433852" "=" ">راین</option>
+         <option data-lat="29.103355" data-lng="58.319415" "=" ">بم</option>
+         <option data-lat="29.0742" data-lng="58.419149" "=" ">بروات</option>
+         <option data-lat="28.693498" data-lng="57.733617" "=" ">جیرفت</option>
+         <option data-lat="28.47606" data-lng="57.841844" "=" ">عنبرآباد</option>
+         <option data-lat="30.875856" data-lng="55.269111" "=" ">انار</option>
+         <option data-lat="30.38893" data-lng="55.968777" "=" ">رفسنجان</option>
+         <option data-lat="31.421877" data-lng="56.272123" "=" ">کوهبنان</option>
+         <option data-lat="30.802686" data-lng="56.563334" "=" ">زرند</option>
+         <option data-lat="29.469372" data-lng="55.66195" "=" ">سیرجان</option>
+         <option data-lat="30.123293" data-lng="55.130757" "=" ">شهربابک</option>
+         <option data-lat="31.267956" data-lng="56.806196" "=" ">راور</option>
+         <option data-lat="30.417456" data-lng="57.701718" "=" ">شهداد</option>
+         <option data-lat="29.884041" data-lng="57.731112" "=" ">گلباف</option>
+         <option data-lat="30.056552" data-lng="57.11259" "=" ">جوپار</option>
+         <option data-lat="30.058053" data-lng="57.287368" "=" ">ماهان</option>
+         <option data-lat="30.596758" data-lng="56.909765" "=" ">چترود</option>
+         <option data-lat="30.28281" data-lng="57.056675" "=" ">کرمان</option>
+         <option data-lat="27.943443" data-lng="57.694189" "=" ">کهنوج</option>
+         <option data-lat="29.930447" data-lng="56.572562" "=" ">بردسیر</option>
+         <option data-lat="30.157564" data-lng="55.086562" "=" ">خورسند</option>
+         <option data-lat="30.51505" data-lng="55.046318" "=" ">جوزم</option>
+         <option data-lat="29.520492" data-lng="56.816607" "=" ">لاله زار</option>
+         <option data-lat="30.826085" data-lng="55.808926" "=" ">صفاییه</option>
+         <option data-lat="30.011086" data-lng="55.420011" "=" ">خاتون اباد</option>
+         <option data-lat="31.152587" data-lng="56.383321" "=" ">کیانشهر</option>
+         <option data-lat="27.527203" data-lng="57.878144" "=" ">قلعه گنج</option>
+         <option data-lat="29.25194" data-lng="56.696753" "=" ">بزنجان</option>
+         <option data-lat="30.716794" data-lng="56.772725" "=" ">خانوک</option>
+         <option data-lat="30.002812" data-lng="55.796976" "=" ">مس سرچشمه</option>
+         <option data-lat="28.905355" data-lng="57.88477" "=" ">جبالبارز</option>
+         <option data-lat="30.691902" data-lng="54.878109" "=" ">دهج</option>
+         <option data-lat="30.198241" data-lng="56.86578" "=" ">باغین</option>
+         <option data-lat="27.399228" data-lng="57.488812" "=" ">منوجان</option>
+         <option data-lat="29.712389" data-lng="57.040403" "=" ">گلزار</option>
+         <option data-lat="28.451963" data-lng="56.366132" "=" ">ارزوییه</option>
+         <option data-lat="28.646814" data-lng="59.018802" "=" ">محمدآباد</option>
+         <option data-lat="28.942227" data-lng="58.884017" "=" ">فهرج</option>
+         <option data-lat="30.841962" data-lng="55.340441" "=" ">امین شهر</option>
+         <option data-lat="30.528646" data-lng="55.640603" "=" ">کشکوییه</option>
+         <option data-lat="29.599252" data-lng="55.532647" "=" ">زیدآباد</option>
+         <option data-lat="30.081665" data-lng="57.153199" "=" ">محی آباد</option>
+         <option data-lat="30.416178" data-lng="56.912015" "=" ">زنگی آباد</option>
+         <option data-lat="30.566766" data-lng="56.848152" "=" ">کاظم آباد</option>
+         <option data-lat="28.030468" data-lng="57.989759" "=" ">رودبار</option>
+         <option data-lat="29.85804" data-lng="56.803099" "=" ">نگار</option>
+         <option data-lat="28.953565" data-lng="58.698639" "=" ">نرماشیر</option>
+         <option data-lat="29.233936" data-lng="57.343155" "=" ">درب بهشت</option>
+         <option data-lat="29.393028" data-lng="55.719102" "=" ">نجف شهر</option>
+         <option data-lat="30.901538" data-lng="55.729148" "=" ">بهرمان</option>
+         <option data-lat="30.32937" data-lng="56.919261" "=" ">اختیارآباد</option>
+         <option data-lat="28.100259" data-lng="57.231185" "=" ">فاریاب</option>
+         <option data-lat="29.873072" data-lng="55.747129" "=" ">پاریز</option>
+         <option data-lat="28.907466" data-lng="58.54842" "=" ">نظام شهر</option>
+         <option data-lat="30.758248" data-lng="56.996128" "=" ">هجدک</option>
+         <option data-lat="30.730996" data-lng="56.719427" "=" ">ریحان</option>
+         <option data-lat="30.867319" data-lng="56.370647" "=" ">یزدان شهر</option>
+         <option data-lat="28.354152" data-lng="58.161326" "=" ">مردهک</option>
+         <option data-lat="30.232945" data-lng="57.7541" "=" ">اندوهجرد</option>
+         <option data-lat="27.534033" data-lng="57.438597" "=" ">نودژ</option>
+         <option data-lat="28.422433" data-lng="57.946291" "=" ">دوساری</option>
+         <option data-lat="29.647046" data-lng="55.823995" "=" ">هماشهر</option>
+         <option data-lat="28.230258" data-lng="57.513443" "=" ">بلوک</option>
+         <option data-lat="29.300529" data-lng="57.189755" "=" ">هنزا</option>
+         <option data-lat="27.800738" data-lng="58.579188" "=" ">زهکلوت</option>
+         <option data-lat="28.722571" data-lng="58.868697" "=" ">گنبکی</option>
+         <option data-lat="29.273496" data-lng="55.829145" "=" ">خواجوشهر</option>
+         <option data-lat="29.906835" data-lng="56.662401" "=" ">دشتکار</option>
+         <option class="strong">کرمانشاه</option>
+         <option data-lat="29.418995" data-lng="56.045509" "=" ">بلورد</option>
+         <option data-lat="34.275669" data-lng="46.237107" "=" ">کرند غرب</option>
+         <option data-lat="34.111993" data-lng="46.522386" "=" ">اسلام آبادغرب</option>
+         <option data-lat="34.479505" data-lng="47.685719" "=" ">صحنه</option>
+         <option data-lat="34.364662" data-lng="47.131824" "=" ">کرمانشاه</option>
+         <option data-lat="34.274114" data-lng="47.579599" "=" ">هرسین</option>
+         <option data-lat="34.807585" data-lng="46.49529" "=" ">جوانرود</option>
+         <option data-lat="35.049498" data-lng="46.350806" "=" ">پاوه</option>
+         <option data-lat="35.18199" data-lng="46.254107" "=" ">نودشه</option>
+         <option data-lat="35.164542" data-lng="46.203142" "=" ">نوسود</option>
+         <option data-lat="34.459521" data-lng="45.862475" "=" ">سرپل ذهاب</option>
+         <option data-lat="34.772885" data-lng="47.604429" "=" ">سنقر</option>
+         <option data-lat="34.514797" data-lng="45.583082" "=" ">قصرشیرین</option>
+         <option data-lat="34.502922" data-lng="47.962347" "=" ">کنگاور</option>
+         <option data-lat="34.138753" data-lng="45.923875" "=" ">گیلانغرب</option>
+         <option data-lat="34.94152" data-lng="46.460055" "=" ">شاهو</option>
+         <option data-lat="34.718809" data-lng="46.65025" "=" ">روانسر</option>
+         <option data-lat="34.981132" data-lng="46.272217" "=" ">باینگان</option>
+         <option data-lat="34.719462" data-lng="46.174761" "=" ">تازه آباد</option>
+         <option data-lat="34.267712" data-lng="46.8021" "=" ">رباط</option>
+         <option data-lat="33.881802" data-lng="45.640687" "=" ">سومار</option>
+         <option data-lat="34.392944" data-lng="47.445149" "=" ">بیستون</option>
+         <option data-lat="34.344374" data-lng="46.415465" "=" ">گهواره</option>
+         <option data-lat="34.112157" data-lng="47.09174" "=" ">هلشی</option>
+         <option data-lat="33.937134" data-lng="46.774489" "=" ">حمیل</option>
+         <option data-lat="34.494946" data-lng="46.601793" "=" ">کوزران</option>
+         <option data-lat="34.027624" data-lng="46.332001" "=" ">سرمست</option>
+         <option data-lat="34.585408" data-lng="47.444641" "=" ">میان راهان</option>
+         <option data-lat="34.832444" data-lng="45.842338" "=" ">ازگله</option>
+         <option data-lat="34.813171" data-lng="47.462726" "=" ">سطر</option>
+         <option data-lat="34.472328" data-lng="45.988153" "=" ">ریجاب</option>
+         <option data-lat="34.969852" data-lng="46.360532" "=" ">بانوره</option>
+         <option class="strong">کهگیلویه وبویراحمد</option>
+         <option data-lat="34.507739" data-lng="48.080261" "=" ">گودین</option>
+         <option data-lat="30.85813" data-lng="51.455311" "=" ">سی سخت</option>
+         <option data-lat="30.675493" data-lng="51.571346" "=" ">یاسوج</option>
+         <option data-lat="30.754859" data-lng="50.749692" "=" ">چرام</option>
+         <option data-lat="30.798435" data-lng="50.569096" "=" ">دهدشت</option>
+         <option data-lat="30.356784" data-lng="50.786591" "=" ">دوگنبدان</option>
+         <option data-lat="30.718238" data-lng="51.539737" "=" ">مادوان</option>
+         <option data-lat="30.794282" data-lng="51.32489" "=" ">چیتاب</option>
+         <option data-lat="30.955871" data-lng="51.270376" "=" ">پاتاوه</option>
+         <option data-lat="30.98181" data-lng="50.418675" "=" ">لنده</option>
+         <option data-lat="30.362229" data-lng="51.156537" "=" ">باشت</option>
+         <option data-lat="30.854288" data-lng="50.462552" "=" ">سوق</option>
+         <option data-lat="30.898528" data-lng="50.093767" "=" ">لیکک</option>
+         <option data-lat="30.99314" data-lng="51.082417" "=" ">مارگون</option>
+         <option data-lat="30.944605" data-lng="50.898288" "=" ">گراب سفلی</option>
+         <option data-lat="31.189821" data-lng="50.444597" "=" ">قلعه رییسی</option>
+         <option data-lat="31.298742" data-lng="50.401255" "=" ">دیشموک</option>
+         <option class="strong">گلستان</option>
+         <option data-lat="30.804712" data-lng="50.852219" "=" ">سرفاریاب</option>
+         <option data-lat="37.069563" data-lng="54.075091" "=" ">گمیش تپه</option>
+         <option data-lat="36.909014" data-lng="54.075233" "=" ">بندرترکمن</option>
+         <option data-lat="36.910048" data-lng="54.85843" "=" ">علی اباد</option>
+         <option data-lat="36.767749" data-lng="53.951021" "=" ">بندرگز</option>
+         <option data-lat="36.786099" data-lng="54.110269" "=" ">کردکوی</option>
+         <option data-lat="37.020858" data-lng="54.456752" "=" ">آق قلا</option>
+         <option data-lat="36.83508" data-lng="54.425633" "=" ">گرگان</option>
+         <option data-lat="37.082158" data-lng="55.166217" "=" ">آزادشهر</option>
+         <option data-lat="37.012331" data-lng="54.990279" "=" ">خان ببین</option>
+         <option data-lat="37.015849" data-lng="55.145737" "=" ">رامیان</option>
+         <option data-lat="37.381079" data-lng="55.500458" "=" ">کلاله</option>
+         <option data-lat="37.238497" data-lng="55.176491" "=" ">گنبدکاووس</option>
+         <option data-lat="37.270885" data-lng="55.434273" "=" ">گالیکش</option>
+         <option data-lat="37.229826" data-lng="55.372241" "=" ">مینودشت</option>
+         <option data-lat="36.874708" data-lng="54.596647" "=" ">جلین</option>
+         <option data-lat="36.739506" data-lng="53.91197" "=" ">نوکنده</option>
+         <option data-lat="37.03567" data-lng="55.046878" "=" ">دلند</option>
+         <option data-lat="37.452757" data-lng="54.719095" "=" ">اینچه برون</option>
+         <option data-lat="37.902597" data-lng="55.955281" "=" ">مراوه تپه</option>
+         <option data-lat="36.893013" data-lng="54.753748" "=" ">فاضل آباد</option>
+         <option data-lat="36.888454" data-lng="54.568806" "=" ">سرخنکلاته</option>
+         <option data-lat="37.133509" data-lng="54.619749" "=" ">انبارآلوم</option>
+         <option data-lat="37.0124" data-lng="54.232349" "=" ">سیمین شهر</option>
+         <option data-lat="37.075822" data-lng="55.264457" "=" ">نوده خاندوز</option>
+         <option data-lat="37.138974" data-lng="55.164065" "=" ">نگین شهر</option>
+         <option data-lat="37.11086" data-lng="55.047293" "=" ">تاتار علیا</option>
+         <option data-lat="36.952412" data-lng="54.858943" "=" ">مزرعه</option>
+         <option data-lat="36.998178" data-lng="54.854357" "=" ">سنگدوین</option>
+         <option class="strong">گیلان</option>
+         <option data-lat="37.525648" data-lng="55.594579" "=" ">فراغی</option>
+         <option data-lat="38.424672" data-lng="48.866672" "=" ">آستارا</option>
+         <option data-lat="37.418912" data-lng="49.934897" "=" ">کیاشهر</option>
+         <option data-lat="37.269716" data-lng="49.937239" "=" ">آستانه اشرفیه</option>
+         <option data-lat="37.468491" data-lng="49.508056" "=" ">بندرانزلی</option>
+         <option data-lat="37.602655" data-lng="49.069273" "=" ">پره سر</option>
+         <option data-lat="37.553138" data-lng="49.13704" "=" ">رضوانشهر</option>
+         <option data-lat="37.364011" data-lng="49.136728" "=" ">ماسال</option>
+         <option data-lat="37.805139" data-lng="48.906156" "=" ">هشتپر (تالش)</option>
+         <option data-lat="37.373878" data-lng="49.757106" "=" ">خشکبیجار</option>
+         <option data-lat="37.389135" data-lng="49.65593" "=" ">خمام</option>
+         <option data-lat="37.277345" data-lng="49.771657" "=" ">کوچصفهان</option>
+         <option data-lat="37.356504" data-lng="49.86175" "=" ">لشت نشإ</option>
+         <option data-lat="37.277861" data-lng="49.587414" "=" ">رشت</option>
+         <option data-lat="37.181668" data-lng="49.693314" "=" ">سنگر</option>
+         <option data-lat="36.625509" data-lng="49.513191" "=" ">لوشان</option>
+         <option data-lat="36.811414" data-lng="49.41577" "=" ">رودبار</option>
+         <option data-lat="36.737659" data-lng="49.418085" "=" ">منجیل</option>
+         <option data-lat="37.092179" data-lng="50.188757" "=" ">املش</option>
+         <option data-lat="36.977232" data-lng="50.555549" "=" ">چابکسر</option>
+         <option data-lat="37.032073" data-lng="50.334781" "=" ">رحیم آباد</option>
+         <option data-lat="37.138436" data-lng="50.301823" "=" ">رودسر</option>
+         <option data-lat="37.073648" data-lng="50.399336" "=" ">کلاچای</option>
+         <option data-lat="37.042586" data-lng="50.41067" "=" ">واجارگاه</option>
+         <option data-lat="37.301599" data-lng="49.321151" "=" ">صومعه سرا</option>
+         <option data-lat="37.169669" data-lng="49.404072" "=" ">شفت</option>
+         <option data-lat="37.228407" data-lng="49.311091" "=" ">فومن</option>
+         <option data-lat="37.154742" data-lng="48.990846" "=" ">ماسوله</option>
+         <option data-lat="37.143865" data-lng="50.174546" "=" ">کومله</option>
+         <option data-lat="37.192159" data-lng="50.160236" "=" ">لنگرود</option>
+         <option data-lat="37.154372" data-lng="49.879352" "=" ">سیاهکل</option>
+         <option data-lat="37.208255" data-lng="50.010586" "=" ">لاهیجان</option>
+         <option data-lat="37.256325" data-lng="49.818134" "=" ">لولمان</option>
+         <option data-lat="37.237345" data-lng="50.253534" "=" ">چاف و چمخاله</option>
+         <option data-lat="36.70295" data-lng="49.789989" "=" ">جیرنده</option>
+         <option data-lat="36.901984" data-lng="49.486915" "=" ">رستم آباد</option>
+         <option data-lat="37.281135" data-lng="49.383017" "=" ">مرجقل</option>
+         <option data-lat="37.156561" data-lng="50.212669" "=" ">شلمان</option>
+         <option data-lat="36.891231" data-lng="49.528942" "=" ">توتکابن</option>
+         <option data-lat="37.302756" data-lng="49.218612" "=" ">گوراب زرمیخ</option>
+         <option data-lat="36.890387" data-lng="49.907567" "=" ">دیلمان</option>
+         <option data-lat="37.957522" data-lng="48.907792" "=" ">لیسار</option>
+         <option data-lat="37.728697" data-lng="48.956446" "=" ">اسالم</option>
+         <option data-lat="36.775949" data-lng="49.752408" "=" ">بره سر</option>
+         <option data-lat="37.112706" data-lng="50.117204" "=" ">اطاقور</option>
+         <option data-lat="37.255031" data-lng="49.995491" "=" ">رودبنه</option>
+         <option data-lat="37.130283" data-lng="49.362964" "=" ">احمدسرگوراب</option>
+         <option data-lat="37.407694" data-lng="49.121649" "=" ">بازار جمعه</option>
+         <option data-lat="37.035427" data-lng="50.232844" "=" ">رانکوه</option>
+         <option data-lat="38.307166" data-lng="48.859741" "=" ">لوندویل</option>
+         <option data-lat="38.149094" data-lng="48.894167" "=" ">حویق</option>
+         <option data-lat="38.178293" data-lng="48.88887" "=" ">چوبر</option>
+         <option class="strong">لرستان</option>
+         <option data-lat="37.194905" data-lng="49.198918" "=" ">ماکلوان</option>
+         <option data-lat="33.455409" data-lng="49.450141" "=" ">ازنا</option>
+         <option data-lat="33.400971" data-lng="49.70028" "=" ">الیگودرز</option>
+         <option data-lat="34.015589" data-lng="48.64214" "=" ">اشترینان</option>
+         <option data-lat="33.509824" data-lng="49.054213" "=" ">دورود</option>
+         <option data-lat="33.888707" data-lng="48.749199" "=" ">بروجرد</option>
+         <option data-lat="33.86966" data-lng="48.26582" "=" ">الشتر</option>
+         <option data-lat="34.066701" data-lng="47.97858" "=" ">نورآباد</option>
+         <option data-lat="33.526893" data-lng="47.610162" "=" ">کوهدشت</option>
+         <option data-lat="33.467305" data-lng="48.326582" "=" ">خرم آباد</option>
+         <option data-lat="33.148016" data-lng="47.716902" "=" ">پلدختر</option>
+         <option data-lat="33.562994" data-lng="48.021716" "=" ">سراب دوره</option>
+         <option data-lat="33.280061" data-lng="47.507062" "=" ">چقابل</option>
+         <option data-lat="33.474693" data-lng="47.235974" "=" ">گراب</option>
+         <option data-lat="33.500912" data-lng="48.706422" "=" ">زاغه</option>
+         <option data-lat="33.486967" data-lng="48.031687" "=" ">ویسیان</option>
+         <option data-lat="33.665382" data-lng="48.906139" "=" ">چالانچولان</option>
+         <option data-lat="33.401458" data-lng="47.321587" "=" ">کوهنانی</option>
+         <option data-lat="33.584396" data-lng="49.516004" "=" ">مومن آباد</option>
+         <option data-lat="33.379102" data-lng="47.960778" "=" ">معمولان</option>
+         <option data-lat="33.898133" data-lng="48.104278" "=" ">فیروزآباد</option>
+         <option data-lat="33.219014" data-lng="48.884553" "=" ">سپیددشت</option>
+         <option data-lat="33.648797" data-lng="48.560787" "=" ">بیرانشهر (چغلوندی)</option>
+         <option data-lat="33.690418" data-lng="47.146652" "=" ">درب گنبد</option>
+         <option data-lat="34.207199" data-lng="47.766624" "=" ">هفت چشمه</option>
+         <option class="strong">مازندران</option>
+         <option data-lat="33.184748" data-lng="49.190777" "=" ">شول آباد</option>
+         <option data-lat="36.850317" data-lng="50.810509" "=" ">شیرود</option>
+         <option data-lat="35.881177" data-lng="52.166782" "=" ">رینه</option>
+         <option data-lat="36.465297" data-lng="52.358055" "=" ">آمل</option>
+         <option data-lat="36.62518" data-lng="52.265783" "=" ">محمودآباد</option>
+         <option data-lat="36.692674" data-lng="52.639359" "=" ">بابلسر</option>
+         <option data-lat="36.682565" data-lng="52.52327" "=" ">فریدونکنار</option>
+         <option data-lat="36.597089" data-lng="52.662733" "=" ">امیرکلا</option>
+         <option data-lat="36.543617" data-lng="52.67605" "=" ">بابل</option>
+         <option data-lat="36.732374" data-lng="53.809482" "=" ">گلوگاه</option>
+         <option data-lat="36.691265" data-lng="53.547057" "=" ">بهشهر</option>
+         <option data-lat="36.678733" data-lng="53.428497" "=" ">رستمکلا</option>
+         <option data-lat="36.645358" data-lng="53.290959" "=" ">نکا</option>
+         <option data-lat="36.815449" data-lng="50.875538" "=" ">تنکابن</option>
+         <option data-lat="36.781585" data-lng="50.871448" "=" ">خرم آباد</option>
+         <option data-lat="36.700705" data-lng="51.194585" "=" ">سلمان شهر</option>
+         <option data-lat="36.718904" data-lng="51.121052" "=" ">عباس اباد</option>
+         <option data-lat="36.685416" data-lng="51.257175" "=" ">کلارآباد</option>
+         <option data-lat="36.742755" data-lng="51.048361" "=" ">نشتارود</option>
+         <option data-lat="36.921759" data-lng="50.660583" "=" ">رامسر</option>
+         <option data-lat="36.878207" data-lng="50.710396" "=" ">کتالم وسادات شهر</option>
+         <option data-lat="36.550485" data-lng="53.061658" "=" ">ساری</option>
+         <option data-lat="36.067483" data-lng="52.837638" "=" ">آلاشت</option>
+         <option data-lat="36.122161" data-lng="53.050479" "=" ">پل سفید</option>
+         <option data-lat="36.179393" data-lng="52.974867" "=" ">زیرآب</option>
+         <option data-lat="36.306246" data-lng="52.869136" "=" ">شیرگاه</option>
+         <option data-lat="36.636854" data-lng="52.90093" "=" ">جویبار</option>
+         <option data-lat="36.454083" data-lng="52.866124" "=" ">قایم شهر</option>
+         <option data-lat="36.585449" data-lng="52.814443" "=" ">کیاکلا</option>
+         <option data-lat="36.574072" data-lng="52.026791" "=" ">نور</option>
+         <option data-lat="36.657797" data-lng="51.418468" "=" ">چالوس</option>
+         <option data-lat="36.489818" data-lng="51.144009" "=" ">کلاردشت</option>
+         <option data-lat="36.457053" data-lng="51.298156" "=" ">مرزن آباد</option>
+         <option data-lat="36.568075" data-lng="51.970595" "=" ">رویان</option>
+         <option data-lat="36.643548" data-lng="51.504864" "=" ">نوشهر</option>
+         <option data-lat="36.486875" data-lng="52.122334" "=" ">چمستان</option>
+         <option data-lat="36.237775" data-lng="53.538922" "=" ">کیاسر</option>
+         <option data-lat="36.596267" data-lng="53.211883" "=" ">سورک</option>
+         <option data-lat="35.902146" data-lng="52.2217" "=" ">گزنک</option>
+         <option data-lat="36.36796" data-lng="52.564199" "=" ">خوش رودپی</option>
+         <option data-lat="36.312689" data-lng="52.626648" "=" ">گلوگاه بابل</option>
+         <option data-lat="36.36302" data-lng="52.735622" "=" ">مرزیکلا</option>
+         <option data-lat="36.515645" data-lng="52.572659" "=" ">زرگرمحله</option>
+         <option data-lat="36.663999" data-lng="52.764685" "=" ">بهنمیر</option>
+         <option data-lat="36.641009" data-lng="52.626711" "=" ">هادی شهر (کله بست)</option>
+         <option data-lat="36.670981" data-lng="52.457913" "=" ">سرخرود</option>
+         <option data-lat="36.198833" data-lng="51.806224" "=" ">بلده</option>
+         <option data-lat="36.694205" data-lng="52.904418" "=" ">کوهی خیل</option>
+         <option data-lat="36.481549" data-lng="52.451818" "=" ">دابودشت</option>
+         <option data-lat="36.425658" data-lng="52.656893" "=" ">گتاب</option>
+         <option data-lat="36.176227" data-lng="53.266371" "=" ">فریم</option>
+         <option data-lat="36.696904" data-lng="53.639888" "=" ">خلیل شهر</option>
+         <option data-lat="36.600747" data-lng="52.14539" "=" ">ایزدشهر</option>
+         <option data-lat="36.398053" data-lng="51.588947" "=" ">پول</option>
+         <option data-lat="36.428836" data-lng="53.135456" "=" ">پایین هولار</option>
+         <option data-lat="36.490716" data-lng="52.952586" "=" ">ارطه</option>
+         <option data-lat="36.673986" data-lng="51.345875" "=" ">هچیرود</option>
+         <option data-lat="36.410185" data-lng="52.306877" "=" ">امامزاده عبدالله</option>
+         <option class="strong">مرکزی</option>
+         <option data-lat="36.381438" data-lng="51.728828" "=" ">کجور</option>
+         <option data-lat="34.095799" data-lng="49.732632" "=" ">اراک</option>
+         <option data-lat="34.713553" data-lng="49.32427" "=" ">کمیجان</option>
+         <option data-lat="34.523919" data-lng="50.006833" "=" ">آشتیان</option>
+         <option data-lat="34.692918" data-lng="50.031624" "=" ">تفرش</option>
+         <option data-lat="33.640707" data-lng="50.080482" "=" ">خمین</option>
+         <option data-lat="33.997418" data-lng="50.683585" "=" ">دلیجان</option>
+         <option data-lat="34.012748" data-lng="50.841095" "=" ">نراق</option>
+         <option data-lat="35.37812" data-lng="50.569972" "=" ">زاویه</option>
+         <option data-lat="35.304026" data-lng="50.50155" "=" ">مامونیه</option>
+         <option data-lat="35.063506" data-lng="50.376667" "=" ">ساوه</option>
+         <option data-lat="35.11059" data-lng="49.824836" "=" ">غرق آباد</option>
+         <option data-lat="33.884678" data-lng="49.349933" "=" ">آستانه</option>
+         <option data-lat="33.927802" data-lng="49.409744" "=" ">شازند</option>
+         <option data-lat="33.909212" data-lng="50.463859" "=" ">محلات</option>
+         <option data-lat="33.884889" data-lng="50.571068" "=" ">نیمور</option>
+         <option data-lat="34.09912" data-lng="49.932054" "=" ">کارچان</option>
+         <option data-lat="35.397867" data-lng="50.334871" "=" ">خشکرود</option>
+         <option data-lat="34.021111" data-lng="49.461261" "=" ">شهر جدید مهاجران</option>
+         <option data-lat="34.255367" data-lng="49.32778" "=" ">جاورسیان</option>
+         <option data-lat="34.411421" data-lng="49.502845" "=" ">ساروق</option>
+         <option data-lat="34.506698" data-lng="49.685504" "=" ">فرمهین</option>
+         <option data-lat="35.12342" data-lng="49.705491" "=" ">نوبران</option>
+         <option data-lat="35.364667" data-lng="50.682294" "=" ">پرندک</option>
+         <option data-lat="34.394259" data-lng="49.189446" "=" ">خنداب</option>
+         <option data-lat="35.330644" data-lng="49.955513" "=" ">رازقان</option>
+         <option data-lat="34.622874" data-lng="49.209568" "=" ">میلاجرد</option>
+         <option data-lat="33.780177" data-lng="49.230843" "=" ">هندودر</option>
+         <option data-lat="34.295681" data-lng="49.855065" "=" ">داودآباد</option>
+         <option data-lat="33.675599" data-lng="49.878692" "=" ">قورچی باشی</option>
+         <option data-lat="34.045132" data-lng="49.287378" "=" ">توره</option>
+         <option data-lat="34.754183" data-lng="49.531059" "=" ">خنجین</option>
+         <option data-lat="33.879419" data-lng="49.530514" "=" ">شهباز</option>
+         <option class="strong">هرمزگان</option>
+         <option data-lat="34.804668" data-lng="50.422306" "=" ">آوه</option>
+         <option data-lat="27.088128" data-lng="54.496108" "=" ">کوخرد هرنگ</option>
+         <option data-lat="25.878676" data-lng="55.031394" "=" ">ابوموسی</option>
+         <option data-lat="26.952978" data-lng="55.589284" "=" ">خمیر</option>
+         <option data-lat="25.655966" data-lng="57.792271" "=" ">بندرجاسک</option>
+         <option data-lat="28.31448" data-lng="55.905076" "=" ">حاجی اباد</option>
+         <option data-lat="27.194" data-lng="56.276543" "=" ">بندرعباس</option>
+         <option data-lat="27.195468" data-lng="54.363829" "=" ">بستک</option>
+         <option data-lat="27.20906" data-lng="53.042177" "=" ">پارسیان</option>
+         <option data-lat="26.594141" data-lng="54.930569" "=" ">کنگ</option>
+         <option data-lat="26.562849" data-lng="54.890082" "=" ">بندرلنگه</option>
+         <option data-lat="27.094014" data-lng="56.455983" "=" ">هرمز</option>
+         <option data-lat="26.950387" data-lng="56.263735" "=" ">قشم</option>
+         <option data-lat="27.451597" data-lng="57.178018" "=" ">دهبارز</option>
+         <option data-lat="27.133874" data-lng="57.07857" "=" ">میناب</option>
+         <option data-lat="27.150266" data-lng="57.448186" "=" ">هشتبندی</option>
+         <option data-lat="27.250812" data-lng="52.866359" "=" ">کوشکنار</option>
+         <option data-lat="27.467771" data-lng="55.417327" "=" ">رویدر</option>
+         <option data-lat="27.354279" data-lng="57.178135" "=" ">بیکا</option>
+         <option data-lat="26.460609" data-lng="57.90632" "=" ">سردشت</option>
+         <option data-lat="26.595695" data-lng="57.897339" "=" ">گوهران</option>
+         <option data-lat="27.436648" data-lng="56.534729" "=" ">قلعه قاضی</option>
+         <option data-lat="26.835563" data-lng="57.424132" "=" ">سندرک</option>
+         <option data-lat="27.50582" data-lng="56.635106" "=" ">تخت</option>
+         <option data-lat="27.942884" data-lng="56.659854" "=" ">سرگز</option>
+         <option data-lat="26.537622" data-lng="53.994086" "=" ">کیش</option>
+         <option data-lat="26.73418" data-lng="54.275353" "=" ">چارک</option>
+         <option data-lat="26.517528" data-lng="57.098167" "=" ">سیریک</option>
+         <option data-lat="27.636746" data-lng="55.881344" "=" ">فین</option>
+         <option data-lat="26.782071" data-lng="56.065169" "=" ">سوزا</option>
+         <option data-lat="27.021581" data-lng="54.290229" "=" ">جناح</option>
+         <option data-lat="28.00777" data-lng="56.25193" "=" ">فارغان</option>
+         <option data-lat="26.962822" data-lng="56.068859" "=" ">درگهان</option>
+         <option data-lat="27.735597" data-lng="57.230764" "=" ">زیارتعلی</option>
+         <option data-lat="26.587194" data-lng="57.094186" "=" ">گروک</option>
+         <option data-lat="27.179273" data-lng="53.005519" "=" ">دشتی</option>
+         <option data-lat="27.316457" data-lng="56.178603" "=" ">تازیان پایین</option>
+         <option data-lat="27.045086" data-lng="54.887545" "=" ">لمزان</option>
+         <option data-lat="27.338691" data-lng="56.957587" "=" ">تیرور</option>
+         <option class="strong">همدان</option>
+         <option data-lat="26.804125" data-lng="57.024401" "=" ">کوهستک</option>
+         <option data-lat="34.551288" data-lng="48.449223" "=" ">تویسرکان</option>
+         <option data-lat="34.600093" data-lng="48.44761" "=" ">سرکان</option>
+         <option data-lat="34.209622" data-lng="48.703728" "=" ">سامن</option>
+         <option data-lat="34.299441" data-lng="48.803243" "=" ">ملایر</option>
+         <option data-lat="34.19601" data-lng="48.373296" "=" ">نهاوند</option>
+         <option data-lat="34.780444" data-lng="48.122164" "=" ">اسدآباد</option>
+         <option data-lat="35.311431" data-lng="49.100182" "=" ">قروه درجزین</option>
+         <option data-lat="34.89482" data-lng="48.439825" "=" ">بهار</option>
+         <option data-lat="34.972459" data-lng="48.477912" "=" ">لالجین</option>
+         <option data-lat="35.202843" data-lng="48.694034" "=" ">کبودراهنگ</option>
+         <option data-lat="34.829727" data-lng="48.459328" "=" ">مریانج</option>
+         <option data-lat="34.802122" data-lng="48.516822" "=" ">همدان</option>
+         <option data-lat="35.383183" data-lng="49.032452" "=" ">رزن</option>
+         <option data-lat="35.122149" data-lng="48.975262" "=" ">فامنین</option>
+         <option data-lat="34.361391" data-lng="48.116795" "=" ">فیروزان</option>
+         <option data-lat="34.922069" data-lng="48.342573" "=" ">صالح آباد</option>
+         <option data-lat="34.506012" data-lng="48.697565" "=" ">ازندریان</option>
+         <option data-lat="34.883891" data-lng="48.552771" "=" ">جورقان</option>
+         <option data-lat="34.860286" data-lng="48.999068" "=" ">قهاوند</option>
+         <option data-lat="35.441682" data-lng="48.822091" "=" ">دمق</option>
+         <option data-lat="34.486575" data-lng="48.288241" "=" ">فرسفج</option>
+         <option data-lat="34.43079" data-lng="48.68664" "=" ">جوکار</option>
+         <option data-lat="35.220732" data-lng="48.204524" "=" ">گل تپه</option>
+         <option data-lat="35.492484" data-lng="48.450827" "=" ">شیرین سو</option>
+         <option data-lat="34.153636" data-lng="49.007693" "=" ">زنگنه</option>
+         <option data-lat="34.21319" data-lng="48.262683" "=" ">برزول</option>
+         <option data-lat="34.175339" data-lng="48.24318" "=" ">گیان</option>
+         <option data-lat="35.076514" data-lng="48.616877" "=" ">مهاجران (همدان)</option>
+         <option class="strong">یزد</option>
+         <option data-lat="34.733024" data-lng="47.925778" "=" ">آجین</option>
+         <option data-lat="31.126203" data-lng="53.26112" "=" ">ابرکوه</option>
+         <option data-lat="32.309101" data-lng="54.008889" "=" ">اردکان</option>
+         <option data-lat="32.241388" data-lng="54.019364" "=" ">میبد</option>
+         <option data-lat="31.867873" data-lng="56.025828" "=" ">بهاباد</option>
+         <option data-lat="31.605078" data-lng="55.39591" "=" ">بافق</option>
+         <option data-lat="31.767777" data-lng="54.208205" "=" ">تفت</option>
+         <option data-lat="31.485784" data-lng="54.129775" "=" ">نیر</option>
+         <option data-lat="30.472916" data-lng="54.209898" "=" ">مروست</option>
+         <option data-lat="31.576536" data-lng="54.456552" "=" ">مهریز</option>
+         <option data-lat="30.050835" data-lng="54.368739" "=" ">هرات</option>
+         <option data-lat="32.016132" data-lng="54.213527" "=" ">اشکذر</option>
+         <option data-lat="31.989595" data-lng="54.246843" "=" ">زارچ</option>
+         <option data-lat="31.891545" data-lng="54.344732" "=" ">یزد</option>
+         <option data-lat="32.276774" data-lng="53.995512" "=" ">بفروییه</option>
+         <option data-lat="31.946437" data-lng="54.280787" "=" ">شاهدیه</option>
+         <option data-lat="31.832929" data-lng="54.425092" "=" ">حمیدیا</option>
+         <option data-lat="32.350689" data-lng="53.991252" "=" ">احمدآباد</option>
+         <option data-lat="32.02755" data-lng="53.548726" "=" ">ندوشن</option>
+         <option data-lat="31.027366" data-lng="53.345261" "=" ">مهردشت</option>
+         <option data-lat="31.870326" data-lng="53.953355" "=" ">خضرآباد</option>
+         <option data-lat="32.443718" data-lng="53.63817" "=" ">عقدا</option>
+      </select>
+      <div id="mapwrapper">
+         <div class="mapwrapper">
+            <div class="addressList">
+               <div id="map" style="height:650px; max-width:100%; width:1140px"></div>
+            </div>
+         </div>
+      </div>
+      <div id="dynamic-text" class="wow fadeInUp">
+      </div>
+      <script src="{% static 'main/Scripts/site/map.js' %}"></script>
+   </div>
+</main>
+
+{% endblock %}
