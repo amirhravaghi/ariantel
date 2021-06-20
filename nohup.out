@@ -22694,3 +22694,305 @@ WARNINGS:
 ?: (urls.W002) Your URL pattern '/subMenu' [name='sub_menu'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
 
 System check identified 30 issues (0 silenced).
+[20/Jun/2021 16:38:38] "GET / HTTP/1.1" 200 65199
+[20/Jun/2021 16:38:38] "GET /static/main/media/d8e14d0c-c837-4528-bff7-696e4e75a92dsim-etebari.png HTTP/1.1" 304 0
+[20/Jun/2021 16:38:39] "GET /static/main/media/c2d35484-209e-4c83-bedd-f75649127e81sim%20toorism.png HTTP/1.1" 304 0
+[20/Jun/2021 16:38:39] "GET /static/main/media/bfa2e24d-080a-4855-a6db-28230074815bsim-daeemi.png HTTP/1.1" 200 150547
+[20/Jun/2021 16:38:39] "GET /static/main/media/favicon.jpg HTTP/1.1" 200 1222
+[20/Jun/2021 16:38:46] "POST /admin/editCards/60bb566652022657011f7cf5 HTTP/1.1" 200 30651
+[20/Jun/2021 16:38:46] "GET /static/assets/css/styles/all-themes.css HTTP/1.1" 200 28620
+[20/Jun/2021 16:38:46] "GET /static/assets/css/text_editor.css HTTP/1.1" 200 144
+[20/Jun/2021 16:38:46] "GET /static/assets/images/load-343-460469.png HTTP/1.1" 200 3297
+[20/Jun/2021 16:38:46] "GET /static/assets/images/avatar.jpg HTTP/1.1" 200 25433
+[20/Jun/2021 16:38:46] "GET /static/assets/images/logo-footer.png HTTP/1.1" 200 6733
+[20/Jun/2021 16:38:47] "GET /static/assets/js/bundles/materialize-rtl/materialize-rtl.min.css HTTP/1.1" 200 135840
+Not Found: /admin/editCards/assets/js/chart.min.js
+[20/Jun/2021 16:38:47] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10019
+[20/Jun/2021 16:38:47] "GET /static/assets/js/admin.js HTTP/1.1" 200 19024
+[20/Jun/2021 16:38:47] "GET /static/assets/js/pages/index.js HTTP/1.1" 200 13885
+[20/Jun/2021 16:38:47] "GET /static/assets/js/editorMediaHandler.js HTTP/1.1" 200 1956
+[20/Jun/2021 16:38:47] "GET /static/assets/js/text_editor.js HTTP/1.1" 200 1433
+[20/Jun/2021 16:38:47] "GET /static/assets/images/person.png HTTP/1.1" 200 8853
+Not Found: /admin/editCards/assets/images/person.png
+[20/Jun/2021 16:38:47] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10025
+[20/Jun/2021 16:38:48] "GET /static/assets/css/style.css HTTP/1.1" 200 354550
+[20/Jun/2021 16:38:48] "GET /static/assets/fonts/themify-icons/themify-icons.css HTTP/1.1" 200 16443
+[20/Jun/2021 16:38:48] "GET /static/assets/fonts/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12607
+[20/Jun/2021 16:38:49] "GET /static/assets/css/app.min.css HTTP/1.1" 200 506755
+[20/Jun/2021 16:38:49] "GET /static/assets/fonts/Shabnam.woff HTTP/1.1" 200 25624
+[20/Jun/2021 16:38:49] "GET /static/assets/fonts/themify-icons/fonts/themify.woff HTTP/1.1" 200 56108
+[20/Jun/2021 16:38:49] "GET /static/assets/fonts/fontawesome/fa-regular-400.woff2 HTTP/1.1" 200 14872
+[20/Jun/2021 16:38:49] "GET /static/assets/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1" 200 71952
+[20/Jun/2021 16:38:49] "GET /static/assets/js/bundles/apexcharts/apexcharts.min.js HTTP/1.1" 200 547087
+[20/Jun/2021 16:38:49] "GET /static/assets/fonts/poppins/poppins-v5-latin-regular.woff2 HTTP/1.1" 200 7904
+[20/Jun/2021 16:38:50] "GET /static/assets/js/app.min.js HTTP/1.1" 200 1352791
+Not Found: /admin/editCards/assets/js/chart.min.js
+[20/Jun/2021 16:38:51] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10019
+[20/Jun/2021 16:38:55] "POST /admin/editCards/60bb566652022657011f7cf5 HTTP/1.1" 200 30651
+[20/Jun/2021 16:38:55] "GET /static/assets/css/styles/all-themes.css HTTP/1.1" 200 28620
+[20/Jun/2021 16:38:55] "GET /static/assets/css/text_editor.css HTTP/1.1" 200 144
+[20/Jun/2021 16:38:55] "GET /static/assets/images/avatar.jpg HTTP/1.1" 200 25433
+[20/Jun/2021 16:38:55] "GET /static/assets/images/logo-footer.png HTTP/1.1" 200 6733
+[20/Jun/2021 16:38:55] "GET /static/assets/images/load-343-460469.png HTTP/1.1" 200 3297
+Not Found: /admin/editCards/assets/js/chart.min.js
+[20/Jun/2021 16:38:55] "GET /static/assets/js/admin.js HTTP/1.1" 200 19024
+[20/Jun/2021 16:38:55] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10019
+[20/Jun/2021 16:38:56] "GET /static/assets/js/bundles/materialize-rtl/materialize-rtl.min.css HTTP/1.1" 200 135840
+[20/Jun/2021 16:38:56] "GET /static/assets/js/editorMediaHandler.js HTTP/1.1" 200 1956
+[20/Jun/2021 16:38:56] "GET /static/assets/js/text_editor.js HTTP/1.1" 200 1433
+[20/Jun/2021 16:38:56] "GET /static/assets/images/person.png HTTP/1.1" 200 8853
+[20/Jun/2021 16:38:56] "GET /static/assets/js/pages/index.js HTTP/1.1" 200 13885
+Not Found: /admin/editCards/assets/images/person.png
+[20/Jun/2021 16:38:56] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10025
+[20/Jun/2021 16:38:56] "GET /static/assets/css/style.css HTTP/1.1" 200 354550
+[20/Jun/2021 16:38:56] "GET /static/assets/fonts/themify-icons/themify-icons.css HTTP/1.1" 200 16443
+[20/Jun/2021 16:38:56] "GET /static/assets/fonts/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12607
+[20/Jun/2021 16:38:58] "GET /static/assets/css/app.min.css HTTP/1.1" 200 506755
+[20/Jun/2021 16:38:58] "GET /static/assets/js/bundles/apexcharts/apexcharts.min.js HTTP/1.1" 200 547087
+[20/Jun/2021 16:38:59] "GET /static/assets/fonts/Shabnam.woff HTTP/1.1" 200 25624
+[20/Jun/2021 16:38:59] "GET /static/assets/fonts/fontawesome/fa-regular-400.woff2 HTTP/1.1" 200 14872
+[20/Jun/2021 16:38:59] "GET /static/assets/fonts/themify-icons/fonts/themify.woff HTTP/1.1" 200 56108
+[20/Jun/2021 16:38:59] "GET /static/assets/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1" 200 71952
+[20/Jun/2021 16:38:59] "GET /static/assets/fonts/poppins/poppins-v5-latin-regular.woff2 HTTP/1.1" 200 7904
+[20/Jun/2021 16:38:59] "GET /static/assets/js/app.min.js HTTP/1.1" 200 1352791
+Not Found: /admin/editCards/assets/js/chart.min.js
+[20/Jun/2021 16:38:59] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10019
+[20/Jun/2021 16:39:05] "GET /admin/cards HTTP/1.1" 200 23562
+[20/Jun/2021 16:39:05] "GET /static/assets/css/styles/all-themes.css HTTP/1.1" 200 28620
+[20/Jun/2021 16:39:05] "GET /static/assets/css/text_editor.css HTTP/1.1" 200 144
+[20/Jun/2021 16:39:05] "GET /static/assets/images/load-343-460469.png HTTP/1.1" 200 3297
+[20/Jun/2021 16:39:06] "GET /static/assets/images/logo-footer.png HTTP/1.1" 200 6733
+[20/Jun/2021 16:39:06] "GET /static/assets/images/avatar.jpg HTTP/1.1" 200 25433
+[20/Jun/2021 16:39:06] "GET /static/assets/js/bundles/materialize-rtl/materialize-rtl.min.css HTTP/1.1" 200 135840
+Not Found: /admin/assets/js/chart.min.js
+[20/Jun/2021 16:39:07] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[20/Jun/2021 16:39:08] "GET /static/assets/js/admin.js HTTP/1.1" 200 19024
+[20/Jun/2021 16:39:09] "GET /static/assets/js/pages/index.js HTTP/1.1" 200 13885
+[20/Jun/2021 16:39:09] "GET /static/assets/js/editorMediaHandler.js HTTP/1.1" 200 1956
+[20/Jun/2021 16:39:09] "GET /static/assets/js/text_editor.js HTTP/1.1" 200 1433
+[20/Jun/2021 16:39:09] "GET /static/assets/images/person.png HTTP/1.1" 200 8853
+Not Found: /admin/assets/images/person.png
+[20/Jun/2021 16:39:09] "GET /admin/assets/images/person.png HTTP/1.1" 404 9995
+[20/Jun/2021 16:39:12] "GET /static/assets/css/app.min.css HTTP/1.1" 200 506755
+[20/Jun/2021 16:39:13] "GET /static/assets/js/bundles/apexcharts/apexcharts.min.js HTTP/1.1" 200 547087
+[20/Jun/2021 16:39:16] "GET /static/assets/css/style.css HTTP/1.1" 200 354550
+[20/Jun/2021 16:39:16] "GET /static/assets/fonts/themify-icons/themify-icons.css HTTP/1.1" 200 16443
+[20/Jun/2021 16:39:16] "GET /static/assets/fonts/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12607
+[20/Jun/2021 16:39:17] "GET /static/assets/fonts/Shabnam.woff HTTP/1.1" 200 25624
+[20/Jun/2021 16:39:17] "GET /static/assets/fonts/iconfont/MaterialIcons-Regular.woff2 HTTP/1.1" 200 44300
+[20/Jun/2021 16:39:17] "GET /static/assets/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1" 200 71952
+[20/Jun/2021 16:39:19] "GET /static/assets/fonts/themify-icons/fonts/themify.woff HTTP/1.1" 200 56108
+[20/Jun/2021 16:39:19] "GET /static/assets/fonts/fontawesome/fa-regular-400.woff2 HTTP/1.1" 200 14872
+[20/Jun/2021 16:39:19] "GET /static/assets/fonts/poppins/poppins-v5-latin-regular.woff2 HTTP/1.1" 200 7904
+[20/Jun/2021 16:39:22] "GET /static/assets/js/app.min.js HTTP/1.1" 200 1352791
+Not Found: /admin/assets/js/chart.min.js
+[20/Jun/2021 16:39:22] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[20/Jun/2021 16:39:25] "GET /admin/editCards/60bb566652022657011f7cf5 HTTP/1.1" 200 30418
+[20/Jun/2021 16:39:25] "GET /static/assets/css/styles/all-themes.css HTTP/1.1" 200 28620
+[20/Jun/2021 16:39:25] "GET /static/assets/css/text_editor.css HTTP/1.1" 200 144
+[20/Jun/2021 16:39:25] "GET /static/assets/images/logo-footer.png HTTP/1.1" 200 6733
+[20/Jun/2021 16:39:25] "GET /static/assets/images/avatar.jpg HTTP/1.1" 200 25433
+[20/Jun/2021 16:39:25] "GET /static/assets/images/load-343-460469.png HTTP/1.1" 200 3297
+[20/Jun/2021 16:39:26] "GET /static/assets/js/bundles/materialize-rtl/materialize-rtl.min.css HTTP/1.1" 200 135840
+Not Found: /admin/editCards/assets/js/chart.min.js
+[20/Jun/2021 16:39:29] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10019
+[20/Jun/2021 16:39:29] "GET /static/assets/js/admin.js HTTP/1.1" 200 19024
+[20/Jun/2021 16:39:31] "GET /static/assets/js/pages/index.js HTTP/1.1" 200 13885
+[20/Jun/2021 16:39:31] "GET /static/assets/js/editorMediaHandler.js HTTP/1.1" 200 1956
+[20/Jun/2021 16:39:31] "GET /static/assets/js/text_editor.js HTTP/1.1" 200 1433
+[20/Jun/2021 16:39:31] "GET /static/assets/images/person.png HTTP/1.1" 200 8853
+Not Found: /admin/editCards/assets/images/person.png
+[20/Jun/2021 16:39:32] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10025
+[20/Jun/2021 16:39:37] "GET /static/assets/css/style.css HTTP/1.1" 200 354550
+[20/Jun/2021 16:39:38] "GET /static/assets/fonts/themify-icons/themify-icons.css HTTP/1.1" 200 16443
+[20/Jun/2021 16:39:38] "GET /static/assets/fonts/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12607
+[20/Jun/2021 16:39:39] "GET /static/assets/css/app.min.css HTTP/1.1" 200 506755
+[20/Jun/2021 16:39:40] "GET /static/assets/fonts/Shabnam.woff HTTP/1.1" 200 25624
+[20/Jun/2021 16:39:40] "GET /static/assets/fonts/themify-icons/fonts/themify.woff HTTP/1.1" 200 56108
+[20/Jun/2021 16:39:40] "GET /static/assets/fonts/fontawesome/fa-regular-400.woff2 HTTP/1.1" 200 14872
+[20/Jun/2021 16:39:40] "GET /static/assets/fonts/poppins/poppins-v5-latin-regular.woff2 HTTP/1.1" 200 7904
+[20/Jun/2021 16:39:43] "GET /static/assets/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1" 200 71952
+[20/Jun/2021 16:39:48] "GET /static/assets/js/app.min.js HTTP/1.1" 200 1352791
+Not Found: /admin/editCards/assets/js/chart.min.js
+[20/Jun/2021 16:39:49] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10019
+[20/Jun/2021 16:39:52] "GET /static/assets/js/bundles/apexcharts/apexcharts.min.js HTTP/1.1" 200 547087
+[20/Jun/2021 16:39:58] "POST /admin/editCards/60bb566652022657011f7cf5 HTTP/1.1" 200 30651
+[20/Jun/2021 16:39:59] "GET /static/assets/css/styles/all-themes.css HTTP/1.1" 200 28620
+[20/Jun/2021 16:39:59] "GET /static/assets/js/bundles/materialize-rtl/materialize-rtl.min.css HTTP/1.1" 200 135840
+[20/Jun/2021 16:39:59] "GET /static/assets/css/text_editor.css HTTP/1.1" 200 144
+[20/Jun/2021 16:39:59] "GET /static/assets/images/logo-footer.png HTTP/1.1" 200 6733
+[20/Jun/2021 16:39:59] "GET /static/assets/images/avatar.jpg HTTP/1.1" 200 25433
+[20/Jun/2021 16:39:59] "GET /static/assets/images/load-343-460469.png HTTP/1.1" 200 3297
+[20/Jun/2021 16:39:59] "GET /static/assets/js/admin.js HTTP/1.1" 200 19024
+Not Found: /admin/editCards/assets/js/chart.min.js
+[20/Jun/2021 16:39:59] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10019
+[20/Jun/2021 16:39:59] "GET /static/assets/js/pages/index.js HTTP/1.1" 200 13885
+[20/Jun/2021 16:40:00] "GET /static/assets/js/editorMediaHandler.js HTTP/1.1" 200 1956
+[20/Jun/2021 16:40:00] "GET /static/assets/js/text_editor.js HTTP/1.1" 200 1433
+[20/Jun/2021 16:40:00] "GET /static/assets/css/style.css HTTP/1.1" 200 354550
+[20/Jun/2021 16:40:00] "GET /static/assets/images/person.png HTTP/1.1" 200 8853
+Not Found: /admin/editCards/assets/images/person.png
+[20/Jun/2021 16:40:00] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10025
+[20/Jun/2021 16:40:00] "GET /static/assets/fonts/themify-icons/themify-icons.css HTTP/1.1" 200 16443
+[20/Jun/2021 16:40:00] "GET /static/assets/fonts/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12607
+[20/Jun/2021 16:40:00] "GET /static/assets/fonts/Shabnam.woff HTTP/1.1" 200 25624
+[20/Jun/2021 16:40:00] "GET /static/assets/fonts/themify-icons/fonts/themify.woff HTTP/1.1" 200 56108
+[20/Jun/2021 16:40:00] "GET /static/assets/fonts/fontawesome/fa-regular-400.woff2 HTTP/1.1" 200 14872
+[20/Jun/2021 16:40:01] "GET /static/assets/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1" 200 71952
+[20/Jun/2021 16:40:03] "GET /static/assets/js/bundles/apexcharts/apexcharts.min.js HTTP/1.1" 200 547087
+[20/Jun/2021 16:40:04] "GET /static/assets/js/app.min.js HTTP/1.1" 200 1352791
+[20/Jun/2021 16:40:05] "GET /static/assets/fonts/poppins/poppins-v5-latin-regular.woff2 HTTP/1.1" 200 7904
+[20/Jun/2021 16:40:05] "GET /static/assets/css/app.min.css HTTP/1.1" 200 506755
+Not Found: /admin/editCards/assets/js/chart.min.js
+[20/Jun/2021 16:40:06] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10019
+/home/django/ariantel/admin/views.py changed, reloading.
+Performing system checks...
+
+June 20, 2021 - 16:38:05
+Django version 3.2.3, using settings 'main_website.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+/home/django/ariantel/admin/views.py changed, reloading.
+Performing system checks...
+
+June 20, 2021 - 16:38:05
+Django version 3.2.3, using settings 'main_website.settings'
+Starting development server at http://0.0.0.0:7070/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W002) Your URL pattern '/addAdmin' [name='add_admin'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addCard' [name='add_card'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addFaq' [name='add_faq'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addMenuItem' [name='add_menu_item'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addNews' [name='add_news'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addPackage' [name='add_package'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addPage' [name='add_page'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addSlide' [name='add_slide'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addSubMenu' [name='add_sub_item'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/admins' [name='admins'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/api/mediaUpload' [name='media_upload'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/cards' [name='cards'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editAdmin/<str:aid>' [name='edit_admin'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editCards/<str:pid>' [name='edit_card'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editFaq/<str:qid>' [name='edit_faq'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editMenuItem/<str:mid>' [name='edit_menu_item'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editNews/<str:aid>' [name='edit_news'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editPackage/<str:pid>' [name='edit_package'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editPage/<str:pid>' [name='edit_page'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editSlide/<str:sid>' [name='edit_slide'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editSubMenu/<str:mid>' [name='edit_sub_item'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/faqs' [name='faqs'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/login' [name='login'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/logout' [name='logout'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/mainMenu' [name='main_menu'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/news' [name='news'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/packages' [name='packages'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/pages' [name='pages'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/slides' [name='slides'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/subMenu' [name='sub_menu'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+
+System check identified 30 issues (0 silenced).
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W002) Your URL pattern '/addAdmin' [name='add_admin'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addCard' [name='add_card'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addFaq' [name='add_faq'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addMenuItem' [name='add_menu_item'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addNews' [name='add_news'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addPackage' [name='add_package'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addPage' [name='add_page'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addSlide' [name='add_slide'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addSubMenu' [name='add_sub_item'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/admins' [name='admins'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/api/mediaUpload' [name='media_upload'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/cards' [name='cards'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editAdmin/<str:aid>' [name='edit_admin'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editCards/<str:pid>' [name='edit_card'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editFaq/<str:qid>' [name='edit_faq'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editMenuItem/<str:mid>' [name='edit_menu_item'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editNews/<str:aid>' [name='edit_news'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editPackage/<str:pid>' [name='edit_package'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editPage/<str:pid>' [name='edit_page'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editSlide/<str:sid>' [name='edit_slide'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editSubMenu/<str:mid>' [name='edit_sub_item'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/faqs' [name='faqs'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/login' [name='login'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/logout' [name='logout'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/mainMenu' [name='main_menu'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/news' [name='news'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/packages' [name='packages'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/pages' [name='pages'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/slides' [name='slides'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/subMenu' [name='sub_menu'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+
+System check identified 30 issues (0 silenced).
+[20/Jun/2021 16:41:28] "POST /admin/editCards/60bb566652022657011f7cf5 HTTP/1.1" 200 30659
+[20/Jun/2021 16:41:28] "GET /static/assets/css/styles/all-themes.css HTTP/1.1" 200 28620
+[20/Jun/2021 16:41:28] "GET /static/assets/css/text_editor.css HTTP/1.1" 200 144
+[20/Jun/2021 16:41:28] "GET /static/assets/images/load-343-460469.png HTTP/1.1" 200 3297
+[20/Jun/2021 16:41:28] "GET /static/assets/images/avatar.jpg HTTP/1.1" 200 25433
+[20/Jun/2021 16:41:28] "GET /static/assets/images/logo-footer.png HTTP/1.1" 200 6733
+[20/Jun/2021 16:41:28] "GET /static/assets/js/bundles/materialize-rtl/materialize-rtl.min.css HTTP/1.1" 200 135840
+Not Found: /admin/editCards/assets/js/chart.min.js
+[20/Jun/2021 16:41:28] "GET /static/assets/js/admin.js HTTP/1.1" 200 19024
+[20/Jun/2021 16:41:28] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10019
+[20/Jun/2021 16:41:28] "GET /static/assets/js/pages/index.js HTTP/1.1" 200 13885
+[20/Jun/2021 16:41:28] "GET /static/assets/js/editorMediaHandler.js HTTP/1.1" 200 1956
+[20/Jun/2021 16:41:28] "GET /static/assets/js/text_editor.js HTTP/1.1" 200 1433
+[20/Jun/2021 16:41:29] "GET /static/assets/images/person.png HTTP/1.1" 200 8853
+Not Found: /admin/editCards/assets/images/person.png
+[20/Jun/2021 16:41:29] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10025
+[20/Jun/2021 16:41:29] "GET /static/assets/css/style.css HTTP/1.1" 200 354550
+[20/Jun/2021 16:41:29] "GET /static/assets/fonts/themify-icons/themify-icons.css HTTP/1.1" 200 16443
+[20/Jun/2021 16:41:29] "GET /static/assets/fonts/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12607
+[20/Jun/2021 16:41:30] "GET /static/assets/css/app.min.css HTTP/1.1" 200 506755
+[20/Jun/2021 16:41:30] "GET /static/assets/js/bundles/apexcharts/apexcharts.min.js HTTP/1.1" 200 547087
+[20/Jun/2021 16:41:30] "GET /static/assets/fonts/Shabnam.woff HTTP/1.1" 200 25624
+[20/Jun/2021 16:41:30] "GET /static/assets/fonts/themify-icons/fonts/themify.woff HTTP/1.1" 200 56108
+[20/Jun/2021 16:41:30] "GET /static/assets/fonts/fontawesome/fa-regular-400.woff2 HTTP/1.1" 200 14872
+[20/Jun/2021 16:41:30] "GET /static/assets/fonts/poppins/poppins-v5-latin-regular.woff2 HTTP/1.1" 200 7904
+[20/Jun/2021 16:41:30] "GET /static/assets/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1" 200 71952
+[20/Jun/2021 16:41:32] "GET /static/assets/js/app.min.js HTTP/1.1" 200 1352791
+Not Found: /admin/editCards/assets/js/chart.min.js
+[20/Jun/2021 16:41:32] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10019
+[20/Jun/2021 16:41:35] "GET / HTTP/1.1" 200 65203
+[20/Jun/2021 16:41:35] "GET /static/main/media/bfa2e24d-080a-4855-a6db-28230074815bsim-daeemi.png HTTP/1.1" 304 0
+[20/Jun/2021 16:41:35] "GET /static/main/media/d8e14d0c-c837-4528-bff7-696e4e75a92dsim-etebari.png HTTP/1.1" 304 0
+[20/Jun/2021 16:41:35] "GET /static/main/media/c2d35484-209e-4c83-bedd-f75649127e81sim%20toorism.png HTTP/1.1" 304 0
+[20/Jun/2021 16:41:36] "GET /static/main/media/favicon.jpg HTTP/1.1" 200 1222
+[20/Jun/2021 16:41:42] "POST /admin/editCards/60bb566652022657011f7cf5 HTTP/1.1" 200 30657
+[20/Jun/2021 16:41:42] "GET /static/assets/css/styles/all-themes.css HTTP/1.1" 200 28620
+[20/Jun/2021 16:41:42] "GET /static/assets/css/text_editor.css HTTP/1.1" 200 144
+[20/Jun/2021 16:41:42] "GET /static/assets/images/avatar.jpg HTTP/1.1" 200 25433
+[20/Jun/2021 16:41:42] "GET /static/assets/images/load-343-460469.png HTTP/1.1" 200 3297
+[20/Jun/2021 16:41:42] "GET /static/assets/images/logo-footer.png HTTP/1.1" 200 6733
+[20/Jun/2021 16:41:42] "GET /static/assets/js/bundles/materialize-rtl/materialize-rtl.min.css HTTP/1.1" 200 135840
+Not Found: /admin/editCards/assets/js/chart.min.js
+[20/Jun/2021 16:41:43] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10019
+[20/Jun/2021 16:41:43] "GET /static/assets/js/admin.js HTTP/1.1" 200 19024
+[20/Jun/2021 16:41:43] "GET /static/assets/css/style.css HTTP/1.1" 200 354550
+[20/Jun/2021 16:41:43] "GET /static/assets/js/pages/index.js HTTP/1.1" 200 13885
+[20/Jun/2021 16:41:43] "GET /static/assets/fonts/themify-icons/themify-icons.css HTTP/1.1" 200 16443
+[20/Jun/2021 16:41:43] "GET /static/assets/fonts/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12607
+[20/Jun/2021 16:41:43] "GET /static/assets/css/app.min.css HTTP/1.1" 200 506755
+[20/Jun/2021 16:41:44] "GET /static/assets/js/editorMediaHandler.js HTTP/1.1" 200 1956
+[20/Jun/2021 16:41:44] "GET /static/assets/js/text_editor.js HTTP/1.1" 200 1433
+[20/Jun/2021 16:41:44] "GET /static/assets/images/person.png HTTP/1.1" 200 8853
+Not Found: /admin/editCards/assets/images/person.png
+[20/Jun/2021 16:41:44] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10025
+[20/Jun/2021 16:41:44] "GET /static/assets/fonts/Shabnam.woff HTTP/1.1" 200 25624
+[20/Jun/2021 16:41:44] "GET /static/assets/fonts/themify-icons/fonts/themify.woff HTTP/1.1" 200 56108
+[20/Jun/2021 16:41:44] "GET /static/assets/fonts/fontawesome/fa-regular-400.woff2 HTTP/1.1" 200 14872
+[20/Jun/2021 16:41:44] "GET /static/assets/fonts/poppins/poppins-v5-latin-regular.woff2 HTTP/1.1" 200 7904
+[20/Jun/2021 16:41:44] "GET /static/assets/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1" 200 71952
+[20/Jun/2021 16:41:44] "GET /static/assets/js/bundles/apexcharts/apexcharts.min.js HTTP/1.1" 200 547087
+[20/Jun/2021 16:41:45] "GET /static/assets/js/app.min.js HTTP/1.1" 200 1352791
+Not Found: /admin/editCards/assets/js/chart.min.js
+[20/Jun/2021 16:41:46] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10019
+[20/Jun/2021 16:41:49] "GET / HTTP/1.1" 200 65199
+[20/Jun/2021 16:41:50] "GET /static/main/media/favicon.jpg HTTP/1.1" 200 1222

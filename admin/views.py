@@ -388,7 +388,7 @@ def edit_card(request,pid):
     con = db.connect()
     col = con['simcards']
     edit_status = None
-    card = col.find_one({'_id': db.object_id(pid)})
+    card = col.find_one({'_id':db.object_id(pid)})
 
     # Post Check
     if request.POST:
@@ -398,7 +398,7 @@ def edit_card(request,pid):
                 "introduction": request.POST['fa_introduction'],
                 "manual": request.POST['fa_manual'],
                 "fees": request.POST['fa_fees'],
-                "image": card['image']
+                "image": card['fa']['image']
             }
             if request.FILES:
                 if request.FILES['fa_media'].name and not request.FILES['fa_media'].name == "":
