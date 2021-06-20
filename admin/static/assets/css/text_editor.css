@@ -6,3 +6,7 @@
 .ql-editor{
   height: 500px;
 }
+
+.ql-snow .ql-tooltip{
+  left: unset !important;
+}

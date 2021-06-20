@@ -153,4 +153,5 @@ MONGO_SESSIONS_COLLECTION = 'mongo_sessions'
 JWT_PRIVATE_KEY = env('JWT_PRIVATE_KEY')
 
 # Main URL
-MAIN_URL = "https://ariantel.ir"
+MAIN_URL = "http://192.168.21.3:8000"
+

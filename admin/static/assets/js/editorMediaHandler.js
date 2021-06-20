@@ -14,7 +14,7 @@ function saveToServer(editor, file) {
     fd.append("image", file);
 
     const xhr = new XMLHttpRequest();
-    xhr.open("POST", "http://localhost:8000/admin/api/mediaUpload", true);
+    xhr.open("POST", "http://192.168.21.3:8000/admin/api/mediaUpload", true);
     // xhr.setRequestHeader("Access-Control-Allow-Origin", "*");
     xhr.onload = () => {
         if (xhr.status === 200) {
@@ -42,7 +42,7 @@ function uploadImage(file) {
         fd.append("image", file);
 
         const xhr = new XMLHttpRequest();
-        xhr.open("POST", "http://localhost:8000/admin/api/mediaUpload", true);
+        xhr.open("POST", "http://192.168.21.3:8000/admin/api/mediaUpload", true);
         // xhr.setRequestHeader("Access-Control-Allow-Origin", "*");
         xhr.onload = () => {
             if (xhr.status === 200) {
@@ -58,3 +58,11 @@ function uploadImage(file) {
         xhr.send(fd);
     });
 }
+
+//function videoHandler(editor){
+//	let url = prompt("Enter Video URL: ");
+//	let range = editor.getSelection();
+//	if(url != null){
+//		editor.insertEmbed(range,'video',url);
+//	}
+//}

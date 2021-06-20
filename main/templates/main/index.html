@@ -24,7 +24,7 @@
          <div class="container">
             <div class="det">
                <h2 class="trans">{{ slide.title }}</h2>
-               <a href="" class="more trans">
+               <a href="{{ slide.link }}" class="more trans">
                   اطلاعات بیشتر <svg class="trans version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
                   <g>
                      <path d="M10,469.8c0-7.5,6-13.5,13.5-13.5h886.6c7.5,0,13.5,6,13.5,13.5v58.5c0,7.5-6,13.5-13.5,13.5H23.5c-7.5,0-13.5-6-13.5-13.5L10,469.8L10,469.8z"></path>
@@ -182,7 +182,7 @@
          <h3 class="title">خدمات آرین تل</h3>
          <div class="row">
             <div class="col-md-3 col-sm-4 col-xs-6 item">
-               <a href="{% url 'main:faq' %}">
+               <a href="{% url 'main:areas' %}">
                   <figure>
                      <img src="{% static 'main/Upload/Images/link/1.gif' %}" alt="مناطق تحت پوشش" class="img1"/>
                      <img src="{% static 'main/Upload/Images/link/1-1.gif' %}" alt="مناطق تحت پوشش" class="img2" />

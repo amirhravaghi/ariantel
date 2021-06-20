@@ -146,6 +146,7 @@ def packages(request,cid):
     duration_limit = 365
     min_size = 0
     max_size = 999999999999999999999999999999999
+    duration_filter = False
     if request.GET:
         min_range = int(request.GET.get("fromPrice",0))
         max_range = int(request.GET.get("toPrice",1000000))
@@ -161,28 +162,42 @@ def packages(request,cid):
             card_type = False
 
         # Duration filter
+        duration_filter = False
+        if filter_list[1] == "1015-0":
+            duration_filter = False
         if filter_list[1] == "1015-86665":
             duration_limit = 1
+            duration_filter = True
         if filter_list[1] == "1015-86669":
             duration_limit = 1
+            duration_filter = True
         if filter_list[1] == "1015-86670":
             duration_limit = 3
+            duration_filter = True
         if filter_list[1] == "1015-86671":
             duration_limit = 7
+            duration_filter = True
         if filter_list[1] == "1015-86672":
             duration_limit = 15
+            duration_filter = True
         if filter_list[1] == "1015-86673":
             duration_limit = 30
+            duration_filter = True
         if filter_list[1] == "1015-86674":
             duration_limit = 60
+            duration_filter = True
         if filter_list[1] == "1015-86675":
             duration_limit = 90
+            duration_filter = True
         if filter_list[1] == "1015-86676":
             duration_limit = 120
+            duration_filter = True
         if filter_list[1] == "1015-86677":
             duration_limit = 180
+            duration_filter = True
         if filter_list[1] == "1015-86678":
             duration_limit = 365
+            duration_filter = True
 
         # Size filter
         if filter_list[2] == "1016-86680":
@@ -208,7 +223,12 @@ def packages(request,cid):
     packages = col.find({"category_id": db.object_id(cid)})
     result = []
     for item in packages:
-        if int(item['price']) >= min_range and int(item['price']) <= max_range and int(item['duration']) <= duration_limit and int(item['size']) >= min_size and int(item['size']) <= max_size:
+        if int(item['price']) >= min_range and int(item['price']) <= max_range and int(item['size']) >= min_size and int(item['size']) <= max_size:
+                
+            if duration_filter:
+                if not int(item['duration']) == duration_limit:
+                    continue          
+
             if not card_type:
                 result.append({
                     "name": item[lang]['name'],

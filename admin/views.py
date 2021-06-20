@@ -1,6 +1,7 @@
 from django.shortcuts import render,redirect
 from django.conf import settings
 from django.http import HttpResponse,JsonResponse
+from django.views.decorators.csrf import csrf_exempt
 from . import database
 from . import functions
 import bcrypt
@@ -12,10 +13,10 @@ main_functions = functions.main_functions()
 
 # Views
 # Media Upload
+@csrf_exempt
 def mediaUpload(request):
-    if request.POST:
-        file = request.FILES['media']
-        address = settings.MAIN_URL + main_functions.media_upload(file)
+        file = request.FILES['image']
+        address = settings.MAIN_URL + settings.STATIC_URL + main_functions.media_upload(file)
         return JsonResponse({"url": address,"status": 1 })
 
 
@@ -341,7 +342,7 @@ def cards(request):
                 "fees": request.POST['fa_fees'],
             }
             if request.FILES:
-                if request.FILES['fa_media'] and not request.FILES['fa_media'].name == "":
+                if request.FILES['fa_media'].name and not request.FILES['fa_media'].name == "":
                     fa["image"]= main_functions.media_upload(request.FILES['fa_media'])
             en = {
                 "title": request.POST['en_title'],
@@ -387,6 +388,7 @@ def edit_card(request,pid):
     con = db.connect()
     col = con['simcards']
     edit_status = None
+    card = col.find_one({'_id': db.object_id(pid)})
 
     # Post Check
     if request.POST:
@@ -396,10 +398,11 @@ def edit_card(request,pid):
                 "introduction": request.POST['fa_introduction'],
                 "manual": request.POST['fa_manual'],
                 "fees": request.POST['fa_fees'],
+                "image": card['image']
             }
             if request.FILES:
-                if request.FILES['fa_media'] and not request.FILES['fa_media'].name == "":
-                    fa["image"]= main_functions.media_upload(request.FILES['fa_media'])
+                if request.FILES['fa_media'].name and not request.FILES['fa_media'].name == "":
+                    fa["image"] = main_functions.media_upload(request.FILES['fa_media'])
             en = {
                 "title": request.POST['en_title'],
                 "introduction": request.POST['en_introduction'],

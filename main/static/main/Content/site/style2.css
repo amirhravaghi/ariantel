@@ -339,6 +339,7 @@ textarea {
 #news-detail .textsummer {background-color: #f5f5f5;color: #666666;line-height: 23px;padding: 13px 24px;border-top:1px solid #f0f0f0;border-bottom:1px solid #f0f0f0;margin-bottom:25px;}
 #news-detail  .imgnews {border: 1px solid #ccc;float: right;margin:11px 0 8px 23px;max-width: 50%;padding: 2px;}
 #news-detail .text-news , #news-detail .text-news * ,.text-news ,.text-news *{ color: #333;line-height: 36px;text-align: justify;}
+#news-detail .text-news iframe{ width:100%;height: 500px; }
 .text-news img {margin:0 auto;max-width:100%;}
 #AllNews {float: left;margin: -5px 0 30px;}
 #AllNews:hover {color:#fa920a;margin-left:10px;}

@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         [{ color: [] }, { background: [] }], // dropdown with defaults from theme
         [{ align: [] }],
 
-        ["image", "link"],
+        ["image", "video" ,"link"],
     ];
 
     var quill = new Quill(".text-editor", {
@@ -28,6 +28,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
     quill.getModule("toolbar").addHandler("image", function (a) {
         selectLocalImage(quill);
     });
+    //quill.getModule("toolbar").addHandler("video", function (a) {
+//	videoHandler(quill);
+  //  });
 
     var en_quill = new Quill(".en-text-editor", {
         modules: {
