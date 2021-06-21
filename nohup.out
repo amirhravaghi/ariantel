@@ -22996,3 +22996,439 @@ Not Found: /admin/editCards/assets/js/chart.min.js
 [20/Jun/2021 16:41:46] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10019
 [20/Jun/2021 16:41:49] "GET / HTTP/1.1" 200 65199
 [20/Jun/2021 16:41:50] "GET /static/main/media/favicon.jpg HTTP/1.1" 200 1222
+[20/Jun/2021 17:10:26] "GET / HTTP/1.1" 200 63185
+[20/Jun/2021 17:10:26] "GET /static/main/Content/site/bootstrap.min.css HTTP/1.1" 304 0
+[20/Jun/2021 17:10:26] "GET /static/main/Content/site/style2.css HTTP/1.1" 304 0
+[20/Jun/2021 17:10:26] "GET /static/main/Content/site/skin0.css HTTP/1.1" 304 0
+[20/Jun/2021 17:10:26] "GET /static/main/Content/site/fonts.css HTTP/1.1" 304 0
+[20/Jun/2021 17:10:26] "GET /static/main/css/ltr.css HTTP/1.1" 304 0
+[20/Jun/2021 17:10:26] "GET /static/main/Content/site/fa.css HTTP/1.1" 304 0
+[20/Jun/2021 17:10:27] "GET /static/main/Scripts/site/core.js HTTP/1.1" 304 0
+[20/Jun/2021 17:10:27] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 304 0
+[20/Jun/2021 17:10:27] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 304 0
+[20/Jun/2021 17:10:27] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 304 0
+[20/Jun/2021 17:10:27] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 304 0
+[20/Jun/2021 17:10:27] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 304 0
+[20/Jun/2021 17:10:27] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 304 0
+[20/Jun/2021 17:10:27] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 304 0
+[20/Jun/2021 17:10:27] "GET /static/main/Scripts/site/util.js HTTP/1.1" 304 0
+[20/Jun/2021 17:10:28] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 304 0
+[20/Jun/2021 17:10:28] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 304 0
+[20/Jun/2021 17:10:28] "GET /static/main/images/logo.png HTTP/1.1" 304 0
+[20/Jun/2021 17:10:28] "GET /static/main/media/8eab75e1-a18f-4e46-accb-23cb0ea3aa73slider.jpg HTTP/1.1" 304 0
+[20/Jun/2021 17:10:28] "GET /static/main/media/01a32133-4186-4eeb-8e8a-8c73aa8eef9cSupport.jpg HTTP/1.1" 304 0
+[20/Jun/2021 17:10:29] "GET /static/main/Content/site/img/logo.png HTTP/1.1" 304 0
+[20/Jun/2021 17:10:29] "GET /static/main/media/e79a965c-28ed-4888-af8e-10949dab88fae-mway-ok.png HTTP/1.1" 304 0
+[20/Jun/2021 17:10:29] "GET /static/main/media/72f3178d-d687-4519-9c6e-c82c51021d6eweb23.png HTTP/1.1" 304 0
+[20/Jun/2021 17:10:29] "GET /static/main/media/41ea77c3-c8ad-4784-8e16-f7c55e4f795de-mway-ok2.png HTTP/1.1" 304 0
+[20/Jun/2021 17:10:29] "GET /static/main/Content/site/img/icon.png HTTP/1.1" 304 0
+[20/Jun/2021 17:10:29] "GET /static/main/Upload/Images/link/2-1.gif HTTP/1.1" 304 0
+[20/Jun/2021 17:10:29] "GET /static/main/Upload/Images/link/4-1.gif HTTP/1.1" 304 0
+[20/Jun/2021 17:10:29] "GET /static/main/Upload/Images/link/3-1.gif HTTP/1.1" 304 0
+[20/Jun/2021 17:10:29] "GET /static/main/Upload/Images/link/1-1.gif HTTP/1.1" 304 0
+[20/Jun/2021 17:10:29] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 304 0
+[20/Jun/2021 17:10:30] "GET /static/main/media/internet.png HTTP/1.1" 304 0
+[20/Jun/2021 17:10:30] "GET /static/main/media/0c6d5171-a6d2-44bc-bc3b-6c2e4817cd74simdata.png HTTP/1.1" 304 0
+[20/Jun/2021 17:10:30] "GET /static/main/media/2d1504bf-ec3c-4492-9593-b837898d675csim-rond.png HTTP/1.1" 304 0
+[20/Jun/2021 17:10:30] "GET /static/main/media/c2d35484-209e-4c83-bedd-f75649127e81sim%20toorism.png HTTP/1.1" 200 96626
+[20/Jun/2021 17:10:30] "GET /static/main/media/call.png HTTP/1.1" 304 0
+[20/Jun/2021 17:10:30] "GET /static/main/media/sms.png HTTP/1.1" 304 0
+[20/Jun/2021 17:10:30] "GET /static/main/media/tarkibi.png HTTP/1.1" 304 0
+[20/Jun/2021 17:10:30] "GET /static/main/Upload/Images/link/2.gif HTTP/1.1" 304 0
+[20/Jun/2021 17:10:31] "GET /static/main/Upload/Images/link/3.gif HTTP/1.1" 304 0
+[20/Jun/2021 17:10:31] "GET /static/main/Upload/Images/link/4.gif HTTP/1.1" 304 0
+[20/Jun/2021 17:10:31] "GET /static/main/Upload/Images/link/5.gif HTTP/1.1" 304 0
+[20/Jun/2021 17:10:31] "GET /static/main/media/d8e14d0c-c837-4528-bff7-696e4e75a92dsim-etebari.png HTTP/1.1" 200 151806
+[20/Jun/2021 17:10:31] "GET /static/main/Upload/Images/link/1.gif HTTP/1.1" 304 0
+[20/Jun/2021 17:10:31] "GET /static/main/Upload/Images/link/6-1.gif HTTP/1.1" 304 0
+[20/Jun/2021 17:10:31] "GET /static/main/Upload/Images/link/5-1.gif HTTP/1.1" 304 0
+[20/Jun/2021 17:10:31] "GET /static/main/Upload/Images/link/7.gif HTTP/1.1" 304 0
+[20/Jun/2021 17:10:31] "GET /static/main/Upload/Images/link/7-1.gif HTTP/1.1" 304 0
+[20/Jun/2021 17:10:31] "GET /static/main/Upload/Images/link/6.gif HTTP/1.1" 304 0
+[20/Jun/2021 17:10:31] "GET /static/main/Upload/Images/link/8.gif HTTP/1.1" 304 0
+[20/Jun/2021 17:10:31] "GET /static/main/media/bfa2e24d-080a-4855-a6db-28230074815bsim-daeemi.png HTTP/1.1" 200 150547
+[20/Jun/2021 17:10:32] "GET /static/main/Upload/Images/link/8-1.gif HTTP/1.1" 304 0
+[20/Jun/2021 17:10:32] "GET /static/main/images/logo-footer.png HTTP/1.1" 304 0
+[20/Jun/2021 17:10:32] "GET /static/main/Upload/enamd.png HTTP/1.1" 304 0
+[20/Jun/2021 17:10:32] "GET /static/main/images/footer-img.png HTTP/1.1" 304 0
+[20/Jun/2021 17:10:32] "GET /static/main/Upload/Images/195.png HTTP/1.1" 304 0
+[20/Jun/2021 17:10:32] "GET /static/main/Content/site/fa_fonts/IranYekan/woff/iranyekanwebregular.woff HTTP/1.1" 304 0
+[20/Jun/2021 17:10:32] "GET /static/main/media/favicon.jpg HTTP/1.1" 304 0
+[20/Jun/2021 17:10:33] "GET /lang/FA HTTP/1.1" 302 0
+[20/Jun/2021 17:10:34] "GET / HTTP/1.1" 200 65199
+[20/Jun/2021 17:10:35] "GET /static/main/Content/site/img/logo1.png HTTP/1.1" 304 0
+[20/Jun/2021 17:14:05] "GET /admin HTTP/1.1" 200 18807
+[20/Jun/2021 17:14:05] "GET /static/assets/css/app.min.css HTTP/1.1" 304 0
+[20/Jun/2021 17:14:05] "GET /static/assets/js/bundles/materialize-rtl/materialize-rtl.min.css HTTP/1.1" 304 0
+[20/Jun/2021 17:14:06] "GET /static/assets/css/style.css HTTP/1.1" 304 0
+[20/Jun/2021 17:14:06] "GET /static/assets/css/styles/all-themes.css HTTP/1.1" 304 0
+[20/Jun/2021 17:14:06] "GET /static/assets/css/text_editor.css HTTP/1.1" 304 0
+[20/Jun/2021 17:14:06] "GET /static/assets/js/app.min.js HTTP/1.1" 304 0
+[20/Jun/2021 17:14:06] "GET /static/assets/fonts/themify-icons/themify-icons.css HTTP/1.1" 304 0
+Not Found: /assets/js/chart.min.js
+[20/Jun/2021 17:14:06] "GET /static/assets/fonts/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 304 0
+[20/Jun/2021 17:14:06] "GET /assets/js/chart.min.js HTTP/1.1" 404 4232
+[20/Jun/2021 17:14:06] "GET /static/assets/js/admin.js HTTP/1.1" 304 0
+[20/Jun/2021 17:14:06] "GET /static/assets/js/bundles/apexcharts/apexcharts.min.js HTTP/1.1" 304 0
+[20/Jun/2021 17:14:06] "GET /static/assets/js/pages/index.js HTTP/1.1" 304 0
+[20/Jun/2021 17:14:06] "GET /static/assets/js/editorMediaHandler.js HTTP/1.1" 304 0
+[20/Jun/2021 17:14:07] "GET /static/assets/js/text_editor.js HTTP/1.1" 304 0
+[20/Jun/2021 17:14:07] "GET /static/assets/images/logo-footer.png HTTP/1.1" 304 0
+[20/Jun/2021 17:14:07] "GET /static/assets/images/load-343-460469.png HTTP/1.1" 304 0
+Not Found: /assets/images/person.png
+[20/Jun/2021 17:14:07] "GET /static/assets/images/person.png HTTP/1.1" 304 0
+[20/Jun/2021 17:14:07] "GET /assets/images/person.png HTTP/1.1" 404 4238
+[20/Jun/2021 17:14:07] "GET /static/assets/images/avatar.jpg HTTP/1.1" 304 0
+[20/Jun/2021 17:14:07] "GET /static/assets/fonts/Shabnam.woff HTTP/1.1" 304 0
+[20/Jun/2021 17:14:07] "GET /static/assets/fonts/themify-icons/fonts/themify.woff HTTP/1.1" 304 0
+[20/Jun/2021 17:14:07] "GET /static/assets/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1" 304 0
+[20/Jun/2021 17:14:07] "GET /static/assets/fonts/fontawesome/fa-regular-400.woff2 HTTP/1.1" 304 0
+Not Found: /assets/js/chart.min.js
+[20/Jun/2021 17:14:07] "GET /assets/js/chart.min.js HTTP/1.1" 404 4232
+[20/Jun/2021 17:14:07] "GET /static/assets/fonts/poppins/poppins-v5-latin-regular.woff2 HTTP/1.1" 304 0
+[20/Jun/2021 17:14:11] "GET /admin/cards HTTP/1.1" 200 23565
+Not Found: /admin/assets/images/person.png
+[20/Jun/2021 17:14:12] "GET /admin/assets/images/person.png HTTP/1.1" 404 9995
+Not Found: /admin/assets/js/chart.min.js
+[20/Jun/2021 17:14:12] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[20/Jun/2021 17:14:12] "GET /static/assets/fonts/iconfont/MaterialIcons-Regular.woff2 HTTP/1.1" 304 0
+[20/Jun/2021 17:14:15] "GET /admin/editCards/60bb566652022657011f7cf5 HTTP/1.1" 200 30421
+Not Found: /admin/editCards/assets/images/person.png
+[20/Jun/2021 17:14:15] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10025
+Not Found: /admin/editCards/assets/js/chart.min.js
+[20/Jun/2021 17:14:15] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10019
+[20/Jun/2021 17:14:24] "GET /simcards/60bb566652022657011f7cf5 HTTP/1.1" 200 62639
+[20/Jun/2021 17:14:24] "GET /static/main/media/bfa2e24d-080a-4855-a6db-28230074815bsim-daeemi.png HTTP/1.1" 304 0
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[20/Jun/2021 17:14:24] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4260
+[20/Jun/2021 17:14:31] "GET /lang/EN HTTP/1.1" 302 0
+[20/Jun/2021 17:14:32] "GET / HTTP/1.1" 200 63185
+[20/Jun/2021 17:14:32] "GET /static/main/media/d8e14d0c-c837-4528-bff7-696e4e75a92dsim-etebari.png HTTP/1.1" 304 0
+[20/Jun/2021 17:14:32] "GET /static/main/media/c2d35484-209e-4c83-bedd-f75649127e81sim%20toorism.png HTTP/1.1" 304 0
+Not Found: /admin/assets/js/chart.min.js
+[20/Jun/2021 17:23:59] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[20/Jun/2021 17:24:01] "GET /simcards/60bb566652022657011f7cf7 HTTP/1.1" 200 56859
+[20/Jun/2021 17:24:01] "GET /static/ HTTP/1.1" 404 1871
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[20/Jun/2021 17:24:02] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4260
+[20/Jun/2021 17:24:07] "GET /simcards/60bb566652022657011f7cf6 HTTP/1.1" 200 56850
+[20/Jun/2021 17:24:08] "GET /static/ HTTP/1.1" 404 1871
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[20/Jun/2021 17:24:08] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4260
+[20/Jun/2021 17:24:23] "GET /admin/editCards/60bb566652022657011f7cf5 HTTP/1.1" 200 30421
+Not Found: /admin/editCards/assets/images/person.png
+[20/Jun/2021 17:24:23] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10025
+Not Found: /admin/editCards/assets/js/chart.min.js
+[20/Jun/2021 17:24:23] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10019
+Not Found: /admin/assets/js/chart.min.js
+[20/Jun/2021 17:24:28] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[20/Jun/2021 17:24:30] "GET /admin/editCards/60bb566652022657011f7cf7 HTTP/1.1" 200 26575
+Not Found: /admin/editCards/assets/images/person.png
+[20/Jun/2021 17:24:31] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10025
+Not Found: /admin/editCards/assets/js/chart.min.js
+[20/Jun/2021 17:24:31] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10019
+Not Found: /admin/assets/js/chart.min.js
+[20/Jun/2021 17:24:38] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[20/Jun/2021 17:24:43] "GET /simcards/60bb566652022657011f7cf5 HTTP/1.1" 200 57605
+[20/Jun/2021 17:24:44] "GET /static/ HTTP/1.1" 404 1871
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[20/Jun/2021 17:24:44] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4260
+[20/Jun/2021 17:25:44] "GET /simcards/60bb566652022657011f7cf7 HTTP/1.1" 200 56859
+[20/Jun/2021 17:25:44] "GET /static/ HTTP/1.1" 404 1871
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[20/Jun/2021 17:25:44] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4260
+[20/Jun/2021 17:26:02] "GET /admin/editCards/60bb566652022657011f7cf7 HTTP/1.1" 200 26575
+Not Found: /admin/editCards/assets/images/person.png
+[20/Jun/2021 17:26:02] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10025
+Not Found: /admin/editCards/assets/js/chart.min.js
+[20/Jun/2021 17:26:03] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10019
+[20/Jun/2021 17:26:26] "POST /admin/editCards/60bb566652022657011f7cf7 HTTP/1.1" 200 27261
+Not Found: /admin/editCards/assets/images/person.png
+[20/Jun/2021 17:26:26] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10025
+Not Found: /admin/editCards/assets/js/chart.min.js
+[20/Jun/2021 17:26:27] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10019
+[20/Jun/2021 17:26:31] "GET /simcards/60bb566652022657011f7cf7 HTTP/1.1" 200 57254
+[20/Jun/2021 17:26:31] "GET /static/ HTTP/1.1" 404 1871
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[20/Jun/2021 17:26:31] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4260
+[20/Jun/2021 17:26:31] "GET /static/main/media/favicon.jpg HTTP/1.1" 200 1222
+[20/Jun/2021 17:26:49] "GET /simcards/60bb566652022657011f7cf7 HTTP/1.1" 200 57254
+[20/Jun/2021 17:26:49] "GET /static/ HTTP/1.1" 404 1871
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[20/Jun/2021 17:26:50] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4260
+[20/Jun/2021 17:26:58] "GET /simcards/60bb566652022657011f7cf7 HTTP/1.1" 200 57254
+[20/Jun/2021 17:26:59] "GET /static/ HTTP/1.1" 404 1871
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[20/Jun/2021 17:26:59] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4260
+[20/Jun/2021 17:28:27] "GET /simcards/60bb566652022657011f7cf7 HTTP/1.1" 200 57254
+[20/Jun/2021 17:28:28] "GET /static/ HTTP/1.1" 404 1871
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[20/Jun/2021 17:28:28] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4260
+[20/Jun/2021 17:30:23] "POST /admin/editCards/60bb566652022657011f7cf7 HTTP/1.1" 200 28155
+Not Found: /admin/editCards/assets/images/person.png
+[20/Jun/2021 17:30:23] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10025
+Not Found: /admin/editCards/assets/js/chart.min.js
+[20/Jun/2021 17:30:23] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10019
+[20/Jun/2021 17:30:26] "GET /simcards/60bb566652022657011f7cf7 HTTP/1.1" 200 58044
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[20/Jun/2021 17:30:27] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4260
+[20/Jun/2021 17:30:27] "GET /static/ HTTP/1.1" 404 1871
+[20/Jun/2021 17:30:27] "GET /static/main/media/favicon.jpg HTTP/1.1" 200 1222
+Not Found: /admin/editCards/assets/js/chart.min.js
+[20/Jun/2021 17:36:22] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10019
+Not Found: /admin/editCards/assets/images/person.png
+[20/Jun/2021 17:36:22] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10025
+[20/Jun/2021 17:36:25] "GET /admin/editCards/60bb566652022657011f7cf7 HTTP/1.1" 200 27916
+Not Found: /admin/editCards/assets/js/chart.min.js
+[20/Jun/2021 17:36:25] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10019
+[20/Jun/2021 17:36:28] "GET /admin/cards HTTP/1.1" 200 23565
+Not Found: /admin/assets/images/person.png
+[20/Jun/2021 17:36:28] "GET /admin/assets/images/person.png HTTP/1.1" 404 9995
+Not Found: /admin/assets/js/chart.min.js
+[20/Jun/2021 17:36:29] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[20/Jun/2021 17:42:04] "GET /admin/slides HTTP/1.1" 200 24882
+Not Found: /admin/assets/images/person.png
+[20/Jun/2021 17:42:05] "GET /admin/assets/images/person.png HTTP/1.1" 404 9995
+Not Found: /admin/assets/js/chart.min.js
+[20/Jun/2021 17:42:05] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[20/Jun/2021 17:42:55] "GET /admin/editSlide/60b236a9716d2c33870e51eb HTTP/1.1" 200 23775
+Not Found: /admin/editSlide/assets/images/person.png
+[20/Jun/2021 17:42:56] "GET /admin/editSlide/assets/images/person.png HTTP/1.1" 404 10025
+Not Found: /admin/editSlide/assets/js/chart.min.js
+[20/Jun/2021 17:42:56] "GET /admin/editSlide/assets/js/chart.min.js HTTP/1.1" 404 10019
+Not Found: /admin/assets/js/chart.min.js
+[20/Jun/2021 17:43:01] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+Not Found: /admin/assets/images/person.png
+[20/Jun/2021 17:43:02] "GET /admin/assets/images/person.png HTTP/1.1" 404 9995
+[20/Jun/2021 17:43:11] "GET /admin/cards HTTP/1.1" 200 23565
+Not Found: /admin/assets/images/person.png
+[20/Jun/2021 17:43:11] "GET /admin/assets/images/person.png HTTP/1.1" 404 9995
+Not Found: /admin/assets/js/chart.min.js
+[20/Jun/2021 17:43:11] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[20/Jun/2021 17:44:28] "GET /admin/editCards/60bb566652022657011f7cf6 HTTP/1.1" 200 29279
+Not Found: /admin/editCards/assets/images/person.png
+[20/Jun/2021 17:44:28] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10025
+Not Found: /admin/editCards/assets/js/chart.min.js
+[20/Jun/2021 17:44:29] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10019
+[20/Jun/2021 17:45:11] "POST /admin/editCards/60bb566652022657011f7cf6 HTTP/1.1" 200 29527
+Not Found: /admin/editCards/assets/images/person.png
+Not Found: /admin/editCards/assets/js/chart.min.js
+[20/Jun/2021 17:45:11] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10025
+[20/Jun/2021 17:45:11] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10019
+[20/Jun/2021 17:46:17] "POST /admin/editCards/60bb566652022657011f7cf6 HTTP/1.1" 200 30307
+Not Found: /admin/editCards/assets/images/person.png
+[20/Jun/2021 17:46:17] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10025
+Not Found: /admin/editCards/assets/js/chart.min.js
+[20/Jun/2021 17:46:17] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10019
+[20/Jun/2021 17:46:21] "GET / HTTP/1.1" 200 63203
+[20/Jun/2021 17:46:21] "GET /static/main/media/c2d35484-209e-4c83-bedd-f75649127e81sim%20toorism.png HTTP/1.1" 304 0
+[20/Jun/2021 17:46:22] "GET /static/main/media/bfa2e24d-080a-4855-a6db-28230074815bsim-daeemi.png HTTP/1.1" 304 0
+[20/Jun/2021 17:46:22] "GET /static/main/media/061f1772-469d-406d-8a85-00c02c13516dsim-etebari.png HTTP/1.1" 200 151806
+[20/Jun/2021 17:46:22] "GET /static/main/media/favicon.jpg HTTP/1.1" 200 1222
+[20/Jun/2021 17:48:14] "GET /lang/FA HTTP/1.1" 302 0
+[20/Jun/2021 17:48:15] "GET / HTTP/1.1" 200 65199
+[20/Jun/2021 17:48:16] "GET /static/main/media/061f1772-469d-406d-8a85-00c02c13516dsim-etebari.png HTTP/1.1" 304 0
+[20/Jun/2021 17:51:15] "GET /simcards/60bb566652022657011f7cf5 HTTP/1.1" 200 62639
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[20/Jun/2021 17:51:16] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4260
+[20/Jun/2021 17:51:21] "GET /lang/EN HTTP/1.1" 302 0
+[20/Jun/2021 17:51:22] "GET / HTTP/1.1" 200 63203
+[20/Jun/2021 17:51:23] "GET /static/main/media/061f1772-469d-406d-8a85-00c02c13516dsim-etebari.png HTTP/1.1" 304 0
+[20/Jun/2021 17:51:43] "GET /solutions HTTP/1.1" 200 41030
+[20/Jun/2021 17:52:01] "GET /admin/cards HTTP/1.1" 200 23565
+Not Found: /admin/assets/images/person.png
+[20/Jun/2021 17:52:01] "GET /admin/assets/images/person.png HTTP/1.1" 404 9995
+Not Found: /admin/assets/js/chart.min.js
+[20/Jun/2021 17:52:01] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[20/Jun/2021 17:52:03] "GET /admin/editCards/60bb566652022657011f7cf7 HTTP/1.1" 200 27916
+Not Found: /admin/editCards/assets/images/person.png
+[20/Jun/2021 17:52:04] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10025
+Not Found: /admin/editCards/assets/js/chart.min.js
+[20/Jun/2021 17:52:04] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10019
+Not Found: /admin/assets/images/person.png
+[20/Jun/2021 17:52:15] "GET /admin/assets/images/person.png HTTP/1.1" 404 9995
+[20/Jun/2021 17:52:15] "GET /admin/packages HTTP/1.1" 200 44312
+Not Found: /admin/assets/js/chart.min.js
+[20/Jun/2021 17:52:16] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+----------------------------------------
+Exception happened during processing of request from ('194.60.210.41', 7522)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 110] Connection timed out
+----------------------------------------
+[20/Jun/2021 17:52:50] "GET /admin/cards HTTP/1.1" 200 23565
+Not Found: /admin/assets/images/person.png
+[20/Jun/2021 17:52:50] "GET /admin/assets/images/person.png HTTP/1.1" 404 9995
+Not Found: /admin/assets/js/chart.min.js
+[20/Jun/2021 17:52:50] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[20/Jun/2021 17:52:54] "GET /admin/editCards/60bb566652022657011f7cf7 HTTP/1.1" 200 27916
+Not Found: /admin/editCards/assets/images/person.png
+[20/Jun/2021 17:52:54] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10025
+Not Found: /admin/editCards/assets/js/chart.min.js
+[20/Jun/2021 17:52:54] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10019
+[20/Jun/2021 17:53:01] "POST /admin/editCards/60bb566652022657011f7cf7 HTTP/1.1" 200 28219
+Not Found: /admin/editCards/assets/images/person.png
+[20/Jun/2021 17:53:01] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10025
+Not Found: /admin/editCards/assets/js/chart.min.js
+[20/Jun/2021 17:53:02] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10019
+[20/Jun/2021 17:55:16] "GET /admin/cards HTTP/1.1" 200 23565
+Not Found: /admin/assets/images/person.png
+[20/Jun/2021 17:55:16] "GET /admin/assets/images/person.png HTTP/1.1" 404 9995
+Not Found: /admin/assets/js/chart.min.js
+[20/Jun/2021 17:55:16] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[20/Jun/2021 17:55:18] "GET /admin/editCards/60bb566652022657011f7cf8 HTTP/1.1" 200 32310
+Not Found: /admin/editCards/assets/images/person.png
+[20/Jun/2021 17:55:19] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10025
+Not Found: /admin/editCards/assets/js/chart.min.js
+[20/Jun/2021 17:55:19] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10019
+[20/Jun/2021 17:57:35] "POST /admin/editCards/60bb566652022657011f7cf8 HTTP/1.1" 200 33618
+Not Found: /admin/editCards/assets/images/person.png
+[20/Jun/2021 17:57:35] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10025
+Not Found: /admin/editCards/assets/js/chart.min.js
+[20/Jun/2021 17:57:35] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10019
+----------------------------------------
+Exception happened during processing of request from ('194.60.210.41', 14125)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 110] Connection timed out
+----------------------------------------
+[20/Jun/2021 18:08:08] "GET /admin/mainMenu HTTP/1.1" 200 25453
+Not Found: /admin/assets/images/person.png
+[20/Jun/2021 18:08:08] "GET /admin/assets/images/person.png HTTP/1.1" 404 9995
+Not Found: /admin/assets/js/chart.min.js
+[20/Jun/2021 18:08:08] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+Not Found: /admin/assets/images/person.png
+[20/Jun/2021 18:08:11] "GET /admin/assets/images/person.png HTTP/1.1" 404 9995
+[20/Jun/2021 18:08:12] "GET /admin/subMenu HTTP/1.1" 200 54262
+Not Found: /admin/assets/js/chart.min.js
+[20/Jun/2021 18:08:12] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[20/Jun/2021 18:08:24] "GET /admin/editSubMenu/60afdee6cc60760461809ce0 HTTP/1.1" 200 26520
+Not Found: /admin/editSubMenu/assets/images/person.png
+[20/Jun/2021 18:08:24] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10031
+Not Found: /admin/editSubMenu/assets/images/person.png
+[20/Jun/2021 18:08:25] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10031
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[20/Jun/2021 18:08:25] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10025
+Not Found: /admin/assets/js/chart.min.js
+[20/Jun/2021 18:08:29] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+Not Found: /admin/assets/images/person.png
+[20/Jun/2021 18:08:29] "GET /admin/assets/images/person.png HTTP/1.1" 404 9995
+[20/Jun/2021 18:08:33] "GET /admin/editSubMenu/60afe2cb1f575526f2ad5d6c HTTP/1.1" 200 26576
+Not Found: /admin/editSubMenu/assets/images/person.png
+[20/Jun/2021 18:08:34] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10031
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[20/Jun/2021 18:08:34] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10025
+[20/Jun/2021 18:09:00] "GET /areas HTTP/1.1" 200 151634
+[20/Jun/2021 18:09:01] "GET /static/main/Scripts/site/map.js HTTP/1.1" 200 588
+[20/Jun/2021 18:09:34] "GET /static/main/hamrah.kml HTTP/1.1" 200 8354959
+Not Found: /admin/assets/images/person.png
+[20/Jun/2021 18:10:23] "GET /admin/assets/images/person.png HTTP/1.1" 404 9995
+Not Found: /admin/assets/js/chart.min.js
+[20/Jun/2021 18:10:23] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[20/Jun/2021 18:13:58] "GET /simple_ussd HTTP/1.1" 200 41030
+[20/Jun/2021 18:14:03] "GET /payment_ways HTTP/1.1" 200 41030
+[20/Jun/2021 18:14:29] "GET /branch HTTP/1.1" 200 41030
+[20/Jun/2021 18:15:52] "GET /admin/editSubMenu/60afdee6cc60760461809ce4 HTTP/1.1" 200 26524
+Not Found: /admin/editSubMenu/assets/images/person.png
+[20/Jun/2021 18:15:53] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10031
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[20/Jun/2021 18:15:53] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10025
+Not Found: /admin/assets/js/chart.min.js
+[20/Jun/2021 18:15:59] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[20/Jun/2021 18:16:03] "GET /admin/editSubMenu/60afe5f5847786bc30a9a660 HTTP/1.1" 200 26530
+Not Found: /admin/editSubMenu/assets/images/person.png
+[20/Jun/2021 18:16:03] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10031
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[20/Jun/2021 18:16:03] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10025
+Not Found: /admin/assets/js/chart.min.js
+[20/Jun/2021 18:16:07] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[20/Jun/2021 18:16:09] "GET /admin/editSubMenu/60afe5f5847786bc30a9a660 HTTP/1.1" 200 26530
+Not Found: /admin/editSubMenu/assets/images/person.png
+[20/Jun/2021 18:16:10] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10031
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[20/Jun/2021 18:16:10] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10025
+[20/Jun/2021 18:16:15] "POST /admin/editSubMenu/60afe5f5847786bc30a9a660 HTTP/1.1" 200 26888
+Not Found: /admin/editSubMenu/assets/images/person.png
+[20/Jun/2021 18:16:15] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10031
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[20/Jun/2021 18:16:16] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10025
+[20/Jun/2021 18:16:17] "GET /lang/FA HTTP/1.1" 302 0
+[20/Jun/2021 18:16:18] "GET / HTTP/1.1" 200 65053
+[20/Jun/2021 18:16:19] "GET /static/main/media/bfa2e24d-080a-4855-a6db-28230074815bsim-daeemi.png HTTP/1.1" 304 0
+[20/Jun/2021 18:16:20] "GET /static/main/media/061f1772-469d-406d-8a85-00c02c13516dsim-etebari.png HTTP/1.1" 304 0
+[20/Jun/2021 18:16:20] "GET /static/main/media/c2d35484-209e-4c83-bedd-f75649127e81sim%20toorism.png HTTP/1.1" 304 0
+[20/Jun/2021 18:16:42] "GET /data_direct_charge HTTP/1.1" 200 46585
+[20/Jun/2021 18:17:56] "GET /enterprise HTTP/1.1" 200 40100
+[20/Jun/2021 18:17:57] "GET /static/main/media/554ecc4a-1ae2-4085-881e-388b41c7f260slider3.jpg HTTP/1.1" 304 0
+[20/Jun/2021 18:17:57] "GET /static/main/media/424edf5c-36b3-4fd5-98b1-dac12e11534aslider3.jpg HTTP/1.1" 304 0
+[20/Jun/2021 18:18:03] "GET /payment_ways HTTP/1.1" 200 33213
+[20/Jun/2021 18:18:11] "GET /admin/editSubMenu/60afe5f5847786bc30a9a660 HTTP/1.1" 200 26651
+Not Found: /admin/editSubMenu/assets/images/person.png
+[20/Jun/2021 18:18:12] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10031
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[20/Jun/2021 18:18:12] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10025
+[20/Jun/2021 18:18:17] "GET /admin/pages HTTP/1.1" 200 45291
+Not Found: /admin/assets/images/person.png
+[20/Jun/2021 18:18:18] "GET /admin/assets/images/person.png HTTP/1.1" 404 9995
+Not Found: /admin/assets/js/chart.min.js
+[20/Jun/2021 18:18:18] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[20/Jun/2021 18:18:37] "GET /admin/editPage/60c473b961c7d22be2d3270c HTTP/1.1" 200 28087
+Not Found: /admin/editPage/assets/images/person.png
+[20/Jun/2021 18:18:37] "GET /admin/editPage/assets/images/person.png HTTP/1.1" 404 10022
+Not Found: /admin/editPage/assets/js/chart.min.js
+[20/Jun/2021 18:18:38] "GET /admin/editPage/assets/js/chart.min.js HTTP/1.1" 404 10016
+[20/Jun/2021 18:19:29] "POST /admin/editPage/60c473b961c7d22be2d3270c HTTP/1.1" 200 23139
+Not Found: /admin/editPage/assets/images/person.png
+[20/Jun/2021 18:19:30] "GET /admin/editPage/assets/images/person.png HTTP/1.1" 404 10022
+Not Found: /admin/editPage/assets/js/chart.min.js
+[20/Jun/2021 18:19:30] "GET /admin/editPage/assets/js/chart.min.js HTTP/1.1" 404 10016
+[20/Jun/2021 18:19:33] "GET /payment_ways HTTP/1.1" 200 28026
+[20/Jun/2021 18:19:35] "GET /static/main/media/favicon.jpg HTTP/1.1" 200 1222
+[20/Jun/2021 18:19:46] "GET / HTTP/1.1" 200 65053
+[20/Jun/2021 18:19:47] "GET /static/main/media/061f1772-469d-406d-8a85-00c02c13516dsim-etebari.png HTTP/1.1" 304 0
+[20/Jun/2021 18:20:04] "GET /prepaid_charge HTTP/1.1" 200 45569
+[20/Jun/2021 18:20:36] "GET /autocharge HTTP/1.1" 200 42904
+[20/Jun/2021 18:20:48] "POST /admin/editPage/60c473b961c7d22be2d3270c HTTP/1.1" 200 23271
+Not Found: /admin/editPage/assets/images/person.png
+[20/Jun/2021 18:20:48] "GET /admin/editPage/assets/images/person.png HTTP/1.1" 404 10022
+Not Found: /admin/editPage/assets/js/chart.min.js
+[20/Jun/2021 18:20:48] "GET /admin/editPage/assets/js/chart.min.js HTTP/1.1" 404 10016
+[20/Jun/2021 18:20:52] "GET /autocharge HTTP/1.1" 200 42904
+[20/Jun/2021 18:20:52] "GET /static/main/media/favicon.jpg HTTP/1.1" 200 1222
+[20/Jun/2021 18:21:01] "GET /payment_ways HTTP/1.1" 200 42976
+[20/Jun/2021 18:21:09] "GET / HTTP/1.1" 200 65053
+[20/Jun/2021 18:43:09] "GET /simcards/60bb566652022657011f7cf8 HTTP/1.1" 200 63793
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[20/Jun/2021 18:43:10] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4260
+[20/Jun/2021 18:43:41] "GET /admin/cards HTTP/1.1" 200 23565
+Not Found: /admin/assets/images/person.png
+[20/Jun/2021 18:43:42] "GET /admin/assets/images/person.png HTTP/1.1" 404 9995
+Not Found: /admin/assets/js/chart.min.js
+[20/Jun/2021 18:43:42] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 9989
+[20/Jun/2021 18:43:46] "GET /admin/editCards/60bb566652022657011f7cf8 HTTP/1.1" 200 33379
+Not Found: /admin/editCards/assets/images/person.png
+[20/Jun/2021 18:43:46] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10025
+Not Found: /admin/editCards/assets/js/chart.min.js
+[20/Jun/2021 18:43:46] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10019
