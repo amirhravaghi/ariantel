@@ -1,6 +1,12 @@
 {% extends 'base.html' %}
 {% load static %}
-
+{% block title %}
+    {% if ltr %}
+        مشترکین تجاری
+    {% else %}
+        Business Users
+    {% endif %}
+{% endblock %}
 {% block content %}
 {% block styles %}
 <style>
@@ -24,7 +30,7 @@
             <div class="det">
                <h2 class="trans">{{ slide.title }}</h2>
                <a href="" class="more trans">
-                  اطلاعات بیشتر <svg class="trans version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+                  {{ lang.home.slider_more }}  <svg class="trans version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
                   <g>
                      <path d="M10,469.8c0-7.5,6-13.5,13.5-13.5h886.6c7.5,0,13.5,6,13.5,13.5v58.5c0,7.5-6,13.5-13.5,13.5H23.5c-7.5,0-13.5-6-13.5-13.5L10,469.8L10,469.8z"></path>
                      <path d="M624.1,759.2c-5.3-5.3-5.3-13.8,0-19.1l301.5-290.3c5.3-5.3,13.8-5.3,19.1,0l41.4,41.4c5.3,5.3,5.3,13.8,0,19.1L684.5,800.6c-5.3,5.3-13.8,5.3-19.1,0L624.1,759.2z"></path>
@@ -36,26 +42,6 @@
          </div>
       </div>
       {% endfor %}
-      <!-- <div class="item">
-         <img src="{% static 'main/Upload/Images/slider/slider.jpg' %}" alt="A Solution For Smart Planet" style="display:none" />
-         <video class="player1" controls preload="none" poster="{% static 'main/Upload/Images/slider/slider.jpg' %}"  style="display:none;width:100%">
-            <source src="{% static 'main/Upload/Images/slider/slider.jpg' %}" type="video/mp4">
-         </video>
-         <div class="container">
-            <div class="det">
-               <h2 class="trans">A Solution For Smart Planet</h2>
-               <a href="" class="more trans">
-                  اطلاعات بیشتر <svg class="trans version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
-                  <g>
-                     <path d="M10,469.8c0-7.5,6-13.5,13.5-13.5h886.6c7.5,0,13.5,6,13.5,13.5v58.5c0,7.5-6,13.5-13.5,13.5H23.5c-7.5,0-13.5-6-13.5-13.5L10,469.8L10,469.8z"></path>
-                     <path d="M624.1,759.2c-5.3-5.3-5.3-13.8,0-19.1l301.5-290.3c5.3-5.3,13.8-5.3,19.1,0l41.4,41.4c5.3,5.3,5.3,13.8,0,19.1L684.5,800.6c-5.3,5.3-13.8,5.3-19.1,0L624.1,759.2z"></path>
-                     <path d="M986,508.8c5.3-5.3,5.3-13.8,0-19.1L684.5,199.4c-5.3-5.3-13.8-5.3-19.1,0l-41.4,41.4c-5.3,5.3-5.3,13.8,0,19.1l301.5,290.3c5.3,5.3,13.8,5.3,19.1,0L986,508.8L986,508.8z"></path>
-                  </g>
-                  </svg>
-               </a>
-            </div>
-         </div>
-      </div> -->
    </div>
 </span>
 <!-- End of slider -->
@@ -65,9 +51,9 @@
       <div class="container">
          <div id="tab-list">
             <ul>
-               <li class="active"><a href="#tab3" class="trans">اینترنت پرسرعت سازمانی</a></li>
-               <li><a href="#tab1" class="trans">ارتباطات سازمانی</a></li>
-               <li><a href="#tab2" class="trans">فرصت مشارکت و همکاری</a></li>
+               <li class="active"><a href="#tab3" class="trans">{{ lang.enterprise.internet }}</a></li>
+               <li><a href="#tab1" class="trans">{{ lang.enterprise.connections }}</a></li>
+               <li><a href="#tab2" class="trans">{{ lang.enterprise.cooperate }}</a></li>
             </ul>
          </div>
          <span class="top-content">
@@ -135,34 +121,34 @@
                      <img src="{% static 'main/Upload/Images/link/1.gif' %}" alt="مناطق تحت پوشش" class="img1"/>
                      <img src="{% static 'main/Upload/Images/link/1-1.gif' %}" alt="مناطق تحت پوشش" class="img2" />
                   </figure>
-                  <h3>مناطق تحت پوشش</h3>
+                  <h3>{{ lang.home.areas }}</h3>
                </a>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 item">
-               <a href="/prices">
+               <a href="prices">
                   <figure>
                      <img src="{% static 'main/Upload/Images/link/2.gif' %}" alt="تعرفه مصرف آزاد دیتا و اینترنت" class="img1"/>
                      <img src="{% static 'main/Upload/Images/link/2-1.gif' %}" alt="تعرفه مصرف آزاد دیتا و اینترنت" class="img2" />
                   </figure>
-                  <h3>تعرفه مصرف آزاد دیتا و اینترنت</h3>
+                  <h3>{{ lang.home.data_fees }}</h3>
                </a>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 item">
-               <a href="/payment_ways">
+               <a href="#">
                   <figure>
                      <img src="{% static 'main/Upload/Images/link/3.gif' %}" alt="روشهای شارژ و پرداخت" class="img1"/>
                      <img src="{% static 'main/Upload/Images/link/3-1.gif' %}" alt="روشهای شارژ و پرداخت" class="img2" />
                   </figure>
-                  <h3>روشهای شارژ و پرداخت</h3>
+                  <h3>{{ lang.home.charge_payment }}</h3>
                </a>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 item">
-               <a href="/simple_ussd">
+               <a href="#">
                   <figure>
                      <img src="{% static 'main/Upload/Images/link/4.gif' %}" alt="کدهای دستوری آسان" class="img1"/>
                      <img src="{% static 'main/Upload/Images/link/4-1.gif' %}" alt="کدهای دستوری آسان" class="img2" />
                   </figure>
-                  <h3>کدهای دستوری آسان</h3>
+                  <h3>{{ lang.home.ussd }}</h3>
                </a>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 item">
@@ -171,34 +157,34 @@
                      <img src="{% static 'main/Upload/Images/link/5.gif' %}" alt="همکاری با ما" class="img1"/>
                      <img src="{% static 'main/Upload/Images/link/5-1.gif' %}" alt="همکاری با ما" class="img2" />
                   </figure>
-                  <h3>همکاری با ما</h3>
+                  <h3>{{ lang.home.cooperate }}</h3>
                </a>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 item">
-               <a href="/sale_and_support">
+               <a href="sale_and_support">
                   <figure>
                      <img src="{% static 'main/Upload/Images/link/6.gif' %}" alt="فروش و پشتیبانی 24-7" class="img1"/>
                      <img src="{% static 'main/Upload/Images/link/6-1.gif' %}" alt="فروش و پشتیبانی 24-7" class="img2" />
                   </figure>
-                  <h3>فروش و پشتیبانی 24-7</h3>
+                  <h3>{{ lang.home.support }}</h3>
                </a>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 item">
-               <a href="/solutions">
+               <a href="solutions">
                   <figure>
                      <img src="{% static 'main/Upload/Images/link/7.gif' %}" alt="راهکارهای سازمانی" class="img1"/>
                      <img src="{% static 'main/Upload/Images/link/7-1.gif' %}" alt="راهکارهای سازمانی" class="img2" />
                   </figure>
-                  <h3>راهکارهای سازمانی</h3>
+                  <h3>{{ lang.home.organized_solutions }}</h3>
                </a>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 item">
-               <a href="/branch">
+               <a href="branch">
                   <figure>
                      <img src="{% static 'main/Upload/Images/link/8.gif' %}" alt="نمایندگی" class="img1"/>
                      <img src="{% static 'main/Upload/Images/link/8-1.gif' %}" alt="نمایندگی" class="img2" />
                   </figure>
-                  <h3>نمایندگی</h3>
+                  <h3>{{ lang.home.branches }}</h3>
                </a>
             </div>
          </div>

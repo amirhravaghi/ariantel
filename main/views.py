@@ -2,9 +2,12 @@ from django.shortcuts import render,redirect
 from django.http import HttpResponse
 from . import database
 from django.conf import settings
+from django.core.mail import send_mail
+from . import functions
 
 # Init
 db = database.main_db()
+funcs = functions.main_functions()
 
 # index view
 def index(request):
@@ -294,7 +297,8 @@ def simcard(request,sid):
     simcard = col.find_one({"_id":db.object_id(sid)})
 
     context = {
-        "card": simcard[lang]
+        "card": simcard[lang],
+        "image": simcard['fa']['image']
     }
 
     return render(request,'simcard.html',context)
@@ -330,6 +334,49 @@ def enterprise(request):
 def areas(request):
     return render(request,'areas.html',{})
 
+# Employments View
+def employments(request):
+
+    # init
+    error = None
+    error_message = ""
+
+    if request.POST:
+        if not request.POST['cur_captcha'] == request.POST['captcha']:
+            error = True
+            if request.session['lang'] == 'en':
+                error_message = "Wrong Captcha"
+            else:
+                error_message = "عبارت متن کنترلی صحیح نمی باشد"
+        else:
+            try:
+                if request.FILES['resume'] and not request.FILES['resume'].name == "":
+                    resume = settings.MAIN_URL + settings.STATIC_URL + funcs.file_upload(request.FILES['resume'])
+                else:
+                    resume = ""
+                subject = "درخواست جدید همکاری با ما"    
+                text = 'فرم همکاری با ما<br/><br/>نام: ' + request.POST['name'] + '<br/>نام خانوادگی: ' + request.POST['last_name'] + '<br/>کد ملی: ' + request.POST['national_code'] + '<br/>میزان تحصیلات: ' + request.POST['education'] + '<br/>رشته تحصیلی: ' + request.POST['field'] + '<br/>تلفن همراه: ' + request.POST['phone'] + '<br/>وضعیت نظام وظیفه: ' + request.POST['military'] + '<br/>سابقه کاری در زمینه یو پی اس: <br/>' + request.POST['ups_record'] + '<br/>نوع همکاری: ' + request.POST['type'] + "<br/>تاریخ همکاری به سال: " + request.POST['date'] + "<br/>نام شرکت: " + request.POST['company'] + "<br/>لینک رزومه: " + resume
+                email_from = settings.EMAIL_HOST_USER
+                recipient_list = ["info@ariantel.ir", ]
+                send_mail( subject, text, email_from, recipient_list )
+                error = False
+                if request.session['lang'] == 'en':
+                    error_message = "Your request has been sent successfully"
+                else:
+                    error_message = "درخواست شما با موفقیت ارسال شد"
+            except:
+                error = True
+                if request.session['lang'] == 'en':
+                    error_message = "An unknown error happened"
+                else:
+                    error_message = "متاسفانه خطایی رخ داد"
+
+    context = {
+        "error": error,
+        "message": error_message,
+    }
+
+    return render(request,'employments.html',context)
 
 # Test view
 def test(request):

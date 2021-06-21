@@ -17,6 +17,7 @@ urlpatterns = [
     path('simcards/<str:sid>',views.simcard,name = "simcard"),
     path('areas',views.areas,name = "areas"),
     path('enterprise',views.enterprise,name = "enterprise"),
+    path('employments',views.employments,name = "employments"),
     path('<str:aid>',views.page,name = "page")
 ]
 

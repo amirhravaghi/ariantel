@@ -1,4 +1,6 @@
 from . import database
+from django.conf import settings
+import uuid
 # import database
 
 # App functions
@@ -38,3 +40,10 @@ class main_functions:
                     menu_items[i]['sub_items'].append(item)
 
         return menu_items
+
+    def file_upload(self,file):
+        fn = os.path.basename(str(uuid.uuid4()) + file.name)
+        full_address = './main' + settings.STATIC_URL + 'main/media/' + fn
+        db_address = "main/media/" + fn
+        open(full_address, 'wb').write(file.read())
+        return db_address

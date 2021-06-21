@@ -1,6 +1,8 @@
 {% extends 'base.html' %}
 {% load static %}
-
+{% block title %}
+    {{ title }}
+{% endblock %}
 {% block content %}
 
 <main class="container" id="cnt-inner">
@@ -11,7 +13,7 @@
         <div class="cms clearfix">
             <div id="news-detail">
                 <h1>{{ title }}</h1>
-                <div class="count-time"><span class="hitcount">&nbsp;&nbsp;تعداد بازدید: {{ views }}</span>&nbsp;&nbsp;|&nbsp;&nbsp<span class="dateadd">{{ date }}</span></div>
+                <div class="count-time"><span class="hitcount">&nbsp;&nbsp;{{ lang.news.views }} {{ views }}</span>&nbsp;&nbsp;|&nbsp;&nbsp<span class="dateadd">{{ date }}</span></div>
                 <p class="textsummer"></p>
                 <div class="text-news clearfix">
                   {{ content | safe }}

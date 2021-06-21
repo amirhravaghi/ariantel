@@ -1,7 +1,7 @@
 .ltr-body #logo,
 .ltr-body #top-link a,
 .ltr-body #top-header .line,
-.ltr-body #top-link #top-nav>li>ul>li,
+.ltr-body #top-link #top-nav > li > ul > li,
 .ltr-body #home-tab #tab-list ul,
 .ltr-body #home-tab #tab-list li {
     float: left;
@@ -22,7 +22,7 @@
     margin: 23px 0px 0 20px;
 }
 
-.ltr-body #top-link #top-nav>li>ul>li:first-child>a {
+.ltr-body #top-link #top-nav > li > ul > li:first-child > a {
     padding-right: 14px;
     padding-left: 0;
 }
@@ -32,7 +32,7 @@
     right: unset;
 }
 
-.ltr-body #footer .row>div {
+.ltr-body #footer .row > div {
     float: left !important;
 }
 
@@ -71,6 +71,11 @@
     margin: 3px 5px 0 0;
 }
 
+.ltr-body #footer .txt {
+    text-align: left;
+    direction: ltr;
+}
+
 .ltr-body #detail-product img {
     left: unset;
     right: -65px;
@@ -85,23 +90,83 @@
     margin-right: 50px;
 }
 
-.ltr-body .owl-carousel.owl-rtl {
+/* .ltr-body .owl-carousel.owl-rtl {
     direction: ltr;
-}
+} */
 
 .ltr-body .tab-det .item-tab {
     margin-top: 50px;
 }
 
+.ltr-body .container-fluid,
+.container {
+    direction: ltr;
+    text-align: left;
+}
+
+/* News */
+.ltr-body .item-news a.img {
+    float: left;
+}
+
+.ltr-body .item-news .txt {
+    padding-left: 130px;
+}
+
+.ltr-body .item-news .txt .more {
+    float: right;
+    direction: rtl;
+}
+
+.ltr-body #news-detail .hitcount{
+    text-align: left;
+}
+
+.ltr-body #news-detail .count-time .hitcount:before,
+.ltr-body #news-detail .count-time .dateadd:before{
+    float: left;
+    margin-right: 4px;
+    margin-left: 0;
+}
+
+
+/* Faq */
+.ltr-body #f-q .item a i{
+    float: right;
+}
+
+.ltr-body #f-q .item a{
+    direction: ltr;
+}
+
+/* Packages */
+.ltr-body #side-left{
+    float: left !important;
+}
+
+.ltr-body #product-items .list-product .price{
+    float: left;
+    direction: ltr;
+}
+
+.ltr-body #product-items .list-product .btm a{
+    float:right;
+}
+
+.ltr-body #detail-product .bg > h2{
+    text-align: left;
+    direction: ltr;
+}
+
 @media (min-width: 992px) {
-    .ltr-body .navContent>ul>li {
+    .ltr-body .navContent > ul > li {
         float: left;
     }
     .ltr-body .navContent .title a {
         direction: ltr;
         text-align: left;
     }
-    .ltr-body .navContent>ul>li ul {
+    .ltr-body .navContent > ul > li ul {
         float: left;
         direction: ltr;
         text-align: left;

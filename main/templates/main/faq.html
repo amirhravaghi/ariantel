@@ -1,6 +1,12 @@
 {% extends 'base.html' %}
 {% load static %}
-
+{% block title %}
+    {% if ltr %}
+        پرسش و پاسخ
+    {% else %}
+        FAQ
+    {% endif %}
+{% endblock %}
 {% block content %}
 <main class="container" id="cnt-inner">
     <h1 class="title-page">سوالات مشترکین شخصی</h1>

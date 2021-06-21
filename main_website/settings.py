@@ -142,12 +142,20 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # MongoDB Config
 SESSION_ENGINE = 'mongo_sessions.session'
-MONGO_PORT = '27017'
-MONGO_HOST = '127.0.0.1'
-MONGO_DB_NAME = 'ariantel'
-MONGO_DB_USER = 'ariantel_user'
-MONGO_DB_PASSWORD = 'Fne+jeA_8pP2Stb+U8c5AdpA#$U'
-MONGO_SESSIONS_COLLECTION = 'mongo_sessions'
+MONGO_PORT = env('MONGO_PORT')
+MONGO_HOST = env('MONGO_HOST')
+MONGO_DB_NAME = env('MONGO_DB_NAME')
+MONGO_DB_USER = env('MONGO_DB_USER')
+MONGO_DB_PASSWORD = env('MONGO_DB_PASSWORD')
+MONGO_SESSIONS_COLLECTION = env('MONGO_SESSIONS_COLLECTION')
+
+# SMTP
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_USE_TLS = True
+EMAIL_PORT = 587
+EMAIL_HOST_USER = ""#sender's email-id
+EMAIL_HOST_PASSWORD = ""#password associated with above email-id
 
 # JWT
 JWT_PRIVATE_KEY = env('JWT_PRIVATE_KEY')

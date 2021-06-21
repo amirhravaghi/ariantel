@@ -1,6 +1,8 @@
 {% extends 'base.html' %}
 {% load static %}
-
+{% block title %}
+    {{ category.name }}
+{% endblock %}
 {% block content %}
 
 <main class="container" id="cnt-inner">
@@ -22,116 +24,116 @@
 
                         <span id="cms-filter" data-url="" data-filter="">
                             <div class="filter-item">
-                                <label>مناسب برای</label>
+                                <label>{{ lang.packages.card_type_title }}</label>
                                 <ul id="filter-1" class="check" data-tagGroupId="1014">
                                     <li code="86663" class="">
                                         <span class="img">
-                                            <span>سیم کارت اعتباری</span>
+                                            <span>{{ lang.packages.postpaid }}</span>
                                         </span>
                                     </li>
                                     <li code="86664" class="">
                                         <span class="img">
-                                            <span>سیم کارت دائمی</span>
+                                            <span>{{ lang.packages.prepaid }}</span>
                                         </span>
                                     </li>
                                 </ul>
                             </div>
                             <div class="filter-item lg">
-                                <label>انواع بسته ها</label>
+                                <label>{{ lang.packages.offer_types }}</label>
                                 <ul id="filter-2" class="check" data-tagGroupId="1015">
                                     <li code="86665" class="">
                                         <span class="img">
-                                            <span>ساعتی</span>
+                                            <span>{{ lang.packages.hourly }}</span>
                                         </span>
                                     </li>
                                     <li code="86669" class="">
                                         <span class="img">
-                                            <span>یک روزه</span>
+                                            <span>{{ lang.packages.one_day }}</span>
                                         </span>
                                     </li>
                                     <li code="86670" class="">
                                         <span class="img">
-                                            <span>سه روزه</span>
+                                            <span>{{ lang.packages.three_days }}</span>
                                         </span>
                                     </li>
                                     <li code="86671" class="">
                                         <span class="img">
-                                            <span>7 روزه</span>
+                                            <span>{{ lang.packages.seven_days }}</span>
                                         </span>
                                     </li>
                                     <li code="86672" class="">
                                         <span class="img">
-                                            <span>15 روزه</span>
+                                            <span>{{ lang.packages.fifteen_days }}</span>
                                         </span>
                                     </li>
                                     <li code="86673" class="">
                                         <span class="img">
-                                            <span>30 روزه</span>
+                                            <span>{{ lang.packages.thirty_days }}</span>
                                         </span>
                                     </li>
                                     <li code="86674" class="">
                                         <span class="img">
-                                            <span>60 روزه</span>
+                                            <span>{{ lang.packages.sixty_days }}</span>
                                         </span>
                                     </li>
                                     <li code="86675" class="">
                                         <span class="img">
-                                            <span>90 روزه</span>
+                                            <span>{{ lang.packages.ninty_days }}</span>
                                         </span>
                                     </li>
                                     <li code="86676" class="">
                                         <span class="img">
-                                            <span>120 روزه</span>
+                                            <span>{{ lang.packages.hundredandtwenty_days }}</span>
                                         </span>
                                     </li>
                                     <li code="86677" class="">
                                         <span class="img">
-                                            <span>180 روزه</span>
+                                            <span>{{ lang.packages.half_year }}</span>
                                         </span>
                                     </li>
                                     <li code="86678" class="">
                                         <span class="img">
-                                            <span>365 روزه</span>
+                                            <span>{{ lang.packages.full_year }}</span>
                                         </span>
                                     </li>
                                     <li code="86679" class="">
                                         <span class="img">
-                                            <span>زمانی خاص</span>
+                                            <span>{{ lang.packages.special_dur }}</span>
                                         </span>
                                     </li>
                                 </ul>
                             </div>
                             <div class="filter-item">
-                                <label>انتخاب حجم</label>
+                                <label>{{ lang.packages.size_title }}</label>
                                 <ul id="filter-3" class="check" data-tagGroupId="1016">
                                     <li code="86680" class="">
                                         <span class="img">
-                                            <span>کمتر از 100MB</span>
+                                            <span>{{ lang.packages.less_than_one_hundred }}</span>
                                         </span>
                                     </li>
                                     <li code="86681" class="">
                                         <span class="img">
-                                            <span>100MB تا 500MB</span>
+                                            <span>{{ lang.packages.b_one_and_five_hundred }}</span>
                                         </span>
                                     </li>
                                     <li code="86682" class="">
                                         <span class="img">
-                                            <span>500MB تا 2GB</span>
+                                            <span>{{ lang.packages.b_five_hundred_and_two_gigabytes }}</span>
                                         </span>
                                     </li>
                                     <li code="86683" class="">
                                         <span class="img">
-                                            <span>2GB تا 10GB</span>
+                                            <span>{{ lang.packages.b_two_and_ten_gigabytes }}</span>
                                         </span>
                                     </li>
                                     <li code="86684" class="">
                                         <span class="img">
-                                            <span>بیشتر از 10GB</span>
+                                            <span>{{ lang.packages.more_than_ten_gigabytes }}</span>
                                         </span>
                                     </li>
                                     <li code="86685" class="">
                                         <span class="img">
-                                            <span>نامحدود</span>
+                                            <span>{{ lang.packages.unlimited }}</span>
                                         </span>
                                     </li>
                                 </ul>
@@ -152,8 +154,8 @@
                                 <h2>{{ item.name }}</h2>
                                 <p class="desc">{{ item.short_description }}</p>
                                 <div class="btm clearfix">
-                                    <p class="price"><span class="currencyy">{{ item.price }}</span> ریال</p>
-                                    <a href="http://my.ariantel.ir/clientarea.php">خرید آنلاین</a>
+                                    <p class="price"><span class="currencyy">{{ item.price }}</span> {{ lang.packages.currency }}</p>
+                                    <a href="http://my.ariantel.ir/clientarea.php">{{ lang.packages.sell_button }}</a>
                                 </div>
                             </div>
                         </div>

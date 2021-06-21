@@ -1,6 +1,8 @@
 {% extends 'base.html' %}
 {% load static %}
-
+{% block title %}
+    {{ card.title }}
+{% endblock %}
 {% block content %}
 
 <main class="container" id="cnt-inner">
@@ -16,15 +18,15 @@
     <div id="detail-product" class="clearfix">
         <div class="tab-det">
             <ul>
-                <li class="active"><a href="">معرفی محصول</a></li>
-                <li><a href="">روشهای خرید و استفاده</a></li>
-                <li><a href="">تعرفه ها</a></li>
+                <li class="active"><a href="">{{ lang.product.introduction }}</a></li>
+                <li><a href="">{{ lang.product.manual }}</a></li>
+                <li><a href="">{{ lang.product.fees }}</a></li>
             </ul>
             <div class="bg">
-                <h2>سیم کارت {{ card.title }}</h2>
+                <h2>{{ lang.product.pre_title }} {{ card.title }}</h2>
                 <div class="item-tab">
                     <img
-                        src="{% static card.image %}"
+                        src="{% static image %}"
                         title=""
                     />
                     <div class="owl-carousel">
@@ -40,7 +42,7 @@
                     </div>
                 </div>
                 <div class="text-center">
-                    <a href="https://my.ariantel.ir" class="buy">ثبت نام و خرید</a>
+                    <a href="https://my.ariantel.ir" class="buy">{{ lang.product.order }}</a>
                 </div>
             </div>
         </div>

@@ -1,10 +1,16 @@
 {% extends 'base.html' %}
 {% load static %}
-
+{% block title %}
+    {% if ltr %}
+        اخبار
+    {% else %}
+        News
+    {% endif %}
+{% endblock %}
 {% block content %}
 
 <main class="container" id="cnt-inner">
-    <h1 class="title-page">اخبار</h1>
+    <h1 class="title-page">{{ lang.news.title }}</h1>
 
     <div class="bg clearfix">
         <div class="cms">
@@ -17,7 +23,7 @@
                     <h3 class="f_bold"><a href="news/{{ item.id }}">{{ item.title }}</a></h3>
                     <p></p>
                     <span class="dateadd">{{ item.date }}</span>
-                    <a href="news/{{ item.id }}" class="more trans"><i class="fa fa-angle-left"></i> ادامه</a>
+                    <a href="news/{{ item.id }}" class="more trans"><i class="fa {% if ltr %}fa-angle-right{% else %}fa-angle-left{% endif %}"></i> {{ lang.news.read }}</a>
                 </div>
             </div>
           {% endfor %}

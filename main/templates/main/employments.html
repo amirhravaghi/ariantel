@@ -1,0 +1,133 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+    {% if ltr %}
+        همکاری با ما
+    {% else %}
+        Employments
+    {% endif %}
+{% endblock %}
+{% block content %}
+
+<main class="container" id="cnt-inner">
+    <h1 class="title-page">{{ lang.employments.title }}</h1>
+    <div class="bg clearfix">
+       <!-- <link type="text/css" href="/Content/site/jquery-ui-1.8.14.css" rel="stylesheet">
+       <script src="/Scripts/site/jquery-ui-1.10.4.custom.min.js"></script>
+       <script src="/Scripts/site/jquery.ui.datepicker-cc.all.min.js" type="text/javascript"></script>
+       <script src="/Scripts/site/xcaptcha-2.0.js" type="text/javascript"></script> -->
+       <div class="page-desc">
+            {{ lang.employments.description }}
+       </div>
+       {% if not error == None %}
+            {% if error %}
+            <div class="alert alert-danger">{{ error_message }}</div>
+            {% else %}
+            <div class="alert alert-success">{{ error_message }}</div>
+            {% endif %}
+       {% endif %}
+       <form action="{% url 'main:employments' %}" enctype="multipart/form-data" id="emp-form" method="post" class="form-horizontal form-dynamic col-xs-12 col-sm-12 col-md-8" novalidate="novalidate">
+          <div class="validation-summary-errors">
+             <ul>
+                <li style="display:none"></li>
+             </ul>
+          </div>
+          <div class="form-group">
+             <label class="col-sm-3 control-label col-md-4">{{ lang.employments.name }}</label>
+             <div class="col-sm-9 col-md-8"><input id="f84a31142" name="name" ng-model="dform.f84a31142" placeholder="{{ lang.employments.name }}" type="text" value="" class="form-control"><span data-valmsg-replace="true" data-valmsg-for="f84a31142" class="field-validation-valid"></span><span></span></div>
+          </div>
+          <div class="form-group">
+             <label class="col-sm-3 control-label col-md-4">{{ lang.employments.last_name }}</label>
+             <div class="col-sm-9 col-md-8"><input id="ffb601c9b" name="last_name" ng-model="dform.ffb601c9b" placeholder="{{ lang.employments.last_name }}" type="text" value="" class="form-control"><span data-valmsg-replace="true" data-valmsg-for="ffb601c9b" class="field-validation-valid"></span><span></span></div>
+          </div>
+          <div class="form-group">
+             <label class="col-sm-3 control-label col-md-4">{{ lang.employments.national_code }}</label>
+             <div class="col-sm-9 col-md-8"><input id="fe21dfb61" name="national_code" ng-model="dform.fe21dfb61" placeholder="{{ lang.employments.national_code }}" type="text" value="" class="form-control"><span data-valmsg-replace="true" data-valmsg-for="fe21dfb61" class="field-validation-valid"></span><span></span></div>
+          </div>
+          <div class="form-group">
+             <label class="col-sm-3 control-label col-md-4">{{ lang.employments.education }}</label>
+             <div class="col-sm-9 col-md-8"><input id="fd368e118" name="education" ng-model="dform.fd368e118" placeholder="{{ lang.employments.education }}" type="text" value="" class="form-control"><span data-valmsg-replace="true" data-valmsg-for="fd368e118" class="field-validation-valid"></span><span></span></div>
+          </div>
+          <div class="form-group">
+             <label class="col-sm-3 control-label col-md-4">{{ lang.employments.field }}</label>
+             <div class="col-sm-9 col-md-8"><input id="f056704d6" name="field" ng-model="dform.f056704d6" placeholder="{{ lang.employments.field }}" type="text" value="" class="form-control"><span data-valmsg-replace="true" data-valmsg-for="f056704d6" class="field-validation-valid"></span><span></span></div>
+          </div>
+          <div class="form-group">
+             <label class="col-sm-3 control-label col-md-4">{{ lang.employments.phone }}</label>
+             <div class="col-sm-9 col-md-8"><input id="fe7a0c1bb" name="phone" ng-model="dform.fe7a0c1bb" placeholder="{{ lang.employments.phone }}" type="text" value="" class="form-control"><span data-valmsg-replace="true" data-valmsg-for="fe7a0c1bb" class="field-validation-valid"></span><span></span></div>
+          </div>
+          <div class="form-group">
+             <label class="col-sm-3 control-label col-md-4">{{ lang.employments.military_service_statue }}</label>
+             <div class="col-sm-9 col-md-8"><input id="f5639718d" name="military" ng-model="dform.f5639718d" placeholder="{{ lang.employments.military_service_status }}" type="text" value="" class="form-control"><span data-valmsg-replace="true" data-valmsg-for="f5639718d" class="field-validation-valid"></span><span></span></div>
+          </div>
+          <div class="form-group">
+             <label class="col-sm-3 control-label col-md-4">{{ lang.employments.ups_record }}</label>
+             <div class="col-sm-9 col-md-8"><textarea cols="20" id="f0cd26ca9" name="ups_record" ng-model="dform.f0cd26ca9" placeholder="{{ lang.employments.ups_record }}" rows="2" class="form-control"></textarea><span data-valmsg-replace="true" data-valmsg-for="f0cd26ca9" class="field-validation-valid"></span><span></span></div>
+          </div>
+          <div class="form-group">
+             <label class="col-sm-3 control-label col-md-4">{{ lang.employments.cooperate_type }}</label>
+             <div class="col-sm-9 col-md-8"><input id="f6c10f6b8" name="type" ng-model="dform.f6c10f6b8" placeholder="{{ lang.employments.cooperate_type }}" type="text" value="" class="form-control"><span data-valmsg-replace="true" data-valmsg-for="f6c10f6b8" class="field-validation-valid"></span><span></span></div>
+          </div>
+          <div class="form-group">
+             <label class="col-sm-3 control-label col-md-4">{{ lang.employments.cooperate_date }}</label>
+             <div class="col-sm-9 col-md-8"><input id="fffac0018" name="date" ng-model="dform.fffac0018" placeholder="{{ lang.employments.cooperate_date }}" type="text" value="" class="form-control"><span data-valmsg-replace="true" data-valmsg-for="fffac0018" class="field-validation-valid"></span><span></span></div>
+          </div>
+          <div class="form-group">
+             <label class="col-sm-3 control-label col-md-4">{{ lang.employments.company }}</label>
+             <div class="col-sm-9 col-md-8"><input id="fa03bf2e6" name="company" ng-model="dform.fa03bf2e6" placeholder="{{ lang.employments.company }}" type="text" value="" class="form-control"><span data-valmsg-replace="true" data-valmsg-for="fa03bf2e6" class="field-validation-valid"></span><span></span></div>
+          </div>
+          <div class="form-group">
+             <label class="col-sm-3 control-label col-md-4">{{ lang.employments.resume }}</label>
+             <div class="col-sm-9 col-md-8"><input id="f3418a059" name="resume" type="file"><span data-valmsg-replace="true" data-valmsg-for="f3418a059" class="field-validation-valid"></span><span></span></div>
+          </div>
+          <div class="form-group clearfix" id="form-attemp">
+            <label class="col-sm-3 control-label col-md-4">{{ lang.employments.captcha }}</label>
+            <div>
+                <input class="form-control" type="text" name="cur_captcha" readonly id="generated-captcha">
+            </div>
+            <div>
+                <div class="col-sm-9 col-md-8"><input class="form-control" name="captcha" type="text" id="entered-captcha"></div>
+            </div>
+          </div>
+          <div class="form-group">
+             <label class="col-sm-3 control-label col-md-4">
+             </label>
+             <div class="col-sm-9 col-md-8">
+                <input type="submit" value="{{ lang.employments.submit }}" class="btn-cmd ">
+             </div>
+          </div>
+       </form>
+       <script>
+          $(document).ready(function () {
+            $("<i></i>").appendTo(".form-dynamic a#-xcaptcha-refresh");
+            $(".form-dynamic a#-xcaptcha-refresh i").addClass("fa fa-refresh");
+            $(".form-dynamic .form-group  .col-sm-3").addClass("col-md-4");
+            $(".form-dynamic .form-group  .col-sm-9").addClass("col-md-8");
+            $(".form-dynamic .form-group  input[type='text']").addClass("form-control");
+            $(".form-dynamic .form-group  textarea").addClass("form-control");
+            $(".form-dynamic .form-group  select").addClass("form-control");
+            $(".form-dynamic .form-group  input[type='password']").addClass("form-control");
+            $(".form-dynamic  #form-attemp  label.required ").addClass("col-sm-3 control-label col-md-4");
+            if ($(".datepicker").length > 0) {
+                $(".datepicker").datepicker({});
+            }
+          });
+       </script>
+    </div>
+ </main>
+
+{% endblock %}
+{% block script %}
+
+<script>
+    $("document").ready(()=>{
+        captchaGenerate();
+        $("#emp-form").submit(()=>{
+            if(!captchaCheck()){
+                return false;
+            }
+        })
+    })
+</script>
+
+{% endblock %}

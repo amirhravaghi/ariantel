@@ -1,5 +1,12 @@
 {% extends 'base.html' %}
 {% load static %}
+{% block title %}
+    {% if ltr %}
+        مناطق تحت پوشش
+    {% else %}
+        Coverage Maps
+    {% endif %}
+{% endblock %}
 
 {% block content %}
 
