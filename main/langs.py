@@ -69,7 +69,7 @@ langs = {
             "half_year": "180 روزه",
             "full_year": "365 روزه",
             "special_dur": "زمانی خاص",
-            "size_title": "انتخاب حجک",
+            "size_title": "انتخاب حجم",
             "less_than_onehundred": "کمتر از 100 مگابایت",
             "b_one_and_five_hundred": "100 مگابایت تا 500 مگابایت",
             "b_five_hundred_and_two_gigabytes": "500 مگابایت تا 2 گیگابایت",
