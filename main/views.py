@@ -101,7 +101,6 @@ def faq(request):
 
 # News View
 def news(request):
-    request.session['lang'] = "fa"
     con = db.connect()
     col = con['news']
     news = list(col.find())

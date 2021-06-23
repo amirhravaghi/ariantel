@@ -99,7 +99,7 @@
 }
 
 .ltr-body .container-fluid,
-.container {
+.ltr-body .container {
     direction: ltr;
     text-align: left;
 }
@@ -154,6 +154,11 @@
 }
 
 .ltr-body #detail-product .bg > h2{
+    text-align: left;
+    direction: ltr;
+}
+
+.ltr-body .owl-item .item{
     text-align: left;
     direction: ltr;
 }

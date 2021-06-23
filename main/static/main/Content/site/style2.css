@@ -4038,3 +4038,13 @@ float: right;
 #qsearch {    position: relative;}
 .step-4 #btnpayment a {float:left;}
 #btnpayment .button-blue.btn1 {float:right;}
+
+/* Custom  */
+.owl-item ul,.owl-item ol{
+    list-style-type: circle;
+}
+
+.owl-item li{
+    display:inline-block;
+    width: 100%;
+}
