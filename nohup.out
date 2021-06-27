@@ -29036,3 +29036,2144 @@ TimeoutError: [Errno 110] Connection timed out
 [23/Jun/2021 09:10:03] "GET /static/main/Scripts/site/search.js HTTP/1.1" 304 0
 [23/Jun/2021 09:10:52] "GET /ariantel_in_a_glance HTTP/1.1" 200 33741
 [23/Jun/2021 09:11:07] "GET /packages/60b795e4941c3d6e1fe66217 HTTP/1.1" 200 44596
+/home/django/ariantel/main/langs.py changed, reloading.
+Performing system checks...
+
+June 21, 2021 - 18:28:26
+Django version 3.2.3, using settings 'main_website.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W002) Your URL pattern '/addAdmin' [name='add_admin'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addCard' [name='add_card'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addFaq' [name='add_faq'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addMenuItem' [name='add_menu_item'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addNews' [name='add_news'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addPackage' [name='add_package'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addPage' [name='add_page'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addSlide' [name='add_slide'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addSubMenu' [name='add_sub_item'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/admins' [name='admins'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/api/mediaUpload' [name='media_upload'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/cards' [name='cards'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editAdmin/<str:aid>' [name='edit_admin'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editCards/<str:pid>' [name='edit_card'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editFaq/<str:qid>' [name='edit_faq'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editMenuItem/<str:mid>' [name='edit_menu_item'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editNews/<str:aid>' [name='edit_news'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editPackage/<str:pid>' [name='edit_package'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editPage/<str:pid>' [name='edit_page'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editSlide/<str:sid>' [name='edit_slide'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editSubMenu/<str:mid>' [name='edit_sub_item'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/faqs' [name='faqs'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/login' [name='login'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/logout' [name='logout'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/mainMenu' [name='main_menu'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/news' [name='news'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/packages' [name='packages'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/pages' [name='pages'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/slides' [name='slides'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/subMenu' [name='sub_menu'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+
+System check identified 30 issues (0 silenced).
+[26/Jun/2021 05:16:19] "GET / HTTP/1.1" 200 45144
+[26/Jun/2021 05:16:19] "GET /static/main/Content/site/fonts.css HTTP/1.1" 200 1478
+[26/Jun/2021 05:16:19] "GET /static/main/Content/site/bootstrap.min.css HTTP/1.1" 200 121159
+[26/Jun/2021 05:16:19] "GET /static/main/Content/site/skin0.css HTTP/1.1" 200 47984
+[26/Jun/2021 05:16:19] "GET /static/main/Content/site/fa.css HTTP/1.1" 200 37
+[26/Jun/2021 05:16:19] "GET /static/main/css/ltr.css HTTP/1.1" 200 2876
+[26/Jun/2021 05:16:19] "GET /static/main/Content/site/style2.css HTTP/1.1" 200 88761
+[26/Jun/2021 05:16:19] "GET /static/main/Scripts/site/core.js HTTP/1.1" 200 33680
+[26/Jun/2021 05:16:19] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 200 4599
+[26/Jun/2021 05:16:19] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 200 3163
+[26/Jun/2021 05:16:19] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 200 7103
+[26/Jun/2021 05:16:19] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 200 6288
+[26/Jun/2021 05:16:19] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 200 21587
+[26/Jun/2021 05:16:19] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 200 3745
+[26/Jun/2021 05:16:19] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 200 5002
+[26/Jun/2021 05:16:19] "GET /static/main/Scripts/site/util.js HTTP/1.1" 200 4108
+[26/Jun/2021 05:16:19] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 200 102631
+[26/Jun/2021 05:16:20] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 200 4122
+[26/Jun/2021 05:16:20] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 200 6156
+[26/Jun/2021 05:16:20] "GET /static/main/Scripts/site/captcha.js HTTP/1.1" 200 1163
+[26/Jun/2021 05:16:20] "GET /static/main/images/logo.png HTTP/1.1" 200 26115
+[26/Jun/2021 05:16:20] "GET /static/main/media/bfa2e24d-080a-4855-a6db-28230074815bsim-daeemi.png HTTP/1.1" 200 150547
+[26/Jun/2021 05:16:20] "GET /static/main/media/061f1772-469d-406d-8a85-00c02c13516dsim-etebari.png HTTP/1.1" 200 151806
+[26/Jun/2021 05:16:20] "GET /static/main/Content/site/img/logo.png HTTP/1.1" 200 26144
+[26/Jun/2021 05:16:20] "GET /static/main/Content/site/fa_fonts/IranYekan/woff/iranyekanwebregular.woff HTTP/1.1" 200 20925
+[26/Jun/2021 05:16:20] "GET /static/main/media/8eab75e1-a18f-4e46-accb-23cb0ea3aa73slider.jpg HTTP/1.1" 200 315727
+[26/Jun/2021 05:16:20] "GET /static/main/Content/site/img/icon.png HTTP/1.1" 200 2756
+[26/Jun/2021 05:16:20] "GET /static/main/Upload/Images/link/2-1.gif HTTP/1.1" 200 3689
+[26/Jun/2021 05:16:20] "GET /static/main/Upload/Images/link/4-1.gif HTTP/1.1" 200 2615
+[26/Jun/2021 05:16:20] "GET /static/main/Upload/Images/link/7-1.gif HTTP/1.1" 200 3686
+[26/Jun/2021 05:16:20] "GET /static/main/Upload/Images/link/5-1.gif HTTP/1.1" 200 3933
+[26/Jun/2021 05:16:20] "GET /static/main/Upload/Images/link/3-1.gif HTTP/1.1" 200 3137
+[26/Jun/2021 05:16:20] "GET /static/main/Upload/Images/link/1-1.gif HTTP/1.1" 200 3721
+[26/Jun/2021 05:16:20] "GET /static/main/Upload/Images/link/6-1.gif HTTP/1.1" 200 3778
+[26/Jun/2021 05:16:20] "GET /static/main/Upload/Images/link/8-1.gif HTTP/1.1" 200 3302
+[26/Jun/2021 05:16:20] "GET /static/main/media/c2d35484-209e-4c83-bedd-f75649127e81sim%20toorism.png HTTP/1.1" 200 96626
+[26/Jun/2021 05:16:20] "GET /static/main/media/2d1504bf-ec3c-4492-9593-b837898d675csim-rond.png HTTP/1.1" 200 77729
+[26/Jun/2021 05:16:20] "GET /static/main/media/0c6d5171-a6d2-44bc-bc3b-6c2e4817cd74simdata.png HTTP/1.1" 200 109004
+[26/Jun/2021 05:16:20] "GET /static/main/media/internet.png HTTP/1.1" 200 130525
+[26/Jun/2021 05:16:20] "GET /static/main/media/call.png HTTP/1.1" 200 106599
+[26/Jun/2021 05:16:20] "GET /static/main/media/sms.png HTTP/1.1" 200 102057
+[26/Jun/2021 05:16:20] "GET /static/main/media/tarkibi.png HTTP/1.1" 200 107803
+[26/Jun/2021 05:16:21] "GET /static/main/Upload/Images/link/1.gif HTTP/1.1" 200 6229
+[26/Jun/2021 05:16:21] "GET /static/main/media/72f3178d-d687-4519-9c6e-c82c51021d6eweb23.png HTTP/1.1" 200 1006298
+[26/Jun/2021 05:16:21] "GET /static/main/Upload/Images/link/2.gif HTTP/1.1" 200 8254
+[26/Jun/2021 05:16:21] "GET /static/main/Upload/Images/link/3.gif HTTP/1.1" 200 12144
+[26/Jun/2021 05:16:21] "GET /static/main/Upload/Images/link/4.gif HTTP/1.1" 200 3525
+[26/Jun/2021 05:16:21] "GET /static/main/Upload/Images/link/5.gif HTTP/1.1" 200 5849
+[26/Jun/2021 05:16:21] "GET /static/main/Upload/Images/link/6.gif HTTP/1.1" 200 6212
+[26/Jun/2021 05:16:21] "GET /static/main/Upload/Images/link/8.gif HTTP/1.1" 200 6047
+[26/Jun/2021 05:16:21] "GET /static/main/Upload/Images/link/7.gif HTTP/1.1" 200 6028
+[26/Jun/2021 05:16:21] "GET /static/main/images/logo-footer.png HTTP/1.1" 200 6733
+[26/Jun/2021 05:16:21] "GET /static/main/images/footer-img.png HTTP/1.1" 200 6831
+[26/Jun/2021 05:16:21] "GET /static/main/Upload/Images/195.png HTTP/1.1" 200 76955
+[26/Jun/2021 05:16:21] "GET /static/main/media/e79a965c-28ed-4888-af8e-10949dab88fae-mway-ok.png HTTP/1.1" 200 1200498
+[26/Jun/2021 05:16:21] "GET /static/main/Content/site/img/logo1.png HTTP/1.1" 200 22636
+[26/Jun/2021 05:16:21] "GET /static/main/media/01a32133-4186-4eeb-8e8a-8c73aa8eef9cSupport.jpg HTTP/1.1" 200 1485352
+[26/Jun/2021 05:16:21] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[26/Jun/2021 05:16:25] "GET /lang/EN HTTP/1.1" 302 0
+[26/Jun/2021 05:16:25] "GET / HTTP/1.1" 200 43003
+[26/Jun/2021 05:21:44] "GET /lang/FA HTTP/1.1" 302 0
+[26/Jun/2021 05:21:44] "GET / HTTP/1.1" 200 45144
+[26/Jun/2021 05:22:34] "GET /lang/EN HTTP/1.1" 302 0
+[26/Jun/2021 05:22:34] "GET / HTTP/1.1" 200 43003
+[26/Jun/2021 05:24:24] "GET /prices HTTP/1.1" 200 27390
+[26/Jun/2021 05:25:55] "GET /lang/FA HTTP/1.1" 302 0
+[26/Jun/2021 05:25:56] "GET / HTTP/1.1" 200 45144
+[26/Jun/2021 05:27:03] "GET /lang/EN HTTP/1.1" 302 0
+[26/Jun/2021 05:27:03] "GET / HTTP/1.1" 200 43003
+[26/Jun/2021 05:27:08] "GET /lang/FA HTTP/1.1" 302 0
+[26/Jun/2021 05:27:08] "GET / HTTP/1.1" 200 45144
+[26/Jun/2021 05:27:35] "GET /lang/EN HTTP/1.1" 302 0
+[26/Jun/2021 05:27:35] "GET / HTTP/1.1" 200 43003
+[26/Jun/2021 05:33:55] "GET /prices HTTP/1.1" 200 27390
+[26/Jun/2021 05:34:03] "GET /areas HTTP/1.1" 200 136645
+[26/Jun/2021 05:34:03] "GET /static/main/Scripts/site/map.js HTTP/1.1" 200 588
+[26/Jun/2021 05:34:07] "GET /static/main/hamrah.kml HTTP/1.1" 200 8354959
+[26/Jun/2021 05:37:31] "GET /branch HTTP/1.1" 200 26351
+[26/Jun/2021 05:37:43] "GET /employments HTTP/1.1" 200 34526
+[26/Jun/2021 05:38:49] "GET /areas HTTP/1.1" 200 136645
+[26/Jun/2021 05:39:42] "GET /sale_and_support HTTP/1.1" 200 26537
+[26/Jun/2021 05:39:57] "GET /branch HTTP/1.1" 200 26351
+[26/Jun/2021 05:45:35] "GET / HTTP/1.1" 200 45144
+[26/Jun/2021 05:45:36] "GET /static/main/Content/site/style2.css HTTP/1.1" 200 88761
+[26/Jun/2021 05:45:36] "GET /static/main/Content/site/skin0.css HTTP/1.1" 200 47984
+[26/Jun/2021 05:45:36] "GET /static/main/Content/site/fonts.css HTTP/1.1" 200 1478
+[26/Jun/2021 05:45:36] "GET /static/main/Content/site/fa.css HTTP/1.1" 200 37
+[26/Jun/2021 05:45:36] "GET /static/main/css/ltr.css HTTP/1.1" 200 2876
+[26/Jun/2021 05:45:37] "GET /static/main/Content/site/bootstrap.min.css HTTP/1.1" 200 121159
+[26/Jun/2021 05:45:37] "GET /static/main/Scripts/site/core.js HTTP/1.1" 200 33680
+[26/Jun/2021 05:45:38] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 200 4599
+[26/Jun/2021 05:45:38] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 200 3163
+[26/Jun/2021 05:45:38] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 200 7103
+[26/Jun/2021 05:45:38] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 200 6288
+[26/Jun/2021 05:45:39] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 200 21587
+[26/Jun/2021 05:45:39] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 200 3745
+[26/Jun/2021 05:45:39] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 200 102631
+[26/Jun/2021 05:45:39] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 200 5002
+[26/Jun/2021 05:45:39] "GET /static/main/Scripts/site/util.js HTTP/1.1" 200 4108
+[26/Jun/2021 05:45:40] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 200 4122
+[26/Jun/2021 05:45:40] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 200 6156
+[26/Jun/2021 05:45:40] "GET /static/main/Scripts/site/captcha.js HTTP/1.1" 200 1163
+[26/Jun/2021 05:45:40] "GET /static/main/images/logo.png HTTP/1.1" 200 26115
+[26/Jun/2021 05:45:40] "GET /static/main/Content/site/img/logo.png HTTP/1.1" 200 26144
+[26/Jun/2021 05:45:40] "GET /static/main/Upload/Images/link/3-1.gif HTTP/1.1" 200 3137
+[26/Jun/2021 05:45:41] "GET /static/main/Content/site/img/icon.png HTTP/1.1" 200 2756
+[26/Jun/2021 05:45:41] "GET /static/main/media/8eab75e1-a18f-4e46-accb-23cb0ea3aa73slider.jpg HTTP/1.1" 200 315727
+[26/Jun/2021 05:45:41] "GET /static/main/media/e79a965c-28ed-4888-af8e-10949dab88fae-mway-ok.png HTTP/1.1" 200 1200498
+[26/Jun/2021 05:45:41] "GET /static/main/Upload/Images/link/8-1.gif HTTP/1.1" 200 3302
+[26/Jun/2021 05:45:41] "GET /static/main/Upload/Images/link/2-1.gif HTTP/1.1" 200 3689
+[26/Jun/2021 05:45:42] "GET /static/main/Upload/Images/link/1-1.gif HTTP/1.1" 200 3721
+[26/Jun/2021 05:45:42] "GET /static/main/Upload/Images/link/5-1.gif HTTP/1.1" 200 3933
+[26/Jun/2021 05:45:42] "GET /static/main/Upload/Images/link/4-1.gif HTTP/1.1" 200 2615
+[26/Jun/2021 05:45:42] "GET /static/main/Upload/Images/link/7-1.gif HTTP/1.1" 200 3686
+[26/Jun/2021 05:45:42] "GET /static/main/Upload/Images/link/6-1.gif HTTP/1.1" 200 3778
+[26/Jun/2021 05:45:42] "GET /static/main/Upload/Images/link/2.gif HTTP/1.1" 200 8254
+[26/Jun/2021 05:45:43] "GET /static/main/media/c2d35484-209e-4c83-bedd-f75649127e81sim%20toorism.png HTTP/1.1" 200 96626
+[26/Jun/2021 05:45:43] "GET /static/main/media/061f1772-469d-406d-8a85-00c02c13516dsim-etebari.png HTTP/1.1" 200 151806
+[26/Jun/2021 05:45:43] "GET /static/main/media/bfa2e24d-080a-4855-a6db-28230074815bsim-daeemi.png HTTP/1.1" 200 150547
+[26/Jun/2021 05:45:43] "GET /static/main/media/01a32133-4186-4eeb-8e8a-8c73aa8eef9cSupport.jpg HTTP/1.1" 200 1485352
+[26/Jun/2021 05:45:43] "GET /static/main/media/2d1504bf-ec3c-4492-9593-b837898d675csim-rond.png HTTP/1.1" 200 77729
+[26/Jun/2021 05:45:43] "GET /static/main/media/72f3178d-d687-4519-9c6e-c82c51021d6eweb23.png HTTP/1.1" 200 1006298
+[26/Jun/2021 05:45:43] "GET /static/main/media/internet.png HTTP/1.1" 200 130525
+[26/Jun/2021 05:45:43] "GET /static/main/media/0c6d5171-a6d2-44bc-bc3b-6c2e4817cd74simdata.png HTTP/1.1" 200 109004
+[26/Jun/2021 05:45:43] "GET /static/main/media/call.png HTTP/1.1" 200 106599
+[26/Jun/2021 05:45:44] "GET /static/main/media/sms.png HTTP/1.1" 200 102057
+[26/Jun/2021 05:45:44] "GET /static/main/Upload/Images/link/1.gif HTTP/1.1" 200 6229
+[26/Jun/2021 05:45:44] "GET /static/main/Upload/Images/link/3.gif HTTP/1.1" 200 12144
+[26/Jun/2021 05:45:44] "GET /static/main/media/tarkibi.png HTTP/1.1" 200 107803
+[26/Jun/2021 05:45:45] "GET /static/main/Upload/Images/link/4.gif HTTP/1.1" 200 3525
+[26/Jun/2021 05:45:45] "GET /static/main/Upload/Images/link/5.gif HTTP/1.1" 200 5849
+[26/Jun/2021 05:45:45] "GET /static/main/Upload/Images/link/6.gif HTTP/1.1" 200 6212
+[26/Jun/2021 05:45:45] "GET /static/main/Upload/Images/link/7.gif HTTP/1.1" 200 6028
+[26/Jun/2021 05:45:45] "GET /static/main/Upload/Images/link/8.gif HTTP/1.1" 200 6047
+[26/Jun/2021 05:45:45] "GET /static/main/images/logo-footer.png HTTP/1.1" 200 6733
+[26/Jun/2021 05:45:45] "GET /static/main/images/footer-img.png HTTP/1.1" 200 6831
+[26/Jun/2021 05:45:45] "GET /static/main/Upload/Images/195.png HTTP/1.1" 200 76955
+[26/Jun/2021 05:45:45] "GET /static/main/Content/site/fa_fonts/IranYekan/woff/iranyekanwebregular.woff HTTP/1.1" 200 20925
+[26/Jun/2021 05:45:45] "GET /lang/FA HTTP/1.1" 302 0
+[26/Jun/2021 05:45:45] "GET / HTTP/1.1" 200 45144
+[26/Jun/2021 05:45:46] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[26/Jun/2021 05:45:51] "GET /news/60c6fe331ba5d65bb926c296 HTTP/1.1" 200 42951
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[26/Jun/2021 05:45:51] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4438
+[26/Jun/2021 05:45:54] "GET /static/main/media/8e4d0bf8-cbb0-428d-8621-9c8f159a9687e-mway-ok2.png HTTP/1.1" 200 1442824
+[26/Jun/2021 05:46:02] "GET /support HTTP/1.1" 200 29474
+[26/Jun/2021 05:46:04] "GET /static/main/media/e7d38681-87b3-433f-85ad-34eaf805b4edSupport.jpg HTTP/1.1" 200 1485352
+[26/Jun/2021 05:46:18] "GET /lang/EN HTTP/1.1" 302 0
+[26/Jun/2021 05:46:18] "GET / HTTP/1.1" 200 43003
+[26/Jun/2021 05:46:21] "GET /support HTTP/1.1" 200 26023
+[26/Jun/2021 05:47:04] "GET /support HTTP/1.1" 200 26023
+[26/Jun/2021 05:47:18] "GET /lang/FA HTTP/1.1" 302 0
+[26/Jun/2021 05:47:18] "GET / HTTP/1.1" 200 45144
+[26/Jun/2021 05:53:21] "GET /lang/EN HTTP/1.1" 302 0
+[26/Jun/2021 05:53:21] "GET / HTTP/1.1" 200 43003
+[26/Jun/2021 05:56:00] "GET /static/main/Scripts/site/util.js.map HTTP/1.1" 404 1950
+[26/Jun/2021 05:56:00] "GET /static/main/Content/site/bootstrap.min.css.map HTTP/1.1" 404 1980
+[26/Jun/2021 05:58:58] "GET / HTTP/1.1" 200 45144
+[26/Jun/2021 05:58:58] "GET /static/main/Content/site/bootstrap.min.css HTTP/1.1" 200 121159
+[26/Jun/2021 05:58:58] "GET /static/main/Content/site/style2.css HTTP/1.1" 200 88761
+[26/Jun/2021 05:58:58] "GET /static/main/Content/site/fonts.css HTTP/1.1" 200 1478
+[26/Jun/2021 05:58:58] "GET /static/main/Content/site/skin0.css HTTP/1.1" 200 47984
+[26/Jun/2021 05:58:58] "GET /static/main/Content/site/fa.css HTTP/1.1" 200 37
+[26/Jun/2021 05:58:58] "GET /static/main/css/ltr.css HTTP/1.1" 200 2876
+[26/Jun/2021 05:58:59] "GET /static/main/Scripts/site/core.js HTTP/1.1" 304 0
+[26/Jun/2021 05:58:59] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 304 0
+[26/Jun/2021 05:58:59] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 304 0
+[26/Jun/2021 05:58:59] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 304 0
+[26/Jun/2021 05:58:59] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 304 0
+[26/Jun/2021 05:58:59] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 304 0
+[26/Jun/2021 05:58:59] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 304 0
+[26/Jun/2021 05:58:59] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 304 0
+[26/Jun/2021 05:58:59] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 304 0
+[26/Jun/2021 05:58:59] "GET /static/main/Scripts/site/util.js HTTP/1.1" 304 0
+[26/Jun/2021 05:58:59] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 304 0
+[26/Jun/2021 05:58:59] "GET /static/main/Upload/Images/link/2-1.gif HTTP/1.1" 200 3689
+[26/Jun/2021 05:58:59] "GET /static/main/Upload/Images/link/5-1.gif HTTP/1.1" 200 3933
+[26/Jun/2021 05:58:59] "GET /static/main/images/footer-img.png HTTP/1.1" 200 6831
+[26/Jun/2021 05:58:59] "GET /static/main/images/logo-footer.png HTTP/1.1" 200 6733
+[26/Jun/2021 05:58:59] "GET /static/main/Upload/Images/link/8-1.gif HTTP/1.1" 200 3302
+[26/Jun/2021 05:58:59] "GET /static/main/Content/site/img/logo.png HTTP/1.1" 200 26144
+[26/Jun/2021 05:58:59] "GET /static/main/Upload/Images/link/7.gif HTTP/1.1" 200 6028
+[26/Jun/2021 05:58:59] "GET /static/main/Content/site/fa_fonts/IranYekan/woff/iranyekanwebregular.woff HTTP/1.1" 200 20925
+[26/Jun/2021 05:58:59] "GET /static/main/Upload/Images/link/8.gif HTTP/1.1" 200 6047
+[26/Jun/2021 05:58:59] "GET /static/main/Upload/Images/link/4.gif HTTP/1.1" 200 3525
+[26/Jun/2021 05:58:59] "GET /static/main/Upload/Images/link/6-1.gif HTTP/1.1" 200 3778
+[26/Jun/2021 05:58:59] "GET /static/main/media/8eab75e1-a18f-4e46-accb-23cb0ea3aa73slider.jpg HTTP/1.1" 304 0
+[26/Jun/2021 05:58:59] "GET /static/main/media/e79a965c-28ed-4888-af8e-10949dab88fae-mway-ok.png HTTP/1.1" 304 0
+[26/Jun/2021 05:58:59] "GET /static/main/media/01a32133-4186-4eeb-8e8a-8c73aa8eef9cSupport.jpg HTTP/1.1" 304 0
+[26/Jun/2021 05:58:59] "GET /static/main/media/c2d35484-209e-4c83-bedd-f75649127e81sim%20toorism.png HTTP/1.1" 200 96626
+[26/Jun/2021 05:58:59] "GET /static/main/Upload/Images/link/7-1.gif HTTP/1.1" 200 3686
+[26/Jun/2021 05:58:59] "GET /static/main/media/2d1504bf-ec3c-4492-9593-b837898d675csim-rond.png HTTP/1.1" 200 77729
+[26/Jun/2021 05:58:59] "GET /static/main/media/72f3178d-d687-4519-9c6e-c82c51021d6eweb23.png HTTP/1.1" 304 0
+[26/Jun/2021 05:58:59] "GET /static/main/Upload/Images/195.png HTTP/1.1" 200 76955
+[26/Jun/2021 05:58:59] "GET /static/main/media/bfa2e24d-080a-4855-a6db-28230074815bsim-daeemi.png HTTP/1.1" 200 150547
+[26/Jun/2021 05:58:59] "GET /static/main/media/tarkibi.png HTTP/1.1" 200 107803
+[26/Jun/2021 05:58:59] "GET /static/main/media/061f1772-469d-406d-8a85-00c02c13516dsim-etebari.png HTTP/1.1" 200 151806
+[26/Jun/2021 05:58:59] "GET /static/main/media/internet.png HTTP/1.1" 200 130525
+[26/Jun/2021 05:58:59] "GET /static/main/Upload/Images/link/3.gif HTTP/1.1" 200 12144
+[26/Jun/2021 05:58:59] "GET /static/main/media/call.png HTTP/1.1" 200 106599
+[26/Jun/2021 05:58:59] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 304 0
+[26/Jun/2021 05:58:59] "GET /static/main/Scripts/site/captcha.js HTTP/1.1" 304 0
+[26/Jun/2021 05:58:59] "GET /static/main/images/logo.png HTTP/1.1" 200 26115
+[26/Jun/2021 05:58:59] "GET /static/main/Upload/Images/link/1.gif HTTP/1.1" 200 6229
+[26/Jun/2021 05:58:59] "GET /static/main/media/0c6d5171-a6d2-44bc-bc3b-6c2e4817cd74simdata.png HTTP/1.1" 200 109004
+[26/Jun/2021 05:58:59] "GET /static/main/media/sms.png HTTP/1.1" 200 102057
+[26/Jun/2021 05:58:59] "GET /static/main/Content/site/img/icon.png HTTP/1.1" 200 2756
+[26/Jun/2021 05:58:59] "GET /static/main/Upload/Images/link/3-1.gif HTTP/1.1" 200 3137
+[26/Jun/2021 05:58:59] "GET /static/main/Upload/Images/link/1-1.gif HTTP/1.1" 200 3721
+[26/Jun/2021 05:58:59] "GET /static/main/Upload/Images/link/2.gif HTTP/1.1" 200 8254
+[26/Jun/2021 05:58:59] "GET /static/main/Upload/Images/link/6.gif HTTP/1.1" 200 6212
+[26/Jun/2021 05:58:59] "GET /static/main/Upload/Images/link/5.gif HTTP/1.1" 200 5849
+[26/Jun/2021 05:58:59] "GET /static/main/Upload/Images/link/4-1.gif HTTP/1.1" 200 2615
+Internal Server Error: /شیئهد
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 79, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[26/Jun/2021 05:59:05] "GET /%D8%B4%DB%8C%D8%A6%D9%87%D8%AF HTTP/1.1" 500 63407
+[26/Jun/2021 05:59:11] "GET /admin HTTP/1.1" 200 18807
+[26/Jun/2021 05:59:11] "GET /static/assets/images/logo-footer.png HTTP/1.1" 200 6733
+[26/Jun/2021 05:59:11] "GET /static/assets/images/person.png HTTP/1.1" 200 8853
+[26/Jun/2021 05:59:11] "GET /static/assets/images/avatar.jpg HTTP/1.1" 200 25433
+Not Found: /assets/images/person.png
+[26/Jun/2021 05:59:11] "GET /static/assets/css/app.min.css HTTP/1.1" 304 0
+[26/Jun/2021 05:59:11] "GET /assets/images/person.png HTTP/1.1" 404 4416
+Not Found: /assets/js/chart.min.js
+[26/Jun/2021 05:59:11] "GET /assets/js/chart.min.js HTTP/1.1" 404 4410
+[26/Jun/2021 05:59:11] "GET /static/assets/js/bundles/materialize-rtl/materialize-rtl.min.css HTTP/1.1" 200 135840
+[26/Jun/2021 05:59:11] "GET /static/assets/css/styles/all-themes.css HTTP/1.1" 200 28620
+[26/Jun/2021 05:59:11] "GET /static/assets/css/text_editor.css HTTP/1.1" 200 144
+[26/Jun/2021 05:59:11] "GET /static/assets/css/style.css HTTP/1.1" 304 0
+[26/Jun/2021 05:59:11] "GET /static/assets/js/app.min.js HTTP/1.1" 304 0
+[26/Jun/2021 05:59:11] "GET /static/assets/js/admin.js HTTP/1.1" 304 0
+[26/Jun/2021 05:59:12] "GET /static/assets/js/bundles/apexcharts/apexcharts.min.js HTTP/1.1" 304 0
+[26/Jun/2021 05:59:12] "GET /static/assets/js/pages/index.js HTTP/1.1" 304 0
+[26/Jun/2021 05:59:12] "GET /static/assets/js/editorMediaHandler.js HTTP/1.1" 304 0
+[26/Jun/2021 05:59:12] "GET /static/assets/js/text_editor.js HTTP/1.1" 304 0
+[26/Jun/2021 05:59:12] "GET /static/assets/images/load-343-460469.png HTTP/1.1" 200 3297
+[26/Jun/2021 05:59:12] "GET /static/assets/fonts/themify-icons/themify-icons.css HTTP/1.1" 200 16443
+[26/Jun/2021 05:59:12] "GET /static/assets/fonts/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12607
+[26/Jun/2021 05:59:12] "GET /static/assets/fonts/Shabnam.woff HTTP/1.1" 200 25624
+[26/Jun/2021 05:59:12] "GET /static/assets/fonts/themify-icons/fonts/themify.woff HTTP/1.1" 200 56108
+[26/Jun/2021 05:59:12] "GET /static/assets/fonts/poppins/poppins-v5-latin-regular.woff2 HTTP/1.1" 200 7904
+[26/Jun/2021 05:59:12] "GET /static/assets/fonts/fontawesome/fa-regular-400.woff2 HTTP/1.1" 200 14872
+[26/Jun/2021 05:59:12] "GET /static/assets/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1" 200 71952
+Not Found: /assets/js/chart.min.js
+[26/Jun/2021 05:59:12] "GET /assets/js/chart.min.js HTTP/1.1" 404 4410
+[26/Jun/2021 05:59:12] "GET /static/assets/images/favicon.ico HTTP/1.1" 404 1938
+[26/Jun/2021 05:59:18] "GET /static/main/Content/site/img/logo1.png HTTP/1.1" 200 22636
+[26/Jun/2021 05:59:20] "GET /lang/EN HTTP/1.1" 302 0
+[26/Jun/2021 05:59:20] "GET / HTTP/1.1" 200 43003
+[26/Jun/2021 05:59:40] "GET /admin/cards HTTP/1.1" 200 23565
+Not Found: /admin/assets/js/chart.min.js
+[26/Jun/2021 05:59:40] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/images/person.png
+[26/Jun/2021 05:59:40] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[26/Jun/2021 05:59:40] "GET /static/assets/fonts/iconfont/MaterialIcons-Regular.woff2 HTTP/1.1" 200 44300
+Not Found: /admin/assets/js/chart.min.js
+[26/Jun/2021 05:59:40] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[26/Jun/2021 05:59:42] "GET /admin/editCards/60bb566652022657011f7cf5 HTTP/1.1" 200 31101
+Not Found: /admin/editCards/assets/js/chart.min.js
+[26/Jun/2021 05:59:42] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10197
+Not Found: /admin/editCards/assets/images/person.png
+[26/Jun/2021 05:59:42] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10203
+[26/Jun/2021 06:00:03] "GET /simcards/60bb566652022657011f7cf5 HTTP/1.1" 200 43298
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[26/Jun/2021 06:00:03] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4438
+[26/Jun/2021 06:00:25] "POST /admin/editCards/60bb566652022657011f7cf5 HTTP/1.1" 200 31340
+Not Found: /admin/editCards/assets/images/person.png
+[26/Jun/2021 06:00:25] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10203
+Not Found: /admin/editCards/assets/js/chart.min.js
+[26/Jun/2021 06:00:25] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10197
+[26/Jun/2021 06:00:27] "GET / HTTP/1.1" 200 43003
+[26/Jun/2021 06:00:27] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:00:27] "GET /static/main/Scripts/site/core.js HTTP/1.1" 304 0
+[26/Jun/2021 06:00:27] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 304 0
+[26/Jun/2021 06:00:27] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 304 0
+[26/Jun/2021 06:00:27] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 304 0
+[26/Jun/2021 06:00:27] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:00:27] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:00:27] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:00:27] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 304 0
+[26/Jun/2021 06:00:27] "GET /static/main/Scripts/site/util.js HTTP/1.1" 304 0
+[26/Jun/2021 06:00:27] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:00:27] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 304 0
+[26/Jun/2021 06:00:28] "GET /static/main/Scripts/site/captcha.js HTTP/1.1" 304 0
+[26/Jun/2021 06:00:28] "GET /static/main/images/logo.png HTTP/1.1" 304 0
+[26/Jun/2021 06:00:28] "GET /static/main/media/01a32133-4186-4eeb-8e8a-8c73aa8eef9cSupport.jpg HTTP/1.1" 304 0
+[26/Jun/2021 06:00:28] "GET /static/main/media/e79a965c-28ed-4888-af8e-10949dab88fae-mway-ok.png HTTP/1.1" 304 0
+[26/Jun/2021 06:00:28] "GET /static/main/media/8eab75e1-a18f-4e46-accb-23cb0ea3aa73slider.jpg HTTP/1.1" 304 0
+[26/Jun/2021 06:00:28] "GET /static/main/media/72f3178d-d687-4519-9c6e-c82c51021d6eweb23.png HTTP/1.1" 304 0
+[26/Jun/2021 06:00:28] "GET /static/main/media/bfa2e24d-080a-4855-a6db-28230074815bsim-daeemi.png HTTP/1.1" 304 0
+[26/Jun/2021 06:00:28] "GET /static/main/media/061f1772-469d-406d-8a85-00c02c13516dsim-etebari.png HTTP/1.1" 304 0
+[26/Jun/2021 06:00:28] "GET /static/main/media/c2d35484-209e-4c83-bedd-f75649127e81sim%20toorism.png HTTP/1.1" 304 0
+[26/Jun/2021 06:00:28] "GET /static/main/media/2d1504bf-ec3c-4492-9593-b837898d675csim-rond.png HTTP/1.1" 304 0
+[26/Jun/2021 06:00:28] "GET /static/main/media/0c6d5171-a6d2-44bc-bc3b-6c2e4817cd74simdata.png HTTP/1.1" 304 0
+[26/Jun/2021 06:00:28] "GET /static/main/media/internet.png HTTP/1.1" 304 0
+[26/Jun/2021 06:00:28] "GET /static/main/media/call.png HTTP/1.1" 304 0
+[26/Jun/2021 06:00:28] "GET /static/main/media/sms.png HTTP/1.1" 304 0
+[26/Jun/2021 06:00:28] "GET /static/main/media/tarkibi.png HTTP/1.1" 304 0
+[26/Jun/2021 06:00:28] "GET /static/main/Upload/Images/link/2-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:00:28] "GET /static/main/Upload/Images/link/1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:00:28] "GET /static/main/Upload/Images/link/1-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:00:28] "GET /static/main/Upload/Images/link/2.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:00:28] "GET /static/main/Upload/Images/link/3.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:00:29] "GET /static/main/Upload/Images/link/3-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:00:29] "GET /static/main/Upload/Images/link/4-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:00:29] "GET /static/main/Upload/Images/link/5.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:00:29] "GET /static/main/Upload/Images/link/5-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:00:29] "GET /static/main/Upload/Images/link/4.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:00:29] "GET /static/main/Upload/Images/link/6.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:00:29] "GET /static/main/Upload/Images/link/6-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:00:29] "GET /static/main/Upload/Images/link/7.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:00:29] "GET /static/main/Upload/Images/link/8.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:00:29] "GET /static/main/Upload/Images/link/8-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:00:29] "GET /static/main/images/logo-footer.png HTTP/1.1" 304 0
+[26/Jun/2021 06:00:29] "GET /static/main/Upload/Images/link/7-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:00:29] "GET /static/main/images/footer-img.png HTTP/1.1" 304 0
+[26/Jun/2021 06:00:29] "GET /static/main/Upload/Images/195.png HTTP/1.1" 304 0
+[26/Jun/2021 06:00:51] "POST /admin/editCards/60bb566652022657011f7cf5 HTTP/1.1" 200 31341
+Not Found: /admin/editCards/assets/images/person.png
+[26/Jun/2021 06:00:52] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10203
+Not Found: /admin/editCards/assets/js/chart.min.js
+[26/Jun/2021 06:00:52] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10197
+[26/Jun/2021 06:00:54] "GET /admin/cards HTTP/1.1" 200 23565
+Not Found: /admin/assets/images/person.png
+[26/Jun/2021 06:00:54] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[26/Jun/2021 06:00:54] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[26/Jun/2021 06:00:57] "GET /admin/editCards/60bb566652022657011f7cf6 HTTP/1.1" 200 30440
+Not Found: /admin/editCards/assets/images/person.png
+[26/Jun/2021 06:00:57] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10203
+Not Found: /admin/editCards/assets/js/chart.min.js
+[26/Jun/2021 06:00:57] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10197
+[26/Jun/2021 06:01:27] "GET / HTTP/1.1" 200 43005
+[26/Jun/2021 06:01:28] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 304 0
+[26/Jun/2021 06:01:28] "GET /static/main/Scripts/site/core.js HTTP/1.1" 304 0
+[26/Jun/2021 06:01:28] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 304 0
+[26/Jun/2021 06:01:28] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:01:28] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 304 0
+[26/Jun/2021 06:01:28] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:01:28] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:01:28] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:01:28] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 304 0
+[26/Jun/2021 06:01:28] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 304 0
+[26/Jun/2021 06:01:28] "GET /static/main/Scripts/site/util.js HTTP/1.1" 304 0
+[26/Jun/2021 06:01:28] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:01:28] "GET /static/main/Scripts/site/captcha.js HTTP/1.1" 304 0
+[26/Jun/2021 06:01:28] "GET /static/main/images/logo.png HTTP/1.1" 304 0
+[26/Jun/2021 06:01:28] "GET /static/main/media/01a32133-4186-4eeb-8e8a-8c73aa8eef9cSupport.jpg HTTP/1.1" 304 0
+[26/Jun/2021 06:01:28] "GET /static/main/media/e79a965c-28ed-4888-af8e-10949dab88fae-mway-ok.png HTTP/1.1" 304 0
+[26/Jun/2021 06:01:28] "GET /static/main/media/8eab75e1-a18f-4e46-accb-23cb0ea3aa73slider.jpg HTTP/1.1" 304 0
+[26/Jun/2021 06:01:28] "GET /static/main/media/72f3178d-d687-4519-9c6e-c82c51021d6eweb23.png HTTP/1.1" 304 0
+[26/Jun/2021 06:01:28] "GET /static/main/media/bfa2e24d-080a-4855-a6db-28230074815bsim-daeemi.png HTTP/1.1" 304 0
+[26/Jun/2021 06:01:28] "GET /static/main/media/061f1772-469d-406d-8a85-00c02c13516dsim-etebari.png HTTP/1.1" 304 0
+[26/Jun/2021 06:01:28] "GET /static/main/media/c2d35484-209e-4c83-bedd-f75649127e81sim%20toorism.png HTTP/1.1" 304 0
+[26/Jun/2021 06:01:28] "GET /static/main/media/2d1504bf-ec3c-4492-9593-b837898d675csim-rond.png HTTP/1.1" 304 0
+[26/Jun/2021 06:01:28] "GET /static/main/media/internet.png HTTP/1.1" 304 0
+[26/Jun/2021 06:01:28] "GET /static/main/media/0c6d5171-a6d2-44bc-bc3b-6c2e4817cd74simdata.png HTTP/1.1" 304 0
+[26/Jun/2021 06:01:28] "GET /static/main/media/call.png HTTP/1.1" 304 0
+[26/Jun/2021 06:01:28] "GET /static/main/media/sms.png HTTP/1.1" 304 0
+[26/Jun/2021 06:01:28] "GET /static/main/Upload/Images/link/1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:01:28] "GET /static/main/media/tarkibi.png HTTP/1.1" 304 0
+[26/Jun/2021 06:01:28] "GET /static/main/Upload/Images/link/2.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:01:28] "GET /static/main/Upload/Images/link/2-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:01:28] "GET /static/main/Upload/Images/link/1-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:01:28] "GET /static/main/Upload/Images/link/3.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:01:29] "GET /static/main/Upload/Images/link/4.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:01:29] "GET /static/main/Upload/Images/link/3-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:01:29] "GET /static/main/Upload/Images/link/4-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:01:29] "GET /static/main/Upload/Images/link/5.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:01:30] "GET /static/main/Upload/Images/link/6.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:01:30] "GET /static/main/Upload/Images/link/5-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:01:30] "GET /static/main/Upload/Images/link/7.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:01:30] "GET /static/main/Upload/Images/link/6-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:01:30] "GET /static/main/Upload/Images/link/7-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:01:30] "GET /static/main/Upload/Images/link/8-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:01:30] "GET /static/main/Upload/Images/link/8.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:01:30] "GET /simcards/60bb566652022657011f7cf5 HTTP/1.1" 200 43300
+[26/Jun/2021 06:01:30] "GET /static/main/images/footer-img.png HTTP/1.1" 304 0
+[26/Jun/2021 06:01:30] "GET /static/main/Upload/Images/195.png HTTP/1.1" 304 0
+[26/Jun/2021 06:01:30] "GET /static/main/images/logo-footer.png HTTP/1.1" 304 0
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[26/Jun/2021 06:01:30] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4438
+[26/Jun/2021 06:03:21] "GET /prices HTTP/1.1" 200 27390
+[26/Jun/2021 06:07:06] "POST /admin/editCards/60bb566652022657011f7cf6 HTTP/1.1" 200 30679
+Not Found: /admin/editCards/assets/images/person.png
+[26/Jun/2021 06:07:06] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10203
+Not Found: /admin/editCards/assets/js/chart.min.js
+[26/Jun/2021 06:07:07] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10197
+[26/Jun/2021 06:07:13] "GET / HTTP/1.1" 200 43005
+[26/Jun/2021 06:07:13] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:07:13] "GET /static/main/Scripts/site/core.js HTTP/1.1" 304 0
+[26/Jun/2021 06:07:13] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 304 0
+[26/Jun/2021 06:07:13] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 304 0
+[26/Jun/2021 06:07:13] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 304 0
+[26/Jun/2021 06:07:13] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:07:13] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:07:13] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:07:13] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 304 0
+[26/Jun/2021 06:07:13] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:07:13] "GET /static/main/Scripts/site/util.js HTTP/1.1" 304 0
+[26/Jun/2021 06:07:13] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 304 0
+[26/Jun/2021 06:07:13] "GET /static/main/Scripts/site/captcha.js HTTP/1.1" 304 0
+[26/Jun/2021 06:07:14] "GET /static/main/images/logo.png HTTP/1.1" 304 0
+[26/Jun/2021 06:07:14] "GET /static/main/media/01a32133-4186-4eeb-8e8a-8c73aa8eef9cSupport.jpg HTTP/1.1" 304 0
+[26/Jun/2021 06:07:14] "GET /static/main/media/e79a965c-28ed-4888-af8e-10949dab88fae-mway-ok.png HTTP/1.1" 304 0
+[26/Jun/2021 06:07:14] "GET /static/main/media/8eab75e1-a18f-4e46-accb-23cb0ea3aa73slider.jpg HTTP/1.1" 304 0
+[26/Jun/2021 06:07:14] "GET /static/main/media/72f3178d-d687-4519-9c6e-c82c51021d6eweb23.png HTTP/1.1" 304 0
+[26/Jun/2021 06:07:14] "GET /static/main/media/061f1772-469d-406d-8a85-00c02c13516dsim-etebari.png HTTP/1.1" 304 0
+[26/Jun/2021 06:07:14] "GET /static/main/media/c2d35484-209e-4c83-bedd-f75649127e81sim%20toorism.png HTTP/1.1" 304 0
+[26/Jun/2021 06:07:14] "GET /static/main/media/bfa2e24d-080a-4855-a6db-28230074815bsim-daeemi.png HTTP/1.1" 200 150547
+[26/Jun/2021 06:07:14] "GET /static/main/media/2d1504bf-ec3c-4492-9593-b837898d675csim-rond.png HTTP/1.1" 304 0
+[26/Jun/2021 06:07:14] "GET /static/main/media/0c6d5171-a6d2-44bc-bc3b-6c2e4817cd74simdata.png HTTP/1.1" 304 0
+[26/Jun/2021 06:07:14] "GET /static/main/media/internet.png HTTP/1.1" 304 0
+[26/Jun/2021 06:07:14] "GET /static/main/media/call.png HTTP/1.1" 304 0
+[26/Jun/2021 06:07:15] "GET /static/main/media/sms.png HTTP/1.1" 304 0
+[26/Jun/2021 06:07:15] "GET /static/main/media/tarkibi.png HTTP/1.1" 304 0
+[26/Jun/2021 06:07:15] "GET /static/main/Upload/Images/link/1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:07:15] "GET /static/main/Upload/Images/link/1-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:07:15] "GET /static/main/Upload/Images/link/2.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:07:15] "GET /static/main/Upload/Images/link/2-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:07:15] "GET /static/main/Upload/Images/link/3.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:07:15] "GET /static/main/Upload/Images/link/3-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:07:15] "GET /static/main/Upload/Images/link/4.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:07:15] "GET /static/main/Upload/Images/link/5.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:07:15] "GET /static/main/Upload/Images/link/4-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:07:15] "GET /static/main/Upload/Images/link/5-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:07:15] "GET /static/main/Upload/Images/link/6.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:07:15] "GET /static/main/Upload/Images/link/6-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:07:15] "GET /static/main/Upload/Images/link/7-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:07:15] "GET /static/main/Upload/Images/link/7.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:07:15] "GET /static/main/Upload/Images/link/8.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:07:15] "GET /static/main/Upload/Images/link/8-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:07:15] "GET /static/main/images/logo-footer.png HTTP/1.1" 304 0
+[26/Jun/2021 06:07:15] "GET /static/main/images/footer-img.png HTTP/1.1" 304 0
+[26/Jun/2021 06:07:15] "GET /static/main/Upload/Images/195.png HTTP/1.1" 304 0
+[26/Jun/2021 06:07:41] "POST /admin/editCards/60bb566652022657011f7cf6 HTTP/1.1" 200 30679
+Not Found: /admin/editCards/assets/images/person.png
+[26/Jun/2021 06:07:42] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10203
+Not Found: /admin/editCards/assets/js/chart.min.js
+[26/Jun/2021 06:07:42] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10197
+[26/Jun/2021 06:07:44] "GET / HTTP/1.1" 200 43005
+[26/Jun/2021 06:07:44] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 304 0
+[26/Jun/2021 06:07:44] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:07:44] "GET /static/main/Scripts/site/core.js HTTP/1.1" 304 0
+[26/Jun/2021 06:07:44] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 304 0
+[26/Jun/2021 06:07:44] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 304 0
+[26/Jun/2021 06:07:44] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:07:44] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:07:44] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:07:44] "GET /static/main/Scripts/site/util.js HTTP/1.1" 304 0
+[26/Jun/2021 06:07:44] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 304 0
+[26/Jun/2021 06:07:44] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:07:44] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 304 0
+[26/Jun/2021 06:07:44] "GET /static/main/Scripts/site/captcha.js HTTP/1.1" 304 0
+[26/Jun/2021 06:07:44] "GET /static/main/images/logo.png HTTP/1.1" 304 0
+[26/Jun/2021 06:07:44] "GET /static/main/media/01a32133-4186-4eeb-8e8a-8c73aa8eef9cSupport.jpg HTTP/1.1" 304 0
+[26/Jun/2021 06:07:45] "GET /static/main/media/8eab75e1-a18f-4e46-accb-23cb0ea3aa73slider.jpg HTTP/1.1" 304 0
+[26/Jun/2021 06:07:45] "GET /static/main/media/e79a965c-28ed-4888-af8e-10949dab88fae-mway-ok.png HTTP/1.1" 304 0
+[26/Jun/2021 06:07:45] "GET /static/main/media/72f3178d-d687-4519-9c6e-c82c51021d6eweb23.png HTTP/1.1" 304 0
+[26/Jun/2021 06:07:45] "GET /static/main/media/061f1772-469d-406d-8a85-00c02c13516dsim-etebari.png HTTP/1.1" 304 0
+[26/Jun/2021 06:07:45] "GET /static/main/media/bfa2e24d-080a-4855-a6db-28230074815bsim-daeemi.png HTTP/1.1" 200 150547
+[26/Jun/2021 06:07:45] "GET /static/main/media/c2d35484-209e-4c83-bedd-f75649127e81sim%20toorism.png HTTP/1.1" 304 0
+[26/Jun/2021 06:07:45] "GET /static/main/media/2d1504bf-ec3c-4492-9593-b837898d675csim-rond.png HTTP/1.1" 304 0
+[26/Jun/2021 06:07:45] "GET /static/main/media/0c6d5171-a6d2-44bc-bc3b-6c2e4817cd74simdata.png HTTP/1.1" 304 0
+[26/Jun/2021 06:07:45] "GET /static/main/media/internet.png HTTP/1.1" 304 0
+[26/Jun/2021 06:07:45] "GET /static/main/media/sms.png HTTP/1.1" 304 0
+[26/Jun/2021 06:07:45] "GET /static/main/media/tarkibi.png HTTP/1.1" 304 0
+[26/Jun/2021 06:07:45] "GET /static/main/media/call.png HTTP/1.1" 304 0
+[26/Jun/2021 06:07:45] "GET /static/main/Upload/Images/link/1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:07:45] "GET /static/main/Upload/Images/link/1-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:07:45] "GET /static/main/Upload/Images/link/2.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:07:45] "GET /static/main/Upload/Images/link/2-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:07:45] "GET /static/main/Upload/Images/link/3.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:07:45] "GET /static/main/Upload/Images/link/3-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:07:45] "GET /static/main/Upload/Images/link/4.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:07:45] "GET /static/main/Upload/Images/link/4-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:07:45] "GET /static/main/Upload/Images/link/5.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:07:45] "GET /static/main/Upload/Images/link/5-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:07:45] "GET /static/main/Upload/Images/link/6.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:07:45] "GET /static/main/Upload/Images/link/7.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:07:45] "GET /static/main/Upload/Images/link/6-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:07:45] "GET /static/main/Upload/Images/link/7-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:07:45] "GET /static/main/Upload/Images/link/8.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:07:45] "GET /static/main/Upload/Images/link/8-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:07:45] "GET /static/main/images/logo-footer.png HTTP/1.1" 304 0
+[26/Jun/2021 06:07:45] "GET /static/main/Upload/Images/195.png HTTP/1.1" 304 0
+[26/Jun/2021 06:07:45] "GET /static/main/images/footer-img.png HTTP/1.1" 304 0
+[26/Jun/2021 06:07:56] "GET /admin/cards HTTP/1.1" 200 23565
+Not Found: /admin/assets/images/person.png
+[26/Jun/2021 06:07:56] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[26/Jun/2021 06:07:56] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[26/Jun/2021 06:07:59] "GET /admin/editCards/60bb566652022657011f7cf6 HTTP/1.1" 200 30440
+Not Found: /admin/editCards/assets/images/person.png
+[26/Jun/2021 06:07:59] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10203
+Not Found: /admin/editCards/assets/js/chart.min.js
+[26/Jun/2021 06:07:59] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10197
+[26/Jun/2021 06:08:04] "GET /simcards/60bb566652022657011f7cf6 HTTP/1.1" 200 42780
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[26/Jun/2021 06:08:04] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4438
+[26/Jun/2021 06:08:08] "GET /simcards/60bb566652022657011f7cf5 HTTP/1.1" 200 43300
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[26/Jun/2021 06:08:09] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4438
+[26/Jun/2021 06:08:16] "GET /admin/cards HTTP/1.1" 200 23565
+Not Found: /admin/assets/images/person.png
+[26/Jun/2021 06:08:16] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[26/Jun/2021 06:08:16] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[26/Jun/2021 06:08:19] "GET /admin/editCards/60bb566652022657011f7cf7 HTTP/1.1" 200 27865
+Not Found: /admin/editCards/assets/images/person.png
+[26/Jun/2021 06:08:19] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10203
+Not Found: /admin/editCards/assets/js/chart.min.js
+[26/Jun/2021 06:08:19] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10197
+[26/Jun/2021 06:08:28] "GET /admin/editCards/60bb566652022657011f7cf8 HTTP/1.1" 200 31967
+Not Found: /admin/editCards/assets/images/person.png
+[26/Jun/2021 06:08:28] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10203
+Not Found: /admin/editCards/assets/js/chart.min.js
+[26/Jun/2021 06:08:28] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10197
+[26/Jun/2021 06:08:33] "GET /admin/editCards/60bb566652022657011f7cf9 HTTP/1.1" 200 29379
+Not Found: /admin/editCards/assets/images/person.png
+[26/Jun/2021 06:08:33] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10203
+Not Found: /admin/editCards/assets/js/chart.min.js
+[26/Jun/2021 06:08:33] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10197
+[26/Jun/2021 06:09:03] "POST /admin/editCards/60bb566652022657011f7cf9 HTTP/1.1" 200 29624
+Not Found: /admin/editCards/assets/images/person.png
+[26/Jun/2021 06:09:03] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10203
+Not Found: /admin/editCards/assets/js/chart.min.js
+[26/Jun/2021 06:09:03] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10197
+[26/Jun/2021 06:09:07] "GET /admin/cards HTTP/1.1" 200 23565
+Not Found: /admin/assets/images/person.png
+[26/Jun/2021 06:09:07] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[26/Jun/2021 06:09:07] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[26/Jun/2021 06:09:12] "GET /admin/editCards/60bb566652022657011f7cf8 HTTP/1.1" 200 31967
+Not Found: /admin/editCards/assets/images/person.png
+[26/Jun/2021 06:09:13] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10203
+Not Found: /admin/editCards/assets/js/chart.min.js
+[26/Jun/2021 06:09:13] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10197
+[26/Jun/2021 06:09:35] "POST /admin/editCards/60bb566652022657011f7cf8 HTTP/1.1" 200 32204
+Not Found: /admin/editCards/assets/images/person.png
+[26/Jun/2021 06:09:35] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10203
+Not Found: /admin/editCards/assets/js/chart.min.js
+[26/Jun/2021 06:09:35] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10197
+[26/Jun/2021 06:09:38] "GET / HTTP/1.1" 200 43013
+[26/Jun/2021 06:09:38] "GET /static/main/Scripts/site/core.js HTTP/1.1" 304 0
+[26/Jun/2021 06:09:38] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 304 0
+[26/Jun/2021 06:09:38] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:09:38] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 304 0
+[26/Jun/2021 06:09:38] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:09:38] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 304 0
+[26/Jun/2021 06:09:38] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:09:38] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:09:38] "GET /static/main/Scripts/site/util.js HTTP/1.1" 304 0
+[26/Jun/2021 06:09:38] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 304 0
+[26/Jun/2021 06:09:38] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 304 0
+[26/Jun/2021 06:09:38] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:09:38] "GET /static/main/Scripts/site/captcha.js HTTP/1.1" 304 0
+[26/Jun/2021 06:09:38] "GET /static/main/images/logo.png HTTP/1.1" 304 0
+[26/Jun/2021 06:09:38] "GET /static/main/media/01a32133-4186-4eeb-8e8a-8c73aa8eef9cSupport.jpg HTTP/1.1" 304 0
+[26/Jun/2021 06:09:38] "GET /static/main/media/e79a965c-28ed-4888-af8e-10949dab88fae-mway-ok.png HTTP/1.1" 304 0
+[26/Jun/2021 06:09:38] "GET /static/main/media/8eab75e1-a18f-4e46-accb-23cb0ea3aa73slider.jpg HTTP/1.1" 304 0
+[26/Jun/2021 06:09:38] "GET /static/main/media/72f3178d-d687-4519-9c6e-c82c51021d6eweb23.png HTTP/1.1" 304 0
+[26/Jun/2021 06:09:38] "GET /static/main/media/bfa2e24d-080a-4855-a6db-28230074815bsim-daeemi.png HTTP/1.1" 304 0
+[26/Jun/2021 06:09:38] "GET /static/main/media/061f1772-469d-406d-8a85-00c02c13516dsim-etebari.png HTTP/1.1" 304 0
+[26/Jun/2021 06:09:38] "GET /static/main/media/c2d35484-209e-4c83-bedd-f75649127e81sim%20toorism.png HTTP/1.1" 304 0
+[26/Jun/2021 06:09:38] "GET /static/main/media/2d1504bf-ec3c-4492-9593-b837898d675csim-rond.png HTTP/1.1" 304 0
+[26/Jun/2021 06:09:38] "GET /static/main/media/0c6d5171-a6d2-44bc-bc3b-6c2e4817cd74simdata.png HTTP/1.1" 304 0
+[26/Jun/2021 06:09:38] "GET /static/main/media/internet.png HTTP/1.1" 304 0
+[26/Jun/2021 06:09:38] "GET /static/main/media/call.png HTTP/1.1" 304 0
+[26/Jun/2021 06:09:39] "GET /static/main/media/sms.png HTTP/1.1" 304 0
+[26/Jun/2021 06:09:39] "GET /static/main/media/tarkibi.png HTTP/1.1" 304 0
+[26/Jun/2021 06:09:39] "GET /static/main/Upload/Images/link/1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:09:39] "GET /static/main/Upload/Images/link/1-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:09:39] "GET /static/main/Upload/Images/link/2.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:09:39] "GET /static/main/Upload/Images/link/2-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:09:39] "GET /static/main/Upload/Images/link/3-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:09:39] "GET /static/main/Upload/Images/link/3.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:09:39] "GET /static/main/Upload/Images/link/4.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:09:39] "GET /static/main/Upload/Images/link/4-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:09:39] "GET /static/main/Upload/Images/link/5.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:09:39] "GET /static/main/Upload/Images/link/5-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:09:39] "GET /static/main/Upload/Images/link/6-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:09:39] "GET /static/main/Upload/Images/link/6.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:09:39] "GET /static/main/Upload/Images/link/7.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:09:39] "GET /static/main/Upload/Images/link/7-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:09:39] "GET /static/main/Upload/Images/link/8.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:09:39] "GET /static/main/Upload/Images/link/8-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:09:39] "GET /static/main/images/logo-footer.png HTTP/1.1" 304 0
+[26/Jun/2021 06:09:39] "GET /static/main/images/footer-img.png HTTP/1.1" 304 0
+[26/Jun/2021 06:09:39] "GET /static/main/Upload/Images/195.png HTTP/1.1" 304 0
+[26/Jun/2021 06:09:53] "GET /admin HTTP/1.1" 200 18807
+Not Found: /assets/images/person.png
+[26/Jun/2021 06:09:53] "GET /assets/images/person.png HTTP/1.1" 404 4416
+Not Found: /assets/js/chart.min.js
+[26/Jun/2021 06:09:53] "GET /assets/js/chart.min.js HTTP/1.1" 404 4410
+[26/Jun/2021 06:11:03] "GET /prices HTTP/1.1" 200 27390
+[26/Jun/2021 06:11:18] "GET /employments HTTP/1.1" 200 34526
+[26/Jun/2021 06:12:25] "GET / HTTP/1.1" 200 45144
+[26/Jun/2021 06:12:25] "GET /static/main/Content/site/bootstrap.min.css HTTP/1.1" 304 0
+[26/Jun/2021 06:12:25] "GET /static/main/Content/site/style2.css HTTP/1.1" 200 88761
+[26/Jun/2021 06:12:25] "GET /static/main/Content/site/fonts.css HTTP/1.1" 304 0
+[26/Jun/2021 06:12:25] "GET /static/main/Content/site/skin0.css HTTP/1.1" 304 0
+[26/Jun/2021 06:12:25] "GET /static/main/Scripts/site/core.js HTTP/1.1" 304 0
+[26/Jun/2021 06:12:25] "GET /static/main/css/ltr.css HTTP/1.1" 304 0
+[26/Jun/2021 06:12:25] "GET /static/main/Content/site/fa.css HTTP/1.1" 304 0
+[26/Jun/2021 06:12:25] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:12:25] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 304 0
+[26/Jun/2021 06:12:25] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 304 0
+[26/Jun/2021 06:12:25] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 304 0
+[26/Jun/2021 06:12:25] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:12:25] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:12:25] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:12:25] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 304 0
+[26/Jun/2021 06:12:26] "GET /static/main/Scripts/site/util.js HTTP/1.1" 304 0
+[26/Jun/2021 06:12:26] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 304 0
+[26/Jun/2021 06:12:26] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:12:26] "GET /static/main/Scripts/site/captcha.js HTTP/1.1" 304 0
+[26/Jun/2021 06:12:26] "GET /static/main/images/logo.png HTTP/1.1" 304 0
+[26/Jun/2021 06:12:26] "GET /static/main/Content/site/img/logo.png HTTP/1.1" 304 0
+[26/Jun/2021 06:12:26] "GET /static/main/media/01a32133-4186-4eeb-8e8a-8c73aa8eef9cSupport.jpg HTTP/1.1" 200 1485352
+[26/Jun/2021 06:12:26] "GET /static/main/Content/site/fa_fonts/IranYekan/woff/iranyekanwebregular.woff HTTP/1.1" 304 0
+[26/Jun/2021 06:12:26] "GET /static/main/Upload/Images/link/1-1.gif HTTP/1.1" 200 3721
+[26/Jun/2021 06:12:26] "GET /static/main/media/e79a965c-28ed-4888-af8e-10949dab88fae-mway-ok.png HTTP/1.1" 200 1200498
+[26/Jun/2021 06:12:26] "GET /static/main/Upload/Images/link/5-1.gif HTTP/1.1" 200 3933
+[26/Jun/2021 06:12:26] "GET /static/main/Upload/Images/link/3-1.gif HTTP/1.1" 200 3137
+[26/Jun/2021 06:12:26] "GET /static/main/Upload/Images/link/2-1.gif HTTP/1.1" 200 3689
+[26/Jun/2021 06:12:26] "GET /static/main/Upload/Images/link/6-1.gif HTTP/1.1" 200 3778
+[26/Jun/2021 06:12:26] "GET /static/main/Upload/Images/link/8-1.gif HTTP/1.1" 200 3302
+[26/Jun/2021 06:12:26] "GET /static/main/media/8eab75e1-a18f-4e46-accb-23cb0ea3aa73slider.jpg HTTP/1.1" 200 315727
+[26/Jun/2021 06:12:26] "GET /static/main/Content/site/img/icon.png HTTP/1.1" 304 0
+[26/Jun/2021 06:12:26] "GET /static/main/Upload/Images/link/7-1.gif HTTP/1.1" 200 3686
+[26/Jun/2021 06:12:26] "GET /static/main/Upload/Images/link/4-1.gif HTTP/1.1" 200 2615
+[26/Jun/2021 06:12:26] "GET /static/main/media/bfa2e24d-080a-4855-a6db-28230074815bsim-daeemi.png HTTP/1.1" 304 0
+[26/Jun/2021 06:12:26] "GET /static/main/media/061f1772-469d-406d-8a85-00c02c13516dsim-etebari.png HTTP/1.1" 200 151806
+[26/Jun/2021 06:12:26] "GET /static/main/media/c2d35484-209e-4c83-bedd-f75649127e81sim%20toorism.png HTTP/1.1" 200 96626
+[26/Jun/2021 06:12:26] "GET /static/main/media/72f3178d-d687-4519-9c6e-c82c51021d6eweb23.png HTTP/1.1" 200 1006298
+[26/Jun/2021 06:12:26] "GET /static/main/media/2d1504bf-ec3c-4492-9593-b837898d675csim-rond.png HTTP/1.1" 200 77729
+[26/Jun/2021 06:12:26] "GET /static/main/media/0c6d5171-a6d2-44bc-bc3b-6c2e4817cd74simdata.png HTTP/1.1" 200 109004
+[26/Jun/2021 06:12:26] "GET /static/main/media/internet.png HTTP/1.1" 200 130525
+[26/Jun/2021 06:12:26] "GET /static/main/media/call.png HTTP/1.1" 200 106599
+[26/Jun/2021 06:12:26] "GET /static/main/media/sms.png HTTP/1.1" 200 102057
+[26/Jun/2021 06:12:26] "GET /static/main/Upload/Images/link/1.gif HTTP/1.1" 200 6229
+[26/Jun/2021 06:12:26] "GET /static/main/media/tarkibi.png HTTP/1.1" 200 107803
+[26/Jun/2021 06:12:26] "GET /static/main/Upload/Images/link/2.gif HTTP/1.1" 200 8254
+[26/Jun/2021 06:12:26] "GET /static/main/Upload/Images/link/3.gif HTTP/1.1" 200 12144
+[26/Jun/2021 06:12:26] "GET /static/main/Upload/Images/link/4.gif HTTP/1.1" 200 3525
+[26/Jun/2021 06:12:26] "GET /static/main/Upload/Images/link/5.gif HTTP/1.1" 200 5849
+[26/Jun/2021 06:12:26] "GET /static/main/Upload/Images/link/6.gif HTTP/1.1" 200 6212
+[26/Jun/2021 06:12:26] "GET /static/main/Upload/Images/link/7.gif HTTP/1.1" 200 6028
+[26/Jun/2021 06:12:26] "GET /static/main/Upload/Images/link/8.gif HTTP/1.1" 200 6047
+[26/Jun/2021 06:12:26] "GET /static/main/images/footer-img.png HTTP/1.1" 304 0
+[26/Jun/2021 06:12:26] "GET /static/main/Upload/Images/195.png HTTP/1.1" 304 0
+[26/Jun/2021 06:12:26] "GET /static/main/images/logo-footer.png HTTP/1.1" 304 0
+[26/Jun/2021 06:12:32] "GET /static/main/Content/site/img/logo1.png HTTP/1.1" 304 0
+[26/Jun/2021 06:13:31] "GET /lang/EN HTTP/1.1" 302 0
+[26/Jun/2021 06:13:31] "GET / HTTP/1.1" 200 43013
+Internal Server Error: /Admin
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 79, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[26/Jun/2021 06:16:20] "GET /Admin HTTP/1.1" 500 62891
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 79, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[26/Jun/2021 06:16:21] "GET /favicon.ico HTTP/1.1" 500 62903
+[26/Jun/2021 06:16:43] "GET /admin HTTP/1.1" 302 0
+[26/Jun/2021 06:16:43] "GET /admin/login HTTP/1.1" 200 3663
+[26/Jun/2021 06:16:43] "GET /static/assets/css/custom_login.css HTTP/1.1" 200 573
+[26/Jun/2021 06:16:43] "GET /static/assets/css/pages/extra_pages.css HTTP/1.1" 200 10526
+[26/Jun/2021 06:16:43] "GET /static/assets/js/bundles/materialize-rtl/materialize-rtl.min.css HTTP/1.1" 200 135840
+[26/Jun/2021 06:16:43] "GET /static/assets/css/style.css HTTP/1.1" 200 354550
+[26/Jun/2021 06:16:43] "GET /static/assets/css/app.min.css HTTP/1.1" 200 506755
+[26/Jun/2021 06:16:43] "GET /static/assets/js/pages/examples/pages.js HTTP/1.1" 200 2399
+[26/Jun/2021 06:16:43] "GET /static/assets/images/logo-footer.png HTTP/1.1" 200 6733
+[26/Jun/2021 06:16:43] "GET /static/assets/fonts/themify-icons/themify-icons.css HTTP/1.1" 200 16443
+[26/Jun/2021 06:16:43] "GET /static/assets/fonts/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12607
+[26/Jun/2021 06:16:43] "GET /static/assets/fonts/Shabnam.woff HTTP/1.1" 200 25624
+[26/Jun/2021 06:16:43] "GET /static/assets/js/app.min.js HTTP/1.1" 200 1352791
+[26/Jun/2021 06:16:44] "GET /static/assets/images/favicon.ico HTTP/1.1" 404 1938
+[26/Jun/2021 06:16:49] "GET /static/assets/fonts/poppins/poppins-v5-latin-regular.woff2 HTTP/1.1" 200 7904
+[26/Jun/2021 06:16:58] "POST /admin/login HTTP/1.1" 302 0
+[26/Jun/2021 06:16:58] "GET /admin HTTP/1.1" 200 18807
+[26/Jun/2021 06:16:59] "GET /static/assets/css/text_editor.css HTTP/1.1" 200 144
+[26/Jun/2021 06:16:59] "GET /static/assets/css/styles/all-themes.css HTTP/1.1" 200 28620
+Not Found: /assets/js/chart.min.js
+[26/Jun/2021 06:16:59] "GET /assets/js/chart.min.js HTTP/1.1" 404 4410
+[26/Jun/2021 06:16:59] "GET /static/assets/js/admin.js HTTP/1.1" 200 19024
+[26/Jun/2021 06:16:59] "GET /static/assets/js/editorMediaHandler.js HTTP/1.1" 200 1956
+[26/Jun/2021 06:16:59] "GET /static/assets/js/pages/index.js HTTP/1.1" 200 13885
+[26/Jun/2021 06:16:59] "GET /static/assets/js/text_editor.js HTTP/1.1" 200 1433
+[26/Jun/2021 06:16:59] "GET /static/assets/images/load-343-460469.png HTTP/1.1" 200 3297
+[26/Jun/2021 06:16:59] "GET /static/assets/images/person.png HTTP/1.1" 200 8853
+Not Found: /assets/images/person.png
+[26/Jun/2021 06:16:59] "GET /assets/images/person.png HTTP/1.1" 404 4416
+[26/Jun/2021 06:16:59] "GET /static/assets/images/avatar.jpg HTTP/1.1" 200 25433
+[26/Jun/2021 06:16:59] "GET /static/assets/js/bundles/apexcharts/apexcharts.min.js HTTP/1.1" 200 547087
+Not Found: /assets/js/chart.min.js
+[26/Jun/2021 06:17:00] "GET /assets/js/chart.min.js HTTP/1.1" 404 4410
+[26/Jun/2021 06:17:00] "GET /static/assets/fonts/fontawesome/fa-regular-400.woff2 HTTP/1.1" 200 14872
+[26/Jun/2021 06:17:00] "GET /static/assets/fonts/themify-icons/fonts/themify.woff HTTP/1.1" 200 56108
+[26/Jun/2021 06:17:00] "GET /static/assets/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1" 200 71952
+[26/Jun/2021 06:17:08] "GET /admin/slides HTTP/1.1" 200 24390
+Not Found: /admin/assets/js/chart.min.js
+[26/Jun/2021 06:17:08] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/images/person.png
+[26/Jun/2021 06:17:08] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[26/Jun/2021 06:17:08] "GET /static/assets/fonts/iconfont/MaterialIcons-Regular.woff2 HTTP/1.1" 200 44300
+[26/Jun/2021 06:17:16] "GET /admin/editSlide/60b236a9716d2c33870e51eb HTTP/1.1" 200 23779
+Not Found: /admin/editSlide/assets/js/chart.min.js
+Not Found: /admin/editSlide/assets/images/person.png
+[26/Jun/2021 06:17:16] "GET /admin/editSlide/assets/js/chart.min.js HTTP/1.1" 404 10197
+[26/Jun/2021 06:17:16] "GET /admin/editSlide/assets/images/person.png HTTP/1.1" 404 10203
+[26/Jun/2021 06:18:15] "GET /enterprise HTTP/1.1" 200 21670
+[26/Jun/2021 06:18:15] "GET /static/main/media/424edf5c-36b3-4fd5-98b1-dac12e11534aslider3.jpg HTTP/1.1" 200 260012
+[26/Jun/2021 06:18:15] "GET /static/main/media/554ecc4a-1ae2-4085-881e-388b41c7f260slider3.jpg HTTP/1.1" 200 260012
+[26/Jun/2021 06:19:27] "GET /admin/admins HTTP/1.1" 200 22522
+Not Found: /admin/assets/images/person.png
+[26/Jun/2021 06:19:27] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[26/Jun/2021 06:19:27] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[26/Jun/2021 06:20:02] "GET /admin/slides HTTP/1.1" 200 24390
+Not Found: /admin/assets/images/person.png
+[26/Jun/2021 06:20:02] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[26/Jun/2021 06:20:02] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[26/Jun/2021 06:20:13] "GET /admin/editSlide/60b236a9716d2c33870e51eb HTTP/1.1" 200 23779
+Not Found: /admin/editSlide/assets/images/person.png
+Not Found: /admin/editSlide/assets/js/chart.min.js
+[26/Jun/2021 06:20:13] "GET /admin/editSlide/assets/images/person.png HTTP/1.1" 404 10203
+[26/Jun/2021 06:20:13] "GET /admin/editSlide/assets/js/chart.min.js HTTP/1.1" 404 10197
+[26/Jun/2021 06:20:42] "GET / HTTP/1.1" 200 43013
+[26/Jun/2021 06:20:44] "GET /lang/FA HTTP/1.1" 302 0
+[26/Jun/2021 06:20:44] "GET / HTTP/1.1" 200 45144
+[26/Jun/2021 06:20:47] "GET /support HTTP/1.1" 200 29474
+[26/Jun/2021 06:20:47] "GET /static/main/media/e7d38681-87b3-433f-85ad-34eaf805b4edSupport.jpg HTTP/1.1" 200 1485352
+[26/Jun/2021 06:28:21] "GET /employments HTTP/1.1" 200 34526
+[26/Jun/2021 06:28:21] "GET /static/main/Scripts/site/core.js HTTP/1.1" 304 0
+[26/Jun/2021 06:28:21] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:28:21] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 304 0
+[26/Jun/2021 06:28:21] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:28:21] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 304 0
+[26/Jun/2021 06:28:21] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 304 0
+[26/Jun/2021 06:28:21] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:28:21] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 304 0
+[26/Jun/2021 06:28:21] "GET /static/main/Scripts/site/util.js HTTP/1.1" 304 0
+[26/Jun/2021 06:28:21] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:28:21] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:28:21] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 304 0
+[26/Jun/2021 06:28:21] "GET /static/main/Scripts/site/captcha.js HTTP/1.1" 304 0
+[26/Jun/2021 06:28:22] "GET /static/main/images/logo.png HTTP/1.1" 304 0
+[26/Jun/2021 06:28:22] "GET /static/main/images/logo-footer.png HTTP/1.1" 304 0
+[26/Jun/2021 06:28:22] "GET /static/main/Upload/Images/195.png HTTP/1.1" 304 0
+[26/Jun/2021 06:28:22] "GET /static/main/images/footer-img.png HTTP/1.1" 304 0
+[26/Jun/2021 06:31:56] "GET / HTTP/1.1" 200 45144
+[26/Jun/2021 06:31:57] "GET /static/main/Content/site/style2.css HTTP/1.1" 200 88761
+[26/Jun/2021 06:31:57] "GET /static/main/Content/site/bootstrap.min.css HTTP/1.1" 200 121159
+[26/Jun/2021 06:31:57] "GET /static/main/Content/site/skin0.css HTTP/1.1" 200 47984
+[26/Jun/2021 06:31:57] "GET /static/main/Content/site/fonts.css HTTP/1.1" 200 1478
+[26/Jun/2021 06:31:57] "GET /static/main/css/ltr.css HTTP/1.1" 200 2876
+[26/Jun/2021 06:31:57] "GET /static/main/Scripts/site/core.js HTTP/1.1" 200 33680
+[26/Jun/2021 06:31:58] "GET /static/main/Content/site/fa.css HTTP/1.1" 200 37
+[26/Jun/2021 06:31:58] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 200 4599
+[26/Jun/2021 06:31:58] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 200 6288
+[26/Jun/2021 06:31:58] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 200 3163
+[26/Jun/2021 06:31:58] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 200 7103
+[26/Jun/2021 06:31:58] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 200 21587
+[26/Jun/2021 06:31:59] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 200 3745
+[26/Jun/2021 06:31:59] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 200 102631
+[26/Jun/2021 06:31:59] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 200 5002
+[26/Jun/2021 06:31:59] "GET /static/main/Scripts/site/util.js HTTP/1.1" 200 4108
+[26/Jun/2021 06:32:00] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 200 4122
+[26/Jun/2021 06:32:01] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 200 6156
+[26/Jun/2021 06:32:01] "GET /static/main/Scripts/site/captcha.js HTTP/1.1" 200 1163
+[26/Jun/2021 06:32:01] "GET /static/main/images/logo.png HTTP/1.1" 200 26115
+[26/Jun/2021 06:32:01] "GET /static/main/media/bfa2e24d-080a-4855-a6db-28230074815bsim-daeemi.png HTTP/1.1" 200 150547
+[26/Jun/2021 06:32:01] "GET /static/main/media/061f1772-469d-406d-8a85-00c02c13516dsim-etebari.png HTTP/1.1" 200 151806
+[26/Jun/2021 06:32:01] "GET /static/main/media/8eab75e1-a18f-4e46-accb-23cb0ea3aa73slider.jpg HTTP/1.1" 200 315727
+[26/Jun/2021 06:32:02] "GET /static/main/media/c2d35484-209e-4c83-bedd-f75649127e81sim%20toorism.png HTTP/1.1" 200 96626
+[26/Jun/2021 06:32:02] "GET /static/main/Upload/Images/link/2-1.gif HTTP/1.1" 200 3689
+[26/Jun/2021 06:32:02] "GET /static/main/Upload/Images/link/6-1.gif HTTP/1.1" 200 3778
+[26/Jun/2021 06:32:02] "GET /static/main/media/01a32133-4186-4eeb-8e8a-8c73aa8eef9cSupport.jpg HTTP/1.1" 200 1485352
+[26/Jun/2021 06:32:02] "GET /static/main/media/e79a965c-28ed-4888-af8e-10949dab88fae-mway-ok.png HTTP/1.1" 200 1200498
+[26/Jun/2021 06:32:02] "GET /static/main/media/72f3178d-d687-4519-9c6e-c82c51021d6eweb23.png HTTP/1.1" 200 1006298
+[26/Jun/2021 06:32:03] "GET /static/main/Content/site/fa_fonts/IranYekan/woff/iranyekanwebregular.woff HTTP/1.1" 200 20925
+[26/Jun/2021 06:32:03] "GET /static/main/Upload/Images/link/4-1.gif HTTP/1.1" 200 2615
+[26/Jun/2021 06:32:03] "GET /static/main/Upload/Images/link/8-1.gif HTTP/1.1" 200 3302
+[26/Jun/2021 06:32:03] "GET /static/main/Content/site/img/logo.png HTTP/1.1" 200 26144
+[26/Jun/2021 06:32:03] "GET /static/main/Upload/Images/link/1-1.gif HTTP/1.1" 200 3721
+[26/Jun/2021 06:32:03] "GET /static/main/Upload/Images/link/7-1.gif HTTP/1.1" 200 3686
+[26/Jun/2021 06:32:04] "GET /static/main/Upload/Images/link/3-1.gif HTTP/1.1" 200 3137
+[26/Jun/2021 06:32:04] "GET /static/main/Content/site/img/icon.png HTTP/1.1" 200 2756
+[26/Jun/2021 06:32:04] "GET /static/main/Upload/Images/link/5-1.gif HTTP/1.1" 200 3933
+[26/Jun/2021 06:32:04] "GET /static/main/media/2d1504bf-ec3c-4492-9593-b837898d675csim-rond.png HTTP/1.1" 200 77729
+[26/Jun/2021 06:32:04] "GET /static/main/media/0c6d5171-a6d2-44bc-bc3b-6c2e4817cd74simdata.png HTTP/1.1" 200 109004
+[26/Jun/2021 06:32:04] "GET /static/main/media/internet.png HTTP/1.1" 200 130525
+[26/Jun/2021 06:32:04] "GET /static/main/media/call.png HTTP/1.1" 200 106599
+[26/Jun/2021 06:32:04] "GET /static/main/media/tarkibi.png HTTP/1.1" 200 107803
+[26/Jun/2021 06:32:04] "GET /static/main/media/sms.png HTTP/1.1" 200 102057
+[26/Jun/2021 06:32:04] "GET /static/main/Upload/Images/link/1.gif HTTP/1.1" 200 6229
+[26/Jun/2021 06:32:04] "GET /static/main/Upload/Images/link/2.gif HTTP/1.1" 200 8254
+[26/Jun/2021 06:32:04] "GET /static/main/Upload/Images/link/3.gif HTTP/1.1" 200 12144
+[26/Jun/2021 06:32:04] "GET /static/main/Upload/Images/link/4.gif HTTP/1.1" 200 3525
+[26/Jun/2021 06:32:04] "GET /static/main/Upload/Images/link/5.gif HTTP/1.1" 200 5849
+[26/Jun/2021 06:32:04] "GET /static/main/Upload/Images/link/6.gif HTTP/1.1" 200 6212
+[26/Jun/2021 06:32:04] "GET /static/main/Upload/Images/link/7.gif HTTP/1.1" 200 6028
+[26/Jun/2021 06:32:05] "GET /static/main/Upload/Images/link/8.gif HTTP/1.1" 200 6047
+[26/Jun/2021 06:32:05] "GET /static/main/images/logo-footer.png HTTP/1.1" 200 6733
+[26/Jun/2021 06:32:05] "GET /static/main/images/footer-img.png HTTP/1.1" 200 6831
+[26/Jun/2021 06:32:05] "GET /static/main/Upload/Images/195.png HTTP/1.1" 200 76955
+[26/Jun/2021 06:32:05] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[26/Jun/2021 06:32:08] "GET /lang/EN HTTP/1.1" 302 0
+[26/Jun/2021 06:32:09] "GET / HTTP/1.1" 200 43013
+[26/Jun/2021 06:32:10] "GET /static/main/Content/site/img/logo1.png HTTP/1.1" 200 22636
+[26/Jun/2021 06:32:59] "GET /lang/FA HTTP/1.1" 302 0
+[26/Jun/2021 06:32:59] "GET / HTTP/1.1" 200 45144
+[26/Jun/2021 06:33:20] "GET /lang/EN HTTP/1.1" 302 0
+[26/Jun/2021 06:33:20] "GET / HTTP/1.1" 200 43013
+[26/Jun/2021 06:34:44] "GET /simcards/60bb566652022657011f7cf6 HTTP/1.1" 200 42780
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[26/Jun/2021 06:34:44] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4438
+[26/Jun/2021 06:37:39] "GET /admin/logout HTTP/1.1" 302 0
+[26/Jun/2021 06:37:39] "GET /admin/login HTTP/1.1" 200 3663
+[26/Jun/2021 06:38:34] "GET /solutions HTTP/1.1" 200 26125
+[26/Jun/2021 06:39:06] "GET /areas HTTP/1.1" 200 136645
+[26/Jun/2021 06:39:06] "GET /static/main/Scripts/site/map.js HTTP/1.1" 304 0
+[26/Jun/2021 06:39:07] "GET /static/main/hamrah.kml HTTP/1.1" 304 0
+[26/Jun/2021 06:41:47] "GET /lang/FA HTTP/1.1" 302 0
+[26/Jun/2021 06:41:48] "GET / HTTP/1.1" 200 45144
+[26/Jun/2021 06:41:55] "GET /sale_and_support HTTP/1.1" 200 28816
+[26/Jun/2021 06:41:57] "GET /solutions HTTP/1.1" 200 28195
+[26/Jun/2021 06:41:59] "GET /branch HTTP/1.1" 200 28738
+[26/Jun/2021 06:44:09] "GET /admin/pages HTTP/1.1" 200 45291
+Not Found: /admin/assets/images/person.png
+[26/Jun/2021 06:44:09] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[26/Jun/2021 06:44:09] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/js/chart.min.js
+[26/Jun/2021 06:44:09] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[26/Jun/2021 06:44:11] "GET /lang/EN HTTP/1.1" 302 0
+[26/Jun/2021 06:44:11] "GET / HTTP/1.1" 200 43013
+[26/Jun/2021 06:44:25] "GET /admin/editPage/60c473b961c7d22be2d3270c HTTP/1.1" 200 23032
+Not Found: /admin/editPage/assets/js/chart.min.js
+[26/Jun/2021 06:44:25] "GET /admin/editPage/assets/js/chart.min.js HTTP/1.1" 404 10194
+Not Found: /admin/editPage/assets/images/person.png
+[26/Jun/2021 06:44:25] "GET /admin/editPage/assets/images/person.png HTTP/1.1" 404 10200
+[26/Jun/2021 06:44:50] "GET /admin/news HTTP/1.1" 200 26840
+Not Found: /admin/assets/images/person.png
+[26/Jun/2021 06:44:50] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[26/Jun/2021 06:44:50] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[26/Jun/2021 06:45:07] "GET /admin/pages HTTP/1.1" 200 45291
+Not Found: /admin/assets/images/person.png
+[26/Jun/2021 06:45:07] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[26/Jun/2021 06:45:07] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[26/Jun/2021 06:45:31] "GET /admin/editPage/60c473b961c7d22be2d3270c HTTP/1.1" 200 23032
+Not Found: /admin/editPage/assets/images/person.png
+[26/Jun/2021 06:45:31] "GET /admin/editPage/assets/images/person.png HTTP/1.1" 404 10200
+Not Found: /admin/editPage/assets/js/chart.min.js
+[26/Jun/2021 06:45:31] "GET /admin/editPage/assets/js/chart.min.js HTTP/1.1" 404 10194
+[26/Jun/2021 06:46:36] "GET / HTTP/1.1" 200 43013
+[26/Jun/2021 06:46:55] "GET /lang/FA HTTP/1.1" 302 0
+[26/Jun/2021 06:46:55] "GET / HTTP/1.1" 200 45144
+[26/Jun/2021 06:47:07] "GET /lang/EN HTTP/1.1" 302 0
+[26/Jun/2021 06:47:07] "GET / HTTP/1.1" 200 43013
+[26/Jun/2021 06:54:15] "POST /admin/editPage/60c473b961c7d22be2d3270c HTTP/1.1" 200 23782
+Not Found: /admin/editPage/assets/images/person.png
+[26/Jun/2021 06:54:15] "GET /admin/editPage/assets/images/person.png HTTP/1.1" 404 10200
+Not Found: /admin/editPage/assets/js/chart.min.js
+[26/Jun/2021 06:54:15] "GET /admin/editPage/assets/js/chart.min.js HTTP/1.1" 404 10194
+[26/Jun/2021 06:54:18] "GET / HTTP/1.1" 200 43013
+[26/Jun/2021 06:54:18] "GET /static/main/Scripts/site/core.js HTTP/1.1" 304 0
+[26/Jun/2021 06:54:18] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:54:18] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 304 0
+[26/Jun/2021 06:54:18] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 304 0
+[26/Jun/2021 06:54:18] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 304 0
+[26/Jun/2021 06:54:18] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:54:18] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:54:18] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:54:18] "GET /static/main/Scripts/site/util.js HTTP/1.1" 304 0
+[26/Jun/2021 06:54:18] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 304 0
+[26/Jun/2021 06:54:18] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:54:18] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 304 0
+[26/Jun/2021 06:54:18] "GET /static/main/Scripts/site/captcha.js HTTP/1.1" 304 0
+[26/Jun/2021 06:54:19] "GET /static/main/images/logo.png HTTP/1.1" 304 0
+[26/Jun/2021 06:54:19] "GET /static/main/media/01a32133-4186-4eeb-8e8a-8c73aa8eef9cSupport.jpg HTTP/1.1" 304 0
+[26/Jun/2021 06:54:19] "GET /static/main/media/e79a965c-28ed-4888-af8e-10949dab88fae-mway-ok.png HTTP/1.1" 304 0
+[26/Jun/2021 06:54:19] "GET /static/main/media/8eab75e1-a18f-4e46-accb-23cb0ea3aa73slider.jpg HTTP/1.1" 304 0
+[26/Jun/2021 06:54:19] "GET /static/main/media/72f3178d-d687-4519-9c6e-c82c51021d6eweb23.png HTTP/1.1" 304 0
+[26/Jun/2021 06:54:19] "GET /static/main/media/bfa2e24d-080a-4855-a6db-28230074815bsim-daeemi.png HTTP/1.1" 200 150547
+[26/Jun/2021 06:54:19] "GET /static/main/media/061f1772-469d-406d-8a85-00c02c13516dsim-etebari.png HTTP/1.1" 304 0
+[26/Jun/2021 06:54:19] "GET /static/main/media/c2d35484-209e-4c83-bedd-f75649127e81sim%20toorism.png HTTP/1.1" 304 0
+[26/Jun/2021 06:54:19] "GET /static/main/media/2d1504bf-ec3c-4492-9593-b837898d675csim-rond.png HTTP/1.1" 304 0
+[26/Jun/2021 06:54:19] "GET /static/main/media/internet.png HTTP/1.1" 304 0
+[26/Jun/2021 06:54:19] "GET /static/main/media/call.png HTTP/1.1" 304 0
+[26/Jun/2021 06:54:19] "GET /static/main/media/0c6d5171-a6d2-44bc-bc3b-6c2e4817cd74simdata.png HTTP/1.1" 304 0
+[26/Jun/2021 06:54:19] "GET /static/main/Upload/Images/link/1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:54:19] "GET /static/main/Upload/Images/link/1-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:54:19] "GET /static/main/media/sms.png HTTP/1.1" 304 0
+[26/Jun/2021 06:54:19] "GET /static/main/Upload/Images/link/2.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:54:19] "GET /static/main/media/tarkibi.png HTTP/1.1" 304 0
+[26/Jun/2021 06:54:19] "GET /static/main/Upload/Images/link/2-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:54:20] "GET /static/main/Upload/Images/link/3.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:54:20] "GET /static/main/Upload/Images/link/5.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:54:20] "GET /static/main/Upload/Images/link/3-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:54:20] "GET /static/main/Upload/Images/link/4.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:54:20] "GET /static/main/Upload/Images/link/4-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:54:20] "GET /static/main/Upload/Images/link/5-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:54:20] "GET /static/main/Upload/Images/link/6.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:54:20] "GET /static/main/Upload/Images/link/7.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:54:20] "GET /static/main/Upload/Images/link/6-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:54:20] "GET /static/main/Upload/Images/link/8.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:54:20] "GET /static/main/Upload/Images/link/7-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:54:20] "GET /static/main/Upload/Images/link/8-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:54:20] "GET /static/main/images/logo-footer.png HTTP/1.1" 304 0
+[26/Jun/2021 06:54:20] "GET /static/main/Upload/Images/195.png HTTP/1.1" 304 0
+[26/Jun/2021 06:54:20] "GET /static/main/images/footer-img.png HTTP/1.1" 304 0
+[26/Jun/2021 06:54:21] "GET /lang/FA HTTP/1.1" 302 0
+[26/Jun/2021 06:54:22] "GET / HTTP/1.1" 200 45144
+[26/Jun/2021 06:54:36] "GET /admin/subMenu HTTP/1.1" 200 54262
+Not Found: /admin/assets/images/person.png
+[26/Jun/2021 06:54:36] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[26/Jun/2021 06:54:36] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[26/Jun/2021 06:55:07] "GET /admin/mainMenu HTTP/1.1" 200 25453
+Not Found: /admin/assets/images/person.png
+[26/Jun/2021 06:55:07] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[26/Jun/2021 06:55:07] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[26/Jun/2021 06:55:11] "GET /admin/subMenu HTTP/1.1" 200 54262
+Not Found: /admin/assets/images/person.png
+[26/Jun/2021 06:55:11] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[26/Jun/2021 06:55:11] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[26/Jun/2021 06:55:50] "GET /admin/pages HTTP/1.1" 200 45291
+Not Found: /admin/assets/images/person.png
+[26/Jun/2021 06:55:50] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[26/Jun/2021 06:55:50] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[26/Jun/2021 06:55:55] "GET /admin/editPage/60c473db61c7d22be2d32710 HTTP/1.1" 200 37139
+Not Found: /admin/editPage/assets/images/person.png
+[26/Jun/2021 06:55:55] "GET /admin/editPage/assets/images/person.png HTTP/1.1" 404 10200
+Not Found: /admin/editPage/assets/js/chart.min.js
+[26/Jun/2021 06:55:55] "GET /admin/editPage/assets/js/chart.min.js HTTP/1.1" 404 10194
+[26/Jun/2021 06:56:12] "GET /admin/cards HTTP/1.1" 200 23565
+Not Found: /admin/assets/images/person.png
+[26/Jun/2021 06:56:12] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[26/Jun/2021 06:56:12] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[26/Jun/2021 06:56:19] "GET /admin/subMenu HTTP/1.1" 200 54262
+Not Found: /admin/assets/images/person.png
+[26/Jun/2021 06:56:20] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[26/Jun/2021 06:56:20] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[26/Jun/2021 06:57:10] "GET /admin/news HTTP/1.1" 200 26840
+Not Found: /admin/assets/images/person.png
+[26/Jun/2021 06:57:10] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[26/Jun/2021 06:57:10] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[26/Jun/2021 06:57:10] "GET /static/assets/images/favicon.ico HTTP/1.1" 404 1938
+[26/Jun/2021 06:57:12] "GET /admin/slides HTTP/1.1" 200 24390
+Not Found: /admin/assets/images/person.png
+[26/Jun/2021 06:57:12] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[26/Jun/2021 06:57:12] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[26/Jun/2021 06:57:13] "GET /admin/pages HTTP/1.1" 200 45291
+Not Found: /admin/assets/images/person.png
+[26/Jun/2021 06:57:13] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[26/Jun/2021 06:57:13] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[26/Jun/2021 06:57:21] "GET /admin/editPage/60c473db61c7d22be2d32710 HTTP/1.1" 200 37139
+Not Found: /admin/editPage/assets/images/person.png
+[26/Jun/2021 06:57:22] "GET /admin/editPage/assets/images/person.png HTTP/1.1" 404 10200
+Not Found: /admin/editPage/assets/js/chart.min.js
+[26/Jun/2021 06:57:22] "GET /admin/editPage/assets/js/chart.min.js HTTP/1.1" 404 10194
+[26/Jun/2021 06:57:34] "GET /admin/news HTTP/1.1" 200 26840
+Not Found: /admin/assets/images/person.png
+[26/Jun/2021 06:57:34] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[26/Jun/2021 06:57:34] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[26/Jun/2021 06:57:38] "GET / HTTP/1.1" 200 45144
+[26/Jun/2021 06:57:38] "GET /static/main/Scripts/site/core.js HTTP/1.1" 304 0
+[26/Jun/2021 06:57:38] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:57:38] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 304 0
+[26/Jun/2021 06:57:38] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:57:38] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 304 0
+[26/Jun/2021 06:57:38] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 304 0
+[26/Jun/2021 06:57:39] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:57:39] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:57:39] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 304 0
+[26/Jun/2021 06:57:39] "GET /static/main/Scripts/site/util.js HTTP/1.1" 304 0
+[26/Jun/2021 06:57:39] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:57:39] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 304 0
+[26/Jun/2021 06:57:39] "GET /static/main/Scripts/site/captcha.js HTTP/1.1" 304 0
+[26/Jun/2021 06:57:39] "GET /static/main/images/logo.png HTTP/1.1" 200 26115
+[26/Jun/2021 06:57:39] "GET /static/main/media/01a32133-4186-4eeb-8e8a-8c73aa8eef9cSupport.jpg HTTP/1.1" 304 0
+[26/Jun/2021 06:57:39] "GET /static/main/media/e79a965c-28ed-4888-af8e-10949dab88fae-mway-ok.png HTTP/1.1" 304 0
+[26/Jun/2021 06:57:39] "GET /static/main/media/8eab75e1-a18f-4e46-accb-23cb0ea3aa73slider.jpg HTTP/1.1" 304 0
+[26/Jun/2021 06:57:39] "GET /static/main/media/72f3178d-d687-4519-9c6e-c82c51021d6eweb23.png HTTP/1.1" 304 0
+[26/Jun/2021 06:57:39] "GET /static/main/media/061f1772-469d-406d-8a85-00c02c13516dsim-etebari.png HTTP/1.1" 304 0
+[26/Jun/2021 06:57:39] "GET /static/main/media/bfa2e24d-080a-4855-a6db-28230074815bsim-daeemi.png HTTP/1.1" 304 0
+[26/Jun/2021 06:57:39] "GET /static/main/media/c2d35484-209e-4c83-bedd-f75649127e81sim%20toorism.png HTTP/1.1" 304 0
+[26/Jun/2021 06:57:40] "GET /static/main/media/call.png HTTP/1.1" 304 0
+[26/Jun/2021 06:57:40] "GET /static/main/media/2d1504bf-ec3c-4492-9593-b837898d675csim-rond.png HTTP/1.1" 304 0
+[26/Jun/2021 06:57:40] "GET /static/main/media/internet.png HTTP/1.1" 304 0
+[26/Jun/2021 06:57:40] "GET /static/main/media/0c6d5171-a6d2-44bc-bc3b-6c2e4817cd74simdata.png HTTP/1.1" 304 0
+[26/Jun/2021 06:57:40] "GET /static/main/media/sms.png HTTP/1.1" 304 0
+[26/Jun/2021 06:57:40] "GET /static/main/media/tarkibi.png HTTP/1.1" 304 0
+[26/Jun/2021 06:57:40] "GET /static/main/Upload/Images/link/1-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:57:40] "GET /static/main/Upload/Images/link/2.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:57:40] "GET /static/main/Upload/Images/link/3.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:57:40] "GET /static/main/Upload/Images/link/3-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:57:40] "GET /static/main/Upload/Images/link/1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:57:40] "GET /static/main/Upload/Images/link/2-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:57:40] "GET /static/main/Upload/Images/link/4-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:57:40] "GET /static/main/Upload/Images/link/4.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:57:40] "GET /static/main/Upload/Images/link/6.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:57:40] "GET /static/main/Upload/Images/link/5-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:57:40] "GET /static/main/Upload/Images/link/6-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:57:40] "GET /static/main/Upload/Images/link/5.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:57:40] "GET /static/main/Upload/Images/link/7.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:57:40] "GET /static/main/Upload/Images/link/7-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:57:40] "GET /static/main/Upload/Images/link/8-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:57:40] "GET /static/main/images/logo-footer.png HTTP/1.1" 304 0
+[26/Jun/2021 06:57:40] "GET /static/main/images/footer-img.png HTTP/1.1" 304 0
+[26/Jun/2021 06:57:40] "GET /static/main/Upload/Images/link/8.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:57:40] "GET /static/main/Upload/Images/195.png HTTP/1.1" 304 0
+[26/Jun/2021 06:58:45] "GET / HTTP/1.1" 200 45144
+[26/Jun/2021 06:58:45] "GET /static/main/Scripts/site/core.js HTTP/1.1" 304 0
+[26/Jun/2021 06:58:45] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 304 0
+[26/Jun/2021 06:58:45] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:58:45] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:58:45] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 304 0
+[26/Jun/2021 06:58:45] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 304 0
+[26/Jun/2021 06:58:45] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:58:45] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:58:45] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 304 0
+[26/Jun/2021 06:58:45] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 304 0
+[26/Jun/2021 06:58:45] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 304 0
+[26/Jun/2021 06:58:45] "GET /static/main/Scripts/site/util.js HTTP/1.1" 304 0
+[26/Jun/2021 06:58:45] "GET /static/main/Scripts/site/captcha.js HTTP/1.1" 304 0
+[26/Jun/2021 06:58:45] "GET /static/main/media/01a32133-4186-4eeb-8e8a-8c73aa8eef9cSupport.jpg HTTP/1.1" 304 0
+[26/Jun/2021 06:58:45] "GET /static/main/media/e79a965c-28ed-4888-af8e-10949dab88fae-mway-ok.png HTTP/1.1" 304 0
+[26/Jun/2021 06:58:45] "GET /static/main/images/logo.png HTTP/1.1" 200 26115
+[26/Jun/2021 06:58:45] "GET /static/main/media/8eab75e1-a18f-4e46-accb-23cb0ea3aa73slider.jpg HTTP/1.1" 304 0
+[26/Jun/2021 06:58:45] "GET /static/main/media/72f3178d-d687-4519-9c6e-c82c51021d6eweb23.png HTTP/1.1" 304 0
+[26/Jun/2021 06:58:45] "GET /static/main/media/061f1772-469d-406d-8a85-00c02c13516dsim-etebari.png HTTP/1.1" 304 0
+[26/Jun/2021 06:58:45] "GET /static/main/media/bfa2e24d-080a-4855-a6db-28230074815bsim-daeemi.png HTTP/1.1" 200 150547
+[26/Jun/2021 06:58:45] "GET /static/main/media/c2d35484-209e-4c83-bedd-f75649127e81sim%20toorism.png HTTP/1.1" 304 0
+[26/Jun/2021 06:58:45] "GET /static/main/media/2d1504bf-ec3c-4492-9593-b837898d675csim-rond.png HTTP/1.1" 304 0
+[26/Jun/2021 06:58:45] "GET /static/main/media/0c6d5171-a6d2-44bc-bc3b-6c2e4817cd74simdata.png HTTP/1.1" 304 0
+[26/Jun/2021 06:58:45] "GET /static/main/media/internet.png HTTP/1.1" 304 0
+[26/Jun/2021 06:58:46] "GET /static/main/media/call.png HTTP/1.1" 304 0
+[26/Jun/2021 06:58:46] "GET /static/main/media/sms.png HTTP/1.1" 304 0
+[26/Jun/2021 06:58:46] "GET /static/main/Upload/Images/link/1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:58:46] "GET /static/main/media/tarkibi.png HTTP/1.1" 304 0
+[26/Jun/2021 06:58:46] "GET /static/main/Upload/Images/link/1-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:58:46] "GET /static/main/Upload/Images/link/2.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:58:46] "GET /static/main/Upload/Images/link/2-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:58:46] "GET /static/main/Upload/Images/link/4.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:58:46] "GET /static/main/Upload/Images/link/5-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:58:46] "GET /static/main/Upload/Images/link/3.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:58:46] "GET /static/main/Upload/Images/link/3-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:58:46] "GET /static/main/Upload/Images/link/5.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:58:46] "GET /static/main/Upload/Images/link/4-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:58:46] "GET /static/main/Upload/Images/link/6.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:58:46] "GET /static/main/Upload/Images/link/7.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:58:46] "GET /static/main/Upload/Images/link/8.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:58:46] "GET /static/main/Upload/Images/link/6-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:58:46] "GET /static/main/Upload/Images/link/7-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:58:46] "GET /static/main/Upload/Images/link/8-1.gif HTTP/1.1" 304 0
+[26/Jun/2021 06:58:46] "GET /static/main/Upload/Images/195.png HTTP/1.1" 304 0
+[26/Jun/2021 06:58:46] "GET /static/main/images/footer-img.png HTTP/1.1" 304 0
+[26/Jun/2021 06:58:46] "GET /static/main/images/logo-footer.png HTTP/1.1" 304 0
+[26/Jun/2021 07:03:30] "GET /lang/FA HTTP/1.1" 302 0
+[26/Jun/2021 07:03:31] "GET / HTTP/1.1" 200 45144
+[26/Jun/2021 07:09:00] "GET /lang/EN HTTP/1.1" 302 0
+[26/Jun/2021 07:09:00] "GET / HTTP/1.1" 200 43013
+[26/Jun/2021 07:24:36] "GET / HTTP/1.1" 200 45144
+[26/Jun/2021 07:24:36] "GET /static/main/Content/site/style2.css HTTP/1.1" 200 88761
+[26/Jun/2021 07:24:36] "GET /static/main/Content/site/skin0.css HTTP/1.1" 200 47984
+[26/Jun/2021 07:24:36] "GET /static/main/Content/site/fonts.css HTTP/1.1" 200 1478
+[26/Jun/2021 07:24:36] "GET /static/main/Content/site/bootstrap.min.css HTTP/1.1" 200 121159
+[26/Jun/2021 07:24:36] "GET /static/main/css/ltr.css HTTP/1.1" 200 2876
+[26/Jun/2021 07:24:36] "GET /static/main/Scripts/site/core.js HTTP/1.1" 200 33680
+[26/Jun/2021 07:24:36] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 200 4599
+[26/Jun/2021 07:24:36] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 200 3163
+[26/Jun/2021 07:24:36] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 200 7103
+[26/Jun/2021 07:24:36] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 200 6288
+[26/Jun/2021 07:24:36] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 200 21587
+[26/Jun/2021 07:24:36] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 200 3745
+[26/Jun/2021 07:24:36] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 200 102631
+[26/Jun/2021 07:24:36] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 200 5002
+[26/Jun/2021 07:24:36] "GET /static/main/Scripts/site/util.js HTTP/1.1" 200 4108
+[26/Jun/2021 07:24:36] "GET /static/main/Content/site/fa.css HTTP/1.1" 200 37
+[26/Jun/2021 07:24:36] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 200 4122
+[26/Jun/2021 07:24:36] "GET /static/main/Scripts/site/captcha.js HTTP/1.1" 200 1163
+[26/Jun/2021 07:24:36] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 200 6156
+[26/Jun/2021 07:24:37] "GET /static/main/Upload/Images/link/8-1.gif HTTP/1.1" 200 3302
+[26/Jun/2021 07:24:37] "GET /static/main/Upload/Images/link/8.gif HTTP/1.1" 200 6047
+[26/Jun/2021 07:24:37] "GET /static/main/images/logo.png HTTP/1.1" 200 26115
+[26/Jun/2021 07:24:37] "GET /static/main/media/2d1504bf-ec3c-4492-9593-b837898d675csim-rond.png HTTP/1.1" 200 77729
+[26/Jun/2021 07:24:37] "GET /static/main/media/bfa2e24d-080a-4855-a6db-28230074815bsim-daeemi.png HTTP/1.1" 200 150547
+[26/Jun/2021 07:24:37] "GET /static/main/media/call.png HTTP/1.1" 200 106599
+[26/Jun/2021 07:24:37] "GET /static/main/media/c2d35484-209e-4c83-bedd-f75649127e81sim%20toorism.png HTTP/1.1" 200 96626
+[26/Jun/2021 07:24:37] "GET /static/main/media/061f1772-469d-406d-8a85-00c02c13516dsim-etebari.png HTTP/1.1" 200 151806
+[26/Jun/2021 07:24:37] "GET /static/main/Upload/Images/link/5.gif HTTP/1.1" 200 5849
+[26/Jun/2021 07:24:37] "GET /static/main/media/internet.png HTTP/1.1" 200 130525
+[26/Jun/2021 07:24:37] "GET /static/main/media/72f3178d-d687-4519-9c6e-c82c51021d6eweb23.png HTTP/1.1" 200 1006298
+[26/Jun/2021 07:24:37] "GET /static/main/Content/site/fa_fonts/IranYekan/woff/iranyekanwebregular.woff HTTP/1.1" 200 20925
+[26/Jun/2021 07:24:37] "GET /static/main/Content/site/img/logo.png HTTP/1.1" 200 26144
+[26/Jun/2021 07:24:37] "GET /static/main/Upload/Images/link/4-1.gif HTTP/1.1" 200 2615
+[26/Jun/2021 07:24:37] "GET /static/main/Upload/Images/link/1-1.gif HTTP/1.1" 200 3721
+[26/Jun/2021 07:24:37] "GET /static/main/media/tarkibi.png HTTP/1.1" 200 107803
+[26/Jun/2021 07:24:37] "GET /static/main/Upload/Images/link/2.gif HTTP/1.1" 200 8254
+[26/Jun/2021 07:24:37] "GET /static/main/Upload/Images/link/7.gif HTTP/1.1" 200 6028
+[26/Jun/2021 07:24:37] "GET /static/main/Upload/Images/link/7-1.gif HTTP/1.1" 200 3686
+[26/Jun/2021 07:24:37] "GET /static/main/Upload/Images/link/6-1.gif HTTP/1.1" 200 3778
+[26/Jun/2021 07:24:38] "GET /static/main/Upload/Images/link/3.gif HTTP/1.1" 200 12144
+[26/Jun/2021 07:24:38] "GET /static/main/Upload/Images/link/3-1.gif HTTP/1.1" 200 3137
+[26/Jun/2021 07:24:38] "GET /static/main/images/footer-img.png HTTP/1.1" 200 6831
+[26/Jun/2021 07:24:38] "GET /static/main/images/logo-footer.png HTTP/1.1" 200 6733
+[26/Jun/2021 07:24:38] "GET /static/main/Upload/Images/link/2-1.gif HTTP/1.1" 200 3689
+[26/Jun/2021 07:24:38] "GET /static/main/Upload/Images/195.png HTTP/1.1" 200 76955
+[26/Jun/2021 07:24:38] "GET /static/main/Upload/Images/link/5-1.gif HTTP/1.1" 200 3933
+[26/Jun/2021 07:24:38] "GET /static/main/media/0c6d5171-a6d2-44bc-bc3b-6c2e4817cd74simdata.png HTTP/1.1" 200 109004
+[26/Jun/2021 07:24:38] "GET /static/main/Content/site/img/icon.png HTTP/1.1" 200 2756
+[26/Jun/2021 07:24:38] "GET /static/main/Upload/Images/link/6.gif HTTP/1.1" 200 6212
+[26/Jun/2021 07:24:38] "GET /static/main/Upload/Images/link/4.gif HTTP/1.1" 200 3525
+[26/Jun/2021 07:24:38] "GET /static/main/Upload/Images/link/1.gif HTTP/1.1" 200 6229
+[26/Jun/2021 07:24:38] "GET /static/main/media/8eab75e1-a18f-4e46-accb-23cb0ea3aa73slider.jpg HTTP/1.1" 200 315727
+[26/Jun/2021 07:24:38] "GET /static/main/media/sms.png HTTP/1.1" 200 102057
+[26/Jun/2021 07:24:38] "GET /static/main/media/e79a965c-28ed-4888-af8e-10949dab88fae-mway-ok.png HTTP/1.1" 200 1200498
+[26/Jun/2021 07:24:38] "GET /static/main/media/01a32133-4186-4eeb-8e8a-8c73aa8eef9cSupport.jpg HTTP/1.1" 200 1485352
+[26/Jun/2021 07:24:38] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[26/Jun/2021 07:24:58] "GET /lang/EN HTTP/1.1" 302 0
+[26/Jun/2021 07:24:58] "GET / HTTP/1.1" 200 43013
+[26/Jun/2021 07:24:58] "GET /static/main/Content/site/img/logo1.png HTTP/1.1" 200 22636
+[26/Jun/2021 07:26:05] "GET /lang/FA HTTP/1.1" 302 0
+[26/Jun/2021 07:26:05] "GET / HTTP/1.1" 200 45144
+[26/Jun/2021 07:29:03] "GET /static/main/Scripts/site/util.js.map HTTP/1.1" 404 1950
+[26/Jun/2021 07:29:03] "GET /static/main/Content/site/bootstrap.min.css.map HTTP/1.1" 404 1980
+[26/Jun/2021 07:37:35] "GET /lang/EN HTTP/1.1" 302 0
+[26/Jun/2021 07:37:35] "GET / HTTP/1.1" 200 43013
+[26/Jun/2021 08:25:39] "GET /static/main/Scripts/site/util.js.map HTTP/1.1" 404 1950
+[26/Jun/2021 08:25:39] "GET /static/main/Content/site/bootstrap.min.css.map HTTP/1.1" 404 1980
+[26/Jun/2021 08:26:59] "GET /lang/FA HTTP/1.1" 302 0
+[26/Jun/2021 08:26:59] "GET / HTTP/1.1" 200 45144
+[26/Jun/2021 08:27:09] "GET /static/main/Scripts/site/util.js.map HTTP/1.1" 404 1950
+[26/Jun/2021 08:27:09] "GET /static/main/Content/site/bootstrap.min.css.map HTTP/1.1" 404 1980
+[26/Jun/2021 08:49:25] "GET / HTTP/1.1" 200 45144
+[26/Jun/2021 08:50:06] "GET /static/main/Content/site/img/logo1.png HTTP/1.1" 200 22636
+[26/Jun/2021 09:14:39] "GET /lang/EN HTTP/1.1" 302 0
+[26/Jun/2021 09:14:40] "GET / HTTP/1.1" 200 43013
+[26/Jun/2021 09:14:50] "GET /simcards/60bb566652022657011f7cf5 HTTP/1.1" 200 43300
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[26/Jun/2021 09:14:50] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4438
+[26/Jun/2021 09:49:58] "GET / HTTP/1.1" 200 43013
+[26/Jun/2021 09:49:58] "GET /static/main/Content/site/fonts.css HTTP/1.1" 200 1478
+[26/Jun/2021 09:49:59] "GET /static/main/css/ltr.css HTTP/1.1" 200 2876
+[26/Jun/2021 09:49:59] "GET /static/main/Content/site/fa.css HTTP/1.1" 200 37
+[26/Jun/2021 09:49:59] "GET /static/main/Scripts/site/core.js HTTP/1.1" 200 33680
+[26/Jun/2021 09:49:59] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 200 4599
+[26/Jun/2021 09:50:00] "GET /static/main/Content/site/skin0.css HTTP/1.1" 200 47984
+[26/Jun/2021 09:50:00] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 200 3163
+[26/Jun/2021 09:50:00] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 200 7103
+[26/Jun/2021 09:50:00] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 200 6288
+[26/Jun/2021 09:50:00] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 200 21587
+[26/Jun/2021 09:50:01] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 200 3745
+[26/Jun/2021 09:50:01] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 200 5002
+[26/Jun/2021 09:50:01] "GET /static/main/Scripts/site/util.js HTTP/1.1" 200 4108
+[26/Jun/2021 09:50:02] "GET /static/main/Content/site/bootstrap.min.css HTTP/1.1" 200 121159
+[26/Jun/2021 09:50:02] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 200 102631
+[26/Jun/2021 09:50:03] "GET /static/main/Content/site/style2.css HTTP/1.1" 200 88761
+[26/Jun/2021 09:50:04] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 200 4122
+[26/Jun/2021 09:50:04] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 200 6156
+[26/Jun/2021 09:50:05] "GET /static/main/Scripts/site/captcha.js HTTP/1.1" 200 1163
+[26/Jun/2021 09:50:05] "GET /static/main/images/logo.png HTTP/1.1" 200 26115
+[26/Jun/2021 09:50:06] "GET /static/main/Content/site/fa_fonts/IranYekan/woff/iranyekanwebregular.woff HTTP/1.1" 200 20925
+[26/Jun/2021 09:50:06] "GET /static/main/Upload/Images/link/8-1.gif HTTP/1.1" 200 3302
+[26/Jun/2021 09:50:07] "GET /static/main/Upload/Images/link/2-1.gif HTTP/1.1" 200 3689
+[26/Jun/2021 09:50:07] "GET /static/main/Content/site/img/logo.png HTTP/1.1" 200 26144
+[26/Jun/2021 09:50:08] "GET /static/main/Content/site/img/icon.png HTTP/1.1" 200 2756
+[26/Jun/2021 09:50:08] "GET /static/main/Upload/Images/link/4-1.gif HTTP/1.1" 200 2615
+[26/Jun/2021 09:50:08] "GET /static/main/Upload/Images/link/6-1.gif HTTP/1.1" 200 3778
+[26/Jun/2021 09:50:08] "GET /static/main/Upload/Images/link/5-1.gif HTTP/1.1" 200 3933
+[26/Jun/2021 09:50:08] "GET /static/main/Upload/Images/link/3-1.gif HTTP/1.1" 200 3137
+[26/Jun/2021 09:50:08] "GET /static/main/Upload/Images/link/1-1.gif HTTP/1.1" 200 3721
+[26/Jun/2021 09:50:08] "GET /static/main/Upload/Images/link/7-1.gif HTTP/1.1" 200 3686
+[26/Jun/2021 09:50:10] "GET /static/main/media/bfa2e24d-080a-4855-a6db-28230074815bsim-daeemi.png HTTP/1.1" 200 150547
+[26/Jun/2021 09:50:10] "GET /static/main/media/8eab75e1-a18f-4e46-accb-23cb0ea3aa73slider.jpg HTTP/1.1" 200 315727
+[26/Jun/2021 09:50:10] "GET /static/main/Upload/Images/link/5.gif HTTP/1.1" 200 5849
+[26/Jun/2021 09:50:11] "GET /static/main/media/c2d35484-209e-4c83-bedd-f75649127e81sim%20toorism.png HTTP/1.1" 200 96626
+[26/Jun/2021 09:50:11] "GET /static/main/media/061f1772-469d-406d-8a85-00c02c13516dsim-etebari.png HTTP/1.1" 200 151806
+[26/Jun/2021 09:50:11] "GET /static/main/media/2d1504bf-ec3c-4492-9593-b837898d675csim-rond.png HTTP/1.1" 200 77729
+[26/Jun/2021 09:50:11] "GET /employments HTTP/1.1" 200 34526
+[26/Jun/2021 09:50:11] "GET /static/main/media/e79a965c-28ed-4888-af8e-10949dab88fae-mway-ok.png HTTP/1.1" 200 380928
+[26/Jun/2021 09:50:11] "GET /static/main/media/0c6d5171-a6d2-44bc-bc3b-6c2e4817cd74simdata.png HTTP/1.1" 200 73728
+[26/Jun/2021 09:50:11] "GET /static/main/media/01a32133-4186-4eeb-8e8a-8c73aa8eef9cSupport.jpg HTTP/1.1" 200 245760
+[26/Jun/2021 09:50:11] "GET /static/main/media/72f3178d-d687-4519-9c6e-c82c51021d6eweb23.png HTTP/1.1" 200 319488
+[26/Jun/2021 09:50:11] "GET /static/main/images/logo-footer.png HTTP/1.1" 200 6733
+[26/Jun/2021 09:50:11] "GET /static/main/images/footer-img.png HTTP/1.1" 200 6831
+[26/Jun/2021 09:50:11] "GET /static/main/Upload/Images/195.png HTTP/1.1" 200 76955
+[26/Jun/2021 09:50:14] "GET /static/main/Scripts/site/util.js.map HTTP/1.1" 404 1950
+[26/Jun/2021 09:50:14] "GET /static/main/Content/site/bootstrap.min.css.map HTTP/1.1" 404 1980
+[26/Jun/2021 09:51:52] "GET /employments HTTP/1.1" 200 34526
+[26/Jun/2021 09:51:52] "GET /static/main/Content/site/fonts.css HTTP/1.1" 200 1478
+[26/Jun/2021 09:51:52] "GET /static/main/css/ltr.css HTTP/1.1" 200 2876
+[26/Jun/2021 09:51:52] "GET /static/main/Content/site/bootstrap.min.css HTTP/1.1" 200 121159
+[26/Jun/2021 09:51:52] "GET /static/main/Content/site/style2.css HTTP/1.1" 200 88761
+[26/Jun/2021 09:51:52] "GET /static/main/Content/site/skin0.css HTTP/1.1" 200 47984
+[26/Jun/2021 09:51:52] "GET /static/main/Content/site/fa.css HTTP/1.1" 200 37
+[26/Jun/2021 09:51:52] "GET /static/main/Scripts/site/core.js HTTP/1.1" 200 33680
+[26/Jun/2021 09:51:52] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 200 4599
+[26/Jun/2021 09:51:52] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 200 3163
+[26/Jun/2021 09:51:52] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 200 7103
+[26/Jun/2021 09:51:52] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 200 6288
+[26/Jun/2021 09:51:52] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 200 21587
+[26/Jun/2021 09:51:52] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 200 3745
+[26/Jun/2021 09:51:53] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 200 5002
+[26/Jun/2021 09:51:53] "GET /static/main/Scripts/site/util.js HTTP/1.1" 200 4108
+[26/Jun/2021 09:51:53] "GET /static/main/Content/site/bootstrap.min.css.map HTTP/1.1" 404 1980
+[26/Jun/2021 09:51:53] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 200 102631
+[26/Jun/2021 09:51:54] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 200 4122
+[26/Jun/2021 09:51:54] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 200 6156
+[26/Jun/2021 09:51:54] "GET /static/main/Scripts/site/captcha.js HTTP/1.1" 200 1163
+[26/Jun/2021 09:51:55] "GET /static/main/images/logo.png HTTP/1.1" 200 26115
+[26/Jun/2021 09:51:55] "GET /static/main/images/logo-footer.png HTTP/1.1" 200 6733
+[26/Jun/2021 09:51:55] "GET /static/main/images/footer-img.png HTTP/1.1" 200 6831
+[26/Jun/2021 09:51:55] "GET /static/main/Upload/Images/195.png HTTP/1.1" 200 76955
+[26/Jun/2021 09:51:57] "GET /static/main/Content/site/img/logo.png HTTP/1.1" 200 26144
+[26/Jun/2021 09:51:57] "GET /static/main/Content/site/img/icon.png HTTP/1.1" 200 2756
+[26/Jun/2021 09:51:57] "GET /static/main/Content/site/fa_fonts/IranYekan/woff/iranyekanwebregular.woff HTTP/1.1" 200 20925
+[26/Jun/2021 09:51:57] "GET /static/main/Scripts/site/util.js.map HTTP/1.1" 404 1950
+[26/Jun/2021 09:51:57] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[26/Jun/2021 10:39:05] "GET /lang/FA HTTP/1.1" 302 0
+[26/Jun/2021 10:39:06] "GET / HTTP/1.1" 200 45144
+[26/Jun/2021 10:39:06] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[26/Jun/2021 10:39:38] "GET /lang/EN HTTP/1.1" 302 0
+[26/Jun/2021 10:39:38] "GET / HTTP/1.1" 200 43013
+[26/Jun/2021 10:39:43] "GET /branch HTTP/1.1" 200 26351
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 79, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[26/Jun/2021 10:39:44] "GET /favicon.ico HTTP/1.1" 500 63265
+[26/Jun/2021 10:39:46] "GET /prices HTTP/1.1" 200 27390
+[26/Jun/2021 10:39:49] "GET /employments HTTP/1.1" 200 34526
+[26/Jun/2021 10:59:11] "GET /lang/FA HTTP/1.1" 302 0
+[26/Jun/2021 10:59:11] "GET / HTTP/1.1" 200 45144
+[26/Jun/2021 10:59:15] "GET /employments HTTP/1.1" 200 37000
+[26/Jun/2021 10:59:21] "GET /lang/EN HTTP/1.1" 302 0
+[26/Jun/2021 10:59:21] "GET / HTTP/1.1" 200 43013
+[26/Jun/2021 10:59:32] "GET / HTTP/1.1" 200 43013
+[26/Jun/2021 10:59:34] "GET /lang/FA HTTP/1.1" 302 0
+[26/Jun/2021 10:59:34] "GET / HTTP/1.1" 200 45144
+[26/Jun/2021 10:59:48] "GET / HTTP/1.1" 200 43013
+[26/Jun/2021 10:59:50] "GET /static/main/media/internet.png HTTP/1.1" 200 130525
+[26/Jun/2021 10:59:50] "GET /static/main/media/call.png HTTP/1.1" 200 106599
+[26/Jun/2021 10:59:51] "GET /static/main/media/061f1772-469d-406d-8a85-00c02c13516dsim-etebari.png HTTP/1.1" 200 151806
+[26/Jun/2021 10:59:51] "GET /static/main/media/sms.png HTTP/1.1" 200 102057
+[26/Jun/2021 10:59:51] "GET /static/main/media/0c6d5171-a6d2-44bc-bc3b-6c2e4817cd74simdata.png HTTP/1.1" 200 109004
+[26/Jun/2021 10:59:51] "GET /static/main/media/tarkibi.png HTTP/1.1" 200 107803
+[26/Jun/2021 10:59:51] "GET /static/main/Upload/Images/link/1.gif HTTP/1.1" 200 6229
+[26/Jun/2021 10:59:52] "GET /static/main/Upload/Images/link/2.gif HTTP/1.1" 200 8254
+[26/Jun/2021 10:59:52] "GET /static/main/Upload/Images/link/3.gif HTTP/1.1" 200 12144
+[26/Jun/2021 10:59:52] "GET /static/main/Upload/Images/link/4.gif HTTP/1.1" 200 3525
+[26/Jun/2021 10:59:52] "GET /static/main/Upload/Images/link/6.gif HTTP/1.1" 200 6212
+[26/Jun/2021 10:59:52] "GET /static/main/Upload/Images/link/7.gif HTTP/1.1" 200 6028
+[26/Jun/2021 10:59:52] "GET /lang/FA HTTP/1.1" 302 0
+[26/Jun/2021 10:59:52] "GET /static/main/Upload/Images/link/8.gif HTTP/1.1" 200 6047
+[26/Jun/2021 10:59:52] "GET / HTTP/1.1" 200 45144
+[26/Jun/2021 10:59:53] "GET /static/main/media/e79a965c-28ed-4888-af8e-10949dab88fae-mway-ok.png HTTP/1.1" 200 1200498
+[26/Jun/2021 10:59:53] "GET /static/main/media/72f3178d-d687-4519-9c6e-c82c51021d6eweb23.png HTTP/1.1" 200 512000
+[26/Jun/2021 10:59:53] "GET /static/main/media/01a32133-4186-4eeb-8e8a-8c73aa8eef9cSupport.jpg HTTP/1.1" 200 1485352
+[26/Jun/2021 10:59:54] "GET /static/main/media/tarkibi.png HTTP/1.1" 200 107803
+[26/Jun/2021 10:59:55] "GET /static/main/media/72f3178d-d687-4519-9c6e-c82c51021d6eweb23.png HTTP/1.1" 200 1006298
+[26/Jun/2021 10:59:56] "GET /static/main/media/e79a965c-28ed-4888-af8e-10949dab88fae-mway-ok.png HTTP/1.1" 200 1200498
+[26/Jun/2021 10:59:59] "GET /lang/EN HTTP/1.1" 302 0
+[26/Jun/2021 10:59:59] "GET / HTTP/1.1" 200 43013
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 79, in page
+    return render(request,'page.html',{'title':page[lang]['title'],'content':page[lang]['content']})
+TypeError: 'NoneType' object is not subscriptable
+[26/Jun/2021 11:00:06] "GET /favicon.ico HTTP/1.1" 500 63265
+[26/Jun/2021 11:00:08] "GET /lang/FA HTTP/1.1" 302 0
+[26/Jun/2021 11:00:08] "GET /static/main/media/01a32133-4186-4eeb-8e8a-8c73aa8eef9cSupport.jpg HTTP/1.1" 200 1485352
+[26/Jun/2021 11:00:08] "GET / HTTP/1.1" 200 45144
+[26/Jun/2021 11:00:19] "GET /lang/EN HTTP/1.1" 302 0
+[26/Jun/2021 11:00:19] "GET / HTTP/1.1" 200 43013
+[26/Jun/2021 11:00:20] "GET /static/main/Content/site/img/logo1.png HTTP/1.1" 200 22636
+[26/Jun/2021 11:00:25] "GET /lang/EN HTTP/1.1" 302 0
+[26/Jun/2021 11:00:25] "GET / HTTP/1.1" 200 43013
+[26/Jun/2021 11:00:26] "GET /admin HTTP/1.1" 302 0
+[26/Jun/2021 11:00:26] "GET /admin/login HTTP/1.1" 200 3663
+[26/Jun/2021 11:00:27] "GET /static/assets/css/pages/extra_pages.css HTTP/1.1" 200 10526
+[26/Jun/2021 11:00:27] "GET /static/assets/css/custom_login.css HTTP/1.1" 200 573
+[26/Jun/2021 11:00:27] "GET /static/assets/js/bundles/materialize-rtl/materialize-rtl.min.css HTTP/1.1" 200 135840
+[26/Jun/2021 11:00:27] "GET /static/assets/css/app.min.css HTTP/1.1" 200 506755
+[26/Jun/2021 11:00:27] "GET /static/assets/js/pages/examples/pages.js HTTP/1.1" 200 2399
+[26/Jun/2021 11:00:27] "GET /static/assets/css/style.css HTTP/1.1" 200 354550
+[26/Jun/2021 11:00:27] "GET /static/assets/images/logo-footer.png HTTP/1.1" 200 6733
+[26/Jun/2021 11:00:27] "GET /static/assets/fonts/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12607
+[26/Jun/2021 11:00:27] "GET /static/assets/fonts/themify-icons/themify-icons.css HTTP/1.1" 200 16443
+[26/Jun/2021 11:00:27] "GET /static/assets/js/app.min.js HTTP/1.1" 200 1352791
+[26/Jun/2021 11:00:27] "GET /static/assets/fonts/Shabnam.woff HTTP/1.1" 200 25624
+[26/Jun/2021 11:00:33] "GET /employments HTTP/1.1" 200 34526
+[26/Jun/2021 11:00:33] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[26/Jun/2021 11:00:37] "GET /employments HTTP/1.1" 200 34526
+[26/Jun/2021 11:00:39] "GET /static/main/Scripts/site/util.js.map HTTP/1.1" 404 1950
+[26/Jun/2021 11:00:39] "GET /static/main/Content/site/bootstrap.min.css.map HTTP/1.1" 404 1980
+[26/Jun/2021 11:01:53] "GET /admin HTTP/1.1" 200 18804
+[26/Jun/2021 11:01:53] "GET /static/assets/js/bundles/materialize-rtl/materialize-rtl.min.css HTTP/1.1" 200 135840
+[26/Jun/2021 11:01:53] "GET /static/assets/css/styles/all-themes.css HTTP/1.1" 200 28620
+[26/Jun/2021 11:01:53] "GET /static/assets/css/text_editor.css HTTP/1.1" 200 144
+[26/Jun/2021 11:01:53] "GET /static/assets/images/load-343-460469.png HTTP/1.1" 200 3297
+[26/Jun/2021 11:01:53] "GET /static/assets/images/logo-footer.png HTTP/1.1" 200 6733
+[26/Jun/2021 11:01:53] "GET /static/assets/images/avatar.jpg HTTP/1.1" 200 25433
+Not Found: /assets/js/chart.min.js
+[26/Jun/2021 11:01:53] "GET /assets/js/chart.min.js HTTP/1.1" 404 4410
+[26/Jun/2021 11:01:53] "GET /static/assets/js/admin.js HTTP/1.1" 200 19024
+[26/Jun/2021 11:01:53] "GET /static/assets/js/pages/index.js HTTP/1.1" 200 13885
+[26/Jun/2021 11:01:54] "GET /static/assets/js/editorMediaHandler.js HTTP/1.1" 200 1956
+[26/Jun/2021 11:01:54] "GET /static/assets/css/style.css HTTP/1.1" 200 354550
+[26/Jun/2021 11:01:54] "GET /static/assets/js/text_editor.js HTTP/1.1" 200 1433
+[26/Jun/2021 11:01:54] "GET /static/assets/images/person.png HTTP/1.1" 200 8853
+Not Found: /assets/images/person.png
+[26/Jun/2021 11:01:54] "GET /assets/images/person.png HTTP/1.1" 404 4416
+[26/Jun/2021 11:01:54] "GET /static/assets/fonts/themify-icons/themify-icons.css HTTP/1.1" 200 16443
+[26/Jun/2021 11:01:54] "GET /static/assets/fonts/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12607
+[26/Jun/2021 11:01:54] "GET /static/assets/fonts/Shabnam.woff HTTP/1.1" 200 25624
+[26/Jun/2021 11:01:54] "GET /static/assets/fonts/themify-icons/fonts/themify.woff HTTP/1.1" 200 56108
+[26/Jun/2021 11:01:54] "GET /static/assets/fonts/fontawesome/fa-regular-400.woff2 HTTP/1.1" 200 14872
+[26/Jun/2021 11:01:54] "GET /static/assets/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1" 200 71952
+[26/Jun/2021 11:01:55] "GET /static/assets/fonts/poppins/poppins-v5-latin-regular.woff2 HTTP/1.1" 200 7904
+[26/Jun/2021 11:01:55] "GET /static/assets/css/app.min.css HTTP/1.1" 200 506755
+[26/Jun/2021 11:01:56] "GET /static/assets/js/bundles/apexcharts/apexcharts.min.js HTTP/1.1" 200 547087
+[26/Jun/2021 11:01:58] "GET /admin/pages HTTP/1.1" 200 45291
+[26/Jun/2021 11:01:58] "GET /static/assets/js/app.min.js HTTP/1.1" 200 1352791
+Not Found: /admin/assets/images/person.png
+[26/Jun/2021 11:01:58] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[26/Jun/2021 11:01:58] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /assets/js/chart.min.js
+[26/Jun/2021 11:01:58] "GET /assets/js/chart.min.js HTTP/1.1" 404 4410
+Not Found: /admin/assets/js/chart.min.js
+[26/Jun/2021 11:01:58] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[26/Jun/2021 11:01:58] "GET /static/assets/images/favicon.ico HTTP/1.1" 404 1938
+[26/Jun/2021 11:01:58] "GET /static/assets/images/favicon.ico HTTP/1.1" 404 1938
+[26/Jun/2021 11:02:03] "GET /admin/pages HTTP/1.1" 200 45288
+[26/Jun/2021 11:02:03] "GET /static/assets/js/bundles/materialize-rtl/materialize-rtl.min.css HTTP/1.1" 200 135840
+[26/Jun/2021 11:02:03] "GET /static/assets/css/styles/all-themes.css HTTP/1.1" 200 28620
+[26/Jun/2021 11:02:03] "GET /static/assets/css/text_editor.css HTTP/1.1" 200 144
+[26/Jun/2021 11:02:03] "GET /static/assets/images/logo-footer.png HTTP/1.1" 200 6733
+[26/Jun/2021 11:02:03] "GET /static/assets/images/load-343-460469.png HTTP/1.1" 200 3297
+[26/Jun/2021 11:02:03] "GET /static/assets/images/person.png HTTP/1.1" 200 8853
+[26/Jun/2021 11:02:03] "GET /static/assets/images/avatar.jpg HTTP/1.1" 200 25433
+Not Found: /admin/assets/images/person.png
+[26/Jun/2021 11:02:03] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[26/Jun/2021 11:02:04] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[26/Jun/2021 11:02:04] "GET /static/assets/js/admin.js HTTP/1.1" 200 19024
+[26/Jun/2021 11:02:04] "GET /static/assets/js/pages/index.js HTTP/1.1" 200 13885
+[26/Jun/2021 11:02:04] "GET /static/assets/js/editorMediaHandler.js HTTP/1.1" 200 1956
+[26/Jun/2021 11:02:04] "GET /static/assets/js/text_editor.js HTTP/1.1" 200 1433
+[26/Jun/2021 11:02:04] "GET /static/assets/css/style.css HTTP/1.1" 200 354550
+[26/Jun/2021 11:02:05] "GET /static/assets/fonts/themify-icons/themify-icons.css HTTP/1.1" 200 16443
+[26/Jun/2021 11:02:05] "GET /static/assets/fonts/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12607
+[26/Jun/2021 11:02:05] "GET /static/assets/fonts/Shabnam.woff HTTP/1.1" 200 25624
+[26/Jun/2021 11:02:05] "GET /static/assets/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1" 200 71952
+[26/Jun/2021 11:02:05] "GET /static/assets/fonts/iconfont/MaterialIcons-Regular.woff2 HTTP/1.1" 200 44300
+[26/Jun/2021 11:02:06] "GET /static/assets/fonts/themify-icons/fonts/themify.woff HTTP/1.1" 200 56108
+[26/Jun/2021 11:02:06] "GET /static/assets/css/app.min.css HTTP/1.1" 200 506755
+[26/Jun/2021 11:02:06] "GET /static/assets/fonts/fontawesome/fa-regular-400.woff2 HTTP/1.1" 200 14872
+[26/Jun/2021 11:02:06] "GET /static/assets/fonts/poppins/poppins-v5-latin-regular.woff2 HTTP/1.1" 200 7904
+[26/Jun/2021 11:02:07] "GET /static/assets/js/bundles/apexcharts/apexcharts.min.js HTTP/1.1" 200 547087
+[26/Jun/2021 11:02:09] "GET /static/assets/js/app.min.js HTTP/1.1" 200 1352791
+Not Found: /admin/assets/js/chart.min.js
+[26/Jun/2021 11:02:09] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[26/Jun/2021 11:02:45] "GET /admin/pages HTTP/1.1" 200 45291
+Not Found: /admin/assets/images/person.png
+[26/Jun/2021 11:02:45] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[26/Jun/2021 11:02:46] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[26/Jun/2021 11:02:51] "GET /admin/editPage/60c473db61c7d22be2d32710 HTTP/1.1" 200 37139
+Not Found: /admin/editPage/assets/images/person.png
+[26/Jun/2021 11:02:52] "GET /admin/editPage/assets/images/person.png HTTP/1.1" 404 10200
+Not Found: /admin/editPage/assets/js/chart.min.js
+[26/Jun/2021 11:02:52] "GET /admin/editPage/assets/js/chart.min.js HTTP/1.1" 404 10194
+----------------------------------------
+Exception happened during processing of request from ('194.60.210.41', 55804)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 110] Connection timed out
+----------------------------------------
+[26/Jun/2021 12:42:20] "GET / HTTP/1.1" 200 43013
+[26/Jun/2021 12:42:20] "GET /static/main/Scripts/site/core.js HTTP/1.1" 304 0
+[26/Jun/2021 12:42:20] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 304 0
+[26/Jun/2021 12:42:20] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 304 0
+[26/Jun/2021 12:42:20] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 304 0
+[26/Jun/2021 12:42:20] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 304 0
+[26/Jun/2021 12:42:20] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 304 0
+[26/Jun/2021 12:42:20] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 304 0
+[26/Jun/2021 12:42:20] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 304 0
+[26/Jun/2021 12:42:20] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 304 0
+[26/Jun/2021 12:42:20] "GET /static/main/Scripts/site/util.js HTTP/1.1" 304 0
+[26/Jun/2021 12:42:20] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 304 0
+[26/Jun/2021 12:42:20] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 304 0
+[26/Jun/2021 12:42:20] "GET /static/main/Scripts/site/captcha.js HTTP/1.1" 304 0
+[26/Jun/2021 12:42:21] "GET /static/main/images/logo.png HTTP/1.1" 304 0
+[26/Jun/2021 12:42:21] "GET /static/main/media/01a32133-4186-4eeb-8e8a-8c73aa8eef9cSupport.jpg HTTP/1.1" 304 0
+[26/Jun/2021 12:42:21] "GET /static/main/media/e79a965c-28ed-4888-af8e-10949dab88fae-mway-ok.png HTTP/1.1" 304 0
+[26/Jun/2021 12:42:21] "GET /static/main/media/8eab75e1-a18f-4e46-accb-23cb0ea3aa73slider.jpg HTTP/1.1" 304 0
+[26/Jun/2021 12:42:21] "GET /static/main/media/72f3178d-d687-4519-9c6e-c82c51021d6eweb23.png HTTP/1.1" 304 0
+[26/Jun/2021 12:42:21] "GET /static/main/media/bfa2e24d-080a-4855-a6db-28230074815bsim-daeemi.png HTTP/1.1" 200 150547
+[26/Jun/2021 12:42:21] "GET /static/main/media/c2d35484-209e-4c83-bedd-f75649127e81sim%20toorism.png HTTP/1.1" 200 96626
+[26/Jun/2021 12:42:21] "GET /static/main/media/061f1772-469d-406d-8a85-00c02c13516dsim-etebari.png HTTP/1.1" 200 151806
+[26/Jun/2021 12:42:21] "GET /static/main/media/2d1504bf-ec3c-4492-9593-b837898d675csim-rond.png HTTP/1.1" 200 77729
+[26/Jun/2021 12:42:21] "GET /static/main/media/0c6d5171-a6d2-44bc-bc3b-6c2e4817cd74simdata.png HTTP/1.1" 200 109004
+[26/Jun/2021 12:42:21] "GET /static/main/media/call.png HTTP/1.1" 200 106599
+[26/Jun/2021 12:42:21] "GET /static/main/media/sms.png HTTP/1.1" 200 102057
+[26/Jun/2021 12:42:21] "GET /static/main/media/internet.png HTTP/1.1" 200 130525
+[26/Jun/2021 12:42:21] "GET /static/main/media/tarkibi.png HTTP/1.1" 200 107803
+[26/Jun/2021 12:42:21] "GET /static/main/Upload/Images/link/1.gif HTTP/1.1" 200 6229
+[26/Jun/2021 12:42:21] "GET /static/main/Upload/Images/link/1-1.gif HTTP/1.1" 200 3721
+[26/Jun/2021 12:42:21] "GET /static/main/Upload/Images/link/2-1.gif HTTP/1.1" 200 3689
+[26/Jun/2021 12:42:21] "GET /static/main/Upload/Images/link/2.gif HTTP/1.1" 200 8254
+[26/Jun/2021 12:42:21] "GET /static/main/Upload/Images/link/3.gif HTTP/1.1" 200 12144
+[26/Jun/2021 12:42:21] "GET /static/main/Upload/Images/link/3-1.gif HTTP/1.1" 200 3137
+[26/Jun/2021 12:42:22] "GET /static/main/Upload/Images/link/4.gif HTTP/1.1" 200 3525
+[26/Jun/2021 12:42:22] "GET /static/main/Upload/Images/link/4-1.gif HTTP/1.1" 200 2615
+[26/Jun/2021 12:42:22] "GET /static/main/Upload/Images/link/6-1.gif HTTP/1.1" 200 3778
+[26/Jun/2021 12:42:22] "GET /static/main/Upload/Images/link/5.gif HTTP/1.1" 200 5849
+[26/Jun/2021 12:42:22] "GET /static/main/Upload/Images/link/6.gif HTTP/1.1" 200 6212
+[26/Jun/2021 12:42:22] "GET /static/main/Upload/Images/link/5-1.gif HTTP/1.1" 200 3933
+[26/Jun/2021 12:42:22] "GET /static/main/Upload/Images/link/7.gif HTTP/1.1" 200 6028
+[26/Jun/2021 12:42:22] "GET /static/main/Upload/Images/link/7-1.gif HTTP/1.1" 200 3686
+[26/Jun/2021 12:42:22] "GET /static/main/Upload/Images/link/8.gif HTTP/1.1" 200 6047
+[26/Jun/2021 12:42:22] "GET /static/main/images/footer-img.png HTTP/1.1" 200 6831
+[26/Jun/2021 12:42:22] "GET /static/main/Upload/Images/link/8-1.gif HTTP/1.1" 200 3302
+[26/Jun/2021 12:42:22] "GET /static/main/images/logo-footer.png HTTP/1.1" 200 6733
+[26/Jun/2021 12:42:22] "GET /static/main/Upload/Images/195.png HTTP/1.1" 200 76955
+[26/Jun/2021 12:47:50] "GET /simcards/60bb566652022657011f7cf5 HTTP/1.1" 200 43300
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[26/Jun/2021 12:47:50] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4438
+[26/Jun/2021 12:47:57] "GET /lang/FA HTTP/1.1" 302 0
+[26/Jun/2021 12:47:58] "GET / HTTP/1.1" 200 45144
+[26/Jun/2021 12:48:07] "GET /admin/cards HTTP/1.1" 200 23565
+Not Found: /admin/assets/images/person.png
+[26/Jun/2021 12:48:07] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[26/Jun/2021 12:48:07] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[26/Jun/2021 12:48:10] "GET /admin/editCards/60bb566652022657011f7cf5 HTTP/1.1" 200 31102
+Not Found: /admin/editCards/assets/js/chart.min.js
+[26/Jun/2021 12:48:10] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10197
+Not Found: /admin/editCards/assets/images/person.png
+[26/Jun/2021 12:48:10] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10203
+Not Found: /admin/editCards/assets/js/chart.min.js
+[26/Jun/2021 12:48:10] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10197
+[26/Jun/2021 12:48:10] "GET /static/assets/images/favicon.ico HTTP/1.1" 404 1938
+[26/Jun/2021 12:49:47] "POST /admin/editCards/60bb566652022657011f7cf5 HTTP/1.1" 200 34112
+Not Found: /admin/editCards/assets/images/person.png
+[26/Jun/2021 12:49:47] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10203
+Not Found: /admin/editCards/assets/js/chart.min.js
+[26/Jun/2021 12:49:47] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10197
+[26/Jun/2021 12:49:52] "GET /lang/EN HTTP/1.1" 302 0
+[26/Jun/2021 12:49:52] "GET / HTTP/1.1" 200 43013
+[26/Jun/2021 12:49:54] "GET /simcards/60bb566652022657011f7cf5 HTTP/1.1" 200 44683
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[26/Jun/2021 12:49:55] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4438
+[26/Jun/2021 12:51:14] "GET /simcards/60bb566652022657011f7cf5 HTTP/1.1" 200 44683
+[26/Jun/2021 12:51:14] "GET /static/main/Scripts/site/core.js HTTP/1.1" 304 0
+[26/Jun/2021 12:51:14] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 304 0
+[26/Jun/2021 12:51:14] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 304 0
+[26/Jun/2021 12:51:14] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 304 0
+[26/Jun/2021 12:51:14] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 304 0
+[26/Jun/2021 12:51:14] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 304 0
+[26/Jun/2021 12:51:14] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 304 0
+[26/Jun/2021 12:51:14] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 304 0
+[26/Jun/2021 12:51:14] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 304 0
+[26/Jun/2021 12:51:14] "GET /static/main/Scripts/site/util.js HTTP/1.1" 304 0
+[26/Jun/2021 12:51:14] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 304 0
+[26/Jun/2021 12:51:14] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 304 0
+[26/Jun/2021 12:51:14] "GET /static/main/Scripts/site/captcha.js HTTP/1.1" 304 0
+[26/Jun/2021 12:51:16] "GET /static/main/images/logo.png HTTP/1.1" 304 0
+[26/Jun/2021 12:51:16] "GET /static/main/media/bfa2e24d-080a-4855-a6db-28230074815bsim-daeemi.png HTTP/1.1" 304 0
+[26/Jun/2021 12:51:16] "GET /static/main/images/logo-footer.png HTTP/1.1" 304 0
+[26/Jun/2021 12:51:16] "GET /static/main/images/footer-img.png HTTP/1.1" 304 0
+[26/Jun/2021 12:51:16] "GET /static/main/Upload/Images/195.png HTTP/1.1" 304 0
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[26/Jun/2021 12:51:16] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4438
+[26/Jun/2021 12:57:45] "GET / HTTP/1.1" 200 45144
+[26/Jun/2021 12:57:47] "GET /static/main/Content/site/bootstrap.min.css HTTP/1.1" 200 121159
+[26/Jun/2021 12:57:47] "GET /static/main/Content/site/style2.css HTTP/1.1" 200 88761
+[26/Jun/2021 12:57:47] "GET /static/main/Content/site/fonts.css HTTP/1.1" 200 1478
+[26/Jun/2021 12:57:47] "GET /static/main/Content/site/skin0.css HTTP/1.1" 200 47984
+[26/Jun/2021 12:57:47] "GET /static/main/css/ltr.css HTTP/1.1" 200 2876
+[26/Jun/2021 12:57:47] "GET /static/main/Content/site/fa.css HTTP/1.1" 200 37
+[26/Jun/2021 12:57:48] "GET /static/main/media/01a32133-4186-4eeb-8e8a-8c73aa8eef9cSupport.jpg HTTP/1.1" 200 1485352
+[26/Jun/2021 12:57:48] "GET /static/main/media/e79a965c-28ed-4888-af8e-10949dab88fae-mway-ok.png HTTP/1.1" 200 1200498
+[26/Jun/2021 12:57:48] "GET /static/main/media/8eab75e1-a18f-4e46-accb-23cb0ea3aa73slider.jpg HTTP/1.1" 200 315727
+[26/Jun/2021 12:57:50] "GET /static/main/media/72f3178d-d687-4519-9c6e-c82c51021d6eweb23.png HTTP/1.1" 200 1006298
+[26/Jun/2021 12:57:51] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[26/Jun/2021 12:57:55] "GET / HTTP/1.1" 200 45144
+[26/Jun/2021 12:57:55] "GET /static/main/Content/site/bootstrap.min.css HTTP/1.1" 200 121159
+[26/Jun/2021 12:57:55] "GET /static/main/Content/site/style2.css HTTP/1.1" 200 88761
+[26/Jun/2021 12:57:55] "GET /static/main/Content/site/skin0.css HTTP/1.1" 200 47984
+[26/Jun/2021 12:57:55] "GET /static/main/Content/site/fonts.css HTTP/1.1" 200 1478
+[26/Jun/2021 12:57:55] "GET /static/main/css/ltr.css HTTP/1.1" 200 2876
+[26/Jun/2021 12:57:55] "GET /static/main/Content/site/fa.css HTTP/1.1" 200 37
+[26/Jun/2021 12:57:55] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 200 4599
+[26/Jun/2021 12:57:55] "GET /static/main/Scripts/site/core.js HTTP/1.1" 200 33680
+[26/Jun/2021 12:57:55] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 200 6288
+[26/Jun/2021 12:57:55] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 200 7103
+[26/Jun/2021 12:57:55] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 200 3163
+[26/Jun/2021 12:57:55] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 200 3745
+[26/Jun/2021 12:57:55] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 200 21587
+[26/Jun/2021 12:57:55] "GET /static/main/Scripts/site/util.js HTTP/1.1" 200 4108
+[26/Jun/2021 12:57:55] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 200 5002
+[26/Jun/2021 12:57:55] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 200 102631
+[26/Jun/2021 12:57:56] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 200 4122
+[26/Jun/2021 12:57:56] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 200 6156
+[26/Jun/2021 12:57:56] "GET /static/main/Scripts/site/captcha.js HTTP/1.1" 200 1163
+[26/Jun/2021 12:57:56] "GET /static/main/images/logo.png HTTP/1.1" 200 26115
+[26/Jun/2021 12:57:56] "GET /static/main/media/bfa2e24d-080a-4855-a6db-28230074815bsim-daeemi.png HTTP/1.1" 200 150547
+[26/Jun/2021 12:57:56] "GET /static/main/media/061f1772-469d-406d-8a85-00c02c13516dsim-etebari.png HTTP/1.1" 200 151806
+[26/Jun/2021 12:57:56] "GET /static/main/media/8eab75e1-a18f-4e46-accb-23cb0ea3aa73slider.jpg HTTP/1.1" 200 315727
+[26/Jun/2021 12:57:56] "GET /static/main/Content/site/img/icon.png HTTP/1.1" 200 2756
+[26/Jun/2021 12:57:56] "GET /static/main/media/72f3178d-d687-4519-9c6e-c82c51021d6eweb23.png HTTP/1.1" 200 1006298
+[26/Jun/2021 12:57:56] "GET /static/main/Content/site/fa_fonts/IranYekan/woff/iranyekanwebregular.woff HTTP/1.1" 200 20925
+[26/Jun/2021 12:57:56] "GET /static/main/Content/site/img/logo.png HTTP/1.1" 200 26144
+[26/Jun/2021 12:57:56] "GET /static/main/Upload/Images/link/3-1.gif HTTP/1.1" 200 3137
+[26/Jun/2021 12:57:56] "GET /static/main/Upload/Images/link/5-1.gif HTTP/1.1" 200 3933
+[26/Jun/2021 12:57:56] "GET /static/main/Upload/Images/link/8-1.gif HTTP/1.1" 200 3302
+[26/Jun/2021 12:57:56] "GET /static/main/media/01a32133-4186-4eeb-8e8a-8c73aa8eef9cSupport.jpg HTTP/1.1" 200 1485352
+[26/Jun/2021 12:57:56] "GET /static/main/media/e79a965c-28ed-4888-af8e-10949dab88fae-mway-ok.png HTTP/1.1" 200 1200498
+[26/Jun/2021 12:57:56] "GET /static/main/Upload/Images/link/2-1.gif HTTP/1.1" 200 3689
+[26/Jun/2021 12:57:56] "GET /static/main/Upload/Images/link/7-1.gif HTTP/1.1" 200 3686
+[26/Jun/2021 12:57:56] "GET /static/main/Upload/Images/link/6-1.gif HTTP/1.1" 200 3778
+[26/Jun/2021 12:57:56] "GET /static/main/Upload/Images/link/1-1.gif HTTP/1.1" 200 3721
+[26/Jun/2021 12:57:56] "GET /static/main/Upload/Images/link/4-1.gif HTTP/1.1" 200 2615
+[26/Jun/2021 12:57:56] "GET /static/main/media/c2d35484-209e-4c83-bedd-f75649127e81sim%20toorism.png HTTP/1.1" 200 96626
+[26/Jun/2021 12:57:56] "GET /static/main/media/2d1504bf-ec3c-4492-9593-b837898d675csim-rond.png HTTP/1.1" 200 77729
+[26/Jun/2021 12:57:56] "GET /static/main/media/0c6d5171-a6d2-44bc-bc3b-6c2e4817cd74simdata.png HTTP/1.1" 200 109004
+[26/Jun/2021 12:57:56] "GET /static/main/media/internet.png HTTP/1.1" 200 130525
+[26/Jun/2021 12:57:56] "GET /static/main/media/sms.png HTTP/1.1" 200 102057
+[26/Jun/2021 12:57:56] "GET /static/main/media/tarkibi.png HTTP/1.1" 200 107803
+[26/Jun/2021 12:57:56] "GET /static/main/media/call.png HTTP/1.1" 200 106599
+[26/Jun/2021 12:57:56] "GET /static/main/Upload/Images/link/2.gif HTTP/1.1" 200 8254
+[26/Jun/2021 12:57:56] "GET /static/main/Upload/Images/link/1.gif HTTP/1.1" 200 6229
+[26/Jun/2021 12:57:56] "GET /static/main/Upload/Images/link/3.gif HTTP/1.1" 200 12144
+[26/Jun/2021 12:57:56] "GET /static/main/Upload/Images/link/4.gif HTTP/1.1" 200 3525
+[26/Jun/2021 12:57:56] "GET /static/main/Upload/Images/link/6.gif HTTP/1.1" 200 6212
+[26/Jun/2021 12:57:56] "GET /static/main/Upload/Images/link/5.gif HTTP/1.1" 200 5849
+[26/Jun/2021 12:57:56] "GET /static/main/Upload/Images/link/7.gif HTTP/1.1" 200 6028
+[26/Jun/2021 12:57:56] "GET /static/main/Upload/Images/link/8.gif HTTP/1.1" 200 6047
+[26/Jun/2021 12:57:56] "GET /static/main/images/logo-footer.png HTTP/1.1" 200 6733
+[26/Jun/2021 12:57:56] "GET /static/main/images/footer-img.png HTTP/1.1" 200 6831
+[26/Jun/2021 12:57:56] "GET /static/main/Upload/Images/195.png HTTP/1.1" 200 76955
+[26/Jun/2021 12:57:57] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[26/Jun/2021 12:58:00] "GET /lang/EN HTTP/1.1" 302 0
+[26/Jun/2021 12:58:00] "GET / HTTP/1.1" 200 43013
+[26/Jun/2021 12:58:01] "GET /news HTTP/1.1" 200 35949
+[26/Jun/2021 12:58:02] "GET /static/main/media/7d3820cd-c789-47c7-a32c-79e94a866018WhatsApp%20Image%202021-04-11%20at%2010.12.33%20(1).jpeg HTTP/1.1" 200 89404
+[26/Jun/2021 12:58:02] "GET /static/main/media/0babf0f7-4171-45fd-8995-765481824439pic1.jpg HTTP/1.1" 200 545004
+[26/Jun/2021 12:58:02] "GET /static/main/media/e8f3ea3f-0bdb-4ade-ac8d-58766f588e81e-mway-ok2.png HTTP/1.1" 200 1442824
+[26/Jun/2021 12:58:02] "GET /static/main/media/e479575c-1fad-4df7-97d2-627d7c08ae46IMG-20210303-WA0044.jpg HTTP/1.1" 200 354828
+[26/Jun/2021 12:58:02] "GET /static/main/media/8744a3b9-9325-403d-8d1c-e4009d290a5dIRAN-NOAFARIN3.jpg HTTP/1.1" 200 482925
+[26/Jun/2021 12:58:02] "GET /static/main/media/f88edb29-9184-434a-a7e6-c714d5acfd30DSCF7479-Recovered.jpg HTTP/1.1" 200 718723
+[26/Jun/2021 12:58:02] "GET /static/main/media/e1a5d341-47b0-4b9a-b51a-a775a949b2e65.jpeg HTTP/1.1" 200 154692
+[26/Jun/2021 12:58:02] "GET /static/main/media/b89992dc-2102-4241-acad-a3eaa13b8e9bDSCF7449.jpg HTTP/1.1" 200 980256
+[26/Jun/2021 12:58:03] "GET /simcards/60bb566652022657011f7cf5 HTTP/1.1" 200 44683
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[26/Jun/2021 12:58:03] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4438
+[26/Jun/2021 12:58:24] "GET /static/main/Upload/Images/link/1-1.gif HTTP/1.1" 200 3721
+[26/Jun/2021 12:58:24] "GET /static/main/Upload/Images/link/2-1.gif HTTP/1.1" 200 3689
+[26/Jun/2021 12:58:24] "GET /static/main/Upload/Images/link/4-1.gif HTTP/1.1" 200 2615
+[26/Jun/2021 12:58:24] "GET /static/main/Upload/Images/link/3-1.gif HTTP/1.1" 200 3137
+[26/Jun/2021 12:58:24] "GET /static/main/media/bfa2e24d-080a-4855-a6db-28230074815bsim-daeemi.png HTTP/1.1" 200 150547
+[26/Jun/2021 12:58:24] "GET /static/main/media/061f1772-469d-406d-8a85-00c02c13516dsim-etebari.png HTTP/1.1" 200 151806
+[26/Jun/2021 12:58:24] "GET /static/main/Upload/Images/link/5-1.gif HTTP/1.1" 200 3933
+[26/Jun/2021 12:58:24] "GET /static/main/Upload/Images/link/6-1.gif HTTP/1.1" 200 3778
+[26/Jun/2021 12:58:24] "GET /static/main/Upload/Images/link/7-1.gif HTTP/1.1" 200 3686
+[26/Jun/2021 12:58:24] "GET /static/main/Upload/Images/link/8-1.gif HTTP/1.1" 200 3302
+[26/Jun/2021 12:58:24] "GET /static/main/media/c2d35484-209e-4c83-bedd-f75649127e81sim%20toorism.png HTTP/1.1" 200 96626
+[26/Jun/2021 12:58:24] "GET /static/main/media/2d1504bf-ec3c-4492-9593-b837898d675csim-rond.png HTTP/1.1" 200 77729
+[26/Jun/2021 12:58:24] "GET /static/main/media/internet.png HTTP/1.1" 200 130525
+[26/Jun/2021 12:58:24] "GET /static/main/media/0c6d5171-a6d2-44bc-bc3b-6c2e4817cd74simdata.png HTTP/1.1" 200 109004
+[26/Jun/2021 12:58:24] "GET /static/main/media/call.png HTTP/1.1" 200 106599
+[26/Jun/2021 12:58:24] "GET /static/main/media/sms.png HTTP/1.1" 200 102057
+[26/Jun/2021 12:58:24] "GET /static/main/media/tarkibi.png HTTP/1.1" 200 107803
+[26/Jun/2021 12:58:24] "GET /static/main/Upload/Images/link/1.gif HTTP/1.1" 200 6229
+[26/Jun/2021 12:58:24] "GET /static/main/Upload/Images/link/3.gif HTTP/1.1" 200 12144
+[26/Jun/2021 12:58:24] "GET /static/main/Upload/Images/link/2.gif HTTP/1.1" 200 8254
+[26/Jun/2021 12:58:24] "GET /static/main/Upload/Images/link/4.gif HTTP/1.1" 200 3525
+[26/Jun/2021 12:58:24] "GET /static/main/Upload/Images/link/5.gif HTTP/1.1" 200 5849
+[26/Jun/2021 12:58:24] "GET /static/main/Upload/Images/link/6.gif HTTP/1.1" 200 6212
+[26/Jun/2021 12:58:24] "GET /static/main/Upload/Images/link/7.gif HTTP/1.1" 200 6028
+[26/Jun/2021 12:58:24] "GET /static/main/Upload/Images/link/8.gif HTTP/1.1" 200 6047
+[26/Jun/2021 13:40:09] "GET /static/main/Content/site/img/logo1.png HTTP/1.1" 200 22636
+[27/Jun/2021 03:37:12] "GET / HTTP/1.1" 200 43013
+[27/Jun/2021 03:37:12] "GET /static/main/Content/site/bootstrap.min.css HTTP/1.1" 200 121159
+[27/Jun/2021 03:37:12] "GET /static/main/Content/site/skin0.css HTTP/1.1" 200 47984
+[27/Jun/2021 03:37:12] "GET /static/main/Content/site/style2.css HTTP/1.1" 200 88761
+[27/Jun/2021 03:37:12] "GET /static/main/css/ltr.css HTTP/1.1" 200 2876
+[27/Jun/2021 03:37:12] "GET /static/main/Content/site/fonts.css HTTP/1.1" 200 1478
+[27/Jun/2021 03:37:12] "GET /static/main/Content/site/fa.css HTTP/1.1" 200 37
+[27/Jun/2021 03:37:12,308] - Broken pipe from ('194.60.210.33', 53014)
+
+[27/Jun/2021 03:37:12] "GET /static/main/Upload/Images/link/3-1.gif HTTP/1.1" 200 3137
+[27/Jun/2021 03:37:12] "GET /static/main/Upload/Images/link/3.gif HTTP/1.1" 200 12144
+[27/Jun/2021 03:37:12] "GET /static/main/Scripts/site/captcha.js HTTP/1.1" 304 0
+[27/Jun/2021 03:37:12] "GET /static/main/media/bfa2e24d-080a-4855-a6db-28230074815bsim-daeemi.png HTTP/1.1" 200 150547
+[27/Jun/2021 03:37:12] "GET /static/main/media/c2d35484-209e-4c83-bedd-f75649127e81sim%20toorism.png HTTP/1.1" 200 96626
+[27/Jun/2021 03:37:12] "GET /static/main/media/061f1772-469d-406d-8a85-00c02c13516dsim-etebari.png HTTP/1.1" 200 151806
+[27/Jun/2021 03:37:13] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[27/Jun/2021 03:37:20] "GET /admin HTTP/1.1" 200 18807
+[27/Jun/2021 03:37:20] "GET /static/assets/css/text_editor.css HTTP/1.1" 200 144
+[27/Jun/2021 03:37:20] "GET /static/assets/css/styles/all-themes.css HTTP/1.1" 200 28620
+Not Found: /assets/js/chart.min.js
+[27/Jun/2021 03:37:21] "GET /static/assets/js/bundles/materialize-rtl/materialize-rtl.min.css HTTP/1.1" 200 135840
+[27/Jun/2021 03:37:21] "GET /assets/js/chart.min.js HTTP/1.1" 404 4410
+Not Found: /assets/images/person.png
+[27/Jun/2021 03:37:21] "GET /assets/images/person.png HTTP/1.1" 404 4416
+[27/Jun/2021 03:37:21] "GET /static/assets/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1" 200 71952
+[27/Jun/2021 03:37:21] "GET /static/assets/images/favicon.ico HTTP/1.1" 404 1938
+[27/Jun/2021 03:37:26] "GET /simcards/60bb566652022657011f7cf5 HTTP/1.1" 200 44683
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[27/Jun/2021 03:37:27] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4438
+[27/Jun/2021 03:41:48] "GET /admin/cards HTTP/1.1" 200 23565
+Not Found: /admin/assets/images/person.png
+[27/Jun/2021 03:41:48] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[27/Jun/2021 03:41:48] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[27/Jun/2021 03:41:50] "GET /admin/editCards/60bb566652022657011f7cf5 HTTP/1.1" 200 33873
+Not Found: /admin/editCards/assets/images/person.png
+[27/Jun/2021 03:41:50] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10203
+Not Found: /admin/editCards/assets/js/chart.min.js
+[27/Jun/2021 03:41:50] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10197
+[27/Jun/2021 03:42:15] "POST /admin/editCards/60bb566652022657011f7cf5 HTTP/1.1" 200 34103
+Not Found: /admin/editCards/assets/images/person.png
+[27/Jun/2021 03:42:15] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10203
+Not Found: /admin/editCards/assets/js/chart.min.js
+[27/Jun/2021 03:42:15] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10197
+[27/Jun/2021 04:00:11] "POST /admin/editCards/60bb566652022657011f7cf5 HTTP/1.1" 200 34095
+Not Found: /admin/editCards/assets/images/person.png
+[27/Jun/2021 04:00:11] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10203
+Not Found: /admin/editCards/assets/js/chart.min.js
+[27/Jun/2021 04:00:11] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10197
+[27/Jun/2021 04:00:45] "GET /simcards/60bb566652022657011f7cf5 HTTP/1.1" 200 44674
+[27/Jun/2021 04:00:45] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 304 0
+[27/Jun/2021 04:00:45] "GET /static/main/Scripts/site/core.js HTTP/1.1" 304 0
+[27/Jun/2021 04:00:45] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 304 0
+[27/Jun/2021 04:00:45] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 304 0
+[27/Jun/2021 04:00:45] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 304 0
+[27/Jun/2021 04:00:45] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 304 0
+[27/Jun/2021 04:00:45] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 304 0
+[27/Jun/2021 04:00:45] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 304 0
+[27/Jun/2021 04:00:45] "GET /static/main/Scripts/site/util.js HTTP/1.1" 304 0
+[27/Jun/2021 04:00:45] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 304 0
+[27/Jun/2021 04:00:45] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 304 0
+[27/Jun/2021 04:00:45] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 304 0
+[27/Jun/2021 04:00:45] "GET /static/main/Scripts/site/captcha.js HTTP/1.1" 304 0
+[27/Jun/2021 04:00:46] "GET /static/main/images/logo.png HTTP/1.1" 304 0
+[27/Jun/2021 04:00:46] "GET /static/main/media/bfa2e24d-080a-4855-a6db-28230074815bsim-daeemi.png HTTP/1.1" 304 0
+[27/Jun/2021 04:00:46] "GET /static/main/images/logo-footer.png HTTP/1.1" 304 0
+[27/Jun/2021 04:00:46] "GET /static/main/images/footer-img.png HTTP/1.1" 304 0
+[27/Jun/2021 04:00:46] "GET /static/main/Upload/Images/195.png HTTP/1.1" 304 0
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[27/Jun/2021 04:00:46] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4438
+[27/Jun/2021 04:02:57] "POST /admin/editCards/60bb566652022657011f7cf5 HTTP/1.1" 200 34095
+Not Found: /admin/editCards/assets/images/person.png
+[27/Jun/2021 04:02:57] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10203
+Not Found: /admin/editCards/assets/js/chart.min.js
+[27/Jun/2021 04:02:57] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10197
+[27/Jun/2021 04:03:01] "GET /simcards/60bb566652022657011f7cf5 HTTP/1.1" 200 44674
+[27/Jun/2021 04:03:01] "GET /static/main/Content/site/img/logo1.png HTTP/1.1" 304 0
+[27/Jun/2021 04:03:01] "GET /static/main/Scripts/site/core.js HTTP/1.1" 304 0
+[27/Jun/2021 04:03:01] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 304 0
+[27/Jun/2021 04:03:01] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 304 0
+[27/Jun/2021 04:03:01] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 304 0
+[27/Jun/2021 04:03:01] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 304 0
+[27/Jun/2021 04:03:01] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 304 0
+[27/Jun/2021 04:03:01] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 304 0
+[27/Jun/2021 04:03:01] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 304 0
+[27/Jun/2021 04:03:01] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 304 0
+[27/Jun/2021 04:03:01] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 304 0
+[27/Jun/2021 04:03:01] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 304 0
+[27/Jun/2021 04:03:01] "GET /static/main/Scripts/site/util.js HTTP/1.1" 304 0
+[27/Jun/2021 04:03:01] "GET /static/main/Scripts/site/captcha.js HTTP/1.1" 304 0
+[27/Jun/2021 04:03:01] "GET /static/main/images/logo.png HTTP/1.1" 304 0
+[27/Jun/2021 04:03:01] "GET /static/main/media/bfa2e24d-080a-4855-a6db-28230074815bsim-daeemi.png HTTP/1.1" 304 0
+[27/Jun/2021 04:03:01] "GET /static/main/images/logo-footer.png HTTP/1.1" 304 0
+[27/Jun/2021 04:03:01] "GET /static/main/images/footer-img.png HTTP/1.1" 304 0
+[27/Jun/2021 04:03:01] "GET /static/main/Upload/Images/195.png HTTP/1.1" 304 0
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[27/Jun/2021 04:03:01] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4438
+[27/Jun/2021 04:03:34] "POST /admin/editCards/60bb566652022657011f7cf5 HTTP/1.1" 200 34086
+Not Found: /admin/editCards/assets/images/person.png
+[27/Jun/2021 04:03:34] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10203
+Not Found: /admin/editCards/assets/js/chart.min.js
+[27/Jun/2021 04:03:34] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10197
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[27/Jun/2021 04:03:38] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4438
+[27/Jun/2021 04:04:02] "POST /admin/editCards/60bb566652022657011f7cf5 HTTP/1.1" 200 34083
+Not Found: /admin/editCards/assets/images/person.png
+Not Found: /admin/editCards/assets/js/chart.min.js
+[27/Jun/2021 04:04:06] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10203
+[27/Jun/2021 04:04:06] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10197
+[27/Jun/2021 04:04:08] "GET /simcards/60bb566652022657011f7cf5 HTTP/1.1" 200 44674
+[27/Jun/2021 04:04:08] "GET /static/main/Scripts/site/core.js HTTP/1.1" 304 0
+[27/Jun/2021 04:04:08] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 304 0
+[27/Jun/2021 04:04:08] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 304 0
+[27/Jun/2021 04:04:08] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 304 0
+[27/Jun/2021 04:04:08] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 304 0
+[27/Jun/2021 04:04:08] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 304 0
+[27/Jun/2021 04:04:08] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 304 0
+[27/Jun/2021 04:04:08] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 304 0
+[27/Jun/2021 04:04:08] "GET /static/main/Scripts/site/util.js HTTP/1.1" 304 0
+[27/Jun/2021 04:04:08] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 304 0
+[27/Jun/2021 04:04:08] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 304 0
+[27/Jun/2021 04:04:08] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 304 0
+[27/Jun/2021 04:04:08] "GET /static/main/Scripts/site/captcha.js HTTP/1.1" 304 0
+[27/Jun/2021 04:04:08] "GET /static/main/images/logo.png HTTP/1.1" 304 0
+[27/Jun/2021 04:04:08] "GET /static/main/media/bfa2e24d-080a-4855-a6db-28230074815bsim-daeemi.png HTTP/1.1" 304 0
+[27/Jun/2021 04:04:08] "GET /static/main/images/logo-footer.png HTTP/1.1" 304 0
+[27/Jun/2021 04:04:08] "GET /static/main/images/footer-img.png HTTP/1.1" 304 0
+[27/Jun/2021 04:04:08] "GET /static/main/Upload/Images/195.png HTTP/1.1" 304 0
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[27/Jun/2021 04:04:08] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4438
+[27/Jun/2021 04:04:56] "POST /admin/editCards/60bb566652022657011f7cf5 HTTP/1.1" 200 34108
+Not Found: /admin/editCards/assets/images/person.png
+[27/Jun/2021 04:04:57] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10203
+Not Found: /admin/editCards/assets/js/chart.min.js
+[27/Jun/2021 04:04:57] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10197
+[27/Jun/2021 04:05:48] "POST /admin/editCards/60bb566652022657011f7cf5 HTTP/1.1" 200 34077
+Not Found: /admin/editCards/assets/images/person.png
+[27/Jun/2021 04:05:48] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10203
+Not Found: /admin/editCards/assets/js/chart.min.js
+[27/Jun/2021 04:05:48] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10197
+[27/Jun/2021 04:14:33] "GET / HTTP/1.1" 200 45144
+[27/Jun/2021 04:14:34] "GET /static/main/Content/site/skin0.css HTTP/1.1" 200 47984
+[27/Jun/2021 04:14:34] "GET /static/main/Content/site/fonts.css HTTP/1.1" 200 1478
+[27/Jun/2021 04:14:34] "GET /static/main/Content/site/fa.css HTTP/1.1" 200 37
+[27/Jun/2021 04:14:34] "GET /static/main/css/ltr.css HTTP/1.1" 200 2876
+[27/Jun/2021 04:14:34] "GET /static/main/Content/site/bootstrap.min.css HTTP/1.1" 200 121159
+[27/Jun/2021 04:14:34] "GET /static/main/Content/site/style2.css HTTP/1.1" 200 88761
+[27/Jun/2021 04:14:34] "GET /static/main/Scripts/site/core.js HTTP/1.1" 200 33680
+[27/Jun/2021 04:14:34] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 200 4599
+[27/Jun/2021 04:14:34] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 200 3163
+[27/Jun/2021 04:14:34] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 200 6288
+[27/Jun/2021 04:14:34] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 200 7103
+[27/Jun/2021 04:14:34] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 200 21587
+[27/Jun/2021 04:14:34] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 200 5002
+[27/Jun/2021 04:14:34] "GET /static/main/Scripts/site/util.js HTTP/1.1" 200 4108
+[27/Jun/2021 04:14:34] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 200 3745
+[27/Jun/2021 04:14:34] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 200 102631
+[27/Jun/2021 04:14:34] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 200 4122
+[27/Jun/2021 04:14:34] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 200 6156
+[27/Jun/2021 04:14:34] "GET /static/main/Scripts/site/captcha.js HTTP/1.1" 200 1163
+[27/Jun/2021 04:14:34] "GET /static/main/images/logo.png HTTP/1.1" 200 26115
+[27/Jun/2021 04:14:35] "GET /static/main/media/061f1772-469d-406d-8a85-00c02c13516dsim-etebari.png HTTP/1.1" 200 151806
+[27/Jun/2021 04:14:35] "GET /static/main/media/bfa2e24d-080a-4855-a6db-28230074815bsim-daeemi.png HTTP/1.1" 200 150547
+[27/Jun/2021 04:14:35] "GET /static/main/media/c2d35484-209e-4c83-bedd-f75649127e81sim%20toorism.png HTTP/1.1" 200 96626
+[27/Jun/2021 04:14:35] "GET /static/main/media/8eab75e1-a18f-4e46-accb-23cb0ea3aa73slider.jpg HTTP/1.1" 200 315727
+[27/Jun/2021 04:14:35] "GET /static/main/media/2d1504bf-ec3c-4492-9593-b837898d675csim-rond.png HTTP/1.1" 200 77729
+[27/Jun/2021 04:14:35] "GET /static/main/media/call.png HTTP/1.1" 200 106599
+[27/Jun/2021 04:14:35] "GET /static/main/media/internet.png HTTP/1.1" 200 130525
+[27/Jun/2021 04:14:35] "GET /static/main/media/0c6d5171-a6d2-44bc-bc3b-6c2e4817cd74simdata.png HTTP/1.1" 200 109004
+[27/Jun/2021 04:14:35] "GET /static/main/Upload/Images/link/5-1.gif HTTP/1.1" 200 3933
+[27/Jun/2021 04:14:35] "GET /static/main/Upload/Images/link/3-1.gif HTTP/1.1" 200 3137
+[27/Jun/2021 04:14:35] "GET /static/main/Content/site/fa_fonts/IranYekan/woff/iranyekanwebregular.woff HTTP/1.1" 200 20925
+[27/Jun/2021 04:14:35] "GET /static/main/Content/site/img/logo.png HTTP/1.1" 200 26144
+[27/Jun/2021 04:14:35] "GET /static/main/Upload/Images/link/2-1.gif HTTP/1.1" 200 3689
+[27/Jun/2021 04:14:35] "GET /static/main/Upload/Images/link/7-1.gif HTTP/1.1" 200 3686
+[27/Jun/2021 04:14:35] "GET /static/main/Upload/Images/link/8-1.gif HTTP/1.1" 200 3302
+[27/Jun/2021 04:14:35] "GET /static/main/Upload/Images/link/6-1.gif HTTP/1.1" 200 3778
+[27/Jun/2021 04:14:35] "GET /static/main/Content/site/img/icon.png HTTP/1.1" 200 2756
+[27/Jun/2021 04:14:35] "GET /static/main/Upload/Images/link/1-1.gif HTTP/1.1" 200 3721
+[27/Jun/2021 04:14:35] "GET /static/main/Upload/Images/link/4-1.gif HTTP/1.1" 200 2615
+[27/Jun/2021 04:14:35] "GET /static/main/media/sms.png HTTP/1.1" 200 102057
+[27/Jun/2021 04:14:35] "GET /static/main/media/tarkibi.png HTTP/1.1" 200 107803
+[27/Jun/2021 04:14:35] "GET /static/main/Upload/Images/link/1.gif HTTP/1.1" 200 6229
+[27/Jun/2021 04:14:35] "GET /static/main/media/72f3178d-d687-4519-9c6e-c82c51021d6eweb23.png HTTP/1.1" 200 1006298
+[27/Jun/2021 04:14:35] "GET /static/main/Upload/Images/link/3.gif HTTP/1.1" 200 12144
+[27/Jun/2021 04:14:35] "GET /static/main/Upload/Images/link/2.gif HTTP/1.1" 200 8254
+[27/Jun/2021 04:14:35] "GET /static/main/Upload/Images/link/4.gif HTTP/1.1" 200 3525
+[27/Jun/2021 04:14:35] "GET /static/main/Upload/Images/link/5.gif HTTP/1.1" 200 5849
+[27/Jun/2021 04:14:35] "GET /static/main/Upload/Images/link/7.gif HTTP/1.1" 200 6028
+[27/Jun/2021 04:14:35] "GET /static/main/Upload/Images/link/6.gif HTTP/1.1" 200 6212
+[27/Jun/2021 04:14:35] "GET /static/main/images/footer-img.png HTTP/1.1" 200 6831
+[27/Jun/2021 04:14:35] "GET /static/main/Upload/Images/link/8.gif HTTP/1.1" 200 6047
+[27/Jun/2021 04:14:35] "GET /static/main/images/logo-footer.png HTTP/1.1" 200 6733
+[27/Jun/2021 04:14:35] "GET /static/main/Upload/Images/195.png HTTP/1.1" 200 76955
+[27/Jun/2021 04:14:35] "GET /static/main/media/e79a965c-28ed-4888-af8e-10949dab88fae-mway-ok.png HTTP/1.1" 200 1200498
+[27/Jun/2021 04:14:35] "GET /static/main/media/01a32133-4186-4eeb-8e8a-8c73aa8eef9cSupport.jpg HTTP/1.1" 200 1485352
+[27/Jun/2021 05:17:13] "POST /admin/editCards/60bb566652022657011f7cf5 HTTP/1.1" 200 34077
+Not Found: /admin/editCards/assets/js/chart.min.js
+[27/Jun/2021 05:17:14] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10197
+[27/Jun/2021 05:17:14] "GET /static/assets/js/admin.js HTTP/1.1" 304 0
+Not Found: /admin/editCards/assets/images/person.png
+[27/Jun/2021 05:17:14] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10203
+[27/Jun/2021 05:17:14] "GET /static/assets/js/app.min.js HTTP/1.1" 304 0
+[27/Jun/2021 05:17:14] "GET /static/assets/js/pages/index.js HTTP/1.1" 304 0
+[27/Jun/2021 05:17:14] "GET /static/assets/js/bundles/apexcharts/apexcharts.min.js HTTP/1.1" 304 0
+[27/Jun/2021 05:17:14] "GET /static/assets/js/editorMediaHandler.js HTTP/1.1" 304 0
+[27/Jun/2021 05:17:14] "GET /static/assets/js/text_editor.js HTTP/1.1" 304 0
+[27/Jun/2021 05:17:14] "GET /static/assets/images/logo-footer.png HTTP/1.1" 200 6733
+[27/Jun/2021 05:17:14] "GET /static/assets/images/load-343-460469.png HTTP/1.1" 200 3297
+[27/Jun/2021 05:17:14] "GET /static/assets/images/person.png HTTP/1.1" 200 8853
+[27/Jun/2021 05:17:14] "GET /static/assets/images/avatar.jpg HTTP/1.1" 200 25433
+Not Found: /admin/editCards/assets/js/chart.min.js
+[27/Jun/2021 05:17:14] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10197
+[27/Jun/2021 05:17:43] "GET /admin/news HTTP/1.1" 200 26840
+Not Found: /admin/assets/js/chart.min.js
+[27/Jun/2021 05:17:43] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/images/person.png
+[27/Jun/2021 05:17:43] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[27/Jun/2021 05:17:44] "GET /admin/addNews HTTP/1.1" 200 23089
+Not Found: /admin/assets/images/person.png
+Not Found: /admin/assets/js/chart.min.js
+[27/Jun/2021 05:17:45] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[27/Jun/2021 05:17:45] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[27/Jun/2021 05:19:37] "POST /admin/news HTTP/1.1" 200 27037
+Not Found: /admin/assets/js/chart.min.js
+Not Found: /admin/assets/images/person.png
+[27/Jun/2021 05:19:37] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[27/Jun/2021 05:19:37] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[27/Jun/2021 05:19:56] "GET /admin/addNews HTTP/1.1" 200 23089
+Not Found: /admin/assets/images/person.png
+[27/Jun/2021 05:19:56] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[27/Jun/2021 05:19:56] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[27/Jun/2021 05:20:15] "POST /admin/news HTTP/1.1" 200 27037
+Not Found: /admin/assets/images/person.png
+Not Found: /admin/assets/js/chart.min.js
+[27/Jun/2021 05:20:16] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[27/Jun/2021 05:20:16] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[27/Jun/2021 05:20:21] "GET /admin/addNews HTTP/1.1" 200 23089
+Not Found: /admin/assets/js/chart.min.js
+Not Found: /admin/assets/images/person.png
+[27/Jun/2021 05:20:21] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[27/Jun/2021 05:20:21] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[27/Jun/2021 05:20:40] "POST /admin/news HTTP/1.1" 200 27037
+Not Found: /admin/assets/images/person.png
+[27/Jun/2021 05:20:40] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[27/Jun/2021 05:20:40] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[27/Jun/2021 05:20:45] "GET /admin/addNews HTTP/1.1" 200 23089
+Not Found: /admin/assets/images/person.png
+[27/Jun/2021 05:20:45] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[27/Jun/2021 05:20:45] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[27/Jun/2021 05:21:06] "POST /admin/news HTTP/1.1" 200 27596
+Not Found: /admin/assets/images/person.png
+[27/Jun/2021 05:21:06] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[27/Jun/2021 05:21:06] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[27/Jun/2021 05:21:13] "GET /admin/editNews/60d80ac211d4e99fe18c366d HTTP/1.1" 200 23502
+Not Found: /admin/editNews/assets/images/person.png
+Not Found: /admin/editNews/assets/js/chart.min.js
+[27/Jun/2021 05:21:13] "GET /admin/editNews/assets/images/person.png HTTP/1.1" 404 10200
+[27/Jun/2021 05:21:13] "GET /admin/editNews/assets/js/chart.min.js HTTP/1.1" 404 10194
+[27/Jun/2021 05:21:25] "GET /admin/news HTTP/1.1" 200 27386
+Not Found: /admin/assets/images/person.png
+[27/Jun/2021 05:21:26] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[27/Jun/2021 05:21:26] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[27/Jun/2021 05:21:30] "GET /admin/news?delete=60d80ac211d4e99fe18c366d HTTP/1.1" 200 27033
+Not Found: /admin/assets/images/person.png
+[27/Jun/2021 05:21:30] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[27/Jun/2021 05:21:30] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[27/Jun/2021 05:21:38] "GET /lang/FA HTTP/1.1" 302 0
+[27/Jun/2021 05:21:38] "GET / HTTP/1.1" 200 45144
+[27/Jun/2021 05:21:39] "GET /static/main/media/c2d35484-209e-4c83-bedd-f75649127e81sim%20toorism.png HTTP/1.1" 200 77824
+[27/Jun/2021 05:21:39] "GET /static/main/media/061f1772-469d-406d-8a85-00c02c13516dsim-etebari.png HTTP/1.1" 200 118784
+[27/Jun/2021 05:21:44] "GET /news HTTP/1.1" 200 35949
+[27/Jun/2021 05:21:44] "GET /static/main/media/7d3820cd-c789-47c7-a32c-79e94a866018WhatsApp%20Image%202021-04-11%20at%2010.12.33%20(1).jpeg HTTP/1.1" 200 89404
+[27/Jun/2021 05:21:45] "GET /static/main/media/e479575c-1fad-4df7-97d2-627d7c08ae46IMG-20210303-WA0044.jpg HTTP/1.1" 200 354828
+[27/Jun/2021 05:21:45] "GET /static/main/media/8744a3b9-9325-403d-8d1c-e4009d290a5dIRAN-NOAFARIN3.jpg HTTP/1.1" 200 482925
+[27/Jun/2021 05:21:45] "GET /static/main/media/0babf0f7-4171-45fd-8995-765481824439pic1.jpg HTTP/1.1" 200 545004
+[27/Jun/2021 05:21:45] "GET /static/main/media/e1a5d341-47b0-4b9a-b51a-a775a949b2e65.jpeg HTTP/1.1" 200 154692
+[27/Jun/2021 05:21:46] "GET /static/main/media/b89992dc-2102-4241-acad-a3eaa13b8e9bDSCF7449.jpg HTTP/1.1" 200 980256
+[27/Jun/2021 05:21:46] "GET /static/main/media/f88edb29-9184-434a-a7e6-c714d5acfd30DSCF7479-Recovered.jpg HTTP/1.1" 200 718723
+[27/Jun/2021 05:21:46] "GET /static/main/media/e8f3ea3f-0bdb-4ade-ac8d-58766f588e81e-mway-ok2.png HTTP/1.1" 200 1442824
+[27/Jun/2021 05:22:51] "GET /admin/mainMenu HTTP/1.1" 200 25453
+Not Found: /admin/assets/images/person.png
+[27/Jun/2021 05:22:51] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[27/Jun/2021 05:22:51] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[27/Jun/2021 05:22:53] "GET /admin/addMenuItem HTTP/1.1" 200 22027
+Not Found: /admin/assets/images/person.png
+[27/Jun/2021 05:22:53] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[27/Jun/2021 05:22:53] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[27/Jun/2021 05:23:06] "POST /admin/mainMenu HTTP/1.1" 200 26182
+Not Found: /admin/assets/images/person.png
+[27/Jun/2021 05:23:06] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[27/Jun/2021 05:23:06] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[27/Jun/2021 05:23:09] "GET / HTTP/1.1" 200 45623
+[27/Jun/2021 05:23:19] "GET /admin/editMenuItem/60d80b3911d4e99fe18c367d HTTP/1.1" 200 22201
+Not Found: /admin/editMenuItem/assets/js/chart.min.js
+[27/Jun/2021 05:23:19] "GET /admin/editMenuItem/assets/js/chart.min.js HTTP/1.1" 404 10206
+Not Found: /admin/editMenuItem/assets/images/person.png
+[27/Jun/2021 05:23:19] "GET /admin/editMenuItem/assets/images/person.png HTTP/1.1" 404 10212
+[27/Jun/2021 05:23:23] "POST /admin/editMenuItem/60d80b3911d4e99fe18c367d HTTP/1.1" 200 22437
+Not Found: /admin/editMenuItem/assets/js/chart.min.js
+[27/Jun/2021 05:23:24] "GET /admin/editMenuItem/assets/js/chart.min.js HTTP/1.1" 404 10206
+Not Found: /admin/editMenuItem/assets/images/person.png
+[27/Jun/2021 05:23:24] "GET /admin/editMenuItem/assets/images/person.png HTTP/1.1" 404 10212
+[27/Jun/2021 05:23:27] "GET / HTTP/1.1" 200 45622
+[27/Jun/2021 05:23:27] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/Scripts/site/core.js HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/Scripts/site/util.js HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/Scripts/site/captcha.js HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/images/logo.png HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/media/01a32133-4186-4eeb-8e8a-8c73aa8eef9cSupport.jpg HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/media/e79a965c-28ed-4888-af8e-10949dab88fae-mway-ok.png HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/media/8eab75e1-a18f-4e46-accb-23cb0ea3aa73slider.jpg HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/media/72f3178d-d687-4519-9c6e-c82c51021d6eweb23.png HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/media/061f1772-469d-406d-8a85-00c02c13516dsim-etebari.png HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/media/bfa2e24d-080a-4855-a6db-28230074815bsim-daeemi.png HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/media/c2d35484-209e-4c83-bedd-f75649127e81sim%20toorism.png HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/media/2d1504bf-ec3c-4492-9593-b837898d675csim-rond.png HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/media/0c6d5171-a6d2-44bc-bc3b-6c2e4817cd74simdata.png HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/media/internet.png HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/media/call.png HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/media/sms.png HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/media/tarkibi.png HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/Upload/Images/link/1-1.gif HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/Upload/Images/link/1.gif HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/Upload/Images/link/2.gif HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/Upload/Images/link/2-1.gif HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/Upload/Images/link/3.gif HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/Upload/Images/link/3-1.gif HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/Upload/Images/link/4.gif HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/Upload/Images/link/4-1.gif HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/Upload/Images/link/5.gif HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/Upload/Images/link/5-1.gif HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/Upload/Images/link/6.gif HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/Upload/Images/link/6-1.gif HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/Upload/Images/link/7.gif HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/Upload/Images/link/7-1.gif HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/Upload/Images/link/8.gif HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/Upload/Images/link/8-1.gif HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/images/logo-footer.png HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/images/footer-img.png HTTP/1.1" 304 0
+[27/Jun/2021 05:23:27] "GET /static/main/Upload/Images/195.png HTTP/1.1" 304 0
+[27/Jun/2021 05:23:53] "GET /news HTTP/1.1" 200 36427
+[27/Jun/2021 05:24:42] "GET /admin/news HTTP/1.1" 200 26840
+Not Found: /admin/assets/js/chart.min.js
+Not Found: /admin/assets/images/person.png
+[27/Jun/2021 05:24:42] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[27/Jun/2021 05:24:42] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[27/Jun/2021 05:24:56] "GET /admin/addNews HTTP/1.1" 200 23089
+Not Found: /admin/assets/js/chart.min.js
+[27/Jun/2021 05:24:57] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/images/person.png
+[27/Jun/2021 05:24:57] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[27/Jun/2021 05:25:43] "POST /admin/news HTTP/1.1" 200 27584
+Not Found: /admin/assets/images/person.png
+[27/Jun/2021 05:25:43] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[27/Jun/2021 05:25:43] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[27/Jun/2021 05:25:47] "GET / HTTP/1.1" 200 45622
+[27/Jun/2021 05:25:47] "GET /static/main/Scripts/site/core.js HTTP/1.1" 304 0
+[27/Jun/2021 05:25:47] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 304 0
+[27/Jun/2021 05:25:47] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 304 0
+[27/Jun/2021 05:25:47] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 304 0
+[27/Jun/2021 05:25:47] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 304 0
+[27/Jun/2021 05:25:47] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 304 0
+[27/Jun/2021 05:25:47] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 304 0
+[27/Jun/2021 05:25:47] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 304 0
+[27/Jun/2021 05:25:47] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 304 0
+[27/Jun/2021 05:25:47] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 304 0
+[27/Jun/2021 05:25:47] "GET /static/main/Scripts/site/captcha.js HTTP/1.1" 304 0
+[27/Jun/2021 05:25:47] "GET /static/main/Scripts/site/util.js HTTP/1.1" 304 0
+[27/Jun/2021 05:25:47] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 304 0
+[27/Jun/2021 05:25:47] "GET /static/main/images/logo.png HTTP/1.1" 304 0
+[27/Jun/2021 05:25:47] "GET /static/main/media/01a32133-4186-4eeb-8e8a-8c73aa8eef9cSupport.jpg HTTP/1.1" 304 0
+[27/Jun/2021 05:25:47] "GET /static/main/media/e79a965c-28ed-4888-af8e-10949dab88fae-mway-ok.png HTTP/1.1" 304 0
+[27/Jun/2021 05:25:47] "GET /static/main/media/8eab75e1-a18f-4e46-accb-23cb0ea3aa73slider.jpg HTTP/1.1" 304 0
+[27/Jun/2021 05:25:47] "GET /static/main/media/72f3178d-d687-4519-9c6e-c82c51021d6eweb23.png HTTP/1.1" 304 0
+[27/Jun/2021 05:25:47] "GET /static/main/media/bfa2e24d-080a-4855-a6db-28230074815bsim-daeemi.png HTTP/1.1" 304 0
+[27/Jun/2021 05:25:47] "GET /static/main/media/061f1772-469d-406d-8a85-00c02c13516dsim-etebari.png HTTP/1.1" 304 0
+[27/Jun/2021 05:25:47] "GET /static/main/media/c2d35484-209e-4c83-bedd-f75649127e81sim%20toorism.png HTTP/1.1" 304 0
+[27/Jun/2021 05:25:47] "GET /static/main/media/2d1504bf-ec3c-4492-9593-b837898d675csim-rond.png HTTP/1.1" 304 0
+[27/Jun/2021 05:25:47] "GET /static/main/media/0c6d5171-a6d2-44bc-bc3b-6c2e4817cd74simdata.png HTTP/1.1" 304 0
+[27/Jun/2021 05:25:47] "GET /static/main/media/internet.png HTTP/1.1" 304 0
+[27/Jun/2021 05:25:47] "GET /static/main/media/call.png HTTP/1.1" 304 0
+[27/Jun/2021 05:25:47] "GET /static/main/media/sms.png HTTP/1.1" 304 0
+[27/Jun/2021 05:25:47] "GET /static/main/media/tarkibi.png HTTP/1.1" 304 0
+[27/Jun/2021 05:25:47] "GET /static/main/Upload/Images/link/1.gif HTTP/1.1" 304 0
+[27/Jun/2021 05:25:47] "GET /static/main/Upload/Images/link/1-1.gif HTTP/1.1" 304 0
+[27/Jun/2021 05:25:47] "GET /static/main/Upload/Images/link/2-1.gif HTTP/1.1" 304 0
+[27/Jun/2021 05:25:47] "GET /static/main/Upload/Images/link/2.gif HTTP/1.1" 304 0
+[27/Jun/2021 05:25:48] "GET /static/main/Upload/Images/link/3.gif HTTP/1.1" 304 0
+[27/Jun/2021 05:25:48] "GET /static/main/Upload/Images/link/3-1.gif HTTP/1.1" 304 0
+[27/Jun/2021 05:25:48] "GET /static/main/Upload/Images/link/4.gif HTTP/1.1" 304 0
+[27/Jun/2021 05:25:48] "GET /static/main/Upload/Images/link/5.gif HTTP/1.1" 304 0
+[27/Jun/2021 05:25:48] "GET /static/main/Upload/Images/link/4-1.gif HTTP/1.1" 304 0
+[27/Jun/2021 05:25:48] "GET /static/main/Upload/Images/link/5-1.gif HTTP/1.1" 304 0
+[27/Jun/2021 05:25:48] "GET /static/main/Upload/Images/link/6.gif HTTP/1.1" 304 0
+[27/Jun/2021 05:25:48] "GET /static/main/Upload/Images/link/6-1.gif HTTP/1.1" 304 0
+[27/Jun/2021 05:25:48] "GET /static/main/Upload/Images/link/7.gif HTTP/1.1" 304 0
+[27/Jun/2021 05:25:48] "GET /static/main/Upload/Images/link/7-1.gif HTTP/1.1" 304 0
+[27/Jun/2021 05:25:48] "GET /static/main/Upload/Images/link/8.gif HTTP/1.1" 304 0
+[27/Jun/2021 05:25:48] "GET /static/main/Upload/Images/link/8-1.gif HTTP/1.1" 304 0
+[27/Jun/2021 05:25:48] "GET /static/main/images/footer-img.png HTTP/1.1" 304 0
+[27/Jun/2021 05:25:48] "GET /static/main/images/logo-footer.png HTTP/1.1" 304 0
+[27/Jun/2021 05:25:48] "GET /static/main/Upload/Images/195.png HTTP/1.1" 304 0
+[27/Jun/2021 05:25:50] "GET /news HTTP/1.1" 200 37106
+[27/Jun/2021 05:25:50] "GET /static/main/media/04ad8f0e-21ab-47bd-8860-326b932b0e012.png HTTP/1.1" 200 350491
+[27/Jun/2021 05:25:52] "GET /news/60d80bd711d4e99fe18c368d HTTP/1.1" 200 205305
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[27/Jun/2021 05:25:53] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4438
+[27/Jun/2021 05:26:16] "GET /admin/news?delete=60d80bd711d4e99fe18c368d HTTP/1.1" 200 27033
+Not Found: /admin/assets/images/person.png
+[27/Jun/2021 05:26:16] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[27/Jun/2021 05:26:16] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Internal Server Error: /news/60d80bd711d4e99fe18c368d
+Traceback (most recent call last):
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/ariantel/main/views.py", line 134, in article
+    "title": article[lang]['title'],
+TypeError: 'NoneType' object is not subscriptable
+[27/Jun/2021 05:27:48] "GET /news/60d80bd711d4e99fe18c368d HTTP/1.1" 500 63919
+[27/Jun/2021 06:41:21] "GET /admin HTTP/1.1" 302 0
+[27/Jun/2021 06:41:21] "GET /admin/login HTTP/1.1" 200 3663
+[27/Jun/2021 06:41:22] "GET /static/assets/js/bundles/materialize-rtl/materialize-rtl.min.css HTTP/1.1" 200 135840
+[27/Jun/2021 06:41:22] "GET /static/assets/css/custom_login.css HTTP/1.1" 200 573
+[27/Jun/2021 06:41:22] "GET /static/assets/css/pages/extra_pages.css HTTP/1.1" 200 10526
+[27/Jun/2021 06:41:22] "GET /static/assets/css/style.css HTTP/1.1" 200 354550
+[27/Jun/2021 06:41:22] "GET /static/assets/css/app.min.css HTTP/1.1" 200 506755
+[27/Jun/2021 06:41:22] "GET /static/assets/js/app.min.js HTTP/1.1" 200 1352791
+[27/Jun/2021 06:41:22] "GET /static/assets/js/pages/examples/pages.js HTTP/1.1" 200 2399
+[27/Jun/2021 06:41:22] "GET /static/assets/images/logo-footer.png HTTP/1.1" 200 6733
+[27/Jun/2021 06:41:22] "GET /static/assets/fonts/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12607
+[27/Jun/2021 06:41:22] "GET /static/assets/fonts/themify-icons/themify-icons.css HTTP/1.1" 200 16443
+[27/Jun/2021 06:41:23] "GET /static/assets/fonts/Shabnam.woff HTTP/1.1" 200 25624
+[27/Jun/2021 06:41:23] "GET /static/assets/images/favicon.ico HTTP/1.1" 404 1938
+[27/Jun/2021 06:41:55] "GET /static/assets/fonts/poppins/poppins-v5-latin-regular.woff2 HTTP/1.1" 200 7904
+[27/Jun/2021 06:42:01] "POST /admin/login HTTP/1.1" 200 3865
+[27/Jun/2021 06:42:07] "POST /admin/login HTTP/1.1" 200 3865
