@@ -25,6 +25,12 @@ def index(request):
     for i in range(0,len(slides)):
         if lang == "en":
             slides[i]['title'] = slides[i]['en_title']
+            if slides[i].has_key('en_image'):
+                slides[i]['image'] = slides[i]['en_image']
+        else:
+            if slides[i].has_key('fa_image'):
+                slides[i]['image'] = slides[i]['fa_image']
+                
 
     # Packages
     col = con['product_categories']
@@ -321,6 +327,11 @@ def enterprise(request):
     for i in range(0,len(slides)):
         if lang == "en":
             slides[i]['title'] = slides[i]['en_title']
+            if slides[i].has_key('en_image'):
+                slides[i]['image'] = slides[i]['en_image']
+        else:
+            if slides[i].has_key('fa_image'):
+                slides[i]['image'] = slides[i]['fa_image']
 
     context = {
         "slides": slides

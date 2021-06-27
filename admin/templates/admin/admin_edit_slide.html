@@ -70,7 +70,7 @@
                       <p>در صورتی که قصد تغییر تصویر را ندارید، به این بخش دست نزنید.</p>
                       <div class="input-group mb-3">
                          <div class="custom-file">
-                            <input type="file" name="media" class="custom-file-input" id="inputGroupFile02">
+                            <input type="file" name="fa_media" class="custom-file-input" id="inputGroupFile02">
                             <label class="custom-file-label" for="inputGroupFile02" style="text-align:center"></label>
                          </div>
                       </div>
@@ -104,6 +104,14 @@
              <div class="body">
                <div class="form-group">
                   <input type="text" class="form-control" name="en_title" value="{{ slide.en_title }}" placeholder="Title">
+               </div>
+               <label>Upload Image</label><br/>
+               <p>If you don't want to change this part. Pass this section</p>
+               <div class="input-group mb-3">
+                  <div class="custom-file">
+                     <input type="file" name="en_media" class="custom-file-input" id="inputGroupFile02">
+                     <label class="custom-file-label" for="inputGroupFile02" style="text-align:center"></label>
+                  </div>
                </div>
                 <button class="btn btn-info btn-round">save</button>
              </div>

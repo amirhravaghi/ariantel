@@ -81,6 +81,16 @@
     right: -65px;
 }
 
+.ltr-body #top-slider .item .det{
+    right: unset;
+    left: 150px;
+}
+
+.ltr-body #top-slider .owl-dots{
+    right: 100px !important;
+    left: unset !important;
+}
+
 .ltr-body .tab-det li {
     float: left;
 }
@@ -163,6 +173,15 @@
     direction: ltr;
 }
 
+/* Employments */
+.ltr-body #emp-form{
+    float: left !important;
+}
+
+.ltr-body #captcha-input{
+    margin-left: 40%;
+}
+
 @media (min-width: 992px) {
     .ltr-body .navContent > ul > li {
         float: left;
@@ -175,5 +194,22 @@
         float: left;
         direction: ltr;
         text-align: left;
+    }
+    .ltr-body #home-item .item{
+        float: left !important;
+    }
+}
+
+@media (min-width: 991.98px){
+    .ltr-body .form-horizontal .control-label{
+        text-align: left;
+    }
+    
+    .ltr-body .form-dynamic.form-horizontal .col-sm-9.col-md-8{
+        float: left !important;
+    }
+    
+    .ltr-body .form-dynamic.form-horizontal .control-label{
+        float: left !important;
     }
 }

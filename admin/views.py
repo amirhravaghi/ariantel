@@ -458,8 +458,10 @@ def slides(request):
                 "active": int(request.POST.get("active",0))
             }
             if request.FILES:
-                if request.FILES['media'] and not request.FILES['media'].name == "":
-                    data["image"]= main_functions.media_upload(request.FILES['media'])
+                if request.FILES['en_media'] and not request.FILES['en_media'].name == "":
+                    data["en_image"]= main_functions.media_upload(request.FILES['en_media'])
+                if request.FILES['fa_media'] and not request.FILES['fa_media'].name == "":
+                    data["fa_image"]= main_functions.media_upload(request.FILES['fa_media'])
             col.insert_one(data)
             new_one = True
         except:
@@ -509,8 +511,10 @@ def edit_slide(request,sid):
                 "active": int(request.POST.get("active",0))
             }
             if request.FILES:
-                if request.FILES['media'] and not request.FILES['media'].name == "":
-                    data["image"]= main_functions.media_upload(request.FILES['media'])
+                if request.FILES['en_media'] and not request.FILES['en_media'].name == "":
+                    data["en_image"]= main_functions.media_upload(request.FILES['en_media'])
+                if request.FILES['fa_media'] and not request.FILES['fa_media'].name == "":
+                    data["fa_image"]= main_functions.media_upload(request.FILES['fa_media'])
             col.update_one({"_id":db.object_id(sid)},{"$set":data})
             edit_status = True
         except:

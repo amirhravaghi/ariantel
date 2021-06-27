@@ -21,42 +21,102 @@
     font-style: normal;
 }
 
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;font-weight: normal;
+  src: url('fa_fonts/IRANSansWeb.eot');
+  src: url('fa_fonts/IRANSansWeb.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */url('fa_fonts/IRANSansWeb.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/url('fa_fonts/IRANSansWeb.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/url('fa_fonts/IRANSansWeb.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'IRANSans_Bold';
+  src: url('fa_fonts/IRANSans_Bold.eot');
+  src: url('fa_fonts/IRANSans_Bold.eot') format('embedded-opentype'),url('fa_fonts/IRANSans_Bold.woff2') format('woff2'),url('fa_fonts/IRANSans_Bold.woff') format('woff'),url('fa_fonts/IRANSans_Bold.ttf') format('truetype'),url('fa_fonts/IRANSans_Bold.svg#IRANSans_Bold') format('svg');
+}
+
+@font-face {
+  font-family: 'Myriad';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad'), url('fa_fonts/Myriad/MYRIADPRO-REGULAR.woff') format('woff');
+  }
+
 h1,h2,h3,h4,h5,h6{
-    font-family: "Iranyekan";
+    font-family: IRANSans;
 }
 
 body{
-    font-family: "Iranyekan";
+    font-family: IRANSans;
 }
 
 #top-slider .item h2{
-  font-family: "Iranyekan";
+  font-family: IRANSans;
 }
 
 #home-item .title{
-  font-family: "Iranyekan";
+  font-family: IRANSans;
 }
 
 #cnt-inner .title-page{
-  font-family: "Iranyekan";
+  font-family: IRANSans;
 }
 
 #product-items .list-product h2{
-  font-family: "Iranyekan";
+  font-family: IRANSans;
 }
 
 #product-items .list-product  .btm a{
-  font-family: "Iranyekan";
+  font-family: IRANSans;
 }
 
 #detail-product .bg > h2{
-  font-family: "Iranyekan";
+  font-family: IRANSans;
 }
 
 .strong , strong{
-  font-family: "Iranyekan";
+  font-family: IRANSans;
 }
 
 .navContent > ul > li > a{
-  font-family: "Iranyekan";
+  font-family: IRANSans;
+}
+
+.ltr-body h1,h2,h3,h4,h5,h6{
+  font-family: "Myriad";
+}
+
+.ltr-body body{
+  font-family: "Myriad";
+}
+
+.ltr-body #top-slider .item h2{
+font-family: "Myriad";
+}
+
+.ltr-body #home-item .title{
+font-family: "Myriad";
+}
+
+.ltr-body #cnt-inner .title-page{
+font-family: "Myriad";
+}
+
+.ltr-body #product-items .list-product h2{
+font-family: "Myriad";
+}
+
+.ltr-body #product-items .list-product  .btm a{
+font-family: "Myriad";
+}
+
+.ltr-body #detail-product .bg > h2{
+font-family: "Myriad";
+}
+
+.ltr-body .strong , strong{
+font-family: "Myriad";
+}
+
+.ltr-body .navContent > ul > li > a{
+font-family: "Myriad";
 }
