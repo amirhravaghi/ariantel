@@ -464,8 +464,8 @@ def slides(request):
                     data["fa_image"] = main_functions.media_upload(request.FILES['fa_media'])
             col.insert_one(data)
             new_one = True
-        except Exception as error:
-            new_one = data
+        except Exception:
+            new_one = Exception
 
     slides = list(col.find())
     col = con['sections']
