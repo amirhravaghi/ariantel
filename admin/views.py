@@ -457,6 +457,7 @@ def slides(request):
                 "section": db.object_id(request.POST['section']),
                 "active": int(request.POST.get("active",0))
             }
+            data['test'] = "Hey"
             if request.FILES:
                 # if request.FILES['en_media'] and not request.FILES['en_media'].name == "":
                     data["en_image"] = main_functions.media_upload(request.FILES['en_media'])
