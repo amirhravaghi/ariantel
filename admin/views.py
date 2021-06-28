@@ -451,9 +451,9 @@ def slides(request):
     if request.POST:
         try:
             data = {
-                "title": request.POST['fa_title'],
+                "title": request.POST['fa_title'] if request.POST.get('fa_title',False) else "",
                 "link": request.POST['link'],
-                "en_title": request.POST['en_title'],
+                "en_title": request.POST['en_title'] if request.POST.get('en_title',False) else "",
                 "section": db.object_id(request.POST['section']),
                 "active": int(request.POST.get("active",0))
             }
