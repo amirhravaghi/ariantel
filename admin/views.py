@@ -459,10 +459,12 @@ def slides(request):
             }
             if request.FILES:
                 #data['test'] = "Hey"
-                if request.FILES['en_media'] and not request.FILES['en_media'].name == "":
-                    data["en_image"] = main_functions.media_upload(request.FILES['en_media'])
-                if request.FILES['fa_media'] and not request.FILES['fa_media'].name == "":
-                    data["fa_image"] = main_functions.media_upload(request.FILES['fa_media'])
+                en_file = request.FILES.get('en_media',False)
+                if en_file:
+                    data["en_image"] = main_functions.media_upload(en_file)
+                fa_file = request.FILES.get('fa_media',False)
+                if fa_file:
+                    data["fa_image"] = main_functions.media_upload(fa_file)
             col.insert_one(data)
             new_one = True
         # except Exception as error:
