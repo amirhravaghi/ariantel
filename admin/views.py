@@ -465,7 +465,7 @@ def slides(request):
             col.insert_one(data)
             new_one = True
         except Exception as error:
-            new_one = error
+            new_one = data
 
     slides = list(col.find())
     col = con['sections']
