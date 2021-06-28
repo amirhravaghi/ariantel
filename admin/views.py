@@ -449,7 +449,7 @@ def slides(request):
                 delete_status = False
 
     if request.POST:
-        try:
+        # try:
             data = {
                 "title": request.POST['fa_title'] if request.POST.get('fa_title',False) else "",
                 "link": request.POST['link'],
@@ -459,14 +459,14 @@ def slides(request):
             }
             if request.FILES:
                 #data['test'] = "Hey"
-                # if request.FILES['en_media'] and not request.FILES['en_media'].name == "":
-                data["en_image"] = main_functions.media_upload(request.FILES['en_media'])
-                # if request.FILES['fa_media'] and not request.FILES['fa_media'].name == "":
-                data["fa_image"] = main_functions.media_upload(request.FILES['fa_media'])
+                if request.FILES['en_media'] and not request.FILES['en_media'].name == "":
+                    data["en_image"] = main_functions.media_upload(request.FILES['en_media'])
+                if request.FILES['fa_media'] and not request.FILES['fa_media'].name == "":
+                    data["fa_image"] = main_functions.media_upload(request.FILES['fa_media'])
             col.insert_one(data)
             new_one = True
-        except Exception as error:
-            new_one = data
+        # except Exception as error:
+            # new_one = data
 
     slides = list(col.find())
     col = con['sections']
