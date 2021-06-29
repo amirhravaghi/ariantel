@@ -466,7 +466,7 @@ def slides(request):
                 if fa_file:
                     data["fa_image"] = main_functions.media_upload(fa_file)
             col.insert_one(data)
-            new_one = True
+            new_one = request.FILES
         # except Exception as error:
             # new_one = data
 
