@@ -449,7 +449,7 @@ def slides(request):
                 delete_status = False
 
     if request.POST:
-        # try:
+        try:
             data = {
                 "title": request.POST['fa_title'] if request.POST.get('fa_title',False) else "",
                 "link": request.POST['link'],
@@ -466,9 +466,9 @@ def slides(request):
                 if fa_file:
                     data["fa_image"] = main_functions.media_upload(fa_file)
             col.insert_one(data)
-            new_one = request.FILES
-        # except Exception as error:
-            # new_one = data
+            new_one = True
+        except Exception as error:
+            new_one = False
 
     slides = list(col.find())
     col = con['sections']
@@ -514,14 +514,17 @@ def edit_slide(request,sid):
                 "active": int(request.POST.get("active",0))
             }
             if request.FILES:
-                if request.FILES['en_media'] and not request.FILES['en_media'].name == "":
-                    data["en_image"]= main_functions.media_upload(request.FILES['en_media'])
-                if request.FILES['fa_media'] and not request.FILES['fa_media'].name == "":
-                    data["fa_image"]= main_functions.media_upload(request.FILES['fa_media'])
-            col.update_one({"_id":db.object_id(sid)},{"$set":data})
-            edit_status = True
-        except:
-            edit_status = False
+                #data['test'] = "Hey"
+                en_file = request.FILES.get('en_media',False)
+                if en_file:
+                    data["en_image"] = main_functions.media_upload(en_file)
+                fa_file = request.FILES.get('fa_media',False)
+                if fa_file:
+                    data["fa_image"] = main_functions.media_upload(fa_file)
+            col.insert_one(data)
+            new_one = True
+        except Exception as error:
+            new_one = False
 
     slide = col.find_one({'_id':db.object_id(sid)})
     slide['id'] = slide['_id']
