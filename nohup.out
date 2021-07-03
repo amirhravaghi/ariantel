@@ -38764,3 +38764,2651 @@ Not Found: /admin/editSubMenu/assets/js/chart.min.js
 [03/Jul/2021 09:12:50] "GET /static/main/Content/site/fa_fonts/Myriad/MYRIADPRO-REGULAR.woff HTTP/1.1" 304 0
 [03/Jul/2021 09:14:42] "GET / HTTP/1.1" 200 42143
 [03/Jul/2021 09:14:43] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 10:09:21] "GET / HTTP/1.1" 200 42143
+[03/Jul/2021 10:09:25] "GET /admin HTTP/1.1" 200 18813
+Not Found: /assets/images/person.png
+[03/Jul/2021 10:09:25] "GET /assets/images/person.png HTTP/1.1" 404 4416
+Not Found: /assets/js/chart.min.js
+[03/Jul/2021 10:09:25] "GET /assets/js/chart.min.js HTTP/1.1" 404 4410
+Not Found: /assets/js/chart.min.js
+[03/Jul/2021 10:09:25] "GET /assets/js/chart.min.js HTTP/1.1" 404 4410
+[03/Jul/2021 10:09:26] "GET /static/assets/images/favicon.ico HTTP/1.1" 404 1938
+[03/Jul/2021 10:09:30] "GET /admin/subMenu HTTP/1.1" 200 54765
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 10:09:30] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 10:09:30] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 10:09:35] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 10:09:36] "GET / HTTP/1.1" 200 44135
+[03/Jul/2021 10:09:54] "GET /admin/editSubMenu/60afdee6cc60760461809ce1 HTTP/1.1" 200 26534
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 10:09:54] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 10:09:54] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 10:10:29] "GET /admin/subMenu HTTP/1.1" 200 54765
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 10:10:29] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 10:10:29] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 10:10:50] "GET /admin/subMenu?delete=60afdee6cc60760461809ce1 HTTP/1.1" 200 54468
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 10:10:50] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 10:10:50] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 10:10:55] "GET / HTTP/1.1" 200 44135
+[03/Jul/2021 10:10:55] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 10:11:09] "GET /admin/addSubMenu HTTP/1.1" 200 26285
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 10:11:09] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 10:11:09] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 10:11:25] "POST /admin/subMenu HTTP/1.1" 200 54982
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 10:11:25] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 10:11:25] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 10:11:31] "GET / HTTP/1.1" 200 44488
+[03/Jul/2021 10:11:32] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 10:11:50] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 10:11:50] "GET / HTTP/1.1" 200 42485
+[03/Jul/2021 10:11:58] "GET /admin/addSubMenu HTTP/1.1" 200 26412
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 10:11:58] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 10:11:58] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 10:12:18] "POST /admin/subMenu HTTP/1.1" 200 55485
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 10:12:18] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 10:12:18] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 10:12:21] "GET / HTTP/1.1" 200 42613
+[03/Jul/2021 10:12:22] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 10:12:26] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 10:12:26] "GET / HTTP/1.1" 200 44634
+[03/Jul/2021 10:12:42] "GET /admin/subMenu?delete=60e0380194562fa1f73555d5 HTTP/1.1" 200 54965
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 10:12:42] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 10:12:42] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 10:12:47] "GET /admin/subMenu?delete=60e037cd94562fa1f73555cc HTTP/1.1" 200 54468
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 10:12:47] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 10:12:48] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 10:12:50] "GET / HTTP/1.1" 200 44135
+[03/Jul/2021 10:12:51] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 10:12:56] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 10:12:56] "GET / HTTP/1.1" 200 42143
+[03/Jul/2021 10:13:00] "GET /static/main/Scripts/site/util.js.map HTTP/1.1" 404 1950
+[03/Jul/2021 10:13:00] "GET /static/main/Content/site/bootstrap.min.css.map HTTP/1.1" 404 1980
+[03/Jul/2021 10:13:11] "GET /static/main/media/e79a965c-28ed-4888-af8e-10949dab88fae-mway-ok.png HTTP/1.1" 200 1200498
+[03/Jul/2021 10:16:29] "GET /static/main/media/internet.png HTTP/1.1" 200 130525
+[03/Jul/2021 10:16:29] "GET /static/main/media/sms.png HTTP/1.1" 200 102057
+[03/Jul/2021 10:16:29] "GET /static/main/media/call.png HTTP/1.1" 200 106599
+[03/Jul/2021 10:16:29] "GET /static/main/media/tarkibi.png HTTP/1.1" 200 107803
+[03/Jul/2021 10:16:30] "GET /packages/60b795e4941c3d6e1fe66214 HTTP/1.1" 200 47751
+[03/Jul/2021 10:16:30] "GET /static/main/Content/site/skin0.css HTTP/1.1" 200 47998
+[03/Jul/2021 10:16:30] "GET /static/main/Content/site/fonts.css HTTP/1.1" 200 3154
+[03/Jul/2021 10:16:30] "GET /static/main/css/ltr.css HTTP/1.1" 200 3553
+[03/Jul/2021 10:16:30] "GET /static/main/Content/site/fa.css HTTP/1.1" 200 37
+[03/Jul/2021 10:16:30] "GET /static/main/Content/site/style2.css HTTP/1.1" 200 88761
+[03/Jul/2021 10:16:30] "GET /static/main/Content/site/bootstrap.min.css HTTP/1.1" 200 121159
+[03/Jul/2021 10:16:30] "GET /static/main/Scripts/site/core.js HTTP/1.1" 200 33680
+[03/Jul/2021 10:16:30] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 200 4599
+[03/Jul/2021 10:16:30] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 200 3163
+[03/Jul/2021 10:16:30] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 200 7103
+[03/Jul/2021 10:16:30] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 200 6288
+[03/Jul/2021 10:16:30] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 200 21587
+[03/Jul/2021 10:16:31] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 200 3745
+[03/Jul/2021 10:16:31] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 200 5002
+[03/Jul/2021 10:16:31] "GET /static/main/Scripts/site/util.js HTTP/1.1" 200 4108
+[03/Jul/2021 10:16:31] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 200 4122
+[03/Jul/2021 10:16:31] "GET /static/main/Scripts/site/compare.js HTTP/1.1" 200 5193
+[03/Jul/2021 10:16:31] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 200 102631
+[03/Jul/2021 10:16:31] "GET /static/main/Content/site/bootstrap.min.css.map HTTP/1.1" 404 1980
+[03/Jul/2021 10:16:31] "GET /static/main/Content/site/jquery.nouislider.css HTTP/1.1" 200 3155
+[03/Jul/2021 10:16:31] "GET /static/main/Scripts/site/jquery.nouislider.full.min.js HTTP/1.1" 200 17534
+[03/Jul/2021 10:16:31] "GET /static/main/Content/site/fa_fonts/IRANSansWeb.woff2 HTTP/1.1" 200 31320
+[03/Jul/2021 10:16:31] "GET /static/main/Scripts/site/jquery.mCustomScrollbar.concat.min.js HTTP/1.1" 200 45489
+[03/Jul/2021 10:16:31] "GET /static/main/Content/site/jquery.mCustomScrollbar.css HTTP/1.1" 200 54069
+[03/Jul/2021 10:16:31] "GET /static/main/Content/site/fa_fonts/Myriad/MYRIADPRO-REGULAR.woff HTTP/1.1" 200 61848
+[03/Jul/2021 10:16:31] "GET /static/main/Content/site/img/logo.png HTTP/1.1" 200 26144
+[03/Jul/2021 10:16:31] "GET /static/main/Content/site/img/icon.png HTTP/1.1" 200 2756
+[03/Jul/2021 10:16:31] "GET /static/main/Scripts/site/util.js.map HTTP/1.1" 404 1950
+[03/Jul/2021 10:16:31] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 200 6156
+[03/Jul/2021 10:16:31] "GET /static/main/Scripts/site/captcha.js HTTP/1.1" 200 1163
+[03/Jul/2021 10:16:31] "GET /static/main/images/logo.png HTTP/1.1" 200 26115
+[03/Jul/2021 10:16:31] "GET /static/main/images/logo-footer.png HTTP/1.1" 200 6733
+[03/Jul/2021 10:16:32] "GET /static/main/images/footer-img.png HTTP/1.1" 200 6831
+[03/Jul/2021 10:16:32] "GET /static/main/Scripts/site/search.js HTTP/1.1" 200 10054
+[03/Jul/2021 10:16:32] "GET /static/main/Upload/Images/195.png HTTP/1.1" 200 76955
+[03/Jul/2021 10:16:33] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 10:17:20] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 10:17:20] "GET / HTTP/1.1" 200 42143
+[03/Jul/2021 10:17:21] "GET /static/main/Content/site/fa_fonts/Myriad/MYRIADPRO-REGULAR.woff HTTP/1.1" 200 61848
+/home/django/ariantel/main/langs.py changed, reloading.
+Performing system checks...
+
+June 30, 2021 - 09:36:14
+Django version 3.2.3, using settings 'main_website.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W002) Your URL pattern '/addAdmin' [name='add_admin'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addCard' [name='add_card'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addFaq' [name='add_faq'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addMenuItem' [name='add_menu_item'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addNews' [name='add_news'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addPackage' [name='add_package'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addPage' [name='add_page'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addSlide' [name='add_slide'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/addSubMenu' [name='add_sub_item'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/admins' [name='admins'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/api/mediaUpload' [name='media_upload'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/cards' [name='cards'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editAdmin/<str:aid>' [name='edit_admin'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editCards/<str:pid>' [name='edit_card'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editFaq/<str:qid>' [name='edit_faq'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editMenuItem/<str:mid>' [name='edit_menu_item'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editNews/<str:aid>' [name='edit_news'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editPackage/<str:pid>' [name='edit_package'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editPage/<str:pid>' [name='edit_page'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editSlide/<str:sid>' [name='edit_slide'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/editSubMenu/<str:mid>' [name='edit_sub_item'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/faqs' [name='faqs'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/login' [name='login'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/logout' [name='logout'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/mainMenu' [name='main_menu'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/news' [name='news'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/packages' [name='packages'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/pages' [name='pages'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/slides' [name='slides'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+?: (urls.W002) Your URL pattern '/subMenu' [name='sub_menu'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+
+System check identified 30 issues (0 silenced).
+[03/Jul/2021 10:20:54] "GET /admin/news HTTP/1.1" 200 26846
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 10:20:54] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 10:20:55] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 10:21:02] "GET /admin/subMenu HTTP/1.1" 200 54275
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 10:21:02] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 10:21:02] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 10:21:04] "GET /admin/editSubMenu/60afdee6cc60760461809ce0 HTTP/1.1" 200 26547
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 10:21:04] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 10:21:04] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 10:21:09] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 10:22:50] "GET /packages/60b795e4941c3d6e1fe66214 HTTP/1.1" 200 47925
+[03/Jul/2021 10:22:50] "GET /static/main/Content/site/fonts.css HTTP/1.1" 200 3154
+[03/Jul/2021 10:22:50] "GET /static/main/css/ltr.css HTTP/1.1" 200 3553
+[03/Jul/2021 10:22:50] "GET /static/main/Content/site/fa.css HTTP/1.1" 200 37
+[03/Jul/2021 10:22:50] "GET /static/main/Content/site/skin0.css HTTP/1.1" 200 47998
+[03/Jul/2021 10:22:50] "GET /static/main/Scripts/site/core.js HTTP/1.1" 200 33680
+[03/Jul/2021 10:22:50] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 200 4599
+[03/Jul/2021 10:22:51] "GET /static/main/Content/site/style2.css HTTP/1.1" 200 88761
+[03/Jul/2021 10:22:51] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 200 3163
+[03/Jul/2021 10:22:51] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 200 7103
+[03/Jul/2021 10:22:51] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 200 6288
+[03/Jul/2021 10:22:51] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 200 21587
+[03/Jul/2021 10:22:51] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 200 3745
+[03/Jul/2021 10:22:51] "GET /static/main/Scripts/site/util.js HTTP/1.1" 200 4108
+[03/Jul/2021 10:22:51] "GET /static/main/Content/site/bootstrap.min.css HTTP/1.1" 200 121159
+[03/Jul/2021 10:22:51] "GET /static/main/Content/site/bootstrap.min.css.map HTTP/1.1" 404 1980
+[03/Jul/2021 10:22:51] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 200 102631
+[03/Jul/2021 10:22:51] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 200 5002
+[03/Jul/2021 10:22:51] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 200 4122
+[03/Jul/2021 10:22:51] "GET /static/main/Scripts/site/compare.js HTTP/1.1" 200 5193
+[03/Jul/2021 10:22:51] "GET /static/main/Scripts/site/jquery.mCustomScrollbar.concat.min.js HTTP/1.1" 200 45489
+[03/Jul/2021 10:22:52] "GET /static/main/Content/site/jquery.mCustomScrollbar.css HTTP/1.1" 200 54069
+[03/Jul/2021 10:22:52] "GET /static/main/Content/site/jquery.nouislider.css HTTP/1.1" 200 3155
+[03/Jul/2021 10:22:52] "GET /static/main/Scripts/site/jquery.nouislider.full.min.js HTTP/1.1" 200 17534
+[03/Jul/2021 10:22:52] "GET /static/main/Scripts/site/search.js HTTP/1.1" 200 10054
+[03/Jul/2021 10:22:52] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 200 6156
+[03/Jul/2021 10:22:52] "GET /static/main/Scripts/site/captcha.js HTTP/1.1" 200 1163
+[03/Jul/2021 10:22:52] "GET /static/main/images/logo.png HTTP/1.1" 200 26115
+[03/Jul/2021 10:22:52] "GET /static/main/images/logo-footer.png HTTP/1.1" 200 6733
+[03/Jul/2021 10:22:52] "GET /static/main/images/footer-img.png HTTP/1.1" 200 6831
+[03/Jul/2021 10:22:53] "GET /static/main/Upload/Images/195.png HTTP/1.1" 200 76955
+[03/Jul/2021 10:22:54] "GET /static/main/Content/site/img/logo.png HTTP/1.1" 200 26144
+[03/Jul/2021 10:22:54] "GET /static/main/Content/site/img/icon.png HTTP/1.1" 200 2756
+[03/Jul/2021 10:22:54] "GET /static/main/Content/site/fa_fonts/IRANSansWeb.woff2 HTTP/1.1" 200 31320
+[03/Jul/2021 10:22:55] "GET /static/main/Scripts/site/util.js.map HTTP/1.1" 404 1950
+[03/Jul/2021 10:22:55] "GET /static/main/Content/site/fa_fonts/Myriad/MYRIADPRO-REGULAR.woff HTTP/1.1" 200 61848
+[03/Jul/2021 10:22:56] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 10:23:04] "GET /packages/60b795e4941c3d6e1fe66214 HTTP/1.1" 200 47925
+[03/Jul/2021 10:23:04] "GET /static/main/Content/site/skin0.css HTTP/1.1" 200 47998
+[03/Jul/2021 10:23:04] "GET /static/main/Content/site/fonts.css HTTP/1.1" 200 3154
+[03/Jul/2021 10:23:04] "GET /static/main/css/ltr.css HTTP/1.1" 200 3553
+[03/Jul/2021 10:23:04] "GET /static/main/Content/site/fa.css HTTP/1.1" 200 37
+[03/Jul/2021 10:23:04] "GET /static/main/Scripts/site/core.js HTTP/1.1" 200 33680
+[03/Jul/2021 10:23:04] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 200 4599
+[03/Jul/2021 10:23:04] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 200 3163
+[03/Jul/2021 10:23:05] "GET /static/main/Content/site/style2.css HTTP/1.1" 200 88761
+[03/Jul/2021 10:23:05] "GET /static/main/Content/site/bootstrap.min.css HTTP/1.1" 200 121159
+[03/Jul/2021 10:23:05] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 200 7103
+[03/Jul/2021 10:23:05] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 200 6288
+[03/Jul/2021 10:23:05] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 200 21587
+[03/Jul/2021 10:23:05] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 200 3745
+[03/Jul/2021 10:23:05] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 200 5002
+[03/Jul/2021 10:23:05] "GET /static/main/Scripts/site/util.js HTTP/1.1" 200 4108
+[03/Jul/2021 10:23:05] "GET /static/main/Content/site/bootstrap.min.css.map HTTP/1.1" 404 1980
+[03/Jul/2021 10:23:05] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 200 4122
+[03/Jul/2021 10:23:06] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 200 102631
+[03/Jul/2021 10:23:06] "GET /static/main/Scripts/site/compare.js HTTP/1.1" 200 5193
+[03/Jul/2021 10:23:06] "GET /static/main/Scripts/site/jquery.mCustomScrollbar.concat.min.js HTTP/1.1" 200 45489
+[03/Jul/2021 10:23:06] "GET /static/main/Content/site/jquery.mCustomScrollbar.css HTTP/1.1" 200 54069
+[03/Jul/2021 10:23:06] "GET /static/main/Content/site/jquery.nouislider.css HTTP/1.1" 200 3155
+[03/Jul/2021 10:23:06] "GET /static/main/Scripts/site/jquery.nouislider.full.min.js HTTP/1.1" 200 17534
+[03/Jul/2021 10:23:06] "GET /static/main/Scripts/site/search.js HTTP/1.1" 200 10054
+[03/Jul/2021 10:23:06] "GET /static/main/Content/site/fa_fonts/IRANSansWeb.woff2 HTTP/1.1" 200 31320
+[03/Jul/2021 10:23:06] "GET /static/main/Content/site/img/logo.png HTTP/1.1" 200 26144
+[03/Jul/2021 10:23:06] "GET /static/main/Content/site/img/icon.png HTTP/1.1" 200 2756
+[03/Jul/2021 10:23:06] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 200 6156
+[03/Jul/2021 10:23:06] "GET /static/main/Scripts/site/util.js.map HTTP/1.1" 404 1950
+[03/Jul/2021 10:23:06] "GET /static/main/Scripts/site/captcha.js HTTP/1.1" 200 1163
+[03/Jul/2021 10:23:06] "GET /static/main/images/logo.png HTTP/1.1" 200 26115
+[03/Jul/2021 10:23:06] "GET /static/main/images/logo-footer.png HTTP/1.1" 200 6733
+[03/Jul/2021 10:23:06] "GET /static/main/images/footer-img.png HTTP/1.1" 200 6831
+[03/Jul/2021 10:23:06] "GET /static/main/Content/site/fa_fonts/Myriad/MYRIADPRO-REGULAR.woff HTTP/1.1" 200 61848
+[03/Jul/2021 10:23:06] "GET /static/main/Upload/Images/195.png HTTP/1.1" 200 76955
+[03/Jul/2021 10:23:06] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 10:23:40] "GET /packages/60b795e4941c3d6e1fe66214 HTTP/1.1" 200 47940
+[03/Jul/2021 10:23:40] "GET /static/main/Content/site/skin0.css HTTP/1.1" 200 47998
+[03/Jul/2021 10:23:40] "GET /static/main/Content/site/fonts.css HTTP/1.1" 200 3154
+[03/Jul/2021 10:23:40] "GET /static/main/css/ltr.css HTTP/1.1" 200 3553
+[03/Jul/2021 10:23:40] "GET /static/main/Content/site/fa.css HTTP/1.1" 200 37
+[03/Jul/2021 10:23:40] "GET /static/main/Scripts/site/core.js HTTP/1.1" 200 33680
+[03/Jul/2021 10:23:40] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 200 4599
+[03/Jul/2021 10:23:40] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 200 3163
+[03/Jul/2021 10:23:40] "GET /static/main/Content/site/style2.css HTTP/1.1" 200 88761
+[03/Jul/2021 10:23:40] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 200 6288
+[03/Jul/2021 10:23:40] "GET /static/main/Content/site/bootstrap.min.css HTTP/1.1" 200 121159
+[03/Jul/2021 10:23:40] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 200 21587
+[03/Jul/2021 10:23:40] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 200 3745
+[03/Jul/2021 10:23:40] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 200 5002
+[03/Jul/2021 10:23:40] "GET /static/main/Scripts/site/util.js HTTP/1.1" 200 4108
+[03/Jul/2021 10:23:40] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 200 7103
+[03/Jul/2021 10:23:40] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 200 102631
+[03/Jul/2021 10:23:40] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 200 4122
+[03/Jul/2021 10:23:40] "GET /static/main/Content/site/bootstrap.min.css.map HTTP/1.1" 404 1980
+[03/Jul/2021 10:23:40] "GET /static/main/Scripts/site/compare.js HTTP/1.1" 200 5193
+[03/Jul/2021 10:23:40] "GET /static/main/Scripts/site/jquery.mCustomScrollbar.concat.min.js HTTP/1.1" 200 45489
+[03/Jul/2021 10:23:40] "GET /static/main/Content/site/jquery.mCustomScrollbar.css HTTP/1.1" 200 54069
+[03/Jul/2021 10:23:40] "GET /static/main/Content/site/jquery.nouislider.css HTTP/1.1" 200 3155
+[03/Jul/2021 10:23:40] "GET /static/main/Scripts/site/jquery.nouislider.full.min.js HTTP/1.1" 200 17534
+[03/Jul/2021 10:23:40] "GET /static/main/Scripts/site/search.js HTTP/1.1" 200 10054
+[03/Jul/2021 10:23:40] "GET /static/main/Content/site/fa_fonts/IRANSansWeb.woff2 HTTP/1.1" 200 31320
+[03/Jul/2021 10:23:40] "GET /static/main/Content/site/img/icon.png HTTP/1.1" 200 2756
+[03/Jul/2021 10:23:40] "GET /static/main/Content/site/img/logo.png HTTP/1.1" 200 26144
+[03/Jul/2021 10:23:40] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 200 6156
+[03/Jul/2021 10:23:40] "GET /static/main/Content/site/fa_fonts/Myriad/MYRIADPRO-REGULAR.woff HTTP/1.1" 200 61848
+[03/Jul/2021 10:23:41] "GET /static/main/Scripts/site/util.js.map HTTP/1.1" 404 1950
+[03/Jul/2021 10:23:41] "GET /static/main/Scripts/site/captcha.js HTTP/1.1" 200 1163
+[03/Jul/2021 10:23:41] "GET /static/main/images/logo.png HTTP/1.1" 200 26115
+[03/Jul/2021 10:23:41] "GET /static/main/images/logo-footer.png HTTP/1.1" 200 6733
+[03/Jul/2021 10:23:41] "GET /static/main/images/footer-img.png HTTP/1.1" 200 6831
+[03/Jul/2021 10:23:41] "GET /static/main/Upload/Images/195.png HTTP/1.1" 200 76955
+[03/Jul/2021 10:23:42] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 10:26:38] "GET /enterprise HTTP/1.1" 200 23801
+[03/Jul/2021 10:26:40] "GET / HTTP/1.1" 200 44135
+[03/Jul/2021 10:26:41,368] - Broken pipe from ('194.60.210.41', 60595)
+
+[03/Jul/2021 10:26:41,370] - Broken pipe from ('194.60.210.41', 34770)
+
+[03/Jul/2021 10:26:41,371] - Broken pipe from ('194.60.210.41', 61542)
+
+[03/Jul/2021 10:26:41,646] - Broken pipe from ('194.60.210.41', 53286)
+
+[03/Jul/2021 10:26:42,289] - Broken pipe from ('194.60.210.41', 62690)
+
+[03/Jul/2021 10:26:54] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 10:26:54] "GET / HTTP/1.1" 200 42143
+[03/Jul/2021 10:27:25] "GET /admin/subMenu HTTP/1.1" 200 54278
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 10:27:26] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 10:27:26] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 10:27:57] "GET /admin/editSubMenu/60afdee6cc60760461809ce3 HTTP/1.1" 200 26540
+Not Found: /admin/editSubMenu/assets/images/person.png
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 10:27:57] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+[03/Jul/2021 10:27:57] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 10:28:05] "GET /admin HTTP/1.1" 200 18816
+Not Found: /assets/images/person.png
+[03/Jul/2021 10:28:05] "GET /assets/images/person.png HTTP/1.1" 404 4416
+Not Found: /assets/js/chart.min.js
+[03/Jul/2021 10:28:05] "GET /assets/js/chart.min.js HTTP/1.1" 404 4410
+[03/Jul/2021 10:31:32] "GET /admin/subMenu HTTP/1.1" 200 54278
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 10:31:32] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 10:31:32] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 10:31:33,183] - Broken pipe from ('194.60.210.41', 13331)
+
+[03/Jul/2021 10:31:42] "GET /admin/editSubMenu/60e00e5994562fa1f735551f HTTP/1.1" 200 26551
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 10:31:42] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 10:31:42] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 10:31:43] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 10:31:50] "GET / HTTP/1.1" 200 42143
+[03/Jul/2021 10:31:52] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 10:31:52] "GET / HTTP/1.1" 200 44135
+[03/Jul/2021 10:32:02] "POST /admin/editSubMenu/60e00e5994562fa1f735551f HTTP/1.1" 200 26788
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 10:32:02] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 10:32:03] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 10:32:05] "GET / HTTP/1.1" 200 44135
+[03/Jul/2021 10:32:06] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 10:32:18] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 10:32:19] "GET / HTTP/1.1" 200 44135
+[03/Jul/2021 10:32:31] "POST /admin/editSubMenu/60e00e5994562fa1f735551f HTTP/1.1" 200 26905
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 10:32:31] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 10:32:31] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 10:32:37] "GET / HTTP/1.1" 200 44487
+[03/Jul/2021 10:32:38] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 10:35:06] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 10:35:06] "GET / HTTP/1.1" 200 42488
+[03/Jul/2021 10:35:36] "GET /admin/subMenu HTTP/1.1" 200 54278
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 10:35:36] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 10:35:36] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 10:40:06] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 10:40:06] "GET / HTTP/1.1" 200 44487
+[03/Jul/2021 10:41:28] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 10:41:29] "GET / HTTP/1.1" 200 42488
+[03/Jul/2021 10:41:42] "GET /packages/60b795e4941c3d6e1fe66214 HTTP/1.1" 200 48285
+[03/Jul/2021 10:44:37] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 10:44:37] "GET / HTTP/1.1" 200 44487
+[03/Jul/2021 10:47:47] "GET /static/main/Content/site/img/logo1.png HTTP/1.1" 200 22636
+[03/Jul/2021 10:47:48] "GET / HTTP/1.1" 200 42488
+[03/Jul/2021 10:47:48] "GET /static/main/Content/site/fonts.css HTTP/1.1" 200 3154
+[03/Jul/2021 10:47:48] "GET /static/main/css/ltr.css HTTP/1.1" 200 3553
+[03/Jul/2021 10:47:48] "GET /static/main/Content/site/skin0.css HTTP/1.1" 200 47998
+[03/Jul/2021 10:47:48] "GET /static/main/Scripts/site/core.js HTTP/1.1" 200 33680
+[03/Jul/2021 10:47:48] "GET /static/main/Scripts/site/jquery.easing.1.3.min.js HTTP/1.1" 200 4599
+[03/Jul/2021 10:47:48] "GET /static/main/Content/site/style2.css HTTP/1.1" 200 88761
+[03/Jul/2021 10:47:48] "GET /static/main/Scripts/site/jquery.browser.js HTTP/1.1" 200 3163
+[03/Jul/2021 10:47:48] "GET /static/main/Content/site/bootstrap.min.css HTTP/1.1" 200 121159
+[03/Jul/2021 10:47:48] "GET /static/main/Scripts/site/jquery.unobtrusive-ajax.js HTTP/1.1" 200 6288
+[03/Jul/2021 10:47:48] "GET /static/main/Scripts/site/jquery.validate.min.js HTTP/1.1" 200 21587
+[03/Jul/2021 10:47:48] "GET /static/main/Scripts/site/jquery.validate.unobtrusive.min.js HTTP/1.1" 200 3745
+[03/Jul/2021 10:47:48] "GET /static/main/Content/site/fa.css HTTP/1.1" 200 37
+[03/Jul/2021 10:47:48] "GET /static/main/Scripts/site/booNavigation.js HTTP/1.1" 200 5002
+[03/Jul/2021 10:47:48] "GET /static/main/Scripts/site/util.js HTTP/1.1" 200 4108
+[03/Jul/2021 10:47:48] "GET /static/main/Scripts/site/modernizr.js HTTP/1.1" 200 7103
+[03/Jul/2021 10:47:48] "GET /static/main/Scripts/site/owl.carousel.min.js HTTP/1.1" 200 102631
+[03/Jul/2021 10:47:48] "GET /static/main/Content/site/bootstrap.min.css.map HTTP/1.1" 404 1980
+[03/Jul/2021 10:48:00] "GET /static/main/Scripts/site/jquery.pageslide.min.js HTTP/1.1" 200 4122
+[03/Jul/2021 10:48:00] "GET /static/main/Scripts/site/MyScript.js HTTP/1.1" 200 6156
+[03/Jul/2021 10:48:00] "GET /static/main/Scripts/site/captcha.js HTTP/1.1" 200 1163
+[03/Jul/2021 10:48:00] "GET /static/main/Scripts/site/util.js.map HTTP/1.1" 404 1950
+[03/Jul/2021 10:48:00] "GET /static/main/Content/site/img/logo.png HTTP/1.1" 200 26144
+[03/Jul/2021 10:48:00] "GET /static/main/images/logo.png HTTP/1.1" 200 26115
+[03/Jul/2021 10:48:00] "GET /static/main/Content/site/fa_fonts/IRANSansWeb.woff2 HTTP/1.1" 200 31320
+[03/Jul/2021 10:48:00] "GET /static/main/Content/site/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 404 2018
+[03/Jul/2021 10:48:00] "GET /static/main/Content/site/fonts/fontawesome-webfont.woff?v=4.7.0 HTTP/1.1" 404 2015
+[03/Jul/2021 10:48:00] "GET /static/main/Content/site/fa_fonts/Myriad/MYRIADPRO-REGULAR.woff HTTP/1.1" 200 61848
+[03/Jul/2021 10:48:01] "GET /static/main/Content/site/img/icon.png HTTP/1.1" 200 2756
+[03/Jul/2021 10:48:02] "GET /static/main/Content/site/fonts/fontawesome-webfont.ttf?v=4.7.0 HTTP/1.1" 404 2012
+[03/Jul/2021 10:48:02] "GET /static/main/Upload/Images/link/1-1.gif HTTP/1.1" 200 3721
+[03/Jul/2021 10:48:02] "GET /static/main/Upload/Images/link/2-1.gif HTTP/1.1" 200 3689
+[03/Jul/2021 10:48:02] "GET /static/main/Upload/Images/link/3-1.gif HTTP/1.1" 200 3137
+[03/Jul/2021 10:48:02] "GET /static/main/Upload/Images/link/4-1.gif HTTP/1.1" 200 2615
+[03/Jul/2021 10:48:02] "GET /static/main/Upload/Images/link/5-1.gif HTTP/1.1" 200 3933
+[03/Jul/2021 10:48:03] "GET /static/main/Upload/Images/link/6-1.gif HTTP/1.1" 200 3778
+[03/Jul/2021 10:48:03] "GET /static/main/Upload/Images/link/7-1.gif HTTP/1.1" 200 3686
+[03/Jul/2021 10:48:03] "GET /static/main/Upload/Images/link/8-1.gif HTTP/1.1" 200 3302
+[03/Jul/2021 10:48:05] "GET /static/main/media/8eab75e1-a18f-4e46-accb-23cb0ea3aa73slider.jpg HTTP/1.1" 200 315727
+[03/Jul/2021 10:48:06] "GET /static/main/media/c2d35484-209e-4c83-bedd-f75649127e81sim%20toorism.png HTTP/1.1" 200 96626
+[03/Jul/2021 10:48:06] "GET /static/main/media/061f1772-469d-406d-8a85-00c02c13516dsim-etebari.png HTTP/1.1" 200 151806
+[03/Jul/2021 10:48:06] "GET /static/main/media/bfa2e24d-080a-4855-a6db-28230074815bsim-daeemi.png HTTP/1.1" 200 150547
+[03/Jul/2021 10:48:07] "GET /static/main/media/2d1504bf-ec3c-4492-9593-b837898d675csim-rond.png HTTP/1.1" 200 77729
+[03/Jul/2021 10:48:07] "GET /static/main/media/0c6d5171-a6d2-44bc-bc3b-6c2e4817cd74simdata.png HTTP/1.1" 200 109004
+[03/Jul/2021 10:48:08] "GET /static/main/media/internet.png HTTP/1.1" 200 130525
+[03/Jul/2021 10:48:08] "GET /static/main/media/sms.png HTTP/1.1" 200 102057
+[03/Jul/2021 10:48:08] "GET /static/main/media/tarkibi.png HTTP/1.1" 200 107803
+[03/Jul/2021 10:48:08] "GET /static/main/Upload/Images/link/1.gif HTTP/1.1" 200 6229
+[03/Jul/2021 10:48:08] "GET /static/main/Upload/Images/link/2.gif HTTP/1.1" 200 8254
+[03/Jul/2021 10:48:08] "GET /static/main/media/call.png HTTP/1.1" 200 106599
+[03/Jul/2021 10:48:08] "GET /static/main/Upload/Images/link/3.gif HTTP/1.1" 200 12144
+[03/Jul/2021 10:48:08] "GET /static/main/Upload/Images/link/4.gif HTTP/1.1" 200 3525
+[03/Jul/2021 10:48:08] "GET /static/main/Upload/Images/link/5.gif HTTP/1.1" 200 5849
+[03/Jul/2021 10:48:08] "GET /static/main/Upload/Images/link/6.gif HTTP/1.1" 200 6212
+[03/Jul/2021 10:48:08] "GET /static/main/Upload/Images/link/7.gif HTTP/1.1" 200 6028
+[03/Jul/2021 10:48:08] "GET /static/main/Upload/Images/link/8.gif HTTP/1.1" 200 6047
+[03/Jul/2021 10:48:08] "GET /static/main/images/logo-footer.png HTTP/1.1" 200 6733
+[03/Jul/2021 10:48:09] "GET /static/main/images/footer-img.png HTTP/1.1" 200 6831
+[03/Jul/2021 10:48:09] "GET /static/main/Upload/Images/195.png HTTP/1.1" 200 76955
+[03/Jul/2021 10:48:10] "GET /static/main/media/01a32133-4186-4eeb-8e8a-8c73aa8eef9cSupport.jpg HTTP/1.1" 200 1485352
+[03/Jul/2021 10:48:10] "GET /static/main/media/e79a965c-28ed-4888-af8e-10949dab88fae-mway-ok.png HTTP/1.1" 200 1200498
+[03/Jul/2021 10:48:10] "GET /static/main/media/72f3178d-d687-4519-9c6e-c82c51021d6eweb23.png HTTP/1.1" 200 1006298
+[03/Jul/2021 10:50:46] "GET /admin/editSubMenu/60afe2cb1f575526f2ad5d6c HTTP/1.1" 200 26731
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 10:50:46] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 10:50:46] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 10:50:47] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 10:51:01] "POST /admin/editSubMenu/60afe2cb1f575526f2ad5d6c HTTP/1.1" 200 26968
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 10:51:02] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 10:51:02] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 10:51:02,752] - Broken pipe from ('194.60.210.41', 11083)
+
+[03/Jul/2021 10:51:04] "GET / HTTP/1.1" 200 44487
+[03/Jul/2021 10:51:06] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 10:51:12] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 10:51:12] "GET / HTTP/1.1" 200 42488
+[03/Jul/2021 10:51:19] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 10:51:19] "GET / HTTP/1.1" 200 44487
+[03/Jul/2021 10:51:23] "GET /simcards/60bb566652022657011f7cf5 HTTP/1.1" 200 46791
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[03/Jul/2021 10:51:24] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4438
+[03/Jul/2021 10:51:40] "POST /admin/editSubMenu/60afe2cb1f575526f2ad5d6c HTTP/1.1" 200 26968
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 10:51:40] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 10:51:41] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 10:51:44] "GET / HTTP/1.1" 200 44487
+[03/Jul/2021 10:51:46] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 10:51:57] "GET /admin/packages HTTP/1.1" 200 44321
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 10:51:57] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 10:51:57] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 10:52:07] "GET /admin/pages HTTP/1.1" 200 45300
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 10:52:07] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 10:52:08] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 10:52:21] "GET /admin/subMenu HTTP/1.1" 200 54278
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 10:52:22] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 10:52:22] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 10:52:26] "GET /admin/editSubMenu/60afe3d034c584258e186c58 HTTP/1.1" 200 26713
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 10:52:27] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 10:52:27] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 10:52:57] "POST /admin/editSubMenu/60afe3d034c584258e186c58 HTTP/1.1" 200 26965
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 10:52:58] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 10:52:58] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+[03/Jul/2021 10:53:00] "GET / HTTP/1.1" 200 44669
+[03/Jul/2021 10:53:01] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 10:53:04] "GET /packages/60b795e4941c3d6e1fe66214 HTTP/1.1" 200 51233
+[03/Jul/2021 10:53:08] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 10:53:08] "GET / HTTP/1.1" 200 42660
+[03/Jul/2021 10:53:14] "GET /packages/60b795e4941c3d6e1fe66214 HTTP/1.1" 200 48457
+[03/Jul/2021 10:53:19] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 10:53:19] "GET / HTTP/1.1" 200 44669
+[03/Jul/2021 10:53:23] "GET /admin/editSubMenu/60afe3d034c584258e186c58 HTTP/1.1" 200 26728
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 10:53:23] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 10:53:23] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 10:53:28] "GET /admin/editSubMenu/60afe3d034c584258e186c5b HTTP/1.1" 200 26700
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 10:53:28] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 10:53:28] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+Not Found: /admin/assets/js/chart.min.js
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 10:53:34] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 10:53:34] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 10:53:37] "GET /admin/editSubMenu/60afe3d034c584258e186c5c HTTP/1.1" 200 26703
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 10:53:38] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 10:53:38] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 10:53:49] "POST /admin/editSubMenu/60afe3d034c584258e186c5c HTTP/1.1" 200 26945
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 10:53:49] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 10:53:49] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 10:53:52] "GET / HTTP/1.1" 200 44841
+[03/Jul/2021 10:53:54] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 10:54:00] "GET /voice_calls HTTP/1.1" 200 27984
+[03/Jul/2021 10:54:06] "GET /admin/editSubMenu/60afe3d034c584258e186c5c HTTP/1.1" 200 26708
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 10:54:06] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 10:54:13] "GET /admin/editSubMenu/60afe3d034c584258e186c5a HTTP/1.1" 200 26693
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 10:54:13] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+[03/Jul/2021 10:54:13,993] - Broken pipe from ('194.60.210.41', 2317)
+
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 10:54:15] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 10:54:24] "POST /admin/editSubMenu/60afe3d034c584258e186c5a HTTP/1.1" 200 26933
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 10:54:25] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 10:54:25] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 10:54:47] "GET / HTTP/1.1" 200 45003
+[03/Jul/2021 10:54:50] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 10:54:57] "GET /sms HTTP/1.1" 200 28149
+[03/Jul/2021 10:55:02] "GET /voice_calls HTTP/1.1" 200 28146
+[03/Jul/2021 10:55:09] "GET /admin/editSubMenu/60afe3d034c584258e186c5a HTTP/1.1" 200 26696
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 10:55:10] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 10:55:22] "GET /admin/editSubMenu/60afe3d034c584258e186c5b HTTP/1.1" 200 26700
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 10:55:22] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 10:55:22] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 10:55:38] "POST /admin/editSubMenu/60afe3d034c584258e186c5b HTTP/1.1" 200 26949
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 10:55:38] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 10:55:38] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 10:55:41] "GET / HTTP/1.1" 200 45172
+[03/Jul/2021 10:55:42] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 10:55:45] "GET /packages/60b795e4941c3d6e1fe66217 HTTP/1.1" 200 44659
+[03/Jul/2021 10:55:51] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 10:55:52] "GET / HTTP/1.1" 200 43149
+[03/Jul/2021 10:55:57] "GET /packages/60b795e4941c3d6e1fe66217 HTTP/1.1" 200 41755
+[03/Jul/2021 10:56:04] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 10:56:04] "GET / HTTP/1.1" 200 45172
+[03/Jul/2021 10:56:15] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 10:56:15] "GET / HTTP/1.1" 200 43149
+[03/Jul/2021 10:56:34] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 10:56:34] "GET / HTTP/1.1" 200 45172
+[03/Jul/2021 10:56:37] "GET /admin/packages HTTP/1.1" 200 44321
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 10:56:37] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 10:56:37] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 10:56:40] "GET /admin/pages HTTP/1.1" 200 45300
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 10:56:40] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 10:56:40] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 10:56:53] "GET /admin/subMenu HTTP/1.1" 200 54278
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 10:56:53] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 10:56:54] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 10:56:56] "GET /admin/editSubMenu/60e00e5994562fa1f735551f HTTP/1.1" 200 26668
+Not Found: /admin/editSubMenu/assets/images/person.png
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 10:56:56] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+[03/Jul/2021 10:56:56] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 10:57:04] "POST /admin/editSubMenu/60e00e5994562fa1f735551f HTTP/1.1" 200 26904
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 10:57:05] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 10:57:05] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 10:57:07] "GET / HTTP/1.1" 200 45172
+[03/Jul/2021 10:57:08] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 10:57:09] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 10:57:09] "GET / HTTP/1.1" 200 43148
+[03/Jul/2021 10:57:26] "GET /admin/subMenu HTTP/1.1" 200 54278
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 10:57:26] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 10:57:26] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 10:57:32] "GET /admin/editSubMenu/60afdee6cc60760461809ce3 HTTP/1.1" 200 26666
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 10:57:32] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 10:57:32] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 10:57:48] "POST /admin/editSubMenu/60afdee6cc60760461809ce3 HTTP/1.1" 200 26904
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 10:57:49] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 10:57:49] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+[03/Jul/2021 10:57:50] "GET / HTTP/1.1" 200 43149
+[03/Jul/2021 10:57:52] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 10:58:04] "GET /admin/subMenu HTTP/1.1" 200 54278
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 10:58:04] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 10:58:04] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 10:58:06] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 10:58:06] "GET / HTTP/1.1" 200 45172
+[03/Jul/2021 10:58:23] "GET /admin/editSubMenu/60afe4c667ce0dee340e7ed2 HTTP/1.1" 200 26708
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 10:58:24] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 10:58:24] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 10:58:45] "POST /admin/editSubMenu/60afe4c667ce0dee340e7ed2 HTTP/1.1" 200 26970
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 10:58:46] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 10:58:46] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 10:58:48] "GET / HTTP/1.1" 200 45172
+[03/Jul/2021 10:58:50] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 10:58:54] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 10:58:55] "GET / HTTP/1.1" 200 43174
+[03/Jul/2021 10:59:00] "GET /prepaid_charge HTTP/1.1" 200 26177
+[03/Jul/2021 10:59:27] "GET /admin/editSubMenu/60afe4c667ce0dee340e7ed2 HTTP/1.1" 200 26733
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 10:59:27] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 10:59:28] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 10:59:29] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 10:59:29] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 10:59:31] "GET /admin/editSubMenu/60afe4c667ce0dee340e7ed3 HTTP/1.1" 200 26748
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 10:59:32] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 10:59:33] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 10:59:41] "POST /admin/editSubMenu/60afe4c667ce0dee340e7ed3 HTTP/1.1" 200 27011
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 10:59:42] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 10:59:42] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 10:59:42,207] - Broken pipe from ('194.60.210.41', 10636)
+
+[03/Jul/2021 10:59:44] "GET / HTTP/1.1" 200 43200
+[03/Jul/2021 10:59:45] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 11:00:19] "GET /admin/subMenu HTTP/1.1" 200 54278
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:00:19] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:00:19] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:00:22] "GET /admin/editSubMenu/60afdee6cc60760461809ce4 HTTP/1.1" 200 26687
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:00:22] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:00:22] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:00:34] "GET /admin/subMenu HTTP/1.1" 200 54278
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:00:34] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:00:35] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:00:38] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 11:00:38] "GET / HTTP/1.1" 200 45172
+[03/Jul/2021 11:00:51] "GET /admin/editSubMenu/60afe543d457727d341f0a5b HTTP/1.1" 200 26674
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:00:52] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:00:52] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:01:04] "POST /admin/editSubMenu/60afe543d457727d341f0a5b HTTP/1.1" 200 26918
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:01:05] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:01:05] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:01:07] "GET /admin/editSubMenu/60afe543d457727d341f0a5b HTTP/1.1" 200 26681
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:01:07] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:01:08] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 11:01:10] "GET /admin/editSubMenu/60afe543d457727d341f0a5c HTTP/1.1" 200 26703
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:01:11] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:01:11] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:01:23] "POST /admin/editSubMenu/60afe543d457727d341f0a5c HTTP/1.1" 200 26955
+Not Found: /admin/editSubMenu/assets/images/person.png
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:01:24] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+[03/Jul/2021 11:01:24] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:02:12] "GET / HTTP/1.1" 200 45172
+[03/Jul/2021 11:02:14] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 11:02:17] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 11:02:17] "GET / HTTP/1.1" 200 43222
+[03/Jul/2021 11:02:23] "GET /support_centers HTTP/1.1" 200 26227
+[03/Jul/2021 11:05:24] "GET /admin/faqs HTTP/1.1" 200 26718
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:05:24] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:05:24] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:05:25,215] - Broken pipe from ('194.60.210.41', 8034)
+
+[03/Jul/2021 11:05:27] "GET /admin/faqs HTTP/1.1" 200 26718
+Not Found: /admin/assets/images/person.png
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:05:27] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 11:05:27] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:05:53] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 11:05:53] "GET / HTTP/1.1" 200 45172
+[03/Jul/2021 11:06:01] "GET /admin/subMenu HTTP/1.1" 200 54278
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:06:01] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:06:02] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:06:04] "GET /admin/editSubMenu/60afdee6cc60760461809ce5 HTTP/1.1" 200 26661
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:06:05] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:06:05] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:06:16] "POST /admin/editSubMenu/60afdee6cc60760461809ce5 HTTP/1.1" 200 26900
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:06:17] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:06:17] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:06:25] "GET /admin/subMenu HTTP/1.1" 200 54278
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:06:25] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:06:25] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:07:13] "GET /admin/editSubMenu/60afe5f5847786bc30a9a661 HTTP/1.1" 200 26681
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:07:14] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:07:14] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+----------------------------------------
+Exception happened during processing of request from ('194.60.210.41', 3126)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 110] Connection timed out
+----------------------------------------
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:07:26] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:07:26] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:07:48] "GET /admin/editSubMenu/60afe5f5847786bc30a9a661 HTTP/1.1" 200 26681
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:07:48] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:07:48] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:08:08] "POST /admin/editSubMenu/60afe5f5847786bc30a9a661 HTTP/1.1" 200 26929
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:08:09] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:08:09] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:08:11] "GET / HTTP/1.1" 200 45172
+[03/Jul/2021 11:08:12] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 11:08:13] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 11:08:13] "GET / HTTP/1.1" 200 43235
+[03/Jul/2021 11:08:40] "GET /admin/editSubMenu/60afe5f5847786bc30a9a661 HTTP/1.1" 200 26692
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:08:40] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:08:40] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:08:44] "GET /admin/editSubMenu/60afe5f5847786bc30a9a662 HTTP/1.1" 200 26720
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:08:44] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:08:44] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:08:56] "POST /admin/editSubMenu/60afe5f5847786bc30a9a662 HTTP/1.1" 200 26988
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:08:56] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:08:56] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:08:59] "GET /admin/editSubMenu/60afe5f5847786bc30a9a662 HTTP/1.1" 200 26751
+Not Found: /admin/assets/js/chart.min.js
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:08:59] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:08:59] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 11:09:02] "GET /admin/editSubMenu/60afe5f5847786bc30a9a663 HTTP/1.1" 200 26686
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:09:02] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:09:02] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:09:02] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:09:22] "POST /admin/editSubMenu/60afe5f5847786bc30a9a663 HTTP/1.1" 200 26936
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:09:22] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:09:22] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:09:25] "GET /admin/editSubMenu/60afe5f5847786bc30a9a663 HTTP/1.1" 200 26699
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:09:25] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:09:25] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:09:28] "GET /admin/editSubMenu/60afe5f5847786bc30a9a664 HTTP/1.1" 200 26693
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:09:28] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:09:28] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:09:42] "POST /admin/editSubMenu/60afe5f5847786bc30a9a664 HTTP/1.1" 200 26940
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:09:42] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:09:42] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:09:44] "GET / HTTP/1.1" 200 43289
+[03/Jul/2021 11:09:45] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 11:09:53] "GET /admin/editSubMenu/60afe5f5847786bc30a9a664 HTTP/1.1" 200 26703
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:09:53] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:09:53] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:09:59] "GET /admin/editSubMenu/60afe5f5847786bc30a9a660 HTTP/1.1" 200 26668
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:09:59] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:10:00] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:10:17] "POST /admin/editSubMenu/60afe5f5847786bc30a9a660 HTTP/1.1" 200 26788
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:10:17] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:10:17] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:10:20] "GET / HTTP/1.1" 200 43421
+[03/Jul/2021 11:10:22] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 11:10:24] "GET /ussd HTTP/1.1" 200 26404
+[03/Jul/2021 11:10:28] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 11:10:28] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 11:10:28] "GET / HTTP/1.1" 200 45318
+[03/Jul/2021 11:10:32] "GET /ussd HTTP/1.1" 200 29192
+[03/Jul/2021 11:11:16] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 11:11:16] "GET / HTTP/1.1" 200 43421
+[03/Jul/2021 11:11:27] "GET /packages/60b795e4941c3d6e1fe66217 HTTP/1.1" 200 42027
+[03/Jul/2021 11:12:04] "GET /card_to_card HTTP/1.1" 200 26420
+[03/Jul/2021 11:12:08] "GET /admin/editSubMenu/60afe5f5847786bc30a9a660 HTTP/1.1" 200 26551
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:12:08] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:12:09] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:12:12] "GET /admin/editSubMenu/60afe5f5847786bc30a9a661 HTTP/1.1" 200 26562
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:12:12] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:12:12] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+Not Found: /admin/assets/images/person.png
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:12:15] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 11:12:15] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:12:18] "GET /admin/pages HTTP/1.1" 200 45300
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:12:18] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:12:19] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:12:26] "GET /admin/editPage/60c26b77c008fd295967aaba HTTP/1.1" 200 22991
+Not Found: /admin/editPage/assets/images/person.png
+[03/Jul/2021 11:12:26] "GET /admin/editPage/assets/images/person.png HTTP/1.1" 404 10200
+Not Found: /admin/editPage/assets/js/chart.min.js
+[03/Jul/2021 11:12:26] "GET /admin/editPage/assets/js/chart.min.js HTTP/1.1" 404 10194
+[03/Jul/2021 11:12:43] "POST /admin/editPage/60c26b77c008fd295967aaba HTTP/1.1" 200 23261
+Not Found: /admin/editPage/assets/js/chart.min.js
+[03/Jul/2021 11:12:44] "GET /admin/editPage/assets/js/chart.min.js HTTP/1.1" 404 10194
+Not Found: /admin/editPage/assets/images/person.png
+[03/Jul/2021 11:12:44] "GET /admin/editPage/assets/images/person.png HTTP/1.1" 404 10200
+[03/Jul/2021 11:12:46] "GET /card_to_card HTTP/1.1" 200 26451
+[03/Jul/2021 11:12:47] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 11:13:14] "GET /autocharge HTTP/1.1" 200 26416
+[03/Jul/2021 11:13:18] "GET /admin/editPage/60c26b77c008fd295967aaba HTTP/1.1" 200 23022
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:13:18] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:13:18] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:13:21] "GET /admin/editPage/60c26b98c008fd295967aabe HTTP/1.1" 200 22994
+Not Found: /admin/editPage/assets/images/person.png
+[03/Jul/2021 11:13:21] "GET /admin/editPage/assets/images/person.png HTTP/1.1" 404 10200
+Not Found: /admin/editPage/assets/js/chart.min.js
+[03/Jul/2021 11:13:21] "GET /admin/editPage/assets/js/chart.min.js HTTP/1.1" 404 10194
+[03/Jul/2021 11:13:26] "POST /admin/editPage/60c26b98c008fd295967aabe HTTP/1.1" 200 23264
+Not Found: /admin/editPage/assets/images/person.png
+[03/Jul/2021 11:13:26] "GET /admin/editPage/assets/images/person.png HTTP/1.1" 404 10200
+Not Found: /admin/editPage/assets/js/chart.min.js
+[03/Jul/2021 11:13:26] "GET /admin/editPage/assets/js/chart.min.js HTTP/1.1" 404 10194
+[03/Jul/2021 11:13:27] "GET /autocharge HTTP/1.1" 200 26447
+[03/Jul/2021 11:13:28] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 11:13:47] "GET /admin/editPage/60c26b98c008fd295967aabe HTTP/1.1" 200 23025
+Not Found: /admin/editPage/assets/images/person.png
+[03/Jul/2021 11:13:48] "GET /admin/editPage/assets/images/person.png HTTP/1.1" 404 10200
+Not Found: /admin/editPage/assets/js/chart.min.js
+[03/Jul/2021 11:13:48] "GET /admin/editPage/assets/js/chart.min.js HTTP/1.1" 404 10194
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:13:49] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:13:49] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 11:14:13] "GET /admin/pages HTTP/1.1" 200 45300
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:14:14] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:14:14] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 11:14:25] "GET /admin/subMenu HTTP/1.1" 200 54278
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:14:25] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:14:25] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:14:33] "GET /admin/editSubMenu/60afe5f5847786bc30a9a664 HTTP/1.1" 200 26573
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:14:33] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:14:33] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:14:45] "GET /credit_cards HTTP/1.1" 200 26420
+[03/Jul/2021 11:14:51] "GET /admin/pages HTTP/1.1" 200 45300
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:14:51] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:14:51] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+----------------------------------------
+Exception happened during processing of request from ('194.60.210.41', 3893)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 110] Connection timed out
+----------------------------------------
+[03/Jul/2021 11:14:59] "GET /admin/editPage/60c26bc4c008fd295967aac2 HTTP/1.1" 200 23007
+Not Found: /admin/editPage/assets/images/person.png
+[03/Jul/2021 11:15:00] "GET /admin/editPage/assets/images/person.png HTTP/1.1" 404 10200
+Not Found: /admin/editPage/assets/js/chart.min.js
+[03/Jul/2021 11:15:00] "GET /admin/editPage/assets/js/chart.min.js HTTP/1.1" 404 10194
+[03/Jul/2021 11:15:12] "POST /admin/editPage/60c26bc4c008fd295967aac2 HTTP/1.1" 200 23389
+Not Found: /admin/editPage/assets/images/person.png
+[03/Jul/2021 11:15:12] "GET /admin/editPage/assets/images/person.png HTTP/1.1" 404 10200
+Not Found: /admin/editPage/assets/js/chart.min.js
+[03/Jul/2021 11:15:13] "GET /admin/editPage/assets/js/chart.min.js HTTP/1.1" 404 10194
+[03/Jul/2021 11:15:14] "GET /credit_cards HTTP/1.1" 200 26567
+[03/Jul/2021 11:15:15] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 11:15:17] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 11:15:17] "GET / HTTP/1.1" 200 45318
+[03/Jul/2021 11:15:21] "GET /credit_cards HTTP/1.1" 200 28263
+----------------------------------------
+Exception happened during processing of request from ('194.60.210.41', 6838)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 110] Connection timed out
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('194.60.210.41', 2766)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 110] Connection timed out
+----------------------------------------
+[03/Jul/2021 11:16:42] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 11:16:42] "GET / HTTP/1.1" 200 43421
+[03/Jul/2021 11:17:00] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 11:17:01] "GET / HTTP/1.1" 200 45318
+[03/Jul/2021 11:17:11] "GET /admin/subMenu HTTP/1.1" 200 54278
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:17:11] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:17:12] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:17:24] "GET /admin/pages HTTP/1.1" 200 45296
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:17:24] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:17:24] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:17:34] "GET /admin/mainMenu HTTP/1.1" 200 25462
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:17:34] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:17:34] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:17:34,761] - Broken pipe from ('194.60.210.41', 9458)
+
+[03/Jul/2021 11:17:36] "GET /admin/editMenuItem/60afdcbd9cf3b7ad08a3d151 HTTP/1.1" 200 22214
+Not Found: /admin/editMenuItem/assets/images/person.png
+[03/Jul/2021 11:17:36] "GET /admin/editMenuItem/assets/images/person.png HTTP/1.1" 404 10212
+Not Found: /admin/editMenuItem/assets/js/chart.min.js
+[03/Jul/2021 11:17:36] "GET /admin/editMenuItem/assets/js/chart.min.js HTTP/1.1" 404 10206
+Not Found: /admin/assets/images/person.png
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:17:41] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 11:17:41] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:17:44] "GET /admin/subMenu HTTP/1.1" 200 54278
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:17:44] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:17:45] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:17:52] "GET /admin/editSubMenu/60b12ff4fa7655f0489258ab HTTP/1.1" 200 26539
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:17:52] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:17:52] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:17:57] "POST /admin/editSubMenu/60b12ff4fa7655f0489258ab HTTP/1.1" 200 26785
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:17:57] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:17:57] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:18:05] "GET / HTTP/1.1" 200 45318
+[03/Jul/2021 11:18:06] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 11:18:10] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 11:18:10] "GET / HTTP/1.1" 200 43430
+----------------------------------------
+Exception happened during processing of request from ('194.60.210.41', 14775)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 110] Connection timed out
+----------------------------------------
+[03/Jul/2021 11:18:24] "GET /admin/editSubMenu/60b12ff4fa7655f0489258ab HTTP/1.1" 200 26548
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:18:24] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:18:24] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:18:33] "GET /admin/editSubMenu/60b135e51c064bffa872c7ae HTTP/1.1" 200 26568
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:18:33] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:18:33] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:19:03] "POST /admin/editSubMenu/60b135e51c064bffa872c7ae HTTP/1.1" 200 26831
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:19:03] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:19:03] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:19:05] "GET / HTTP/1.1" 200 43456
+[03/Jul/2021 11:19:06] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 11:19:09] "GET /data HTTP/1.1" 200 26439
+[03/Jul/2021 11:20:54] "GET /admin/editSubMenu/60b135e51c064bffa872c7ae HTTP/1.1" 200 26594
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:20:58] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:21:03] "GET /lang/FA HTTP/1.1" 302 0
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:21:03] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 11:21:03] "GET / HTTP/1.1" 200 45318
+[03/Jul/2021 11:21:10] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 11:21:10] "GET / HTTP/1.1" 200 43456
+[03/Jul/2021 11:21:30] "GET /admin/editSubMenu/60b12ff4fa7655f0489258ac HTTP/1.1" 200 26529
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:21:30] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:21:30] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:22:56] "POST /admin/editSubMenu/60b12ff4fa7655f0489258ac HTTP/1.1" 200 26780
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:22:56] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:22:56] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:22:58] "GET / HTTP/1.1" 200 43470
+[03/Jul/2021 11:22:59] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 11:23:09] "GET /admin/editSubMenu/60b12ff4fa7655f0489258ac HTTP/1.1" 200 26543
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:23:09] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:23:10] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 11:23:12] "GET /admin/editSubMenu/60b137560de5c086d3f7a577 HTTP/1.1" 200 26558
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:23:12] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:23:12] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:23:23] "POST /admin/editSubMenu/60b137560de5c086d3f7a577 HTTP/1.1" 200 26809
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:23:23] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:23:23] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:23:23,997] - Broken pipe from ('194.60.210.41', 8767)
+
+[03/Jul/2021 11:23:25] "GET / HTTP/1.1" 200 43484
+[03/Jul/2021 11:23:27] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 11:23:29] "GET /volte HTTP/1.1" 200 26469
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:27:09] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:27:09] "GET /admin/editSubMenu/60b137560de5c086d3f7a577 HTTP/1.1" 200 26572
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:27:09] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 11:27:19] "GET /admin/editSubMenu/60b137560de5c086d3f7a578 HTTP/1.1" 200 26576
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:27:19] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:27:20] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:27:34] "POST /admin/editSubMenu/60b137560de5c086d3f7a578 HTTP/1.1" 200 26820
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:27:34] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:27:34] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:27:36] "GET / HTTP/1.1" 200 43491
+[03/Jul/2021 11:27:37] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 11:27:41] "GET /admin/editSubMenu/60b137560de5c086d3f7a578 HTTP/1.1" 200 26583
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:27:41] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:27:41] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 11:27:44] "GET /admin/editSubMenu/60b137560de5c086d3f7a579 HTTP/1.1" 200 26553
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:27:44] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:27:44] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:27:55] "POST /admin/editSubMenu/60b137560de5c086d3f7a579 HTTP/1.1" 200 26800
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:27:55] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:27:55] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:27:57] "GET /admin/editSubMenu/60b137560de5c086d3f7a579 HTTP/1.1" 200 26563
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:27:57] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:27:57] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 11:28:01] "GET /admin/editSubMenu/60b137560de5c086d3f7a57a HTTP/1.1" 200 26579
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:28:01] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:28:01] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+[03/Jul/2021 11:28:15] "POST /admin/editSubMenu/60b137560de5c086d3f7a57a HTTP/1.1" 200 26838
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:28:15] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:28:15] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:28:21] "GET /admin/editSubMenu/60b137560de5c086d3f7a57a HTTP/1.1" 200 26601
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:28:21] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:28:21] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 11:28:25] "GET /admin/editSubMenu/60b137560de5c086d3f7a57b HTTP/1.1" 200 26579
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:28:25] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:28:25] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:28:35] "POST /admin/editSubMenu/60b137560de5c086d3f7a57b HTTP/1.1" 200 26841
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:28:36] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:28:36] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:28:40] "GET /admin/editSubMenu/60b137560de5c086d3f7a57b HTTP/1.1" 200 26604
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:28:40] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:28:40] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 11:28:44] "GET /admin/editSubMenu/60b137560de5c086d3f7a57c HTTP/1.1" 200 26595
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:28:45] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:28:45] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+----------------------------------------
+Exception happened during processing of request from ('194.60.210.41', 1935)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 110] Connection timed out
+----------------------------------------
+[03/Jul/2021 11:28:59] "POST /admin/editSubMenu/60b137560de5c086d3f7a57c HTTP/1.1" 200 26865
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:28:59] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:28:59] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:29:01] "GET / HTTP/1.1" 200 43581
+[03/Jul/2021 11:29:02] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 11:29:15] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 11:29:15] "GET / HTTP/1.1" 200 45318
+[03/Jul/2021 11:30:02] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 11:30:02] "GET / HTTP/1.1" 200 43581
+[03/Jul/2021 11:30:18] "GET /admin/mainMenu HTTP/1.1" 200 25462
+Not Found: /admin/assets/images/person.png
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:30:18] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 11:30:18] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:30:23] "GET /admin/subMenu HTTP/1.1" 200 54278
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:30:23] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:30:23] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 11:30:35] "GET /admin/editSubMenu/60b12ff4fa7655f0489258ad HTTP/1.1" 200 26545
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:30:35] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:30:35] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:30:40] "POST /admin/editSubMenu/60b12ff4fa7655f0489258ad HTTP/1.1" 200 26793
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:30:40] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:30:40] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:30:43] "GET /admin/editSubMenu/60b12ff4fa7655f0489258ad HTTP/1.1" 200 26556
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:30:44] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:30:44] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 11:30:51] "GET /admin/subMenu HTTP/1.1" 200 54278
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:30:52] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:30:52] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:31:00] "GET /admin/editSubMenu/60b1382681604f4582cdc439 HTTP/1.1" 200 26553
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:31:00] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:31:00] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:31:11] "POST /admin/editSubMenu/60b1382681604f4582cdc439 HTTP/1.1" 200 26799
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:31:12] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:31:12] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:31:13] "GET /admin/editSubMenu/60b1382681604f4582cdc439 HTTP/1.1" 200 26562
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:31:13] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:31:13] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:31:19] "GET /admin/editSubMenu/60b1382681604f4582cdc43a HTTP/1.1" 200 26561
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:31:19] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:31:19] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:31:29] "POST /admin/editSubMenu/60b1382681604f4582cdc43a HTTP/1.1" 200 26808
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:31:30] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:31:30] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:31:30,771] - Broken pipe from ('194.60.210.41', 3031)
+
+[03/Jul/2021 11:31:31] "GET /admin/editSubMenu/60b1382681604f4582cdc43a HTTP/1.1" 200 26571
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:31:31] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:31:32] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 11:31:32,120] - Broken pipe from ('194.60.210.41', 4513)
+
+[03/Jul/2021 11:31:32,360] - Broken pipe from ('194.60.210.41', 11559)
+
+[03/Jul/2021 11:31:38] "GET /admin/editSubMenu/60b1382681604f4582cdc43b HTTP/1.1" 200 26554
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:31:39] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:31:39] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:31:52] "POST /admin/editSubMenu/60b1382681604f4582cdc43b HTTP/1.1" 200 26804
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:31:52] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:31:52] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:31:54] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:31:54] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:32:01] "GET /admin/editSubMenu/60b1382681604f4582cdc43c HTTP/1.1" 200 26552
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:32:01] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:32:02] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:32:02,289] - Broken pipe from ('194.60.210.41', 13868)
+
+[03/Jul/2021 11:32:14] "POST /admin/editSubMenu/60b1382681604f4582cdc43c HTTP/1.1" 200 26805
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:32:14] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:32:15] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:32:16,108] - Broken pipe from ('194.60.210.41', 14572)
+
+[03/Jul/2021 11:32:29] "GET / HTTP/1.1" 200 43640
+[03/Jul/2021 11:32:31] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:32:40] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:32:40] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:32:40,573] - Broken pipe from ('194.60.210.41', 12310)
+
+[03/Jul/2021 11:32:41] "GET /admin/editSubMenu/60b1382681604f4582cdc43c HTTP/1.1" 200 26568
+[03/Jul/2021 11:32:45] "GET /admin/editSubMenu/60b1382681604f4582cdc43d HTTP/1.1" 200 26588
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:32:46] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:32:46] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:33:01] "POST /admin/editSubMenu/60b1382681604f4582cdc43d HTTP/1.1" 200 26845
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:33:01] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:33:01] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:33:04] "GET / HTTP/1.1" 200 43660
+[03/Jul/2021 11:33:05] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 11:33:08] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 11:33:08] "GET / HTTP/1.1" 200 45318
+[03/Jul/2021 11:33:26] "GET /admin/editSubMenu/60b1382681604f4582cdc43d HTTP/1.1" 200 26608
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:33:26] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:33:27] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:33:27,475] - Broken pipe from ('194.60.210.41', 10167)
+
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:33:28] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:33:31] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 11:33:37] "GET /admin/editSubMenu/60b13848e1f1aeef58b02117 HTTP/1.1" 200 26531
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:33:37] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:33:38] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:33:51] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:33:51] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:33:51] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:33:51] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 11:33:52,119] - Broken pipe from ('194.60.210.41', 4348)
+
+[03/Jul/2021 11:34:07] "GET /admin/pages HTTP/1.1" 200 45296
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:34:08] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:34:08] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:34:15] "GET /admin/subMenu HTTP/1.1" 200 54278
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:34:15] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:34:15] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:34:21] "GET /admin/editSubMenu/60b12ff4fa7655f0489258ae HTTP/1.1" 200 26570
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:34:21] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:34:21] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+----------------------------------------
+Exception happened during processing of request from ('194.60.210.41', 7548)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 110] Connection timed out
+----------------------------------------
+[03/Jul/2021 11:34:30] "POST /admin/editSubMenu/60b12ff4fa7655f0489258ae HTTP/1.1" 200 26828
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:34:30] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:34:30] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:34:33] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 11:34:33] "GET / HTTP/1.1" 200 43681
+----------------------------------------
+Exception happened during processing of request from ('194.60.210.41', 4941)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 110] Connection timed out
+----------------------------------------
+[03/Jul/2021 11:34:43] "GET /admin/editSubMenu/60b12ff4fa7655f0489258ae HTTP/1.1" 200 26591
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:34:43] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 11:34:43,536] - Broken pipe from ('194.60.210.41', 13787)
+
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:34:43] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:34:51] "GET /admin/editSubMenu/60b13848e1f1aeef58b02117 HTTP/1.1" 200 26531
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:34:51] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:34:52] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:34:59] "POST /admin/editSubMenu/60b13848e1f1aeef58b02117 HTTP/1.1" 200 26771
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:34:59] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:35:01] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:35:01] "GET / HTTP/1.1" 200 43684
+[03/Jul/2021 11:35:03] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+----------------------------------------
+Exception happened during processing of request from ('194.60.210.41', 1640)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 110] Connection timed out
+----------------------------------------
+[03/Jul/2021 11:36:34] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 11:36:34] "GET / HTTP/1.1" 200 45318
+[03/Jul/2021 11:37:21] "GET /admin/editSubMenu/60b13848e1f1aeef58b02117 HTTP/1.1" 200 26534
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:37:22] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:37:22] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:37:41] "GET /admin/mainMenu HTTP/1.1" 200 25462
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:37:41] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:37:41] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:37:43] "GET /admin/editMenuItem/60afdcbd9cf3b7ad08a3d152 HTTP/1.1" 200 22205
+Not Found: /admin/editMenuItem/assets/images/person.png
+[03/Jul/2021 11:37:43] "GET /admin/editMenuItem/assets/images/person.png HTTP/1.1" 404 10212
+Not Found: /admin/editMenuItem/assets/js/chart.min.js
+[03/Jul/2021 11:37:43] "GET /admin/editMenuItem/assets/js/chart.min.js HTTP/1.1" 404 10206
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:37:57] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:37:57] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:37:57] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 11:38:00] "GET /admin/subMenu HTTP/1.1" 200 54278
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:38:00] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:38:00] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:38:15] "GET /admin/editSubMenu/60b23042726f793223b33910 HTTP/1.1" 200 26545
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:38:15] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:38:15] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:38:28] "POST /admin/editSubMenu/60b23042726f793223b33910 HTTP/1.1" 200 26782
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:38:29] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:38:29] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:38:29,539] - Broken pipe from ('194.60.210.41', 2232)
+
+[03/Jul/2021 11:38:32] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 11:38:32] "GET / HTTP/1.1" 200 43061
+[03/Jul/2021 11:38:47] "POST /admin/editSubMenu/60b23042726f793223b33910 HTTP/1.1" 200 26661
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:38:47] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:38:47] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:38:50] "GET / HTTP/1.1" 200 43061
+[03/Jul/2021 11:38:51] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 11:38:56] "GET /sale_representatives HTTP/1.1" 200 26066
+Not Found: /admin/editSubMenu/assets/images/person.png
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:39:01] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:39:01] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+[03/Jul/2021 11:39:01] "GET /admin/editSubMenu/60b23042726f793223b33910 HTTP/1.1" 200 26424
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:39:01] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:39:01] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:39:04] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:39:04] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:39:04] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:39:04] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 11:39:34] "GET /admin/editPage/60c474df61c7d22be2d3271c HTTP/1.1" 200 23957
+Not Found: /admin/editPage/assets/js/chart.min.js
+[03/Jul/2021 11:39:34] "GET /admin/editPage/assets/js/chart.min.js HTTP/1.1" 404 10194
+Not Found: /admin/editPage/assets/images/person.png
+[03/Jul/2021 11:39:35] "GET /admin/editPage/assets/images/person.png HTTP/1.1" 404 10200
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:39:40] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:39:41] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:39:41] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:39:41,634] - Broken pipe from ('194.60.210.41', 11369)
+
+----------------------------------------
+Exception happened during processing of request from ('194.60.210.41', 11814)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 110] Connection timed out
+----------------------------------------
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:39:42] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:39:45] "GET /admin/subMenu HTTP/1.1" 200 54278
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:39:45] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:39:46] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:39:51] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 11:39:51] "GET / HTTP/1.1" 200 44602
+[03/Jul/2021 11:40:37] "GET /admin/editSubMenu/60b23042726f793223b33910 HTTP/1.1" 200 26424
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:40:37] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:40:37] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:41:19] "POST /admin/editSubMenu/60b23042726f793223b33910 HTTP/1.1" 200 26661
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:41:19] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:41:19] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:41:21] "GET / HTTP/1.1" 200 44745
+[03/Jul/2021 11:41:26] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 11:42:39] "GET /sale_representatives HTTP/1.1" 200 29827
+[03/Jul/2021 11:43:05] "POST /admin/editSubMenu/60b23042726f793223b33910 HTTP/1.1" 200 26782
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:43:06] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:43:06] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:43:06,985] - Broken pipe from ('194.60.210.41', 1954)
+
+[03/Jul/2021 11:43:08] "GET / HTTP/1.1" 200 44602
+[03/Jul/2021 11:43:09] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+Not Found: /admin/editSubMenu/assets/images/person.png
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:43:16] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+[03/Jul/2021 11:43:16] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:43:16] "GET /admin/editSubMenu/60b23042726f793223b33910 HTTP/1.1" 200 26545
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:43:16] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:43:16] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:43:16,868] - Broken pipe from ('194.60.210.41', 3898)
+
+[03/Jul/2021 11:43:17,336] - Broken pipe from ('194.60.210.41', 4334)
+
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:43:18] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:43:19] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 11:43:24] "GET /admin/addSubMenu HTTP/1.1" 200 26284
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:43:24] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:43:25] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+----------------------------------------
+Exception happened during processing of request from ('194.60.210.41', 4921)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 110] Connection timed out
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('194.60.210.41', 1720)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 110] Connection timed out
+----------------------------------------
+[03/Jul/2021 11:43:55] "POST /admin/subMenu HTTP/1.1" 200 54989
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:43:56] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:43:56] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+----------------------------------------
+Exception happened during processing of request from ('194.60.210.41', 11055)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 110] Connection timed out
+----------------------------------------
+[03/Jul/2021 11:43:59] "GET / HTTP/1.1" 200 44959
+[03/Jul/2021 11:44:00] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 11:44:12] "GET /admin/addSubMenu HTTP/1.1" 200 26415
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:44:12] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:44:12] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:44:51] "POST /admin/subMenu HTTP/1.1" 200 55511
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:44:53] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:44:54] "GET / HTTP/1.1" 200 45124
+----------------------------------------
+Exception happened during processing of request from ('194.60.210.41', 12792)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 110] Connection timed out
+----------------------------------------
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:44:55] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 11:44:57] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 11:45:02] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 11:45:03] "GET / HTTP/1.1" 200 43558
+[03/Jul/2021 11:45:13] "GET /admin/addSubMenu HTTP/1.1" 200 26415
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:45:13] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:45:13] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:45:37] "POST /admin/subMenu HTTP/1.1" 200 56027
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:45:37] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:45:37] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:45:40] "GET / HTTP/1.1" 200 43710
+[03/Jul/2021 11:45:41] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 11:46:06] "GET /lang/FA HTTP/1.1" 302 0
+----------------------------------------
+Exception happened during processing of request from ('194.60.210.41', 10267)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 110] Connection timed out
+----------------------------------------
+[03/Jul/2021 11:46:06] "GET / HTTP/1.1" 200 45283
+[03/Jul/2021 11:46:23] "GET /admin/addSubMenu HTTP/1.1" 200 26415
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:46:24] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:46:24] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:46:43] "POST /admin/subMenu HTTP/1.1" 200 56537
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:46:44] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:46:44] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:46:47] "GET / HTTP/1.1" 200 45649
+[03/Jul/2021 11:46:48] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 11:47:01] "GET /admin/subMenu?delete=60e04e2357ab9f1390112887 HTTP/1.1" 200 56010
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:47:01] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:47:02] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:47:09] "GET /admin/editSubMenu/60b23042726f793223b33911 HTTP/1.1" 200 26693
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:47:09] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:47:10] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:47:20] "POST /admin/editSubMenu/60b23042726f793223b33911 HTTP/1.1" 200 26939
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:47:20] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:47:21] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:47:23] "GET / HTTP/1.1" 200 45283
+[03/Jul/2021 11:47:29] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 11:47:49] "GET /admin/editSubMenu/60b23042726f793223b33911 HTTP/1.1" 200 26702
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:47:49] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:47:49] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:47:55] "GET /admin/editSubMenu/60b230d0d7d3a8a25ca9035c HTTP/1.1" 200 26722
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:47:55] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:47:55] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+----------------------------------------
+Exception happened during processing of request from ('194.60.210.41', 6745)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 110] Connection timed out
+----------------------------------------
+Not Found: /admin/assets/images/person.png
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:48:14] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:48:14] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:48:14] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:48:14] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:48:17] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:48:17] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 11:48:25] "GET /admin/editSubMenu/60b2312b9b117eba783d7635 HTTP/1.1" 200 26703
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:48:25] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:48:26] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+----------------------------------------
+Exception happened during processing of request from ('194.60.210.41', 1315)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 110] Connection timed out
+----------------------------------------
+[03/Jul/2021 11:48:33] "POST /admin/editSubMenu/60b2312b9b117eba783d7635 HTTP/1.1" 200 26961
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:48:33] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:48:33] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:48:35] "GET / HTTP/1.1" 200 45283
+[03/Jul/2021 11:48:36] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 11:48:40] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 11:48:40] "GET / HTTP/1.1" 200 43740
+[03/Jul/2021 11:48:45] "GET /sale_representatives HTTP/1.1" 200 26745
+[03/Jul/2021 11:48:53] "GET /admin/editSubMenu/60b2312b9b117eba783d7635 HTTP/1.1" 200 26724
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:48:53] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:48:53] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:48:56] "GET /admin/editSubMenu/60b2312b9b117eba783d7636 HTTP/1.1" 200 26706
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:48:56] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:48:56] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:49:05] "POST /admin/editSubMenu/60b2312b9b117eba783d7636 HTTP/1.1" 200 26964
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:49:06] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:49:06] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:49:08] "GET / HTTP/1.1" 200 43761
+[03/Jul/2021 11:49:09] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 11:49:20] "GET /admin/editSubMenu/60b2312b9b117eba783d7636 HTTP/1.1" 200 26727
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:49:20] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:49:21] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:49:22,173] - Broken pipe from ('194.60.210.41', 4487)
+
+[03/Jul/2021 11:49:34] "GET /admin/editSubMenu/60b23042726f793223b33912 HTTP/1.1" 200 26673
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:49:34] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:49:34] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:49:39] "POST /admin/editSubMenu/60b23042726f793223b33912 HTTP/1.1" 200 26929
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:49:39] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:49:40] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:49:42] "GET / HTTP/1.1" 200 43780
+[03/Jul/2021 11:49:44] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:49:49] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:49:49] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 11:49:49] "GET /admin/editSubMenu/60b23042726f793223b33912 HTTP/1.1" 200 26692
+[03/Jul/2021 11:49:56] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 11:49:56] "GET / HTTP/1.1" 200 45283
+[03/Jul/2021 11:50:20] "GET /admin/editSubMenu/60c5a6ab221f976ffa75b18a HTTP/1.1" 200 26711
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:50:21] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:50:26] "POST /admin/editSubMenu/60c5a6ab221f976ffa75b18a HTTP/1.1" 200 26952
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:50:26] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:50:26] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:50:32] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:50:32] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:50:32,491] - Broken pipe from ('194.60.210.41', 1297)
+
+[03/Jul/2021 11:50:32,495] - Broken pipe from ('194.60.210.41', 14865)
+
+[03/Jul/2021 11:50:39] "GET /admin/editSubMenu/60b231af14e7b7e46d720d0a HTTP/1.1" 200 26723
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:50:39] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:50:40] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+[03/Jul/2021 11:50:48] "POST /admin/editSubMenu/60b231af14e7b7e46d720d0a HTTP/1.1" 200 26993
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:50:48] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:50:48] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:50:51] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 11:50:51] "GET / HTTP/1.1" 200 43817
+----------------------------------------
+Exception happened during processing of request from ('194.60.210.41', 3573)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 110] Connection timed out
+----------------------------------------
+[03/Jul/2021 11:50:58] "GET /how_to_connect HTTP/1.1" 200 26820
+[03/Jul/2021 11:51:06] "GET /news HTTP/1.1" 200 32499
+[03/Jul/2021 11:51:07] "GET /static/main/media/7d3820cd-c789-47c7-a32c-79e94a866018WhatsApp%20Image%202021-04-11%20at%2010.12.33%20(1).jpeg HTTP/1.1" 200 89404
+[03/Jul/2021 11:51:09] "GET /static/main/media/e479575c-1fad-4df7-97d2-627d7c08ae46IMG-20210303-WA0044.jpg HTTP/1.1" 200 354828
+[03/Jul/2021 11:51:09] "GET /static/main/media/8744a3b9-9325-403d-8d1c-e4009d290a5dIRAN-NOAFARIN3.jpg HTTP/1.1" 200 482925
+[03/Jul/2021 11:51:12] "GET /static/main/media/e8f3ea3f-0bdb-4ade-ac8d-58766f588e81e-mway-ok2.png HTTP/1.1" 200 1442824
+[03/Jul/2021 11:51:13] "GET /static/main/media/0babf0f7-4171-45fd-8995-765481824439pic1.jpg HTTP/1.1" 200 545004
+[03/Jul/2021 11:51:14] "GET /static/main/media/e1a5d341-47b0-4b9a-b51a-a775a949b2e65.jpeg HTTP/1.1" 200 154692
+[03/Jul/2021 11:51:14] "GET /static/main/media/f88edb29-9184-434a-a7e6-c714d5acfd30DSCF7479-Recovered.jpg HTTP/1.1" 200 718723
+[03/Jul/2021 11:51:16] "GET /static/main/media/b89992dc-2102-4241-acad-a3eaa13b8e9bDSCF7449.jpg HTTP/1.1" 200 980256
+[03/Jul/2021 11:51:56] "GET /admin/news HTTP/1.1" 200 26849
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:51:57] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:51:58] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:52:00] "GET /admin/editNews/60c5a7ca221f976ffa75b19a HTTP/1.1" 200 25145
+Not Found: /admin/editNews/assets/images/person.png
+[03/Jul/2021 11:52:00] "GET /admin/editNews/assets/images/person.png HTTP/1.1" 404 10200
+Not Found: /admin/editNews/assets/js/chart.min.js
+[03/Jul/2021 11:52:01] "GET /admin/editNews/assets/js/chart.min.js HTTP/1.1" 404 10194
+[03/Jul/2021 11:52:03] "GET /static/main/media/460c4b5f-6291-46ee-a3ad-b9f8a4356772pic1.jpg HTTP/1.1" 200 545004
+[03/Jul/2021 11:53:46] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 11:53:46] "GET / HTTP/1.1" 200 45283
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:54:23] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:54:23] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:54:23] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:54:23] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:54:26] "GET /admin/subMenu HTTP/1.1" 200 55817
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:54:26] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:54:29] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:54:35] "GET /admin/pages HTTP/1.1" 200 45296
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:54:36] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:54:36] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:54:36] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:54:55] "GET /admin/subMenu HTTP/1.1" 200 55817
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:54:56] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:54:56] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:54:59] "GET /admin/mainMenu HTTP/1.1" 200 25462
+Not Found: /admin/assets/images/person.png
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:54:59] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:54:59] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 11:54:59,610] - Broken pipe from ('194.60.210.41', 4887)
+
+[03/Jul/2021 11:55:08] "GET /admin/subMenu HTTP/1.1" 200 55817
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:55:09] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:55:09] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:55:16] "GET /admin/editSubMenu/60b231e56e88a1b6cf9fbbf8 HTTP/1.1" 200 26679
+Not Found: /admin/editSubMenu/assets/images/person.png
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:55:17] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+[03/Jul/2021 11:55:17] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:55:27] "POST /admin/editSubMenu/60b231e56e88a1b6cf9fbbf8 HTTP/1.1" 200 26935
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:55:28] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:55:28] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+[03/Jul/2021 11:55:30] "GET /admin/editSubMenu/60b231e56e88a1b6cf9fbbf8 HTTP/1.1" 200 26698
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:55:30] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:55:30] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 11:55:40] "GET /admin/pages HTTP/1.1" 200 45296
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:55:40] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:55:41] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:56:04] "GET /admin/faqs HTTP/1.1" 200 26718
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:56:04] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:56:04] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 11:56:07] "GET /admin/mainMenu HTTP/1.1" 200 25462
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:56:07] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:56:07] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:56:13] "GET /admin/subMenu HTTP/1.1" 200 55817
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:56:13] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:56:13] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:56:19] "GET /admin/editSubMenu/60b23042726f793223b33913 HTTP/1.1" 200 26676
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:56:19] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:56:20] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:56:29] "POST /admin/editSubMenu/60b23042726f793223b33913 HTTP/1.1" 200 26936
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:56:29] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:56:29] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:56:32] "GET / HTTP/1.1" 200 45283
+[03/Jul/2021 11:56:34] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 11:56:37] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 11:56:37] "GET / HTTP/1.1" 200 43859
+[03/Jul/2021 11:57:21] "GET /admin/editSubMenu/60b23042726f793223b33913 HTTP/1.1" 200 26699
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:57:22] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:57:22] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 11:57:29] "GET /admin/editSubMenu/60b2327e811a453ddca9bffb HTTP/1.1" 200 26702
+Not Found: /admin/editSubMenu/assets/images/person.png
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:57:29] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:57:29] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+[03/Jul/2021 11:57:33] "POST /admin/editSubMenu/60b2327e811a453ddca9bffb HTTP/1.1" 200 26950
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:57:34] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:57:34] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:57:35] "GET / HTTP/1.1" 200 43870
+[03/Jul/2021 11:57:36] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 11:57:39] "GET /admin/editSubMenu/60b2327e811a453ddca9bffb HTTP/1.1" 200 26713
+[03/Jul/2021 11:57:42] "GET /admin/subMenu HTTP/1.1" 200 55817
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:57:42] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:57:42] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 11:57:42,784] - Broken pipe from ('194.60.210.41', 8927)
+
+----------------------------------------
+Exception happened during processing of request from ('194.60.210.41', 4354)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 110] Connection timed out
+----------------------------------------
+[03/Jul/2021 11:57:52] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 11:57:53] "GET / HTTP/1.1" 200 45283
+----------------------------------------
+Exception happened during processing of request from ('194.60.210.41', 2794)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 110] Connection timed out
+----------------------------------------
+[03/Jul/2021 11:58:03] "GET /admin/editSubMenu/60b232d1316efe6adeb03d49 HTTP/1.1" 200 26694
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:58:03] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:58:03] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:58:11] "POST /admin/editSubMenu/60b232d1316efe6adeb03d49 HTTP/1.1" 200 26954
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:58:11] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:58:11] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:58:22] "GET /admin/editSubMenu/60b232d1316efe6adeb03d49 HTTP/1.1" 200 26717
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 11:58:22] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 11:58:22] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 11:58:25] "GET /admin/editSubMenu/60b232d1316efe6adeb03d4a HTTP/1.1" 200 26714
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:58:25] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:58:26] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:58:32] "POST /admin/editSubMenu/60b232d1316efe6adeb03d4a HTTP/1.1" 200 26969
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 11:58:32] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 11:58:33] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 11:58:34] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 11:58:34] "GET / HTTP/1.1" 200 43911
+----------------------------------------
+Exception happened during processing of request from ('194.60.210.41', 6587)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 110] Connection timed out
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('194.60.210.41', 7569)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 110] Connection timed out
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('194.60.210.41', 14976)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 110] Connection timed out
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('194.60.210.41', 11794)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 110] Connection timed out
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('194.60.210.41', 7582)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 110] Connection timed out
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('194.60.210.41', 8361)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 110] Connection timed out
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('194.60.210.41', 8114)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 110] Connection timed out
+----------------------------------------
+[03/Jul/2021 12:27:59] "GET /areas HTTP/1.1" 200 137522
+[03/Jul/2021 12:28:00] "GET /static/main/Scripts/site/map.js HTTP/1.1" 200 588
+[03/Jul/2021 12:28:00] "GET /static/main/hamrah.kml HTTP/1.1" 200 8354959
+[03/Jul/2021 13:59:33] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 13:59:39] "GET / HTTP/1.1" 200 45283
+[03/Jul/2021 13:59:52] "GET /payment_ways HTTP/1.1" 200 28799
+[03/Jul/2021 14:00:22] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 14:00:22] "GET / HTTP/1.1" 200 43911
+[03/Jul/2021 14:00:25] "GET /prices HTTP/1.1" 200 28267
+[03/Jul/2021 14:01:21] "GET /admin/subMenu HTTP/1.1" 200 55817
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 14:01:21] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 14:01:21] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 14:01:29] "GET /admin/editSubMenu/60b23042726f793223b33914 HTTP/1.1" 200 26654
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 14:01:30] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+[03/Jul/2021 14:01:30,327] - Broken pipe from ('194.60.210.41', 1337)
+
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 14:01:30] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 14:01:35] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 14:01:35] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 14:01:37] "GET /admin/editSubMenu/60b23210587468012383dbe1 HTTP/1.1" 200 26662
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 14:01:37] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 14:01:38] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 14:01:46] "POST /admin/editSubMenu/60b23210587468012383dbe1 HTTP/1.1" 200 26902
+Not Found: /admin/editSubMenu/assets/images/person.png
+[03/Jul/2021 14:01:46] "GET /admin/editSubMenu/assets/images/person.png HTTP/1.1" 404 10209
+Not Found: /admin/editSubMenu/assets/js/chart.min.js
+[03/Jul/2021 14:01:47] "GET /admin/editSubMenu/assets/js/chart.min.js HTTP/1.1" 404 10203
+[03/Jul/2021 14:01:49] "GET / HTTP/1.1" 200 43914
+[03/Jul/2021 14:01:53] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 14:01:59] "GET /sla HTTP/1.1" 200 26895
+[03/Jul/2021 14:02:06] "GET /modem HTTP/1.1" 200 26930
+[03/Jul/2021 15:04:31] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 15:04:31] "GET / HTTP/1.1" 200 43914
+[03/Jul/2021 15:04:31] "GET / HTTP/1.1" 200 43914
+[03/Jul/2021 15:04:34] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 15:04:34] "GET / HTTP/1.1" 200 45283
+[03/Jul/2021 15:04:34] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 15:04:35] "GET / HTTP/1.1" 200 45283
+[03/Jul/2021 15:04:45] "GET /ussd HTTP/1.1" 200 29157
+[03/Jul/2021 15:04:54] "GET /simcards/60bb566652022657011f7cf5 HTTP/1.1" 200 47587
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[03/Jul/2021 15:04:55] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4438
+[03/Jul/2021 15:05:12] "GET /admin/cards HTTP/1.1" 200 23574
+Not Found: /admin/assets/js/chart.min.js
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 15:05:13] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 15:05:13] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 15:05:15] "GET /admin/editCards/60bb566652022657011f7cf5 HTTP/1.1" 200 33776
+Not Found: /admin/editCards/assets/images/person.png
+[03/Jul/2021 15:05:16] "GET /admin/editCards/assets/images/person.png HTTP/1.1" 404 10203
+Not Found: /admin/editCards/assets/js/chart.min.js
+[03/Jul/2021 15:05:16] "GET /admin/editCards/assets/js/chart.min.js HTTP/1.1" 404 10197
+[03/Jul/2021 15:08:07] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 15:08:07] "GET / HTTP/1.1" 200 43914
+[03/Jul/2021 15:08:16] "GET /simcards/60bb566652022657011f7cf5 HTTP/1.1" 200 45452
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[03/Jul/2021 15:08:16] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4438
+[03/Jul/2021 15:08:38] "GET /simcards/60bb566652022657011f7cf6 HTTP/1.1" 200 45219
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[03/Jul/2021 15:08:39] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4438
+[03/Jul/2021 15:08:44] "GET /simcards/60bb566652022657011f7cf7 HTTP/1.1" 200 43969
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[03/Jul/2021 15:08:45] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4438
+[03/Jul/2021 15:09:50] "GET /simcards/60bb566652022657011f7cf7 HTTP/1.1" 200 43969
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[03/Jul/2021 15:09:50] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4438
+[03/Jul/2021 15:10:03] "GET /simcards/60bb566652022657011f7cf9 HTTP/1.1" 200 44873
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[03/Jul/2021 15:10:03] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4438
+[03/Jul/2021 15:10:14] "GET /simcards/60bb566652022657011f7cf8 HTTP/1.1" 200 46430
+Not Found: /do/CMS/CustomerPriceSurveyExist
+[03/Jul/2021 15:10:14] "POST /do/CMS/CustomerPriceSurveyExist HTTP/1.1" 404 4438
+[03/Jul/2021 15:10:27] "GET / HTTP/1.1" 200 43914
+[03/Jul/2021 15:11:09] "GET /static/main/Content/site/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 404 2018
+[03/Jul/2021 15:11:10] "GET /static/main/Content/site/fonts/fontawesome-webfont.woff?v=4.7.0 HTTP/1.1" 404 2015
+[03/Jul/2021 15:11:10] "GET /static/main/Content/site/fonts/fontawesome-webfont.ttf?v=4.7.0 HTTP/1.1" 404 2012
+[03/Jul/2021 15:11:36] "GET /prepaid_charge HTTP/1.1" 200 26917
+[03/Jul/2021 15:11:58,270] - Broken pipe from ('194.60.210.41', 4101)
+
+[03/Jul/2021 15:12:22] "GET /prepaid_charge HTTP/1.1" 200 26917
+[03/Jul/2021 15:12:23] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 15:12:41] "GET /prepaid_charge HTTP/1.1" 200 26917
+[03/Jul/2021 15:13:00] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 15:13:00] "GET / HTTP/1.1" 200 45283
+[03/Jul/2021 15:13:05] "GET /prepaid_charge HTTP/1.1" 200 30883
+[03/Jul/2021 15:14:58] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 15:14:58] "GET / HTTP/1.1" 200 43914
+[03/Jul/2021 15:15:06] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 15:15:06] "GET / HTTP/1.1" 200 45283
+[03/Jul/2021 15:15:15] "GET /prepaid_charge HTTP/1.1" 200 30883
+[03/Jul/2021 15:17:21] "GET /admin/news HTTP/1.1" 200 26849
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 15:17:22] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 15:17:22] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 15:17:32] "GET /admin/pages HTTP/1.1" 200 45296
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 15:17:32] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 15:17:33] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 15:17:39] "GET /admin/editPage/60c26a17c008fd295967aa95 HTTP/1.1" 200 25649
+Not Found: /admin/editPage/assets/images/person.png
+[03/Jul/2021 15:17:39] "GET /admin/editPage/assets/images/person.png HTTP/1.1" 404 10200
+Not Found: /admin/editPage/assets/js/chart.min.js
+[03/Jul/2021 15:17:39] "GET /admin/editPage/assets/js/chart.min.js HTTP/1.1" 404 10194
+[03/Jul/2021 15:17:39,991] - Broken pipe from ('194.60.210.41', 10484)
+
+[03/Jul/2021 15:18:04] "POST /admin/editPage/60c26a17c008fd295967aa95 HTTP/1.1" 200 26746
+Not Found: /admin/editPage/assets/images/person.png
+[03/Jul/2021 15:18:04] "GET /admin/editPage/assets/images/person.png HTTP/1.1" 404 10200
+Not Found: /admin/editPage/assets/js/chart.min.js
+[03/Jul/2021 15:18:05] "GET /admin/editPage/assets/js/chart.min.js HTTP/1.1" 404 10194
+[03/Jul/2021 15:21:49] "GET /prepaid_charge HTTP/1.1" 200 31035
+[03/Jul/2021 15:21:49] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 15:21:52] "GET /prepaid_charge HTTP/1.1" 200 31035
+[03/Jul/2021 15:21:53] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 15:21:56] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 15:21:56] "GET / HTTP/1.1" 200 43914
+[03/Jul/2021 15:22:00] "GET /prepaid_charge HTTP/1.1" 200 27623
+[03/Jul/2021 15:23:08] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 15:23:08] "GET / HTTP/1.1" 200 45283
+[03/Jul/2021 15:23:10] "GET / HTTP/1.1" 200 45283
+[03/Jul/2021 15:23:20] "GET /ussd HTTP/1.1" 200 29157
+[03/Jul/2021 15:23:24] "GET /card_to_card HTTP/1.1" 200 28204
+[03/Jul/2021 15:23:33] "GET /autocharge HTTP/1.1" 200 28218
+[03/Jul/2021 15:23:37] "GET /data_direct_charge HTTP/1.1" 200 31899
+[03/Jul/2021 15:23:48] "GET /credit_cards HTTP/1.1" 200 28228
+[03/Jul/2021 15:23:55] "GET /phone HTTP/1.1" 200 28198
+[03/Jul/2021 15:24:00] "GET /modem HTTP/1.1" 200 28198
+[03/Jul/2021 15:24:06] "GET /packages/60b795e4941c3d6e1fe66214 HTTP/1.1" 200 51847
+[03/Jul/2021 15:24:15] "GET /sms HTTP/1.1" 200 28429
+[03/Jul/2021 15:24:24] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 15:24:24] "GET / HTTP/1.1" 200 43914
+[03/Jul/2021 15:24:29] "GET /sms HTTP/1.1" 200 27018
+[03/Jul/2021 15:24:39] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 15:24:39] "GET / HTTP/1.1" 200 45283
+[03/Jul/2021 15:24:47] "GET /packages/60b795e4941c3d6e1fe66216 HTTP/1.1" 200 37120
+[03/Jul/2021 15:24:55] "GET /admin HTTP/1.1" 200 18816
+Not Found: /assets/js/chart.min.js
+[03/Jul/2021 15:24:55] "GET /assets/js/chart.min.js HTTP/1.1" 404 4410
+Not Found: /assets/images/person.png
+[03/Jul/2021 15:24:55] "GET /assets/images/person.png HTTP/1.1" 404 4416
+Not Found: /assets/js/chart.min.js
+[03/Jul/2021 15:24:55] "GET /assets/js/chart.min.js HTTP/1.1" 404 4410
+[03/Jul/2021 15:24:58] "GET /admin/pages HTTP/1.1" 200 45296
+Not Found: /admin/assets/images/person.png
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 15:24:58] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 15:24:58] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 15:25:01] "GET /admin/addPage HTTP/1.1" 200 22774
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 15:25:01] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 15:25:01] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 15:26:17] "POST /admin/pages HTTP/1.1" 200 46035
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 15:26:18] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 15:26:18] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 15:26:26] "GET /packages/60b795e4941c3d6e1fe66216 HTTP/1.1" 200 37120
+[03/Jul/2021 15:26:40] "GET /admin/packages HTTP/1.1" 200 44321
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 15:26:40] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 15:26:40] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 15:26:46] "GET /admin/cards HTTP/1.1" 200 23574
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 15:26:46] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 15:26:46] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 15:28:18] "GET /admin/packages HTTP/1.1" 200 44321
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 15:28:19] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 15:28:19] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 15:28:19] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 15:28:28] "GET /admin/slides HTTP/1.1" 200 24399
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 15:28:28] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 15:28:28] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 15:28:31] "GET /admin/admins HTTP/1.1" 200 22531
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 15:28:31] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 15:28:31] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 15:28:32] "GET /admin/pages HTTP/1.1" 200 45823
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 15:28:32] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 15:28:32] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 15:28:45] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 15:28:45] "GET / HTTP/1.1" 200 45283
+[03/Jul/2021 15:29:00] "GET /payment_ways HTTP/1.1" 200 28799
+[03/Jul/2021 15:29:02] "GET /simple_ussd HTTP/1.1" 200 28295
+[03/Jul/2021 15:30:25] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 15:30:26] "GET / HTTP/1.1" 200 43914
+[03/Jul/2021 15:30:38] "GET /website HTTP/1.1" 200 27415
+[03/Jul/2021 15:30:45] "GET /support_centers HTTP/1.1" 200 26919
+[03/Jul/2021 15:30:55] "GET /support_centers HTTP/1.1" 200 26919
+[03/Jul/2021 15:30:59] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 15:31:00] "GET / HTTP/1.1" 200 45283
+[03/Jul/2021 15:31:05] "GET /support_centers HTTP/1.1" 200 29906
+[03/Jul/2021 15:31:06] "GET /static/main/Content/site/fonts/IRANSansWeb.woff2 HTTP/1.1" 404 1986
+[03/Jul/2021 15:31:07] "GET /static/main/Content/site/fonts/IRANSansWeb.woff HTTP/1.1" 404 1983
+[03/Jul/2021 15:31:10] "GET /static/main/Content/site/fonts/IRANSansWeb.ttf HTTP/1.1" 404 1980
+[03/Jul/2021 15:32:16] "GET /admin/pages HTTP/1.1" 200 45823
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 15:32:16] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 15:32:16] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 15:33:07] "GET /admin/editPage/60c26ad0c008fd295967aaac HTTP/1.1" 200 24680
+Not Found: /admin/editPage/assets/images/person.png
+[03/Jul/2021 15:33:07] "GET /admin/editPage/assets/images/person.png HTTP/1.1" 404 10200
+Not Found: /admin/editPage/assets/js/chart.min.js
+[03/Jul/2021 15:33:08] "GET /admin/editPage/assets/js/chart.min.js HTTP/1.1" 404 10194
+[03/Jul/2021 15:33:08,752] - Broken pipe from ('194.60.210.41', 5221)
+
+[03/Jul/2021 15:33:33] "POST /admin/editPage/60c26ad0c008fd295967aaac HTTP/1.1" 200 25778
+Not Found: /admin/editPage/assets/images/person.png
+[03/Jul/2021 15:33:33] "GET /admin/editPage/assets/images/person.png HTTP/1.1" 404 10200
+Not Found: /admin/editPage/assets/js/chart.min.js
+[03/Jul/2021 15:33:33] "GET /admin/editPage/assets/js/chart.min.js HTTP/1.1" 404 10194
+[03/Jul/2021 15:33:36] "GET /support_centers HTTP/1.1" 200 29906
+[03/Jul/2021 15:33:36] "GET /static/main/Content/site/fonts/IRANSansWeb.woff2 HTTP/1.1" 404 1986
+[03/Jul/2021 15:33:36] "GET /static/main/Content/site/fonts/IRANSansWeb.woff HTTP/1.1" 404 1983
+[03/Jul/2021 15:33:36] "GET /static/main/Content/site/fonts/IRANSansWeb.ttf HTTP/1.1" 404 1980
+[03/Jul/2021 15:33:36] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 15:33:41] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 15:33:42] "GET / HTTP/1.1" 200 43914
+[03/Jul/2021 15:33:46] "GET /support_centers HTTP/1.1" 200 27778
+[03/Jul/2021 15:33:54] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 15:33:54] "GET / HTTP/1.1" 200 45283
+[03/Jul/2021 15:34:06] "GET /support_centers HTTP/1.1" 200 29906
+[03/Jul/2021 15:34:06] "GET /static/main/Content/site/fonts/IRANSansWeb.woff2 HTTP/1.1" 404 1986
+[03/Jul/2021 15:34:06] "GET /static/main/Content/site/fonts/IRANSansWeb.woff HTTP/1.1" 404 1983
+[03/Jul/2021 15:34:06] "GET /static/main/Content/site/fonts/IRANSansWeb.ttf HTTP/1.1" 404 1980
+[03/Jul/2021 15:34:10] "GET /faq HTTP/1.1" 200 36752
+[03/Jul/2021 15:34:20] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 15:34:20] "GET / HTTP/1.1" 200 43914
+[03/Jul/2021 15:34:28] "GET /support_centers HTTP/1.1" 200 27778
+[03/Jul/2021 15:34:52] "POST /admin/editPage/60c26ad0c008fd295967aaac HTTP/1.1" 200 25837
+Not Found: /admin/editPage/assets/images/person.png
+[03/Jul/2021 15:34:52] "GET /admin/editPage/assets/images/person.png HTTP/1.1" 404 10200
+Not Found: /admin/editPage/assets/js/chart.min.js
+[03/Jul/2021 15:34:52] "GET /admin/editPage/assets/js/chart.min.js HTTP/1.1" 404 10194
+[03/Jul/2021 15:34:56] "GET /support_centers HTTP/1.1" 200 27837
+[03/Jul/2021 15:34:56] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 15:35:06] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 15:35:06] "GET / HTTP/1.1" 200 45283
+[03/Jul/2021 15:35:10] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 15:35:10] "GET / HTTP/1.1" 200 45283
+[03/Jul/2021 15:35:15] "GET /ussd HTTP/1.1" 200 29157
+[03/Jul/2021 15:35:20] "GET /card_to_card HTTP/1.1" 200 28204
+[03/Jul/2021 15:35:24] "GET /data_direct_charge HTTP/1.1" 200 31899
+[03/Jul/2021 15:35:29] "GET /autocharge HTTP/1.1" 200 28218
+[03/Jul/2021 15:35:39] "GET /credit_cards HTTP/1.1" 200 28228
+[03/Jul/2021 15:35:47] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 15:35:48] "GET / HTTP/1.1" 200 43914
+[03/Jul/2021 15:35:51] "GET /support_centers HTTP/1.1" 200 27837
+[03/Jul/2021 15:35:58] "GET /ussd HTTP/1.1" 200 26897
+[03/Jul/2021 15:36:02] "GET /card_to_card HTTP/1.1" 200 26944
+[03/Jul/2021 15:36:07] "GET /data_direct_charge HTTP/1.1" 200 26925
+[03/Jul/2021 15:36:46] "GET /data_direct_charge HTTP/1.1" 200 26925
+[03/Jul/2021 15:36:48] "GET /data_direct_charge HTTP/1.1" 200 26925
+[03/Jul/2021 15:36:49] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 15:36:51] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 15:36:51] "GET / HTTP/1.1" 200 45283
+[03/Jul/2021 15:36:57] "GET /data_direct_charge HTTP/1.1" 200 31899
+[03/Jul/2021 15:37:09] "GET /admin/pages HTTP/1.1" 200 45823
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 15:37:09] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 15:37:09] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 15:37:18] "GET /admin/editPage/60c26bf7c008fd295967aac6 HTTP/1.1" 200 26665
+Not Found: /admin/editPage/assets/js/chart.min.js
+Not Found: /admin/editPage/assets/images/person.png
+[03/Jul/2021 15:37:18] "GET /admin/editPage/assets/images/person.png HTTP/1.1" 404 10200
+[03/Jul/2021 15:37:18] "GET /admin/editPage/assets/js/chart.min.js HTTP/1.1" 404 10194
+[03/Jul/2021 15:44:19] "POST /admin/editPage/60c26bf7c008fd295967aac6 HTTP/1.1" 200 29941
+Not Found: /admin/editPage/assets/images/person.png
+[03/Jul/2021 15:44:19] "GET /admin/editPage/assets/images/person.png HTTP/1.1" 404 10200
+Not Found: /admin/editPage/assets/js/chart.min.js
+[03/Jul/2021 15:44:19] "GET /admin/editPage/assets/js/chart.min.js HTTP/1.1" 404 10194
+[03/Jul/2021 15:44:19,931] - Broken pipe from ('194.60.210.41', 9859)
+
+[03/Jul/2021 15:44:29] "GET / HTTP/1.1" 200 45283
+[03/Jul/2021 15:44:30] "GET /static/main/media/favicon.png HTTP/1.1" 200 6160
+[03/Jul/2021 15:44:33] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 15:44:33] "GET / HTTP/1.1" 200 43914
+[03/Jul/2021 15:44:55] "GET /data_direct_charge HTTP/1.1" 200 29962
+[03/Jul/2021 15:45:09] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 15:45:10] "GET / HTTP/1.1" 200 45283
+[03/Jul/2021 15:45:15] "GET /card_to_card HTTP/1.1" 200 28204
+[03/Jul/2021 15:45:21] "GET /autocharge HTTP/1.1" 200 28218
+[03/Jul/2021 15:45:26] "GET /credit_cards HTTP/1.1" 200 28228
+[03/Jul/2021 15:45:40] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 15:45:41] "GET / HTTP/1.1" 200 43914
+[03/Jul/2021 15:45:44] "GET /card_to_card HTTP/1.1" 200 26944
+[03/Jul/2021 15:45:49] "GET /autocharge HTTP/1.1" 200 26940
+[03/Jul/2021 15:45:55] "GET /credit_cards HTTP/1.1" 200 27060
+[03/Jul/2021 15:45:59] "GET /autocharge HTTP/1.1" 200 26940
+[03/Jul/2021 15:48:32] "GET /packages/60b795e4941c3d6e1fe66214 HTTP/1.1" 200 49711
+[03/Jul/2021 15:48:37] "GET /sms HTTP/1.1" 200 27018
+[03/Jul/2021 15:48:41] "GET /packages/60b795e4941c3d6e1fe66217 HTTP/1.1" 200 42520
+[03/Jul/2021 15:48:45] "GET /voice_calls HTTP/1.1" 200 27038
+[03/Jul/2021 15:53:27] "GET /data HTTP/1.1" 200 26897
+[03/Jul/2021 15:53:34] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 15:53:35] "GET / HTTP/1.1" 200 45283
+[03/Jul/2021 15:53:39] "GET /data HTTP/1.1" 200 39629
+[03/Jul/2021 15:54:40] "GET /admin/slides HTTP/1.1" 200 24399
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 15:54:40] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 15:54:40] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+[03/Jul/2021 15:54:54] "GET /admin/pages HTTP/1.1" 200 45823
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 15:54:54] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 15:54:54] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 15:57:34] "GET /admin/editPage/60c26bf7c008fd295967aac6 HTTP/1.1" 200 29702
+Not Found: /admin/editPage/assets/images/person.png
+[03/Jul/2021 15:57:34] "GET /admin/editPage/assets/images/person.png HTTP/1.1" 404 10200
+Not Found: /admin/editPage/assets/js/chart.min.js
+[03/Jul/2021 15:57:35] "GET /admin/editPage/assets/js/chart.min.js HTTP/1.1" 404 10194
+[03/Jul/2021 15:57:51] "GET /data_direct_charge HTTP/1.1" 200 31899
+[03/Jul/2021 15:57:58] "GET /autocharge HTTP/1.1" 200 28218
+[03/Jul/2021 15:58:05] "GET /credit_cards HTTP/1.1" 200 28228
+[03/Jul/2021 15:58:12] "GET /phone HTTP/1.1" 200 28198
+[03/Jul/2021 15:58:15] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 15:58:17] "GET / HTTP/1.1" 200 43914
+[03/Jul/2021 15:58:21] "GET /data HTTP/1.1" 200 26897
+[03/Jul/2021 15:58:33] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 15:58:33] "GET / HTTP/1.1" 200 45283
+[03/Jul/2021 15:58:40] "GET /data HTTP/1.1" 200 39629
+[03/Jul/2021 15:59:21] "GET /admin/editPage/60c26bf7c008fd295967aac6 HTTP/1.1" 200 29702
+Not Found: /admin/editPage/assets/images/person.png
+[03/Jul/2021 15:59:21] "GET /admin/editPage/assets/images/person.png HTTP/1.1" 404 10200
+Not Found: /admin/editPage/assets/js/chart.min.js
+[03/Jul/2021 15:59:21] "GET /admin/editPage/assets/js/chart.min.js HTTP/1.1" 404 10194
+[03/Jul/2021 15:59:31] "GET /data HTTP/1.1" 200 39629
+[03/Jul/2021 15:59:59] "GET /admin/pages HTTP/1.1" 200 45823
+Not Found: /admin/assets/images/person.png
+[03/Jul/2021 15:59:59] "GET /admin/assets/images/person.png HTTP/1.1" 404 10173
+Not Found: /admin/assets/js/chart.min.js
+[03/Jul/2021 15:59:59] "GET /admin/assets/js/chart.min.js HTTP/1.1" 404 10167
+[03/Jul/2021 16:00:04] "GET /admin/editPage/60c26bf7c008fd295967aac6 HTTP/1.1" 200 29702
+Not Found: /admin/editPage/assets/images/person.png
+[03/Jul/2021 16:00:04] "GET /admin/editPage/assets/images/person.png HTTP/1.1" 404 10200
+Not Found: /admin/editPage/assets/js/chart.min.js
+[03/Jul/2021 16:00:05] "GET /admin/editPage/assets/js/chart.min.js HTTP/1.1" 404 10194
+[03/Jul/2021 16:00:14] "GET /admin HTTP/1.1" 200 18816
+Not Found: /assets/js/chart.min.js
+[03/Jul/2021 16:00:14] "GET /assets/js/chart.min.js HTTP/1.1" 404 4410
+Not Found: /assets/images/person.png
+[03/Jul/2021 16:00:15] "GET /assets/images/person.png HTTP/1.1" 404 4416
+[03/Jul/2021 16:00:24] "GET / HTTP/1.1" 200 45283
+[03/Jul/2021 16:00:55] "GET /data_direct_charge HTTP/1.1" 200 31899
+[03/Jul/2021 16:01:48] "GET /autocharge HTTP/1.1" 200 28218
+[03/Jul/2021 16:01:51] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 16:01:51] "GET / HTTP/1.1" 200 43914
+[03/Jul/2021 16:02:00] "GET /support_centers HTTP/1.1" 200 27837
+[03/Jul/2021 16:02:09] "GET /card_to_card HTTP/1.1" 200 26944
+[03/Jul/2021 16:02:18] "GET /data_direct_charge HTTP/1.1" 200 29962
+[03/Jul/2021 16:02:27] "GET /autocharge HTTP/1.1" 200 26940
+[03/Jul/2021 16:02:31] "GET /credit_cards HTTP/1.1" 200 27060
+[03/Jul/2021 16:02:38] "GET /phone HTTP/1.1" 200 26941
+[03/Jul/2021 16:02:43] "GET /modem HTTP/1.1" 200 26930
+[03/Jul/2021 16:02:49] "GET /packages/60b795e4941c3d6e1fe66214 HTTP/1.1" 200 49711
+[03/Jul/2021 16:02:56] "GET /sms HTTP/1.1" 200 27018
+[03/Jul/2021 16:03:00] "GET /voice_calls HTTP/1.1" 200 27038
+----------------------------------------
+Exception happened during processing of request from ('194.60.210.41', 11231)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/home/django/ariantel/.env/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 110] Connection timed out
+----------------------------------------
+[03/Jul/2021 16:17:13] "GET /data HTTP/1.1" 200 26897
+[03/Jul/2021 16:17:17] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 16:17:17] "GET / HTTP/1.1" 200 45283
+[03/Jul/2021 16:17:25] "GET /volte HTTP/1.1" 200 49462
+[03/Jul/2021 16:17:48] "GET / HTTP/1.1" 200 45283
+[03/Jul/2021 16:17:53] "GET /roaming HTTP/1.1" 200 44149
+[03/Jul/2021 16:44:31] "GET /data HTTP/1.1" 200 39629
+[03/Jul/2021 16:44:36] "GET / HTTP/1.1" 200 45283
+[03/Jul/2021 17:33:35] "GET / HTTP/1.1" 200 43914
+[03/Jul/2021 17:34:12] "GET /lang/FA HTTP/1.1" 302 0
+[03/Jul/2021 17:34:12] "GET / HTTP/1.1" 200 45283
+[03/Jul/2021 17:34:18] "GET /areas HTTP/1.1" 200 138731
+[03/Jul/2021 17:34:19] "GET /static/main/Scripts/site/map.js HTTP/1.1" 200 588
+[03/Jul/2021 17:34:28] "GET /static/main/hamrah.kml HTTP/1.1" 200 8354959
+[03/Jul/2021 17:42:18] "GET /lang/EN HTTP/1.1" 302 0
+[03/Jul/2021 17:42:18] "GET / HTTP/1.1" 200 43914
+[03/Jul/2021 17:42:21] "GET /static/main/Scripts/site/util.js.map HTTP/1.1" 404 1950
+[03/Jul/2021 17:42:21] "GET /static/main/Content/site/bootstrap.min.css.map HTTP/1.1" 404 1980
+[03/Jul/2021 17:45:58] "GET /static/main/Content/site/img/logo1.png HTTP/1.1" 200 22636
