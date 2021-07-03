@@ -11,6 +11,18 @@
     float: right;
 }
 
+.ltr-body .userStatus-container{
+    float: right;
+}
+
+.ltr-body .userStatus-container a{
+    float: right;
+}
+
+.ltr-body #top-header .userStatus-container .line{
+    float: right !important;
+}
+
 .ltr-body .lng {
     float: right;
     margin-left: 40px;
