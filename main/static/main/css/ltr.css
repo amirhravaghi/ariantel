@@ -95,11 +95,11 @@
 
 .ltr-body #top-slider .item .det{
     right: unset;
-    left: 150px;
+    /*left: 150px;*/
 }
 
 .ltr-body #top-slider .owl-dots{
-    right: 100px !important;
+    right: 10px !important;
     left: unset !important;
 }
 
@@ -224,4 +224,10 @@
     .ltr-body .form-dynamic.form-horizontal .control-label{
         float: left !important;
     }
+}
+
+@media (max-width: 600px){
+   .ltr-body #selectbox{
+        text-align: end;
+   }
 }

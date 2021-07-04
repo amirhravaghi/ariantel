@@ -407,7 +407,7 @@ label.required  i {color:red}
 @media (max-width:768px) {
     #top-slider .item .det {right:15px;}
     #top-slider .owl-dots .owl-dot.active:after {height:20px;}
-    #top-slider .owl-dots {bottom:30px;}
+    #top-slider .owl-dots {bottom:30px;left:10px !important}
     #top-slider .item h2 {font-size: 1em;line-height: 23px;max-width:150px;}
     #top-slider .item .more {font-size:0.8em;padding:4px 9px 6px 8px;background:rgba(255,255,255,0.7);}
     #home-item .bg1 {top:-213px;left:84px;}
@@ -422,7 +422,7 @@ label.required  i {color:red}
     #footer .txt {font-size:0.9em;}
     #top-slider .item .container {width:100%;margin-left:0;left:0}
     #top-slider .owl-item.active .item h2 {font-size: 1em;max-width: 150px;}
-    #top-slider .item .det {top:20%;}
+    #top-slider .item .det {top:5%;}
      .form-dynamic.form-horizontal .control-label {width:100%;margin-bottom:10px;}
     .form-dynamic.form-horizontal .col-sm-9.col-md-8 {width:100%}
     #top-header .border-mob {    border-bottom: 2px solid #b0b0b0;margin-bottom: 10px;}
