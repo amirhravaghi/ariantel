@@ -9,7 +9,13 @@
 {% endblock %}
 {% block content %}
 <main class="container" id="cnt-inner">
-    <h1 class="title-page">سوالات مشترکین شخصی</h1>
+    <h1 class="title-page">
+        {% if not ltr %}
+            سوالات مشترکین شخصی
+        {% else %}
+            Personal users Q&A
+        {% endif %}
+    </h1>
     <div class="row" id="faq-page">
         <div class="col-md-12">
             <div class="bg clearfix">

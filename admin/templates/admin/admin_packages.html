@@ -65,6 +65,7 @@
                     <thead>
                         <tr>
                             <th>نام محصول</th>
+                            <th>نام انگلیسی محصول</th>
                             <th>دسته بندی</th>
                             <th>نوع سیم کارت</th>
                             <th>توضیحات کوتاه</th>
@@ -76,6 +77,7 @@
                       {% for item in packages %}
                         <tr>
                             <td>{{ item.fa.name }}</td>
+                            <td>{{ item.en.name }}</td>
                             <td>{{ item.cat.fa.name }}</td>
                             <td>{{ item.card_type }}</td>
                             <td>{{ item.fa.short_description }}</td>

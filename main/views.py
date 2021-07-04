@@ -269,8 +269,8 @@ def packages(request,cid):
     cat = col.find_one({"_id":db.object_id(cid)})
 
     aside = True
-    # if cid == "60b795e4941c3d6e1fe66217":
-    #     aside = False
+    if cid == "60b795e4941c3d6e1fe66215" or cid == "60b795e4941c3d6e1fe66216":
+        aside = False
 
 
     context = {
