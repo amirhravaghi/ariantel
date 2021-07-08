@@ -273,16 +273,16 @@ def packages(request,cid):
     if cid == "60b795e4941c3d6e1fe66215":
         aside = False
         if lang == "fa":
-            message = "<p><b>خرید بسته‌های مکالمه</b></br>شما مشترکان آرین تلی می‌توانید با خرید هر یک از بسته‌های مکالمه، هزینه‌هایتان را مطابق با الگوی مصرفتان کاهش دهید.</p>"
+            message = "<b>خرید بسته‌های مکالمه</b></br><p>شما مشترکان آرین تلی می‌توانید با خرید هر یک از بسته‌های مکالمه، هزینه‌هایتان را مطابق با الگوی مصرفتان کاهش دهید.</p>"
         else:
-            message = "<p><b>Buy call packages</b></br>You Arian Teli subscribers can reduce your costs according to your consumption pattern by purchasing any of the call packages.</p>"
+            message = "<b>Buy call packages</b></br><p>You Arian Teli subscribers can reduce your costs according to your consumption pattern by purchasing any of the call packages.</p>"
     
     if cid == "60b795e4941c3d6e1fe66216":
         aside = False
         if lang == "fa":
-            message = "<p><b>خرید بسته‌های پیامک</b></br>شما مشترکان آرین تلی می‌توانید با خرید هر یک از بسته‌های پیامک، هزینه‌هایتان را مطابق با الگوی مصرفتان کاهش دهید.</p>"
+            message = "<b>خرید بسته‌های پیامک</b></br><p>شما مشترکان آرین تلی می‌توانید با خرید هر یک از بسته‌های پیامک، هزینه‌هایتان را مطابق با الگوی مصرفتان کاهش دهید.</p>"
         else:
-            message = "<p><b>Buy SMS packages</b></br>You, Arian Telli subscribers, can reduce your expenses according to your consumption pattern by purchasing any of the SMS packages.</p>"
+            message = "<b>Buy SMS packages</b></br><p>You, Arian Telli subscribers, can reduce your expenses according to your consumption pattern by purchasing any of the SMS packages.</p>"
 
     context = {
         "packages": result,
