@@ -15,6 +15,7 @@ $("document").ready(()=>{
       if($(item).val().trim().includes(val)){
         $("#allCity option").removeAttr("selected");
         $(item).attr('selected','selected');
+        $("#allCity").change();
         break;
       }
     }
