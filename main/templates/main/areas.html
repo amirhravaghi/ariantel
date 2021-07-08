@@ -19,7 +19,15 @@
       {% endif %}
    </h1>
    <div class="bg">
-      <input class="form-control" placeholder="جستجوی نام شهر..." id="searchCity" />
+      <input class="form-control" placeholder="
+      
+      {% if not ltr %}
+         جستجوی نام شهر ...
+      {% else %}
+         Search the city name ...
+      {% endif %}
+
+      " id="searchCity" />
       <select id="allCity" class="form-control">
          <option>
             {% if not ltr %}

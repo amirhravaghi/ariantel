@@ -95,11 +95,11 @@
 
 .ltr-body #top-slider .item .det{
     right: unset;
-    /*left: 150px;*/
+    left: 150px;
 }
 
 .ltr-body #top-slider .owl-dots{
-    right: 10px !important;
+    right: 150px !important;
     left: unset !important;
 }
 
@@ -230,4 +230,13 @@
    .ltr-body #selectbox{
         text-align: end;
    }
+   .ltr-body #top-slider .item .det{
+        right: unset;
+        left: unset;
+    }
+
+    .ltr-body #top-slider .owl-dots{
+        right: 10px !important;
+        left: unset !important;
+    }
 }

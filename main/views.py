@@ -268,10 +268,21 @@ def packages(request,cid):
     col = con['product_categories']
     cat = col.find_one({"_id":db.object_id(cid)})
 
+    message = False
     aside = True
-    if cid == "60b795e4941c3d6e1fe66215" or cid == "60b795e4941c3d6e1fe66216":
+    if cid == "60b795e4941c3d6e1fe66215":
         aside = False
-
+        if lang == "fa":
+            message = "<h1>خرید بسته‌های مکالمه</h1><p>شما مشترکان آرین تلی می‌توانید با خرید هر یک از بسته‌های مکالمه، هزینه‌هایتان را مطابق با الگوی مصرفتان کاهش دهید.</p>"
+        else:
+            message = "<h1>Buy call packages</h1><p>You Arian Teli subscribers can reduce your costs according to your consumption pattern by purchasing any of the call packages.</p>"
+    
+    if cid == "60b795e4941c3d6e1fe66216":
+        aside = False
+        if lang == "fa":
+            message = "<h1>خرید بسته‌های پیامک</h1><p>شما مشترکان آرین تلی می‌توانید با خرید هر یک از بسته‌های پیامک، هزینه‌هایتان را مطابق با الگوی مصرفتان کاهش دهید.</p>"
+        else:
+            message = "<h1>Buy SMS packages</h1><p>You, Arian Telli subscribers, can reduce your expenses according to your consumption pattern by purchasing any of the SMS packages.</p>"
 
     context = {
         "packages": result,
@@ -284,7 +295,8 @@ def packages(request,cid):
         "filter":{
             "min_range": min_range,
             "max_range": max_range
-        }
+        },
+        "message": message
     }
 
     return render(request,'packages.html',context)

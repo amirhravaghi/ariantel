@@ -9,6 +9,9 @@
     <h1 class="title-page">{{ category.name }}</h1>
     <div class="bg">
         <div class="row">
+          {% if message %}
+            {{ message }}
+          {% endif %}
           {% if aside %}
             <aside class="col-lg-3 col-md-3 col-sm- col-xs-12" id="side-left">
                 <div id="menu-footer" class="nav" dir="rtl" mode="horizontal"><ul class=""></ul></div>
