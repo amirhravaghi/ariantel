@@ -6,6 +6,20 @@ $("document").ready(()=>{
       let lng = $(this).find(":selected").attr("data-lng");
       setMap(map,lat,lng);
   });
+
+  // Search city
+  $("#searchCity").change(function(){
+    let val = $(this).val().trim();
+    let cities = Array.from($("#allCity option"));
+    cities.forEach(item=>{
+      if($(item).val().trim().includes(val)){
+        $("#allCity option").removeAttr("selected");
+        $(item).attr('selected','selected');
+        break;
+      }
+    })
+  });
+
 });
 
 function setMap(map,lat,long){
