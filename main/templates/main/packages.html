@@ -10,7 +10,7 @@
     <div class="bg">
         <div class="row">
           {% if message %}
-            {{ message }}
+            {{ message | safe }}
           {% endif %}
           {% if aside %}
             <aside class="col-lg-3 col-md-3 col-sm- col-xs-12" id="side-left">
