@@ -11,13 +11,13 @@ $("document").ready(()=>{
   $("#searchCity").change(function(){
     let val = $(this).val().trim();
     let cities = Array.from($("#allCity option"));
-    cities.forEach(item=>{
+    for(let item of cities){
       if($(item).val().trim().includes(val)){
         $("#allCity option").removeAttr("selected");
         $(item).attr('selected','selected');
         break;
       }
-    })
+    }
   });
 
 });
