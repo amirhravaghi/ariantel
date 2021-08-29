@@ -20,3 +20,7 @@ body {
     background-color: #ececec;
     margin: 0;
 }
+
+.link1,.link2{
+    color: darkgray;
+}

@@ -104,7 +104,7 @@ body {color: #000;font-size:0.9em;font-family:IRANSans;overflow-x:hidden;backgro
 #top-header {padding-top:15px;}
 #top-link {float: left;margin:23px 20px 0 0;}
 #top-link a {color:#000;float:left;}
-#top-link > a:first-child {color:#39cd12}
+#top-link > a:first-child {color:#39cd12;}
 #top-header .line {display: block;width: 1px;height: 13px;background-color: #000;float: left;margin: 1px 7px 0;}
 #top-link a:hover {color:#2eb20b}
 .navContent > ul > li ul li a {line-height: 23px;}
@@ -120,6 +120,7 @@ body {color: #000;font-size:0.9em;font-family:IRANSans;overflow-x:hidden;backgro
 .sec-left {float:right;margin-top:23px;color:#000}
 .sec-left a {color:#000}
 .lng {float:right;margin-left:40px;}
+.lng span { color: #46f119; }
 .lng.lng-fa {display:none}
 .lng.lng-en {font-weight:bold;}
 .userStatus-container {float:left}
@@ -127,7 +128,7 @@ body {color: #000;font-size:0.9em;font-family:IRANSans;overflow-x:hidden;backgro
 #top-header .userStatus-container .line {float:left}
 .userStatus-container .login i {width:20px;height:15px;background:url(img/icon.png) no-repeat -27px -58px;margin-left:5px;display:block;float:right}
 .userStatus-container .register i {width: 17px;height: 18px;background: url(img/icon.png) no-repeat -28px -30px;margin-left: 5px;display: block;float: right;margin-top: -3px;}
-#region {float:right;display:block;margin-right:65px;clear:both;margin-top:17px;}
+#region {float:right;display:block;margin-right:95px;clear:both;margin-top:17px;}
 #region i {width: 20px;height: 22px;background: url(img/icon.png) no-repeat -28px -2px;margin-left: 5px;display: block;float: right;margin-top: -5px;}
 /*******/
 .userStatus-container a:hover ,#region:hover {color:#2eb20b;}
@@ -147,9 +148,9 @@ body {color: #000;font-size:0.9em;font-family:IRANSans;overflow-x:hidden;backgro
 #top-slider .owl-item.active .item .more:hover:before {left:auto;right:0;width:100%}
 #top-slider .owl-item.active .item img,#top-slider .owl-item.active .item video {display: block;}
 #top-slider .owl-dots {position: absolute;bottom: 50px;left: 40% !important;max-width:20%;display:flex;justify-content:space-between;direction:ltr;background-color:#ffffffc2;border-radius:10px;padding:5px 10px;}
-#top-slider .owl-dots .owl-dot {display:flex;padding:5px 10px;color:gray;}
+#top-slider .owl-dots .owl-dot {display:flex;color:transparent;background-color:lightgray;margin:0 2px;width:15px;height:15px;border-radius: 50%;}
 #top-slider .owl-dots .owl-dot:after {content:"";display:none;width:2px;height:0;background-color:#1d1d1b;margin:2px auto;-webkit-transition: all 0.4s  ease-out;-moz-transition: all 0.4s  ease-out;-ms-transition: all 0.4s  ease-out;-o-transition: all 0.4s  ease-out;transition: all 0.4s  ease-out;}
-#top-slider .owl-dots .owl-dot.active {background-color:#48f11b;border-radius:5px;color:white;margin:0 10px;}
+#top-slider .owl-dots .owl-dot.active {background-color:#48f11b;margin:0 10px;}
 #top-slider img {max-width:100%;display:none;object-fit: contain;}
 /*******/
 #home-tab {position:relative;z-index:1;background-color:#1d1d1b;}
@@ -875,4 +876,26 @@ label.required  i {color:red}
     -webkit-transform: none;
     transform: none;
   }
+}
+
+
+/* Custom */
+#top-link .link1,#top-link .link2{
+    color: darkgray;
+}
+
+.active-section{
+    color: #3be20f !important;
+}
+.active-navItem::after{
+    font-family: "FontAwesome";
+    content: "\f0d7";
+    display: block;
+    position: absolute;
+    margin-right: 20px;
+    text-align: center;
+    bottom: -10px;
+    font-size:30px;
+    color: #e9e9e9;
+    z-index: 10;
 }

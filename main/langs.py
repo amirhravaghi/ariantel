@@ -12,7 +12,8 @@ langs = {
             "areas": "مناطق تحت پوشش",
             "register": "ثبت نام",
             "login": "ورود کاربری",
-            "lang": "EN"
+            "lang": "EN",
+            "sec_lang": "FA"
         },
         "footer":{
             "about_span": "شرکت ارتباطات آرین تل",
@@ -115,7 +116,8 @@ langs = {
             "areas": "Coverage Maps",
             "register": "Signup",
             "login": "Login",
-            "lang": "FA"
+            "lang": "FA",
+            "sec_lang": "EA"
         },
         "footer":{
             "about_span": "ArianTel",
