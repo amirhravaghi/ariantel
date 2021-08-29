@@ -24,6 +24,8 @@ def index(request):
     slides = list(col.find({"active":1,"section":db.object_id("60bb3d18543cdbdae3377bed")}))
     for i in range(0,len(slides)):
         if lang == "en":
+            if slides[i]['en_title'] is "":
+                continue
             slides[i]['title'] = slides[i]['en_title']
             if 'en_image' in slides[i]:
                 slides[i]['image'] = slides[i]['en_image']
@@ -298,6 +300,8 @@ def packages(request,cid):
         },
         "message": message
     }
+
+    context = {"message": "این بخش به زودی به روز میشود"}
 
     return render(request,'packages.html',context)
 
